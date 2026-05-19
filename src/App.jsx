@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from 'react';
+import {TABLES} from './data/tables'; // import tables
 
 function App() {
   const [count, setCount] = useState(0)
