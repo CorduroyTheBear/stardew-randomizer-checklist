@@ -2,21 +2,21 @@
 
 import { useState } from "react";
 
-export default function ({className, data, heading})
+export default function RenderChecklist({className, data, heading, hideCompleted = false, onToggle})
 {
     // Set table default setting to closed
     const [isOpen, setIsOpen] = useState(false);
 
     // Use item filters if included. If there is no item filters, include all items
-    const progressItems = itemFilter ? items.filter(itemFilter) : items;
+    //const progressItems = itemFilter ? items.filter(itemFilter) : items;
 
     // Keeps items marked as done and calculates its length
-    const doneCount = progressItems.filter(i => i.done).length;
+    const doneCount = data.filter(i => i.done).length;
 
     // Calculates the total number of items
-    const totalCount = progressItems.length;
-
-    const visibleItems = progressItems.filter(item =>
+    const totalCount = data.length;
+    
+    const visibleItems = data.filter(item =>
     {
         // Hide completed items if setting is on
         if (hideCompleted && item.done) return false;
@@ -28,8 +28,7 @@ export default function ({className, data, heading})
     });
 
     // Set up table UI
-    return
-    (
+    return(
         <div className = "checklist-section">
             <div className = {`checklist-box ${className}`}>
                 
@@ -40,7 +39,7 @@ export default function ({className, data, heading})
                         {doneCount}/{totalCount}
                     </span>
 
-                    <button className = "toggle-button">
+                    <button className = "openCloseButton">
                         {isOpen ? "▼" : "▶"}
                     </button>
                 </div>
@@ -51,7 +50,7 @@ export default function ({className, data, heading})
                         <div className= "checklist-columns">
                             <span className = "itemName-header"></span>
                             <span className = "columnName">Done</span>
-                            <span className = "columnName">Found</span>
+                            <span className = "columnName">Unlocked</span>
                         </div>
 
                         <ul className = "checklist-items">
@@ -59,18 +58,23 @@ export default function ({className, data, heading})
                             {visibleItems.map(item => 
                             (
                                 <li key = {item.id} className = "checklist-row">
-                                    <span className = "item-name">{item.Name}</span>
+                                    <span className = "item-name">{item.name}</span>
+
+                                    <input
+                                        type = "checkbox"
+                                        checked = {item.done || false}
+                                        onChange = {() => onToggle(item.id, "done")}
+                                    />
 
                                     <input
                                         type = "checkbox"
                                         checked = {item.found || false}
-                                        onChange = {() => ontoggle(item.id, "found")}
-                                        className = "check-column"
+                                        onChange = {() => onToggle(item.id, "found")}
                                     />
                                 </li>
                             ))}
                             
-                        </ul>  
+                        </ul>
                     </div>
                 )}
             </div>

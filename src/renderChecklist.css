@@ -1,0 +1,159 @@
+.checklist-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: 5px;
+    height: 30px;
+}
+
+/* check names, header title */
+.checklist-section
+{
+    margin: 0;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+/* ?/? */
+.checklist-progress
+{
+    font-family: Arial, sans-serif; /*change this later*/
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+/* arrow clicked to expand tables */
+.openCloseButton
+{
+    background: none;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* item list location */
+.checklist-items
+{
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 5px;
+}
+
+/* Table background */
+.checklist-box
+{
+    background-color: rgb(240, 210, 174);
+    border: 2px solid black;
+    border-radius: 8px;
+    padding-bottom: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.checklist-enableScrolling
+{
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.table-column
+{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1 1 300px;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.checklist-section
+{
+    display: block;
+    height: auto;
+}
+
+.checklist-columns
+{
+    display: grid;
+    grid-template-columns: 1fr 60px 60px;
+    padding: 4px 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 248, 248);
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    color: rgb(0, 0, 0);
+}
+
+/* Lines in between checks */
+.checklist-row
+{
+    display: grid;
+    grid-template-columns: 1fr 60px 60px;
+    align-items: center;
+    padding: 4px 10px;
+    margin-top: 5px;
+    border-bottom: 1px solid #222222;
+}
+
+/* item-name horizontal position */
+.item-name
+{
+    text-align: center;
+}
+
+/* Done/Unlocked horizontal positions */
+.columnName
+{
+    text-align: center;
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/* Tables arrangement */
+
+@media (min-width: 1300px) {
+  .table-grid {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 1299px) and (min-width: 900px) {
+  .checklist-grid {
+    flex-wrap: wrap;
+  }
+  .checklist-column {
+    flex: 1 1 calc(33.333% - 16px);
+  }
+}
+
+@media (max-width: 899px) and (min-width: 600px) {
+  .checklist-column {
+    flex: 1 1 calc(50% - 16px);
+  }
+}
+
+@media (max-width: 599px) {
+  .checklist-column {
+    flex: 1 1 100%;
+  }
+}
+
+.table-grid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+}
