@@ -1,0 +1,58 @@
+// Lists all the settings
+
+export default function SettingsList({settings, setSettings, })
+{
+    const update = (key, value) => setSettings(prev => ({ ...prev, [key]: value}));
+
+    return(
+        <>
+            <label>
+                Elevator Progression:
+
+                <select value = {settings.elevatorProgression} onChange = {(e) => update("elevatorProgression", e.target.value)}>
+                    <option value = "vanilla">Vanilla</option>
+                    <option value = "progressive">Progressive</option>
+                    <option value = "progressiveFromPreviousFloor">Progressive from previous floor</option>
+                </select>
+            </label>
+
+            <label className = "checkbox-setting">
+                <input
+                    type = "checkbox"
+                    checked = {settings.hideCompleted}
+                    onChange = {(e) => update("hideCompleted", e.target.checked)}
+                />
+                Hide Completed Checks
+            </label>
+        </>
+    );
+}
+
+
+
+// Filter setting to add later
+/*
+
+    <label><strong>Walnutsanity:</strong></label>
+
+      <label>
+        <input type="checkbox" checked={walnutType.bush} onChange={() => setWalnutType(prev => ({ ...prev, bush: !prev.bush }))} />
+        Bushes
+      </label>
+
+      <label>
+        <input type="checkbox" checked={walnutType.digSpot} onChange={() => setWalnutType(prev => ({ ...prev, digSpot: !prev.digSpot }))} />
+        Dig Spots
+      </label>
+
+      <label>
+        <input type="checkbox" checked={walnutType.puzzle} onChange={() => setWalnutType(prev => ({ ...prev, puzzle: !prev.puzzle }))} />
+        Puzzles
+      </label>
+
+      <label>
+        <input type="checkbox" checked={walnutType.repeatable} onChange={() => setWalnutType(prev => ({ ...prev, repeatable: !prev.repeatable }))} />
+        Repeatables
+      </label>
+
+*/

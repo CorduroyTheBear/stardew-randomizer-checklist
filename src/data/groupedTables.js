@@ -1,4 +1,9 @@
-// Export tables
+// Export grouped tables
+
+// Books
+import lostBooks from "./JsonFiles/Books/lostBooks.json";
+import powerBooks from "./JsonFiles/Books/powerBooks.json";
+import skillBooks from "./JsonFiles/Books/skillBooks.json";
 
 // Bundles
 import jojaBundle from "./JsonFiles/Bundles/abandonedJoja.json";
@@ -18,10 +23,24 @@ import tm_Thu from "./JsonFiles/TravelingMerchant/tm_Thu.json";
 import tm_Fri from "./JsonFiles/TravelingMerchant/tm_Fri.json";
 import tm_Sat from "./JsonFiles/TravelingMerchant/tm_Sat.json";
 
+
+// Group entry template
 // {id: "", heading: "", className: "tableLevel-2_Tables", data: },
 
 export const GROUPED_TABLES = 
 {
+
+   books:
+   {
+        heading: "Books",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "lostBooks", heading: "Lost", className: "tableLevel-2_Tables", data: lostBooks},
+            {id: "powerBooks", heading: "Power", className: "tableLevel-2_Tables", data: powerBooks},
+            {id: "skillBooks", heading: "Skill", className: "tableLevel-2_Tables", data: skillBooks},
+        ]
+   },
 
    bundles:
    {

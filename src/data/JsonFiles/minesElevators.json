@@ -1,0 +1,146 @@
+[
+    {
+      "id": "Mines_F5",
+      "name": "Floor 5",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F10",
+      "name": "Floor 10",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F15",
+      "name": "Floor 15",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F20",
+      "name": "Floor 20",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F25",
+      "name": "Floor 25",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F30",
+      "name": "Floor 30",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F35",
+      "name": "Floor 35",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F40",
+      "name": "Floor 40",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F45",
+      "name": "Floor 45",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F50",
+      "name": "Floor 50",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F55",
+      "name": "Floor 55",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F60",
+      "name": "Floor 60",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F65",
+      "name": "Floor 65",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F70",
+      "name": "Floor 70",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F75",
+      "name": "Floor 75",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F80",
+      "name": "Floor 80",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F85",
+      "name": "Floor 85",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F90",
+      "name": "Floor 90",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F95",
+      "name": "Floor 95",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F100",
+      "name": "Floor 100",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F105",
+      "name": "Floor 105",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F110",
+      "name": "Floor 110",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F115",
+      "name": "Floor 115",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Mines_F120",
+      "name": "Floor 120",
+      "done": false,
+      "found": false
+    }
+  ]

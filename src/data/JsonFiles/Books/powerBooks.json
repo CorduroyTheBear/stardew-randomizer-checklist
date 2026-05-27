@@ -1,0 +1,116 @@
+[
+  {
+    "id": "Book_AnimalCatalouge",
+    "name": "Animal Catalogue",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_Mystery",
+    "name": "Book of Mysteries",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_Bombs",
+    "name": "Dwarvish Safety Manual",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_Friendship",
+    "name": "Friendship 101",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_Horse",
+    "name": "Horse: The Book",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_Defense",
+    "name": "Jack Be Nimble, Jack Be Thick",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_Roe",
+    "name": "Jewels Of The Sea",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_Marlon",
+    "name": "Mapping Cave Systems",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_void",
+    "name": "Monster Compendium",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_Grass",
+    "name": "Ol' Slitherlegs",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_PriceCatalogue",
+    "name": "Price Catalogue",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_WildSeeds",
+    "name": "Raccoon Journal",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_Trash",
+    "name": "The Alleyway Buffet",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_Crabbing",
+    "name": "The Art O' Crabbing",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_Diamounds",
+    "name": "The Diamond Hunter",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_Artifact",
+    "name": "Treasure Appraisal Guide",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_Speed",
+    "name": "Way Of The Wind pt. 1",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_Speed2",
+    "name": "Way Of The Wind pt. 2",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_Woodcutting",
+    "name": "Woody's Secret",
+    "done": false,
+    "found": false
+  }
+]

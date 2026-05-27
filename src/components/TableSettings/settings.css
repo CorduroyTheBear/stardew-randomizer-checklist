@@ -1,0 +1,35 @@
+.settings-overlay
+{
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 500;
+}
+
+.settings-box
+{
+    background: #f5deb3;
+    border: 2px solid black;
+    border-radius: 0px;
+    padding: 30px;
+    max-width: 500px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.settings-box h2
+{
+    margin-top: 0;
+}
+
+.close-button
+{
+    padding: 8px 16px;
+    border: 2px solid black;
+    background: white;
+    cursor: pointer;
+    border-radius: 5px;
+}

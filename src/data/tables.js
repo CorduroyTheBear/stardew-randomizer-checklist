@@ -1,5 +1,6 @@
 // Import .json files for tables
 
+import elevatorChecks from "./JsonFiles/minesElevators.json";
 import minesTreasure from "./JsonFiles/minesTreasure.json";
 import raccoonChecks from "./JsonFiles/raccoonRequestChecks.json";
 
@@ -15,6 +16,14 @@ export const TABLES =
         data: raccoonChecks,
         className: "tableLevel-1"
     },
+
+    elevatorChecks:
+    {
+        heading: "Elevators",
+        data: elevatorChecks,
+        className: "tableLevel-1"
+    },
+
     minesTreasure:
     {
         heading: "Mines Chests",

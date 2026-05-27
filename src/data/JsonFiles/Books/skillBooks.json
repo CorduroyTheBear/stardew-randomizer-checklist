@@ -1,0 +1,44 @@
+[
+  {
+    "id": "SkillBook_1",
+    "name": "Bait And Bobber",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "PurpleBook",
+    "name": "Book Of Stars",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "SkillBook_4",
+    "name": "Combat Quarterly",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "SkillBook_3",
+    "name": "Mining Monthly",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "SkillBook_0",
+    "name": "Stardew Valley Almanac",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "SkillBook_2",
+    "name": "Woodcutter's Weekly",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Book_QueenOfSauce",
+    "name": "Queen Of Sauce Cookbook",
+    "done": false,
+    "found": false
+  }
+]

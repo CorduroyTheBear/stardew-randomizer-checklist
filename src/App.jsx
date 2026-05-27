@@ -1,17 +1,27 @@
-import { useState } from 'react';
+import {useState} from 'react';
+import {filterTables} from './components/Filters/filterTables';
 import {TABLES} from './data/tables'; // import tables
+import {GROUPED_TABLES} from './data/groupedTables';
+
+
 import RenderChecklist from './components/renderChecklist';
 import GroupedChecklist from './components/groupedChecklist';
 
 import './App.css';
 import './components/renderChecklist.css';
 import './data/tables.css';
-import { GROUPED_TABLES } from './data/groupedTables';
+
 
 function App()
 {
   // Pulls data
-    const [tableData, setTableData] = useState( () => {
+  
+  const [settings, setSettings] = useState({
+    elevatorProgression: "vanilla",
+    hideCompleted: false
+  });
+  
+  const [tableData, setTableData] = useState( () => {
 
       // From TABLES
       const fromTables = Object.fromEntries(Object.entries(TABLES).map(([key, table]) => [key, table.data]));
@@ -22,21 +32,22 @@ function App()
       return { ...fromTables, ...fromGroupedTables};
     });
   
-  
-
-  const handleToggle = (tableKey, itemID, field) =>
-    {setTableData(prev => ({...prev, [tableKey]: prev[tableKey].map(item => item.id === itemID ? {...item, [field]: !item[field]} : item)}));};
+    const handleToggle = (tableKey, itemID, field) => {setTableData(prev => ({...prev, [tableKey]: prev[tableKey].map(item => item.id === itemID ? {...item, [field]: !item[field]} : item)}));};
+    
+    const visibleTableKeys = filterTables(settings);
 
   return(
     <>
-      {Object.entries(TABLES).map(([key, table]) => (
-        <RenderChecklist
-          key = {key}
-          heading = {table.heading}
-          className = {table.className}
-          data = {tableData[key]}
-          onToggle = {(itemID, field) => handleToggle(key, itemID, field)}
-        />
+      {Object.entries(TABLES)
+        .filter(([key]) => visibleTableKeys.includes(key))
+        .map(([key, table]) => (
+          <RenderChecklist
+            key = {key}
+            heading = {table.heading}
+            className = {table.className}
+            data = {tableData[key]}
+            onToggle = {(itemID, field) => handleToggle(key, itemID, field)}
+          />
       ))}
 
       {Object.entries(GROUPED_TABLES).map(([key, table]) => (
