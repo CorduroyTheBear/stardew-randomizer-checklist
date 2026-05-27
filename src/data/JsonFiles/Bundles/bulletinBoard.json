@@ -1,0 +1,27 @@
+[
+    {
+      "id": "chef",
+      "name": "Chef",
+      "done": false
+    },
+    {
+      "id": "dye",
+      "name": "Dye",
+      "done": false
+    },
+    {
+      "id": "fieldResearch",
+      "name": "Field Research",
+      "done": false
+    },
+    {
+      "id": "fodder",
+      "name": "Fodder",
+      "done": false
+    },
+    {
+      "id": "enchanter",
+      "name": "Enchanter",
+      "done": false
+    }
+]

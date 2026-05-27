@@ -1,0 +1,32 @@
+[
+    {
+      "id": "construction",
+      "name": "Construction",
+      "done": false
+    },
+    {
+      "id": "exoticForage",
+      "name": "Exotic Forage",
+      "done": false
+    },
+    {
+      "id": "springForage",
+      "name": "Spring",
+      "done": false
+    },
+    {
+      "id": "summerForage",
+      "name": "Summer",
+      "done": false
+    },
+    {
+      "id": "fallForage",
+      "name": "Fall",
+      "done": false
+    },
+    {
+      "id": "winterForage",
+      "name": "Winter",
+      "done": false
+    }
+]

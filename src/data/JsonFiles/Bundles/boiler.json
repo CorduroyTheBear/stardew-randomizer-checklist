@@ -1,0 +1,17 @@
+[
+    {
+      "id": "blacksmith",
+      "name": "Blacksmith",
+      "done": false
+    },
+    {
+      "id": "geologist",
+      "name": "Geologist",
+      "done": false
+    },
+    {
+      "id": "adventurer",
+      "name": "Adventurer",
+      "done": false
+    }
+]

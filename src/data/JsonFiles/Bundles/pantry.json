@@ -1,0 +1,32 @@
+[    
+    {
+      "id": "animalBundle",
+      "name": "Animal",
+      "done": false
+    },
+    {
+      "id": "artisan",
+      "name": "Artisan",
+      "done": false
+    },
+    {
+      "id": "springCrops",
+      "name": "Spring",
+      "done": false
+    },
+    {
+      "id": "summerCrops",
+      "name": "Summer",
+      "done": false
+    },
+    {
+      "id": "fallCrops",
+      "name": "Fall",
+      "done": false
+    },
+    {
+      "id": "qualityCrops",
+      "name": "Quality Crops",
+      "done": false
+    }
+]

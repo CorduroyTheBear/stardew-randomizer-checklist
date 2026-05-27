@@ -1,0 +1,32 @@
+[
+    {
+       "id": "crabPot",
+       "name": "Crab Pot",
+       "done": false
+    },
+    {
+      "id": "lakeFish",
+      "name": "Lake Fish",
+      "done": false
+    },
+    {
+      "id": "nightFish",
+      "name": "Night Fish",
+      "done": false
+    },
+    {
+      "id": "oceanFish",
+      "name": "Ocean Fish",
+      "done": false
+    },
+    {
+      "id": "riverFish",
+      "name": "River Fish",
+      "done": false
+    },
+    {
+        "id": "specialtyFish",
+        "name": "Specialty Fish",
+        "done": false
+    }
+]
