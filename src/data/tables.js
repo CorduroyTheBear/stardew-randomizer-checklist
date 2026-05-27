@@ -1,13 +1,10 @@
 // Import .json files for tables
 
-// Crop Sanity
-import crops from "./JsonFiles/CropSanity/crops.json";
-import fruit from "./JsonFiles/CropSanity/fruit.json";
-
 import minesTreasure from "./JsonFiles/minesTreasure.json";
 import raccoonChecks from "./JsonFiles/raccoonRequestChecks.json";
 
-// Create/Export tables
+
+// Export tables
 
 export const TABLES = 
 {
@@ -24,18 +21,6 @@ export const TABLES =
         data: minesTreasure,
         className: "tableLevel-1"
     },
-
-
-    // Other stuff (edit name later for clarity)
-    
-    /*
-    cropSanity:
-        {
-            heading: "Crops",
-            data: crops,
-            className: "tableLevel-1"
-        }
-    */
 };
 
 

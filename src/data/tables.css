@@ -1,5 +1,19 @@
 .tableLevel-1
 {
-    width: 300px;
+    width: 325px;
     padding-left: 10px;
+}
+
+.tableLevel-2_Heading
+{
+    width: 325px;
+    padding-left: 10px;
+}
+
+.tableLevel-2_Tables
+{
+    margin-bottom: 5px;
+    margin-left: -5px;
+    width: 285px;
+    background-color: rgba(247, 215, 147, 0.795);
 }
