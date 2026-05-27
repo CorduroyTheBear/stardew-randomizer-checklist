@@ -1,0 +1,74 @@
+[
+    {
+      "id": "minesEntrance",
+      "name": "Entrance scene",
+      "done": false,
+      "found": false
+    },  
+    {
+      "id": "F10_Treasure",
+      "name": "Floor 10",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "F20_Treasure",
+      "name": "Floor 20",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "F40_Treasure",
+      "name": "Floor 40",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "F50_Treasure",
+      "name": "Floor 50",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "F60_Treasure",
+      "name": "Floor 60",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "F70_Treasure",
+      "name": "Floor 70",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "F80_Treasure",
+      "name": "Floor 80",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "F90_Treasure",
+      "name": "Floor 90",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "F100_Treasure",
+      "name": "Floor 100",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "F110_Treasure",
+      "name": "Floor 110",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "F120_Treasure",
+      "name": "Floor 120",
+      "done": false,
+      "found": false
+    }
+  ]

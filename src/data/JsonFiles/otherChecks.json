@@ -1,0 +1,44 @@
+[
+  {
+    "id": "BeachBridgeRepair",
+    "name": "Beach Bridge Repair",
+    "done": false,
+    "found": false
+  },  
+  {
+    "id": "DemetriussBreakthrough",
+    "name": "Demetrius's Breakthrough",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "GalaxySwordShrine",
+    "name": "Galaxy Sword Shrine",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "GrimReaperstatue",
+    "name": "Grim Reaper statue",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "KrobusStardrop",
+    "name": "Krobus Stardrop",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "ratProblem",
+    "name": "Rat problem cutscene",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "bearForage",
+    "name": "Trash bear foraging",
+    "done": false,
+    "found": false
+  }
+]
