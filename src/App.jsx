@@ -12,8 +12,10 @@ import './components/renderChecklist.css';
 import './data/tables.css';
 
 
+
 function App()
 {
+
   // Pulls data
   
   const [settings, setSettings] = useState({
@@ -40,6 +42,14 @@ function App()
 
   return(
     <>
+      <div>
+        <h1>Stardew Valley Checklist</h1>
+
+        
+
+      </div>
+
+
       {Object.entries(TABLES)
         .filter(([key]) => visibleTableKeys.includes(key))
         .map(([key, table]) => (
