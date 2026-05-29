@@ -6,6 +6,7 @@ import {GROUPED_TABLES} from './data/groupedTables';
 
 import RenderChecklist from './components/renderChecklist';
 import GroupedChecklist from './components/groupedChecklist';
+import RandomizerSettings from './components/TableSettings/randomizerSettings';
 
 import './App.css';
 import './components/renderChecklist.css';
@@ -18,6 +19,8 @@ function App()
 
   // Pulls data
   
+  const [settingsOpen, setSettingsOpen] = useState(false);
+
   const [settings, setSettings] = useState({
     elevatorProgression: "vanilla",
     bookSanity: "none",
@@ -45,7 +48,23 @@ function App()
       <div>
         <h1>Stardew Valley Checklist</h1>
 
-        
+        <div className = "top-bar">
+            <div className = "top-bar-buttons">
+              
+              <button className = "settings-button" onClick = {() => setSettingsOpen(true)}>
+                ⚙ Settings
+              </button>
+
+            </div>
+        </div>
+
+        {settingsOpen && (
+          <RandomizerSettings
+            settings = {settings}
+            setSettings = {setSettings}
+            onClose = {() => setSettingsOpen(false)}
+          />
+        )}
 
       </div>
 
