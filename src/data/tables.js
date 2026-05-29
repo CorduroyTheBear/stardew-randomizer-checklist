@@ -34,6 +34,10 @@ export const TABLES =
 
 
 // To Add more tables
-
 // 1. Put .json file in ./data/JsonFiles
 // 2. Export table (shown above)
+// 3. Create table settings in tableSettingsList.jsx
+// 4. Add filter table logic in filterTables.js
+// 5. Add default setting in function App() in App.jsx
+
+// tables.js -> tableSettingsList.jsx -> filterTables.js -> App.jsx

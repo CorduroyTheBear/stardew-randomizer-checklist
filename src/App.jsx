@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {filterTables} from './components/Filters/filterTables';
+import {filterGroups, filterGroupedTables, filterTables, } from './components/Filters/filterTables';
 import {TABLES} from './data/tables'; // import tables
 import {GROUPED_TABLES} from './data/groupedTables';
 
@@ -18,6 +18,7 @@ function App()
   
   const [settings, setSettings] = useState({
     elevatorProgression: "vanilla",
+    bookSanity: "none",
     hideCompleted: false
   });
   
@@ -35,6 +36,7 @@ function App()
     const handleToggle = (tableKey, itemID, field) => {setTableData(prev => ({...prev, [tableKey]: prev[tableKey].map(item => item.id === itemID ? {...item, [field]: !item[field]} : item)}));};
     
     const visibleTableKeys = filterTables(settings);
+    const visibleGroupedKeys = filterGroupedTables(settings);
 
   return(
     <>
@@ -50,17 +52,27 @@ function App()
           />
       ))}
 
-      {Object.entries(GROUPED_TABLES).map(([key, table]) => (
-        <GroupedChecklist
-          key = {key}
-          heading = {table.heading}
-          className = {table.className}
-          groups = {table.groups.map(group => ({ ...group, data: tableData[group.id]}))}
-          onToggle= {(groupID, itemID, field) => handleToggle(groupID, itemID, field)}
-        />
-      ))}
+      {Object.entries(GROUPED_TABLES)
+      .filter(([key]) => visibleGroupedKeys.includes(key))
+      .map(([key, table]) =>
+      {
+          const allowedGroups = filterGroups(key, settings);
+          const filteredGroups = allowedGroups
+            ? table.groups.filter(group => allowedGroups.includes(group.id))
+            : table.groups;
 
-    </>
+          return(
+            <GroupedChecklist
+            key = {key}
+            heading = {table.heading}
+            className = {table.className}
+            groups = {filteredGroups.map(group => ({ ...group, data: tableData[group.id] }))}
+            onToggle= {(groupID, itemID, field) => handleToggle(groupID, itemID, field)}
+          />
+          );
+      })
+    }
+  </>
   );
 }
 

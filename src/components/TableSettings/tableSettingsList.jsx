@@ -6,6 +6,17 @@ export default function SettingsList({settings, setSettings, })
 
     return(
         <>
+
+            <label>
+                Booksanity:
+                <select value = {settings.bookSanity} onChange = {(e) => update("bookSanity", e.target.value)}>
+                    <option value="none">None</option>
+                    <option value="power">Power</option>
+                    <option value="powerSkill">Power Skill</option>
+                    <option value="all">All</option>
+                </select>
+            </label>
+
             <label>
                 Elevator Progression:
 

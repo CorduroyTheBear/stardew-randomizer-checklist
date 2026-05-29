@@ -30,7 +30,7 @@ import tm_Sat from "./JsonFiles/TravelingMerchant/tm_Sat.json";
 export const GROUPED_TABLES = 
 {
 
-   books:
+   bookSanity:
    {
         heading: "Books",
         className: "tableLevel-2_Heading",
@@ -84,3 +84,9 @@ export const GROUPED_TABLES =
 
 // 1. Put .json file in ./data/JsonFiles
 // 2. Export tables (shown above)
+// 3. Create table settings in tableSettingsList.jsx
+
+// 4. Add filter table logic (2 differnt functions) in filterTables.js
+// 5. Add default setting in function App() in App.jsx
+
+// groupedTables.js -> tableSettingsList.jsx -> filterTables.js -> App.jsx
