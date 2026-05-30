@@ -23,7 +23,6 @@ export default function SettingsList({settings, setSettings, })
                 <select value = {settings.elevatorProgression} onChange = {(e) => update("elevatorProgression", e.target.value)}>
                     <option value = "vanilla">Vanilla</option>
                     <option value = "progressive">Progressive</option>
-                    <option value = "progressiveFromPreviousFloor">Progressive from previous floor</option>
                 </select>
             </label>
 
@@ -33,6 +32,8 @@ export default function SettingsList({settings, setSettings, })
                 <select value = {settings.movieSanity} onChange = {(e) => update("movieSanity", e.target.value)}>
                     <option value = "none">None</option>
                     <option value = "oneMovie">One Movie</option>
+                    <option value = "allMovies">All Movies</option>
+                    <option value = "allMoviesAndAllSnacks">All Movies And All Snacks</option>
                 </select>
             </label>
 

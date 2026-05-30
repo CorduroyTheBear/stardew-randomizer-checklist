@@ -14,6 +14,20 @@ import fishBundles from "./JsonFiles/Bundles/fishTank.json";
 import pantryBundles from "./JsonFiles/Bundles/pantry.json";
 import vaultBunddles from "./JsonFiles/Bundles/vault.json";
 
+// Elevator Progression
+import elevatorProgression from "./JsonFiles/minesElevators.json";
+
+// Mines Chests
+import minesChests from "./JsonFiles/minesTreasure.json";
+
+// Moviesanity
+import oneMovie from "./JsonFiles/Movies/one.json";
+import movies from "./JsonFiles/Movies/movies.json";
+import snacks from "./JsonFiles/Movies/snacks.json";
+
+// Raccoon
+import raccoonChecks from "./JsonFiles/raccoonRequestChecks.json";
+
 // Traveling Merchant
 import tm_Sun from "./JsonFiles/TravelingMerchant/tm_Sun.json";
 import tm_Mon from "./JsonFiles/TravelingMerchant/tm_Mon.json";
@@ -55,6 +69,48 @@ export const GROUPED_TABLES =
             {id: "fishBundles", heading: "Fish Tank", className: "tableLevel-2_Tables", data: fishBundles},
             {id: "pantryBundles", heading: "Pantry", className: "tableLevel-2_Tables", data: pantryBundles},
             {id: "vaultBunddles", heading: "Vault", className: "tableLevel-2_Tables", data: vaultBunddles},
+        ]
+   },
+
+   elevatorProgression:
+   {
+        heading: "Elevator",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "elevatorProgression", heading: "Elevator", className: "tableLevel-2_Tables", data: elevatorProgression}
+        ]
+   },
+
+   minesChests:
+   {
+        heading: "Mines Chests",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "minesChests", heading: "Mines Chests", className: "tableLevel-2_Tables", data: minesChests}
+        ]
+   },
+
+   movieSanity:
+   {
+        heading: "Movies",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "oneMovie", heading: "Movie", className: "tableLevel-2_Tables", data: oneMovie},
+            {id: "movies", heading: "Movies", className: "tableLevel-2_Tables", data: movies},
+            {id: "snacks", heading: "Snacks", className: "tableLevel-2_Tables", data: snacks}
+        ]
+   },
+
+   raccoonChecks:
+   {
+        heading: "Raccoon",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "raccoonChecks", heading: "Raccoon", className: "tableLevel-2_Tables", data: raccoonChecks}
         ]
    },
 

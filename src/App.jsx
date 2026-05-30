@@ -1,6 +1,5 @@
 import {useState} from 'react';
-import {filterGroups, filterGroupedTables, filterTables, } from './components/Filters/filterTables';
-import {TABLES} from './data/tables'; // import tables
+import {filterGroups, filterGroupedTables} from './components/Filters/filterTables';
 import {GROUPED_TABLES} from './data/groupedTables';
 
 
@@ -29,19 +28,14 @@ function App()
   });
   
   const [tableData, setTableData] = useState( () => {
-
-      // From TABLES
-      const fromTables = Object.fromEntries(Object.entries(TABLES).map(([key, table]) => [key, table.data]));
-
       // From GROUPED_TABLES
       const fromGroupedTables = Object.fromEntries(Object.values(GROUPED_TABLES).flatMap(table => table.groups.map(group => [group.id, group.data])));
 
-      return { ...fromTables, ...fromGroupedTables};
+      return {...fromGroupedTables};
     });
   
     const handleToggle = (tableKey, itemID, field) => {setTableData(prev => ({...prev, [tableKey]: prev[tableKey].map(item => item.id === itemID ? {...item, [field]: !item[field]} : item)}));};
     
-    const visibleTableKeys = filterTables(settings);
     const visibleGroupedKeys = filterGroupedTables(settings);
 
   return(
@@ -69,19 +63,6 @@ function App()
 
       </div>
 
-
-      {Object.entries(TABLES)
-        .filter(([key]) => visibleTableKeys.includes(key))
-        .map(([key, table]) => (
-          <RenderChecklist
-            key = {key}
-            heading = {table.heading}
-            className = {table.className}
-            data = {tableData[key]}
-            onToggle = {(itemID, field) => handleToggle(key, itemID, field)}
-          />
-      ))}
-
       {Object.entries(GROUPED_TABLES)
       .filter(([key]) => visibleGroupedKeys.includes(key))
       .map(([key, table]) =>
@@ -91,12 +72,16 @@ function App()
             ? table.groups.filter(group => allowedGroups.includes(group.id))
             : table.groups;
 
+          // Handle styles based on # of tables
+          const headingClass = filteredGroups.length === 1 ? "tableLevel-1" : "tableLevel-2_Heading";
+          const groupClass = filteredGroups.length === 1 ? "tableLevel-1" : "tableLevel-2_Tables";
+
           return(
             <GroupedChecklist
             key = {key}
             heading = {table.heading}
-            className = {table.className}
-            groups = {filteredGroups.map(group => ({ ...group, data: tableData[group.id] }))}
+            className = {headingClass}
+            groups = {filteredGroups.map(group => ({ ...group, data: tableData[group.id], className: groupClass }))}
             onToggle= {(groupID, itemID, field) => handleToggle(groupID, itemID, field)}
           />
           );

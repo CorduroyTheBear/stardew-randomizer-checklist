@@ -16,6 +16,19 @@ export default function GroupedChecklist ({className, groups, heading, hideCompl
     // Set up table UI, similar to code in rendderChecklist.jsx
     // Main difference between the two is in "isOpen &&..."
 
+    if (groups.length === 1)
+    {
+        return(
+            <RenderChecklist
+                className = {groups[0].className}
+                data = {groups[0].data}
+                heading = {heading}
+                hideCompleted = {hideCompleted}
+                onToggle = {(itemID, field) => onToggle(groups[0].id, itemID, field)}
+            />
+        );
+    }
+
     return(
         <div className = "checklist-section">
             <div className = {`checklist-box ${className}`}>
