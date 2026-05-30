@@ -6,6 +6,7 @@ export function filterTables(settings)
     const visible = [];
 
     // --- Always visible --- //
+    visible.push("minesTreasure");
     visible.push("raccoonChecks");
 
 
@@ -13,6 +14,9 @@ export function filterTables(settings)
 
     // Elevator Progression
     if (settings.elevatorProgression !== "vanilla") visible.push("elevatorChecks");
+
+    // Moviesanity
+    if (settings.movieSanity != "none") visible.push("oneMovie");
 
     return visible;
 }

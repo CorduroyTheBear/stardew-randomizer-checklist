@@ -1,0 +1,146 @@
+[
+ {
+  "id": "snack_1",
+  "name": "Apple Slices",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_2",
+  "name": "Black Licorice",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_3",
+  "name": "Cappuccino Mousse Cake",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_4",
+  "name": "Chocolate Popcorn",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_5",
+  "name": "Cotton Candy",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_6",
+  "name": "Fries",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_7",
+  "name": "Hummus Snack Pack",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_8",
+  "name": "Ice Cream Sandwich",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_9",
+  "name": "Jasmine Tea",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_10",
+  "name": "Jawbreaker",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_11",
+  "name": "Joja Cola",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_12",
+  "name": "JojaCorn",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_13",
+  "name": "Kale Smoothie",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_14",
+  "name": "Nachos",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_15",
+  "name": "Panzanella Salad",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_16",
+  "name": "Personal Pizza",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_17",
+  "name": "Popcorn",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_18",
+  "name": "Rock Candy",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_19",
+  "name": "Salmon Burger",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_20",
+  "name": "Salted Peanuts",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_21",
+  "name": "Sour Slimes",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_22",
+  "name": "Star Cookie",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_23",
+  "name": "Stardrop Sorbet",
+  "done": false,
+  "found": false
+ },
+ {
+  "id": "snack_24",
+  "name": "Truffle Popcorn",
+  "done": false,
+  "found": false
+ }
+]

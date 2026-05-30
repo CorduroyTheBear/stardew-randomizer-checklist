@@ -27,6 +27,16 @@ export default function SettingsList({settings, setSettings, })
                 </select>
             </label>
 
+            <label>
+                Moviesanity:
+
+                <select value = {settings.movieSanity} onChange = {(e) => update("movieSanity", e.target.value)}>
+                    <option value = "none">None</option>
+                    <option value = "oneMovie">One Movie</option>
+                </select>
+            </label>
+
+
             <label className = "checkbox-setting">
                 <input
                     type = "checkbox"

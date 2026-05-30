@@ -2,6 +2,7 @@
 
 import elevatorChecks from "./JsonFiles/minesElevators.json";
 import minesTreasure from "./JsonFiles/minesTreasure.json";
+import oneMovie from "./JsonFiles/Movies/one.json";
 import raccoonChecks from "./JsonFiles/raccoonRequestChecks.json";
 
 
@@ -30,6 +31,13 @@ export const TABLES =
         data: minesTreasure,
         className: "tableLevel-1"
     },
+
+    oneMovie:
+    {
+        heading: "Movies",
+        data: oneMovie,
+        className: "tableLevel-1"
+    }
 };
 
 

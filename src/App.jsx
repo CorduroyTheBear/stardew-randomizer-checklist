@@ -24,6 +24,7 @@ function App()
   const [settings, setSettings] = useState({
     elevatorProgression: "vanilla",
     bookSanity: "none",
+    movieSanity: "none",
     hideCompleted: false
   });
   
