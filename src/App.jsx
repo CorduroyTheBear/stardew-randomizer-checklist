@@ -27,6 +27,7 @@ function App()
     festivalLocations: "none",
     bookSanity: "none",
     movieSanity: "none",
+    museamsity: "none",
     hideCompleted: false,
     skillProgression: "vanilla",
     toolProgression: "vanilla"

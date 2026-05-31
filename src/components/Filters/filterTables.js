@@ -15,6 +15,7 @@ export function filterGroupedTables(settings)
     if (settings.elevatorProgression !== "vanilla") visible.push("elevatorProgression");
     if (settings.festivalLocations !== "none") visible.push("festivalLocations");
     if (settings.movieSanity !== "none") visible.push("movieSanity");
+    if (settings.museamsity !== "none") visible.push("museamsity");
     if (settings.skillProgression !== "vanilla") visible.push("skillProgression");
     if (settings.toolProgression !== "vanilla") visible.push("toolProgression");
 
@@ -79,6 +80,16 @@ export function filterGroups(tableKey, settings)
             if (settings.movieSanity === "oneMovie") visible.push("oneMovie");
             if (settings.movieSanity === "allMovies" || settings.movieSanity === "allMoviesAndAllSnacks") visible.push("movies");
             if (settings.movieSanity === "allMoviesAndAllSnacks") visible.push("snacks");
+
+            return visible;
+        }
+
+        case "museamsity":
+        {
+            const visible = [];
+
+            if (settings.museamsity === "milestones") visible.push("artifactMilestones", "generalMilestones", "mineralMilestones");
+            if (settings.museamsity === "all") visible.push("artifacts", "forgedMinerals", "frozenGeodeMinerals", "gems", "geodeMinerals", "magmaGeodeMinerals");
 
             return visible;
         }

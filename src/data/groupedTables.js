@@ -54,6 +54,22 @@ import oneMovie from "./JsonFiles/Movies/one.json";
 import movies from "./JsonFiles/Movies/movies.json";
 import snacks from "./JsonFiles/Movies/snacks.json";
 
+// Museamsity
+
+  // Milestones
+  import artifactMilestones from "./JsonFiles/Museam/museamArtifactRewards.json";
+  import generalMilestones from "./JsonFiles/Museam/museamGeneralRewards.json";
+  import mineralMilestones from "./JsonFiles/Museam/museamMineralRewards.json";
+
+  // All
+  import artifacts from "./JsonFiles/Museam/artifacts.json";
+  import forgedMinerals from "./JsonFiles/Museam/forgedMinerals.json";
+  import frozenGeodeMinerals from "./JsonFiles/Museam/frozenGeodeMinerals.json";
+  import gems from "./JsonFiles/Museam/gems.json";
+  import geodeMinerals from "./JsonFiles/Museam/geodeMinerals.json";
+  import magmaGeodeMinerals from "./JsonFiles/Museam/magmaGeodeMinerals.json";
+
+
 // Raccoon
 import raccoonChecks from "./JsonFiles/raccoonRequestChecks.json";
 
@@ -201,6 +217,27 @@ export const GROUPED_TABLES =
             {id: "oneMovie", heading: "Movie", className: "tableLevel-2_Tables", data: oneMovie},
             {id: "movies", heading: "Movies", className: "tableLevel-2_Tables", data: movies},
             {id: "snacks", heading: "Snacks", className: "tableLevel-2_Tables", data: snacks}
+        ]
+   },
+
+   museamsity:
+   {
+        heading: "Museam",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            // Milestones
+            {id: "artifactMilestones", heading: "Artifacts", className: "tableLevel-2_Tables", data: artifactMilestones},
+            {id: "generalMilestones", heading: "General", className: "tableLevel-2_Tables", data: generalMilestones},
+            {id: "mineralMilestones", heading: "Minerals", className: "tableLevel-2_Tables", data: mineralMilestones},
+
+            // All
+            {id: "artifacts", heading: "Artifacts", className: "tableLevel-2_Tables", data: artifacts},
+            {id: "forgedMinerals", heading: "Forged Minerals", className: "tableLevel-2_Tables", data: forgedMinerals},
+            {id: "frozenGeodeMinerals", heading: "Frozen Geode", className: "tableLevel-2_Tables", data: frozenGeodeMinerals},
+            {id: "gems", heading: "Gems", className: "tableLevel-2_Tables", data: gems},
+            {id: "geodeMinerals", heading: "Geode", className: "tableLevel-2_Tables", data: geodeMinerals},
+            {id: "magmaGeodeMinerals", heading: "Magma Geode", className: "tableLevel-2_Tables", data: magmaGeodeMinerals},
         ]
    },
 

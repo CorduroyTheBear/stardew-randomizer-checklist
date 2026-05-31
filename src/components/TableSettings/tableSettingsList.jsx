@@ -65,6 +65,16 @@ export default function SettingsList({settings, setSettings, })
             </label>
 
             <label>
+                Museamsity:
+
+                <select value = {settings.museamsity} onChange = {(e) => update("museamsity", e.target.value)}>
+                    <option value="none">None</option>
+                    <option value="milestones">Minestones</option>
+                    <option value="all">All</option>
+                </select>
+            </label>
+
+            <label>
                 Skill Progression:
 
                 <select value = {settings.skillProgression} onChange = {(e) => update("skillProgression", e.target.value)}>

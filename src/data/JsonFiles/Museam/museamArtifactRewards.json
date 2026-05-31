@@ -1,0 +1,62 @@
+[
+  {
+      "id": "donateArtifacts_1",
+      "name": "Ancient seed",
+      "done": false,
+      "found": false
+  }, 
+  {
+      "id": "donateArtifacts_3",
+      "name": "3 Artifacts",
+      "done": false,
+      "found": false
+   },
+  {
+      "id": "donateArtifacts_6",
+      "name": "6 Artifacts (Including chicken statue)",
+      "done": false,
+      "found": false
+   },
+   {
+      "id": "donateArtifacts_11",
+      "name": "11 Items",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "donateArtifacts_15",
+      "name": "15 Items",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "donateArtifacts_20",
+      "name": "20 Items",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "donateArtifacts_Dwarf",
+      "name": "Dwarf Scrolls",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "donateBones_1",
+      "name": "(Front) Prehistoric skull, Skeletal hand, Prehistoric scapula",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "donateBones_2",
+      "name": "(Middle) Prehistoric rib, Prehistoric vertebra",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "donateBones_3",
+      "name": "(Back) Prehistoric tibia, Skeletal tail",
+      "done": false,
+      "found": false
+    }
+]
