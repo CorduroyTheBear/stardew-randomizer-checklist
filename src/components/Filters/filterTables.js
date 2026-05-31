@@ -10,9 +10,12 @@ export function filterGroupedTables(settings)
 
     // Every other table
     if (settings.arcade !== "disabled") visible.push("arcade");
+    if (settings.buildingProgression !== "vanilla") visible.push("buildingProgression");
     if (settings.bookSanity !== "none") visible.push("bookSanity");
     if (settings.elevatorProgression !== "vanilla") visible.push("elevatorProgression");
+    if (settings.festivalLocations !== "none") visible.push("festivalLocations");
     if (settings.movieSanity !== "none") visible.push("movieSanity");
+    if (settings.skillProgression !== "vanilla") visible.push("skillProgression");
     if (settings.toolProgression !== "vanilla") visible.push("toolProgression");
 
     return visible;
@@ -59,6 +62,16 @@ export function filterGroups(tableKey, settings)
             return visible;
         }
 
+        case "festivalLocations":
+        {
+            const visible = [];
+
+            if (settings.festivalLocations === "easy") visible.push("danceOfTheMoonlightJellies_e", "flowerDance_e", "nightMarket_e", "spiritsEve_e");
+            if (settings.festivalLocations === "hard") visible.push("danceOfTheMoonlightJellies", "dessertFestival", "eggFestival", "festiveOfIce", "flowerDance", "luau", "nightMarket", "squidFest", "spiritsEve", "stardewValleyFair", "troutDerby", "feastOfTheWinterStar");
+            
+            return visible;
+        }
+
         case "movieSanity":
         {
             const visible = [];
@@ -68,6 +81,16 @@ export function filterGroups(tableKey, settings)
             if (settings.movieSanity === "allMoviesAndAllSnacks") visible.push("snacks");
 
             return visible;
+        }
+
+        case "skillProgression":
+        {
+            const visible = [];
+
+            if (settings.skillProgression === "progressive") visible.push("combat", "farm", "fishing", "foraging", "mining");
+            if (settings.skillProgression === "progressiveMaster") visible.push("combat_m", "farm_m", "fishing_m", "foraging_m", "mining_m");
+
+           return visible;
         }
         
         // Default settings = always show

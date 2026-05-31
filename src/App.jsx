@@ -22,10 +22,13 @@ function App()
 
   const [settings, setSettings] = useState({
     arcade: "disabled",
+    buildingProgression: "vanilla",
     elevatorProgression: "vanilla",
+    festivalLocations: "none",
     bookSanity: "none",
     movieSanity: "none",
     hideCompleted: false,
+    skillProgression: "vanilla",
     toolProgression: "vanilla"
   });
   

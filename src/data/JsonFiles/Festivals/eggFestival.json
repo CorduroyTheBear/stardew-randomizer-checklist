@@ -1,0 +1,14 @@
+[
+    {
+      "id": "eggFestival_1",
+      "name": "Egg Hunt Victory",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "eggFestival_2",
+      "name": "Strawberry Seeds",
+      "done": false,
+      "found": false
+    }
+  ]

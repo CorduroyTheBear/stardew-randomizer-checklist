@@ -1,0 +1,50 @@
+[
+    {
+      "id": "squidFest_1",
+      "name": "Day 1 Copper",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "squidFest_2",
+      "name": "Day 1 Iron",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "squidFest_3",
+      "name": "Day 1 Gold",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "squidFest_4",
+      "name": "Day 1 Iridium",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "squidFest_5",
+      "name": "Day 2 Copper",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "squidFest_6",
+      "name": "Day 2 Iron",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "squidFest_7",
+      "name": "Day 2 Gold",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "squidFest_8",
+      "name": "Day 2 Iridium",
+      "done": false,
+      "found": false
+    }
+]

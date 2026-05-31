@@ -1,0 +1,62 @@
+[
+    {
+      "id": "combat_lvl1",
+      "name": "Level 1",
+      "done": false,
+      "found":false
+    },
+    {
+      "id": "combat_lvl2",
+      "name": "Level 2",
+      "done": false,
+      "found":false
+    },
+    {
+      "id": "combat_lvl3",
+      "name": "Level 3",
+      "done": false,
+      "found":false
+    },
+    {
+      "id": "combat_lvl4",
+      "name": "Level 4",
+      "done": false,
+      "found":false
+    },
+    {
+      "id": "combat_lvl5",
+      "name": "Level 5",
+      "done": false,
+      "found":false
+    },
+    {
+      "id": "combat_lvl6",
+      "name": "Level 6",
+      "done": false,
+      "found":false
+    },
+    {
+      "id": "combat_lvl7",
+      "name": "Level 7",
+      "done": false,
+      "found":false
+    },
+    {
+      "id": "combat_lvl8",
+      "name": "Level 8",
+      "done": false,
+      "found":false
+    },
+    {
+      "id": "combat_lvl9",
+      "name": "Level 9",
+      "done": false,
+      "found":false
+    },
+    {
+      "id": "combat_lvl10",
+      "name": "Level 10",
+      "done": false,
+      "found":false
+    }
+ ]

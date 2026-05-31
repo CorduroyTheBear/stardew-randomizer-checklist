@@ -27,11 +27,29 @@ export default function SettingsList({settings, setSettings, })
             </label>
 
             <label>
+                Building Progression:
+                <select value = {settings.buildingProgression} onChange = {(e) => update("buildingProgression", e.target.value)}>
+                    <option value = "vanilla">Vanilla</option>
+                    <option value = "progressive">Progressive</option>
+                </select>
+            </label>
+
+            <label>
                 Elevator Progression:
 
                 <select value = {settings.elevatorProgression} onChange = {(e) => update("elevatorProgression", e.target.value)}>
                     <option value = "vanilla">Vanilla</option>
                     <option value = "progressive">Progressive</option>
+                </select>
+            </label>
+
+            <label>
+                Festival Locations:
+
+                <select value = {settings.festivalLocations} onChange = {(e) => update("festivalLocations", e.target.value)}>
+                    <option value="none">Disabled</option>
+                    <option value="easy">Easy</option>
+                    <option value = "hard">Hard</option>
                 </select>
             </label>
 
@@ -43,6 +61,16 @@ export default function SettingsList({settings, setSettings, })
                     <option value = "oneMovie">One Movie</option>
                     <option value = "allMovies">All Movies</option>
                     <option value = "allMoviesAndAllSnacks">All Movies And All Snacks</option>
+                </select>
+            </label>
+
+            <label>
+                Skill Progression:
+
+                <select value = {settings.skillProgression} onChange = {(e) => update("skillProgression", e.target.value)}>
+                    <option value="vanilla">Vanilla</option>
+                    <option value="progressive">Progressive</option>
+                    <option value="progressiveMaster">Progressive With Masteries</option>
                 </select>
             </label>
 

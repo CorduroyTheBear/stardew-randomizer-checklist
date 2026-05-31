@@ -1,0 +1,200 @@
+[
+    {
+      "id": "calico_pizza",
+      "name": "Calico Pizza (rich marinara, sharp cheddar)",
+      "done": false,
+      "found": false
+    }, 
+    {
+      "id": "calico_race",
+      "name": "Calico Race",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "calico_statue",
+      "name": "Calico Statue",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "cave_kebab",
+      "name": "Cave Kebab (pungent garlic, cave loaf)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "cioppino",
+      "name": "Cioppino (rich marinara, shrimp)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "crystal_cake",
+      "name": "Crystal Cake (cherry syrup, cave loaf)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "deep_deive",
+      "name": "Deep Dive",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "desert_gumbo",
+      "name": "Desert Gumbo (hot sauce, shrimp)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "dessert_scholar",
+      "name": "Desert Scholar",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "earthly_mousse",
+      "name": "Earthy Mousse (mushroom creme, hearty beans)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "elf_quesadilla",
+      "name": "Elf Quesadilla (cherry syrup, sharp cheddar)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "outfit_service",
+      "name": "Emily's Outfit Services",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "free_cactis",
+      "name": "Free Cactis",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "hot_log",
+      "name": "Hot Log (hot sauce, cave loaf)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "monster_hunt",
+      "name": "Monster Hunt",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "mountain_chili",
+      "name": "Mountain Chili (rich marinara, cave loaf)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "mummy_mask",
+      "name": "Mummy Mask",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "nachos",
+      "name": "Nachos Of The Desert (hot sauce, sharp cheddar)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "rainforest_shrimp",
+      "name": "Rainforest Shrimp (mushroom creme, shrimp)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "egg_hunter",
+      "name": "Real Calico Egg Hunter",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "rumpled_fruit_skin",
+      "name": "Rumpled Fruit Skin (hot sauce, rare fruit)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "shrimp_donut",
+      "name": "Shrimp Donut (cherry syrup, shrimp)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "skull_cave_casserole",
+      "name": "Skull Cave Casserole (pungent garlic, hearty beans)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "smell_of_the_sea",
+      "name": "Smell of the Sea (pugent garlic, shrimp)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "sour_salad",
+      "name": "Sour Salad (rich marinara, rare fruit)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "spicy_tacos",
+      "name": "Spicy Tacos (hot sauce, hearty beans)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "superfood_cake",
+      "name": "Superfood Cake (mushroom creme, rare fruit)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "stuffed_mushrooms",
+      "name": "Stuffed Mushrooms (mushroom creme, sharp cheddar)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "sweet_bean_cake",
+      "name": "Sweet Bean Cake (cherry syrup, hearty beans)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "touch_calico_statue",
+      "name": "Touch A Calico Statue",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "treasure_hunt",
+      "name": "Treasure Hunt",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "warrior_smoothie",
+      "name": "Warrior Smoothie (pungent garlic, rare fruit)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "willys_challenge",
+      "name": "Willy's Challenge",
+      "done": false,
+      "found": false
+    }
+  ]
