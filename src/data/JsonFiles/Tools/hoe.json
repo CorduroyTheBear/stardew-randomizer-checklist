@@ -1,0 +1,26 @@
+[
+    {
+      "id": "copperHoe",
+      "name": "Copper Hoe",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "ironHoe",
+      "name": "Iron Hoe",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "goldHoe",
+      "name": "Gold Hoe",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "iridiumHoe",
+      "name": "Iridium Hoe",
+      "done": false,
+      "found": false
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+      "id": "copperTrashCan",
+      "name": "Copper Trash Can",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "ironTrashCan",
+      "name": "Iron Trash Can",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "goldTrashCan",
+      "name": "Gold Trash Can",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "iridiumTrashCan",
+      "name": "Iridium Trash Can",
+      "done": false,
+      "found": false
+    }
+]

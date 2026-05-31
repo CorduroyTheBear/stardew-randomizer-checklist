@@ -1,0 +1,56 @@
+[
+    {
+      "id": "JK_1",
+      "name": "Crumble Cavern",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JK_2",
+      "name": "Slippery Slopes",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JK_3",
+      "name": "Secret Level",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JK_4",
+      "name": "The Gem Sea Giant",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JK_5",
+      "name": "Slomp's Stomp",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JK_6",
+      "name": "Ghastly Galleon",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JK_7",
+      "name": "Glowshroom Grotto",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JK_8",
+      "name": "Red Hot Rollercoaster",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JK_9",
+      "name": "Sunset Speedway (Victory)",
+      "done": false,
+      "found": false
+    }  
+ ]

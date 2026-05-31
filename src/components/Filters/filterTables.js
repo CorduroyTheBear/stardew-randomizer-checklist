@@ -9,9 +9,11 @@ export function filterGroupedTables(settings)
     visible.push("raccoonChecks");
 
     // Every other table
+    if (settings.arcade !== "disabled") visible.push("arcade");
     if (settings.bookSanity !== "none") visible.push("bookSanity");
     if (settings.elevatorProgression !== "vanilla") visible.push("elevatorProgression");
     if (settings.movieSanity !== "none") visible.push("movieSanity");
+    if (settings.toolProgression !== "vanilla") visible.push("toolProgression");
 
     return visible;
 }
@@ -35,6 +37,17 @@ export function filterGroups(tableKey, settings)
         }
         */
 
+        case "arcade":
+        {
+            const visible = [];
+
+            if (settings.arcade === "arcadeVictories") visible.push("arcadeVictories");
+            if (settings.arcade === "fullShuffling") visible.push("jotPK");
+            if (settings.arcade === "fullShuffling") visible.push("junimoKart");
+
+            return visible;
+        }
+
         case "bookSanity":
         {
             const visible = [];
@@ -56,11 +69,6 @@ export function filterGroups(tableKey, settings)
 
             return visible;
         }
-        
-        // Groups always showing
-        case "bundles":
-        case "travelingMerchant":
-        return null;
         
         // Default settings = always show
         default:

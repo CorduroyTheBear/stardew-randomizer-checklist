@@ -1,5 +1,10 @@
 // Export grouped tables
 
+// Arcade
+import arcadeVictories from "./JsonFiles/Arcade/arcadeVictories.json";
+import jotPK from "./JsonFiles/Arcade/jotPK.json";
+import junimoKart from "./JsonFiles/Arcade/junimoKart.json";
+
 // Books
 import lostBooks from "./JsonFiles/Books/lostBooks.json";
 import powerBooks from "./JsonFiles/Books/powerBooks.json";
@@ -28,6 +33,15 @@ import snacks from "./JsonFiles/Movies/snacks.json";
 // Raccoon
 import raccoonChecks from "./JsonFiles/raccoonRequestChecks.json";
 
+// Tools
+import axe from "./JsonFiles/Tools/axe.json";
+import fishingRod from "./JsonFiles/Tools/fishingRod.json";
+import hoe from "./JsonFiles/Tools/hoe.json";
+import pan from "./JsonFiles/Tools/pan.json";
+import pickaxe from "./JsonFiles/Tools/pickaxe.json";
+import trashCan from "./JsonFiles/Tools/trashCan.json";
+import watertingCan from "./JsonFiles/Tools/wateringCan.json";
+
 // Traveling Merchant
 import tm_Sun from "./JsonFiles/TravelingMerchant/tm_Sun.json";
 import tm_Mon from "./JsonFiles/TravelingMerchant/tm_Mon.json";
@@ -43,6 +57,18 @@ import tm_Sat from "./JsonFiles/TravelingMerchant/tm_Sat.json";
 
 export const GROUPED_TABLES = 
 {
+
+   arcade:
+   {
+        heading: "Arcade",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "arcadeVictories", heading: "Victories", className: "tableLevel-2_Tables", data: arcadeVictories},
+            {id: "jotPK", heading: "JotPK", className: "tableLevel-2_Tables", data: jotPK},
+            {id: "junimoKart", heading: "Junimo Kart", className: "tableLevel-2_Tables", data: junimoKart}
+        ]
+   },
 
    bookSanity:
    {
@@ -111,6 +137,22 @@ export const GROUPED_TABLES =
         groups:
         [
             {id: "raccoonChecks", heading: "Raccoon", className: "tableLevel-2_Tables", data: raccoonChecks}
+        ]
+   },
+
+   toolProgression:
+   {
+        heading: "Tool Progression",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+           {id: "axe", heading: "Axe", className: "tableLevel-2_Tables", data: axe},
+           {id: "fishingRod", heading: "Fishing Rod", className: "tableLevel-2_Tables", data: fishingRod},
+           {id: "hoe", heading: "Hoe", className: "tableLevel-2_Tables", data: hoe},
+           {id: "pan", heading: "Pan", className: "tableLevel-2_Tables", data: pan},
+           {id: "pickaxe", heading: "Pickaxe", className: "tableLevel-2_Tables", data: pickaxe},
+           {id: "trashCan", heading: "Trash Can", className: "tableLevel-2_Tables", data: trashCan},
+           {id: "watertingCan", heading: "Watering Can", className: "tableLevel-2_Tables", data: watertingCan}
         ]
    },
 

@@ -1,0 +1,26 @@
+[
+    {
+      "id": "copperPickaxe",
+      "name": "Copper Pickaxe",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "ironPickaxe",
+      "name": "Iron Pickaxe",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "goldPickaxe",
+      "name": "Gold Pickaxe",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "iridiumPickaxe",
+      "name": "Iridium Pickaxe",
+      "done": false,
+      "found": false
+    }
+]

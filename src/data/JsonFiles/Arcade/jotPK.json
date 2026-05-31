@@ -1,0 +1,74 @@
+[
+    {
+      "id": "JotPK_ammo1",
+      "name": "Ammo 1",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JotPK_ammo2",
+      "name": "Ammo 2",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JotPK_ammo3",
+      "name": "Ammo 3",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JotPK_boots1",
+      "name": "Boots 1",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JotPK_boots2",
+      "name": "Boots 2",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JotPK_cowboy1",
+      "name": "Cowboy 1",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JotPK_cowboy2",
+      "name": "Cowboy 2",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JotPK_gun1",
+      "name": "Gun 1",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JotPK_gun2",
+      "name": "Gun 2",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JotPK_gun3",
+      "name": "Gun 3",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JotPK_supergun",
+      "name": "Super Gun",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "JotPK_victory",
+      "name": "Victory!",
+      "done": false,
+      "found": false
+    }  
+ ]

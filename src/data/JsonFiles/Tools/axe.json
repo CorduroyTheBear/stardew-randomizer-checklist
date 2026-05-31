@@ -1,0 +1,26 @@
+[
+    {
+      "id": "copperAxe",
+      "name": "Copper Axe",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "ironAxe",
+      "name": "Iron Axe",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "goldAxe",
+      "name": "Gold Axe",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "iridiumAxe",
+      "name": "Iridium Axe",
+      "done": false,
+      "found": false
+    }
+]

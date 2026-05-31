@@ -8,6 +8,15 @@ export default function SettingsList({settings, setSettings, })
         <>
 
             <label>
+                Arcade:
+                <select value = {settings.arcade} onChange = {(e) => update("arcade", e.target.value)}>
+                    <option value="disabled">Disabled</option>
+                    <option value="arcadeVictories">Arcade Victories</option>
+                    <option value="fullShuffling">Full Shuffling</option>
+                </select>
+            </label>
+            
+            <label>
                 Booksanity:
                 <select value = {settings.bookSanity} onChange = {(e) => update("bookSanity", e.target.value)}>
                     <option value="none">None</option>
@@ -34,6 +43,15 @@ export default function SettingsList({settings, setSettings, })
                     <option value = "oneMovie">One Movie</option>
                     <option value = "allMovies">All Movies</option>
                     <option value = "allMoviesAndAllSnacks">All Movies And All Snacks</option>
+                </select>
+            </label>
+
+            <label>
+                Tool Progression:
+
+                <select value = {settings.toolProgression} onChange = {(e) => update("toolProgression", e.target.value)}>
+                    <option value = "vanilla">Vanilla</option>
+                    <option value = "progressive">Progressive</option>
                 </select>
             </label>
 

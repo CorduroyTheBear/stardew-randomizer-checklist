@@ -1,0 +1,26 @@
+[
+    {
+      "id": "copperPan",
+      "name": "Copper Pan",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "ironPan",
+      "name": "Iron Pan",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "goldPan",
+      "name": "Gold Pan",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "iridiumPan",
+      "name": "Iridium Pan",
+      "done": false,
+      "found": false
+    }
+]

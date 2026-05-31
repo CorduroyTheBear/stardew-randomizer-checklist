@@ -21,10 +21,12 @@ function App()
   const [settingsOpen, setSettingsOpen] = useState(false);
 
   const [settings, setSettings] = useState({
+    arcade: "disabled",
     elevatorProgression: "vanilla",
     bookSanity: "none",
     movieSanity: "none",
-    hideCompleted: false
+    hideCompleted: false,
+    toolProgression: "vanilla"
   });
   
   const [tableData, setTableData] = useState( () => {

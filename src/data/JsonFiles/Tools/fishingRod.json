@@ -1,0 +1,26 @@
+[
+    {
+      "id": "trainingRod",
+      "name": "Training Rod",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "bambooPole",
+      "name": "Bamboo Pole",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fiberglassRod",
+      "name": "Fiberglass Rod",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "iridiumRod",
+      "name": "Iridium Rod",
+      "done": false,
+      "found": false
+    }
+]

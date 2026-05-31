@@ -1,0 +1,26 @@
+[
+    {
+      "id": "copperWateringCan",
+      "name": "Copper Watering Can",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "ironWateringCan",
+      "name": "Iron Watering Can",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "goldWateringCan",
+      "name": "Gold Watering Can",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "iridiumWateringCan",
+      "name": "Iridium Watering Can",
+      "done": false,
+      "found": false
+    }
+]
