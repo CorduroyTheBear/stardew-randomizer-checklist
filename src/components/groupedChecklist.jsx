@@ -2,7 +2,7 @@ import {useState} from "react";
 import { filterSeasons } from "./Filters/filterSeasons";
 import RenderChecklist from "./renderChecklist";
 
-export default function GroupedChecklist ({className, groups, heading, hideCompleted = false, onToggle, season})
+export default function GroupedChecklist ({className, groups, heading, hideCompleted = false, onToggle, season, seasonExclusive})
 {
     // Checklist is closed by default
     const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +14,7 @@ export default function GroupedChecklist ({className, groups, heading, hideCompl
     const totalCount = groupItems.length;
 
     // Filter out tables with no checks when a season is selected
-    const seasonVisibleGroups = groups.filter(group => group.data.some(item => filterSeasons(item, season)));
+    const seasonVisibleGroups = groups.filter(group => group.data.some(item => filterSeasons(item, season, seasonExclusive)));
 
     // Set up table UI, similar to code in rendderChecklist.jsx
     // Main difference between the two is in "isOpen &&..."
@@ -61,6 +61,7 @@ export default function GroupedChecklist ({className, groups, heading, hideCompl
                                 hideCompleted = {hideCompleted}
                                 onToggle = {(itemID, field) => onToggle(group.id, itemID, field)}
                                 season = {season}
+                                seasonExclusive = {seasonExclusive}
                             />
                         ))}
                     </div>

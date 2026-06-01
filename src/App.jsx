@@ -23,7 +23,9 @@ function App()
   
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [season, setSeason] = useState("all");
+  const [seasonExclusive, setSeasonExclusive] = useState(false);
 
+  // Default Settings
   const [settings, setSettings] = useState({
     arcade: "disabled",
     buildingProgression: "vanilla",
@@ -37,10 +39,9 @@ function App()
     toolProgression: "vanilla"
   });
   
-  const [tableData, setTableData] = useState( () => {
-      // From GROUPED_TABLES
+  const [tableData, setTableData] = useState( () =>
+    {  
       const fromGroupedTables = Object.fromEntries(Object.values(GROUPED_TABLES).flatMap(table => table.groups.map(group => [group.id, group.data])));
-
       return {...fromGroupedTables};
     });
   
@@ -60,13 +61,25 @@ function App()
                 ⚙ Settings
               </button>
 
-              <select value = {season} onChange = {(e) => setSeason(e.target.value)}>
-                <option value = "all">All Seasons</option>
-                <option value = "spring">Spring</option>
-                <option value = "summer">Summer</option>
-                <option value = "fall">Fall</option>
-                <option value = "winter">Winter</option>
-              </select>
+              <label>
+                Seasons:
+                <select value = {season} onChange = {(e) => setSeason(e.target.value)}>
+                  <option value = "all">All Seasons</option>
+                  <option value = "spring">Spring</option>
+                  <option value = "summer">Summer</option>
+                  <option value = "fall">Fall</option>
+                  <option value = "winter">Winter</option>
+                </select>
+              </label>
+
+              <label>
+                Exclusive to Season?
+                <input
+                  type = "checkbox"
+                  checked = {seasonExclusive}
+                  onChange = {(e) => setSeasonExclusive(e.target.checked)}
+                  />
+              </label>
 
             </div>
         </div>
@@ -91,7 +104,7 @@ function App()
           ? table.groups.filter(group => allowedGroups.includes(group.id))
           : table.groups;
 
-          return filteredGroups.some(group => group.data.some(item => filterSeasons(item, season)));
+          return filteredGroups.some(group => group.data.some(item => filterSeasons(item, season, seasonExclusive)));
       })
 
       .map(([key, table]) =>
@@ -113,6 +126,7 @@ function App()
             groups = {filteredGroups.map(group => ({ ...group, data: tableData[group.id], className: groupClass }))}
             onToggle = {(groupID, itemID, field) => handleToggle(groupID, itemID, field)}
             season = {season}
+            seasonExclusive = {seasonExclusive}
           />
           );
       })
