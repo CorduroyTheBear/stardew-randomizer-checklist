@@ -19,6 +19,7 @@ function App()
   // Pulls data
   
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const [season, setSeason] = useState("all");
 
   const [settings, setSettings] = useState({
     arcade: "disabled",
@@ -56,6 +57,14 @@ function App()
                 ⚙ Settings
               </button>
 
+              <select value = {season} onChange = {(e) => setSeason(e.target.value)}>
+                <option value = "all">All Seasons</option>
+                <option value = "spring">Spring</option>
+                <option value = "summer">Summer</option>
+                <option value = "fall">Fall</option>
+                <option value = "winter">Winter</option>
+              </select>
+
             </div>
         </div>
 
@@ -88,7 +97,8 @@ function App()
             heading = {table.heading}
             className = {headingClass}
             groups = {filteredGroups.map(group => ({ ...group, data: tableData[group.id], className: groupClass }))}
-            onToggle= {(groupID, itemID, field) => handleToggle(groupID, itemID, field)}
+            onToggle = {(groupID, itemID, field) => handleToggle(groupID, itemID, field)}
+            season = {season}
           />
           );
       })

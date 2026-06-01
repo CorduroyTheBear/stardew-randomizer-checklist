@@ -1,7 +1,7 @@
 import {useState} from "react";
 import RenderChecklist from "./renderChecklist";
 
-export default function GroupedChecklist ({className, groups, heading, hideCompleted = false, onToggle})
+export default function GroupedChecklist ({className, groups, heading, hideCompleted = false, onToggle, season})
 {
     // Checklist is closed by default
     const [isOpen, setIsOpen] = useState(false);
@@ -47,7 +47,7 @@ export default function GroupedChecklist ({className, groups, heading, hideCompl
 
                 {isOpen &&
                 (
-                    <div className = "checklist-enableScrolling">
+                    <div className = "table-grid">
                         {groups.map(group =>
                         (
                             <RenderChecklist
@@ -57,6 +57,7 @@ export default function GroupedChecklist ({className, groups, heading, hideCompl
                                 heading = {group.heading}
                                 hideCompleted = {hideCompleted}
                                 onToggle = {(itemID, field) => onToggle(group.id, itemID, field)}
+                                season = {season}
                             />
                         ))}
                     </div>

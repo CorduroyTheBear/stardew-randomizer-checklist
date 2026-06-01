@@ -2,18 +2,21 @@
     {
       "id": "danceOfTheMoonlightJellies_1",
       "name": "Dance of the Moonlight Jellies",
+      "season": "summer",
       "done": false,
       "found": false
     },
     {
       "id": "danceOfTheMoonlightJellies_2",
       "name": "Moonlight Jellies Banner",
+      "season": "summer",
       "done": false,
       "found": false
     },
     {
       "id": "danceOfTheMoonlightJellies_3",
       "name": "Starport Decal",
+      "season": "summer",
       "done": false,
       "found": false
     }

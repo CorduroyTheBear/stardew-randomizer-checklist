@@ -2,24 +2,28 @@
     {
       "id": "nightMarket_1",
       "name": "Mermaid Pearl",
+      "season": "winter",
       "done": false,
       "found": false
     },
     {
       "id": "nightMarket_2",
       "name": "Lupini: Red Eagle",
+      "season": "winter",
       "done": false,
       "found": false
     },
     {
       "id": "nightMarket_3",
       "name": "Lupini: Portrait Of A Mermaid",
+      "season": "winter",
       "done": false,
       "found": false
     },
     {
       "id": "nightMarket_4",
       "name": "Lupini: Solar Kingdom",
+      "season": "winter",
       "done": false,
       "found": false
     }

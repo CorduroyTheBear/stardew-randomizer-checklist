@@ -2,7 +2,7 @@
     {
       "id": "597",
       "name": "Blue Jazz",
-      "Season": "spring",
+      "season": "spring",
       "image": "images.blueJazz",
       "done": false,
       "found": false
@@ -10,7 +10,7 @@
     {
       "id": "Carrot",
       "name": "Carrot",
-      "Season": "spring",
+      "season": "spring",
       "image": "images.carrot",
       "done": false,
       "found": false
@@ -18,7 +18,7 @@
     {
       "id": "190",
       "name": "Cauliflower",
-      "Season": "spring",
+      "season": "spring",
       "image": "images.cauliflower",
       "done": false,
       "found": false
@@ -26,7 +26,7 @@
     {
       "id": "433",
       "name": "Coffee Bean",
-      "Season": ["spring", "summer"],
+      "season": ["spring", "summer"],
       "image": "images.coffeeBean",
       "done": false,
       "found": false
@@ -34,7 +34,7 @@
     {
       "id": "248",
       "name": "Garlic",
-      "Season": "spring",
+      "season": "spring",
       "image": "images.garlic",
       "done": false,
       "found": false
@@ -42,7 +42,7 @@
     {
       "id": "188",
       "name": "Green Bean",
-      "Season": "spring",
+      "season": "spring",
       "image": "images.greenBean",
       "done": false,
       "found": false
@@ -50,7 +50,7 @@
     {
       "id": "250",
       "name": "Kale",
-      "Season": "spring",
+      "season": "spring",
       "image": "images.kale",
       "done": false,
       "found": false
@@ -58,7 +58,7 @@
     {
       "id": "24",
       "name": "Parsnip",
-      "Season": "spring",
+      "season": "spring",
       "image": "images.parsnip",
       "done": false,
       "found": false
@@ -66,7 +66,7 @@
     {
       "id": "192",
       "name": "Potato",
-      "Season": "spring",
+      "season": "spring",
       "image": "images.potato",
       "done": false,
       "found": false
@@ -74,7 +74,7 @@
     {
       "id": "252",
       "name": "Rhubarb",
-      "Season": "spring",
+      "season": "spring",
       "image": "images.rhubarb",
       "done": false,
       "found": false
@@ -82,7 +82,7 @@
     {
       "id": "400",
       "name": "Strawberry",
-      "Season": "spring",
+      "season": "spring",
       "image": "images.strawberry",
       "done": false,
       "found": false
@@ -90,7 +90,7 @@
     {
       "id": "591",
       "name": "Tulip",
-      "Season": "spring",
+      "season": "spring",
       "image": "images.tulip",
       "done": false,
       "found": false
@@ -98,7 +98,7 @@
     {
       "id": "271",
       "name": "Unmilled Rice",
-      "Season": "spring",
+      "season": "spring",
       "image": "images.unmilledRice",
       "done": false,
       "found": false
@@ -106,7 +106,7 @@
     {
       "id": "258",
       "name": "Blueberry",
-      "Season": "summer",
+      "season": "summer",
       "image": "images.blueberry",
       "done": false,
       "found": false
@@ -114,7 +114,7 @@
     {
       "id": "304",
       "name": "Hops",
-      "Season": "summer",
+      "season": "summer",
       "image": "images.hops",
       "done": false,
       "found": false
@@ -122,7 +122,7 @@
     {
       "id": "260",
       "name": "Hot Pepper",
-      "Season": "summer",
+      "season": "summer",
       "image": "images.hotPepper",
       "done": false,
       "found": false
@@ -130,7 +130,7 @@
     {
       "id": "254",
       "name": "Melon",
-      "Season": "summer",
+      "season": "summer",
       "image": "images.melon",
       "done": false,
       "found": false
@@ -138,7 +138,7 @@
     {
       "id": "376",
       "name": "Poppy",
-      "Season": "summer",
+      "season": "summer",
       "image": "images.poppy",
       "done": false,
       "found": false
@@ -146,7 +146,7 @@
     {
       "id": "264",
       "name": "Radish",
-      "Season": "summer",
+      "season": "summer",
       "image": "images.radish",
       "done": false,
       "found": false
@@ -154,7 +154,7 @@
     {
       "id": "266",
       "name": "Red Cabbage",
-      "Season": "summer",
+      "season": "summer",
       "image": "images.redCabbage",
       "done": false,
       "found": false
@@ -162,7 +162,7 @@
     {
       "id": "268",
       "name": "Starfruit",
-      "Season": "summer",
+      "season": "summer",
       "image": "images.starfruit",
       "done": false,
       "found": false
@@ -170,7 +170,7 @@
     {
       "id": "593",
       "name": "Summer Spangle",
-      "Season": "summer",
+      "season": "summer",
       "image": "images.summerSpangle",
       "done": false,
       "found": false
@@ -178,7 +178,7 @@
     {
       "id": "SummerSquash",
       "name": "Summer Squash",
-      "Season": "summer",
+      "season": "summer",
       "image": "images.summerSquash",
       "done": false,
       "found": false
@@ -186,7 +186,7 @@
     {
       "id": "256",
       "name": "Tomato",
-      "Season": "summer",
+      "season": "summer",
       "image": "images.tomato",
       "done": false,
       "found": false
@@ -194,7 +194,7 @@
     {
       "id": "832",
       "name": "Pineapple",
-      "Season": "summer",
+      "season": "summer",
       "image": "images.pineapple",
       "done": false,
       "found": false
@@ -202,7 +202,7 @@
     {
       "id": "830",
       "name": "Taro Root",
-      "Season": "summer",
+      "season": "summer",
       "image": "images.taroRoot",
       "done": false,
       "found": false
@@ -210,7 +210,7 @@
     {
       "id": "421",
       "name": "Sunflower",
-      "Season": ["summer", "fall"],
+      "season": ["summer", "fall"],
       "image": "images.sunflower",
       "done": false,
       "found": false
@@ -218,7 +218,7 @@
     {
       "id": "262",
       "name": "Wheat",
-      "Season": ["summer", "fall"],
+      "season": ["summer", "fall"],
       "image": "images.wheat",
       "done": false,
       "found": false
@@ -226,7 +226,7 @@
     {
       "id": "270",
       "name": "Corn",
-      "Season": ["summer", "fall"],
+      "season": ["summer", "fall"],
       "image": "images.corn",
       "done": false,
       "found": false
@@ -234,7 +234,7 @@
     {
       "id": "300",
       "name": "Amaranth",
-      "Season": "fall",
+      "season": "fall",
       "image": "images.amaranth",
       "done": false,
       "found": false
@@ -242,7 +242,7 @@
     {
       "id": "274",
       "name": "Artichoke",
-      "Season": "fall",
+      "season": "fall",
       "image": "images.artichoke",
       "done": false,
       "found": false
@@ -250,7 +250,7 @@
     {
       "id": "284",
       "name": "Beet",
-      "Season": "fall",
+      "season": "fall",
       "image": "images.beet",
       "done": false,
       "found": false
@@ -258,7 +258,7 @@
     {
       "id": "278",
       "name": "Bok Choy",
-      "Season": "fall",
+      "season": "fall",
       "image": "images.bokChoy",
       "done": false,
       "found": false
@@ -266,7 +266,7 @@
     {
       "id": "Broccoli",
       "name": "Broccoli",
-      "Season": "fall",
+      "season": "fall",
       "image": "images.broccoli",
       "done": false,
       "found": false
@@ -274,7 +274,7 @@
     {
       "id": "282",
       "name": "Cranberries",
-      "Season": "fall",
+      "season": "fall",
       "image": "images.cranberries",
       "done": false,
       "found": false
@@ -282,7 +282,7 @@
     {
       "id": "272",
       "name": "Eggplant",
-      "Season": "fall",
+      "season": "fall",
       "image": "images.eggplant",
       "done": false,
       "found": false
@@ -290,7 +290,7 @@
     {
       "id": "595",
       "name": "Fairy Rose",
-      "Season": "fall",
+      "season": "fall",
       "image": "images.fairyRose",
       "done": false,
       "found": false
@@ -298,7 +298,7 @@
     {
       "id": "398",
       "name": "Grape",
-      "Season": "fall",
+      "season": "fall",
       "image": "images.grape",
       "done": false,
       "found": false
@@ -306,7 +306,7 @@
     {
       "id": "276",
       "name": "Pumpkin",
-      "Season": "fall",
+      "season": "fall",
       "image": "images.pumpkin",
       "done": false,
       "found": false
@@ -314,7 +314,7 @@
     {
       "id": "280",
       "name": "Yam",
-      "Season": "fall",
+      "season": "fall",
       "image": "images.yam",
       "done": false,
       "found": false
@@ -322,7 +322,7 @@
     {
       "id": "417",
       "name": "Sweet Gem Berry",
-      "Season": "fall",
+      "season": "fall",
       "image": "images.sweetGemBerry",
       "done": false,
       "found": false
@@ -330,7 +330,7 @@
     {
       "id": "Powdermelon",
       "name": "Powdermelon",
-      "Season": "winter",
+      "season": "winter",
       "image": "images.powdermelon",
       "done": false,
       "found": false
@@ -338,7 +338,7 @@
     {
       "id": "454",
       "name": "Ancient Fruit",
-      "Season": ["spring", "summer", "fall"],
+      "season": ["spring", "summer", "fall"],
       "image": "images.ancientFruit",
       "done": false,
       "found": false
@@ -346,7 +346,7 @@
     {
       "id": "90",
       "name": "Cactus Fruit",
-      "Season": ["spring", "summer", "fall", "winter"],
+      "season": ["spring", "summer", "fall", "winter"],
       "image": "images.cactusFruit",
       "done": false,
       "found": false
@@ -354,7 +354,7 @@
     {
       "id": "889",
       "name": "Qi Fruit",
-      "Season": ["spring", "summer", "fall", "winter"],
+      "season": ["spring", "summer", "fall", "winter"],
       "image": "images.qiFruit",
       "done": false,
       "found": false

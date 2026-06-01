@@ -2,12 +2,14 @@
     {
       "id": "feastOfTheWinterStar_1",
       "name": "Secret Santa",
+      "season": "winter",
       "done": false,
       "found": false
     },
     {
       "id": "feastOfTheWinterStar_2",
       "name": "The Legend of the Winter Star",
+      "season": "winter",
       "done": false,
       "found": false
     }

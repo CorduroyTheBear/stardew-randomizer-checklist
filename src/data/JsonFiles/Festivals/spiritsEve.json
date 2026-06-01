@@ -2,12 +2,14 @@
     {
       "id": "spriritsEve_1",
       "name": "Spirit's Eve Maze",
+      "season": "fall",
       "done": false,
       "found": false
     },
     {
       "id": "spriritsEve_2",
       "name": "Jack-O-Lantern Recipe ",
+      "season": "fall",
       "done": false,
       "found": false
     }

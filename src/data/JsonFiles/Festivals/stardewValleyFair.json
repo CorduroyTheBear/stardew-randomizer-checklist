@@ -2,18 +2,21 @@
     {
       "id": "stardewValleyFair_1",
       "name": "Smashing Stone",
+      "season": "fall",
       "done": false,
       "found": false
     },
     {
       "id": "stardewValleyFair_2",
       "name": "Grange Display",
+      "season": "fall",
       "done": false,
       "found": false
     },
     {
       "id": "stardewValleyFair_3",
       "name": "Fair Stardrop",
+      "season": "fall",
       "done": false,
       "found": false
     }

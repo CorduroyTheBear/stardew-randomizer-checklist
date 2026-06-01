@@ -2,7 +2,9 @@
 
 import { useState } from "react";
 
-export default function RenderChecklist({className, data, heading, hideCompleted = false, onToggle})
+import { filterSeasons } from './Filters/filterSeasons';
+
+export default function RenderChecklist({className, data, heading, hideCompleted = false, onToggle, season = "all"})
 {
     // Set table default setting to closed
     const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +22,7 @@ export default function RenderChecklist({className, data, heading, hideCompleted
     {
         // Hide completed items if setting is on
         if (hideCompleted && item.done) return false;
+        if (!filterSeasons(item, season)) return false;
         
         else
         {

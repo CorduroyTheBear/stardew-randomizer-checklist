@@ -2,6 +2,7 @@
     {
       "id": "festiveOfIce_1",
       "name": "Win Fishing Competition",
+      "season": "winter",
       "done": false,
       "found": false
     }

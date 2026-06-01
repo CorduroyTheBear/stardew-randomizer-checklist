@@ -2,12 +2,14 @@
     {
       "id": "eggFestival_1",
       "name": "Egg Hunt Victory",
+      "season": "spring",
       "done": false,
       "found": false
     },
     {
       "id": "eggFestival_2",
       "name": "Strawberry Seeds",
+      "season": "spring",
       "done": false,
       "found": false
     }

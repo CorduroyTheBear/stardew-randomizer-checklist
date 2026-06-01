@@ -2,60 +2,70 @@
     {
       "id": "troutDerby_1",
       "name": "Trout Derby Reward 1",
+      "season": "summer",
       "done": false,
       "found": false
     },
     {
       "id": "troutDerby_2",
       "name": "Trout Derby Reward 2",
+      "season": "summer",
       "done": false,
       "found": false
     },
     {
       "id": "troutDerby_3",
       "name": "Trout Derby Reward 3",
+      "season": "summer",
       "done": false,
       "found": false
     },
     {
       "id": "troutDerby_4",
       "name": "Trout Derby Reward 4",
+      "season": "summer",
       "done": false,
       "found": false
     },
     {
       "id": "troutDerby_5",
       "name": "Trout Derby Reward 5",
+      "season": "summer",
       "done": false,
       "found": false
     },
     {
       "id": "troutDerby_6",
       "name": "Trout Derby Reward 6",
+      "season": "summer",
       "done": false,
       "found": false
     },
     {
       "id": "troutDerby_7",
       "name": "Trout Derby Reward 7",
+      "season": "summer",
       "done": false,
       "found": false
     },
     {
       "id": "troutDerby_8",
       "name": "Trout Derby Reward 8",
+      "season": "summer",
       "done": false,
       "found": false
     },
     {
       "id": "troutDerby_9",
       "name": "Trout Derby Reward 9",
+      "season": "summer",
       "done": false,
       "found": false
     },
     {
       "id": "troutDerby_10",
       "name": "Trout Derby Reward 10",
+      "season": "summer",
       "done": false,
       "found": false
     }
