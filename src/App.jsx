@@ -1,5 +1,7 @@
 import {useState} from 'react';
+
 import {filterGroups, filterGroupedTables} from './components/Filters/filterTables';
+import { filterSeasons } from './components/Filters/filterSeasons';
 import {GROUPED_TABLES} from './data/groupedTables';
 
 
@@ -10,6 +12,7 @@ import RandomizerSettings from './components/TableSettings/randomizerSettings';
 import './App.css';
 import './components/renderChecklist.css';
 import './data/tables.css';
+
 
 
 
@@ -80,6 +83,17 @@ function App()
 
       {Object.entries(GROUPED_TABLES)
       .filter(([key]) => visibleGroupedKeys.includes(key))
+
+      .filter(([key, table]) =>
+      {
+        const allowedGroups = filterGroups(key, settings);
+        const filteredGroups = allowedGroups
+          ? table.groups.filter(group => allowedGroups.includes(group.id))
+          : table.groups;
+
+          return filteredGroups.some(group => group.data.some(item => filterSeasons(item, season)));
+      })
+
       .map(([key, table]) =>
       {
           const allowedGroups = filterGroups(key, settings);
