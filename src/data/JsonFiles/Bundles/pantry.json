@@ -12,16 +12,19 @@
     {
       "id": "springCrops",
       "name": "Spring",
+      "season": "spring",
       "done": false
     },
     {
       "id": "summerCrops",
       "name": "Summer",
+      "season": "summer",
       "done": false
     },
     {
       "id": "fallCrops",
       "name": "Fall",
+      "season": "fall",
       "done": false
     },
     {
