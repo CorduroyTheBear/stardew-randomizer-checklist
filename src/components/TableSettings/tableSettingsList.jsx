@@ -92,16 +92,6 @@ export default function SettingsList({settings, setSettings, })
                     <option value = "progressive">Progressive</option>
                 </select>
             </label>
-
-
-            <label className = "checkbox-setting">
-                <input
-                    type = "checkbox"
-                    checked = {settings.hideCompleted}
-                    onChange = {(e) => update("hideCompleted", e.target.checked)}
-                />
-                Hide Completed Checks
-            </label>
         </>
     );
 }

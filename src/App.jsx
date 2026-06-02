@@ -34,9 +34,10 @@ function App()
     bookSanity: "none",
     movieSanity: "none",
     museamsity: "none",
-    hideCompleted: false,
     skillProgression: "vanilla",
-    toolProgression: "vanilla"
+    toolProgression: "vanilla",
+
+    hideCompleted: false
   });
   
   const [tableData, setTableData] = useState( () =>
@@ -81,6 +82,15 @@ function App()
                   />
               </label>
 
+              <label>
+                Hide Completed Checks
+                <input
+                    type = "checkbox"
+                    checked = {settings.hideCompleted}
+                    onChange = {(e) => setSettings(prev => ({ ...prev, hideCompleted: e.target.checked }))}
+                />
+              </label>
+
             </div>
         </div>
 
@@ -107,6 +117,18 @@ function App()
           return filteredGroups.some(group => group.data.some(item => filterSeasons(item, season, seasonExclusive)));
       })
 
+      .filter(([key, table]) =>
+      {
+        if (!settings.hideCompleted) return true;
+
+        const allowedGroups = filterGroups(key, settings);
+        const filteredGroups = allowedGroups
+          ? table.groups.filter(group => allowedGroups.includes(group.id))
+          : table.groups;
+
+        return filteredGroups.some(group => group.data.some(item => !item.done));
+      })
+
       .map(([key, table]) =>
       {
           const allowedGroups = filterGroups(key, settings);
@@ -114,9 +136,13 @@ function App()
             ? table.groups.filter(group => allowedGroups.includes(group.id))
             : table.groups;
 
+          const allVisibleGroups = filteredGroups
+          .filter(group => group.data.some(item => filterSeasons(item, season, seasonExclusive)))
+          .filter(group => !settings.hideCompleted || group.data.some(item => !item.done));
+
           // Handle styles based on # of tables
-          const headingClass = filteredGroups.length === 1 ? "tableLevel-1" : "tableLevel-2_Heading";
-          const groupClass = filteredGroups.length === 1 ? "tableLevel-1" : "tableLevel-2_Tables";
+          const headingClass = allVisibleGroups.length === 1 ? "tableLevel-2_Heading" : "tableLevel-2_Heading";
+          const groupClass = allVisibleGroups.length === 1 ? "tableLevel-1" : "tableLevel-2_Tables";
 
           return(
             <GroupedChecklist
@@ -127,6 +153,7 @@ function App()
             onToggle = {(groupID, itemID, field) => handleToggle(groupID, itemID, field)}
             season = {season}
             seasonExclusive = {seasonExclusive}
+            hideCompleted = {settings.hideCompleted}
           />
           );
       })
