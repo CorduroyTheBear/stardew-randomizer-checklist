@@ -12,6 +12,7 @@ export function filterGroupedTables(settings)
     if (settings.arcade !== "disabled") visible.push("arcade");
     if (settings.buildingProgression !== "vanilla") visible.push("buildingProgression");
     if (settings.bookSanity !== "none") visible.push("bookSanity");
+    if (settings.cropsanity !== "disabled") visible.push("cropsanity");
     if (settings.elevatorProgression !== "vanilla") visible.push("elevatorProgression");
     if (settings.festivalLocations !== "none") visible.push("festivalLocations");
     if (settings.movieSanity !== "none") visible.push("movieSanity");

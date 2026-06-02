@@ -35,6 +35,14 @@ export default function SettingsList({settings, setSettings, })
             </label>
 
             <label>
+                Cropssanity:
+                <select value = {settings.cropsanity} onChange = {(e) => update("cropsanity", e.target.value)}>
+                    <option value = "disabled">Disabled</option>
+                    <option value = "enabled">Enabled</option>
+                </select>
+            </label>
+
+            <label>
                 Elevator Progression:
 
                 <select value = {settings.elevatorProgression} onChange = {(e) => update("elevatorProgression", e.target.value)}>

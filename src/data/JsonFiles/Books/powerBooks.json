@@ -1,6 +1,7 @@
 [
   {
     "id": "Book_AnimalCatalouge",
+    "location": "stardewValley",
     "name": "Animal Catalogue",
     "done": false,
     "found": false
@@ -14,17 +15,20 @@
   {
     "id": "Book_Bombs",
     "name": "Dwarvish Safety Manual",
+    "location": "stardewValley",
     "done": false,
     "found": false
   },
   {
     "id": "Book_Friendship",
     "name": "Friendship 101",
+    "location": "stardewValley",
     "done": false,
     "found": false
   },
   {
     "id": "Book_Horse",
+    "location": "stardewValley",
     "name": "Horse: The Book",
     "done": false,
     "found": false
@@ -44,6 +48,7 @@
   {
     "id": "Book_Marlon",
     "name": "Mapping Cave Systems",
+    "location": "stardewValley",
     "done": false,
     "found": false
   },
@@ -55,6 +60,7 @@
   },
   {
     "id": "Book_Grass",
+    "location": "stardewValley",
     "name": "Ol' Slitherlegs",
     "done": false,
     "found": false
@@ -62,30 +68,35 @@
   {
     "id": "Book_PriceCatalogue",
     "name": "Price Catalogue",
+    "location": "stardewValley",
     "done": false,
     "found": false
   },
   {
     "id": "Book_WildSeeds",
     "name": "Raccoon Journal",
+    "location": "stardewValley",
     "done": false,
     "found": false
   },
   {
     "id": "Book_Trash",
+    "location": "stardewValley",
     "name": "The Alleyway Buffet",
     "done": false,
     "found": false
   },
   {
     "id": "Book_Crabbing",
+    "location": "stardewValley",
     "name": "The Art O' Crabbing",
     "done": false,
     "found": false
   },
   {
     "id": "Book_Diamounds",
-    "name": "The Diamond Hunter",
+    "location": "stardewValley",
+    "name": "gingerIsland",
     "done": false,
     "found": false
   },
@@ -98,12 +109,14 @@
   {
     "id": "Book_Speed",
     "name": "Way Of The Wind pt. 1",
+    "location": "stardewValley",
     "done": false,
     "found": false
   },
   {
     "id": "Book_Speed2",
     "name": "Way Of The Wind pt. 2",
+    "location": "stardewValley",
     "done": false,
     "found": false
   },

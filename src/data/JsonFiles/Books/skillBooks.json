@@ -38,6 +38,7 @@
   {
     "id": "Book_QueenOfSauce",
     "name": "Queen Of Sauce Cookbook",
+    "location": "gingerIsland",
     "done": false,
     "found": false
   }
