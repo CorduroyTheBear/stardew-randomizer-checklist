@@ -1,0 +1,112 @@
+[
+  {
+    "id": "aCuriousSubstance",
+    "name": "A Curious Substance",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "aquaticOverpopulation",
+    "name": "Aquatic Overpopulation",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "biomeBalance",
+    "name": "Biome Balance",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "cavePatrol",
+    "name": "Cave Patrol",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "communityCleanup",
+    "name": "Community Cleanup",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "cropOrder",
+    "name": "Crop Order",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "fragmentsOfThePast",
+    "name": "Fragments of the past",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "giftsForGeorge",
+    "name": "Gifts for George",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "gusFamousOmelet",
+    "name": "Gus' Famous Omelet",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "islandIngredients",
+    "name": "Island Ingredients",
+    "location": "gingerIsland",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "juicyBugsWanted",
+    "name": "Juicy Bugs Wanted!",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "rockRejuvenation",
+    "name": "Rock Rejuvenation",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "pierresPrimeProduce",
+    "name": "Pierre's Prime Produce",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "prismaticJelly",
+    "name": "Prismatic Jelly",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "RobinsProject",
+    "name": "Robin's Project",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "robinsResourceRush",
+    "name": "Robin's Resource Rush",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "theStrongStuff",
+    "name": "The Strong Stuff",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "tropicalFish",
+    "name": "Tropical Fish",
+    "location": "gingerIsland",
+    "done": false,
+    "found": false
+  }
+ ]

@@ -36,6 +36,7 @@ function App()
     movieSanity: "none",
     museamsity: "none",
     skillProgression: "vanilla",
+    specialOrders: "vanilla",
     toolProgression: "vanilla",
 
     hideCompleted: false

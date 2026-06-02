@@ -93,6 +93,16 @@ export default function SettingsList({settings, setSettings, })
             </label>
 
             <label>
+                Special Order Locations:
+
+                <select value = {settings.specialOrders} onChange = {(e) => update("specialOrders", e.target.value)}>
+                    <option value="vanilla">Vanilla</option>
+                    <option value="board">Board</option>
+                    <option value="boardQi">Board Qi</option>
+                </select>
+            </label>
+
+            <label>
                 Tool Progression:
 
                 <select value = {settings.toolProgression} onChange = {(e) => update("toolProgression", e.target.value)}>

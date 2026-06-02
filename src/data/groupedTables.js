@@ -89,6 +89,10 @@ import foraging_m from "./JsonFiles/Skills/foraging_m.json";
 import mining from "./JsonFiles/Skills/mining.json";
 import mining_m from "./JsonFiles/Skills/mining_m.json";
 
+// Special Orders
+import sdvBoard from "./JsonFiles/SpecialOrders/sdvBoard.json";
+import qiBoard from "./JsonFiles/SpecialOrders/qiBoard.json";
+
 // Tool Progression
 import axe from "./JsonFiles/Tools/axe.json";
 import fishingRod from "./JsonFiles/Tools/fishingRod.json";
@@ -283,6 +287,17 @@ export const GROUPED_TABLES =
            {id: "mining", heading: "Mining", className: "tableLevel-2_Tables", data: mining},
            {id: "mining_m", heading: "Mining", className: "tableLevel-2_Tables", data: mining_m},
         ]
+   },
+
+   specialOrders:
+   {
+     heading: "Special Orders",
+     className: "tableLevel-2_Heading",
+        groups:
+     [
+          {id: "sdvBoard", heading: "Stardew Valley", className: "tableLevel-2_Tables", data: sdvBoard},
+          {id: "qiBoard", heading: "Qi's Board", className: "tableLevel-2_Tables", data:qiBoard}
+     ]
    },
 
    toolProgression:

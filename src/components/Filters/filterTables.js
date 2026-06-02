@@ -18,6 +18,7 @@ export function filterGroupedTables(settings)
     if (settings.movieSanity !== "none") visible.push("movieSanity");
     if (settings.museamsity !== "none") visible.push("museamsity");
     if (settings.skillProgression !== "vanilla") visible.push("skillProgression");
+    if (settings.specialOrders !== "vanilla") visible.push("specialOrders");
     if (settings.toolProgression !== "vanilla") visible.push("toolProgression");
 
     return visible;
@@ -103,6 +104,16 @@ export function filterGroups(tableKey, settings)
             if (settings.skillProgression === "progressiveMaster") visible.push("combat_m", "farm_m", "fishing_m", "foraging_m", "mining_m");
 
            return visible;
+        }
+
+        case "specialOrders":
+        {
+            const visible = [];
+
+            if (settings.specialOrders === "board") visible.push("sdvBoard");
+            if (settings.specialOrders === "boardQi") visible.push("sdvBoard", "qiBoard");
+
+            return visible;
         }
         
         // Default settings = always show
