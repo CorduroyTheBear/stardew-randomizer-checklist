@@ -1,0 +1,297 @@
+[
+    {
+      "id": "introductions",
+      "name": "Introductions",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "howToWinFriends",
+      "name": "How To Win Friends",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "gettingStarted",
+      "name": "Getting Started",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "raisingAnimals",
+      "name": "Raising Animals",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "advancement",
+      "name": "Advancement",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "archaeology",
+      "name": "Archaeology",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "meetTheWizard",
+      "name": "Meet The Wizard",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "forgingAhead",
+      "name": "Forging Ahead",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "smelting",
+      "name": "Smelting",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "initiation",
+      "name": "Initiation",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "robinsLostAxe",
+      "name": "Robin's Lost Axe",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "jodisRequest",
+      "name": "Jodi's Request",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "mayorsShorts",
+      "name": "Mayor's Shorts",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "blackberryBasket",
+      "name": "Blackberry Basket",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "marniesRequest",
+      "name": "Marnie's Request",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "pamIsThirsty",
+      "name": "Pam Is Thirsty",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "aDarkReagent",
+      "name": "A Dark Reagent",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "cowsdelight",
+      "name": "Cow's Delight",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "theSkullKey",
+      "name": "The Skull Key",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "cropResearch",
+      "name": "Crop Research",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "kneeTherapy",
+      "name": "Knee Therapy",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "robinsRequest",
+      "name": "Robin's Request",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "qisChallenge",
+      "name": "Qi's Challenge",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "theMysteriousQi",
+      "name": "The Mysterious Qi",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "carvingPumpkins",
+      "name": "Carving Pumpkins",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "aWinterMystery",
+      "name": "A Winter Mystery",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "strangeNote",
+      "name": "Strange Note",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "crypticNote",
+      "name": "Cryptic Note",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "freshFruit",
+      "name": "Fresh Fruit",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "aquaticResearch",
+      "name": "Aquatic Research",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "aSoldiersStar",
+      "name": "A Soldier's Star",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "mayorsNeed",
+      "name": "Mayor's Need",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "wantedLobster",
+      "name": "Wanted: Lobster",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "pamNeedsJuice",
+      "name": "Pam Needs Juice",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fishCasserole",
+      "name": "Fish Casserole",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "catchASquid",
+      "name": "Catch A Squid",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fishStew",
+      "name": "Fish Stew",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "pierresNotice",
+      "name": "Pierre's Notice",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "clintsAttempt",
+      "name": "Clint's Attempt",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "aFavorForClint",
+      "name": "A Favor For Clint",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "staffOfPower",
+      "name": "Staff Of Power",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "grannysGift",
+      "name": "Granny's Gift",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "exoticSpirits",
+      "name": "Exotic Spirits",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "catchALingcod",
+      "name": "Catch a Lingcod",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "thePiratesWife",
+      "name": "The Pirate's Wife",
+      "location": "gingerIsland",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "darkTalisman",
+      "name": "Dark Talisman",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "goblinProblem",
+      "name": "Goblin Problem",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "magicInk",
+      "name": "Magic Ink",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "theGiantStump",
+      "name": "The Giant Stump",
+      "done": false,
+      "found": false
+    }
+  ]

@@ -1,0 +1,14 @@
+[
+    {
+      "id": "fishing_1",
+      "name": "Fishing 1",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fishing_2",
+      "name": "Fishing 2",
+      "done": false,
+      "found": false
+    }
+]

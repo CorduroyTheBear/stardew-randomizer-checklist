@@ -35,6 +35,7 @@ function App()
     bookSanity: "none",
     movieSanity: "none",
     museamsity: "none",
+    quests: "none",
     skillProgression: "vanilla",
     specialOrders: "vanilla",
     toolProgression: "vanilla",
@@ -67,7 +68,7 @@ function App()
               <label>
                 Seasons:
                 <select value = {season} onChange = {(e) => setSeason(e.target.value)}>
-                  <option value = "all">All Seasons</option>
+                  <option value = "all">All</option>
                   <option value = "spring">Spring</option>
                   <option value = "summer">Summer</option>
                   <option value = "fall">Fall</option>

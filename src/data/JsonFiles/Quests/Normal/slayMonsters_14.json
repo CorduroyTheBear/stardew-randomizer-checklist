@@ -1,0 +1,14 @@
+[
+    {
+      "id": "slayMonsters_1",
+      "name": "Slay Monsters 1",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "slayMonsters_2",
+      "name": "Slay Monsters 2",
+      "done": false,
+      "found": false
+    }
+]

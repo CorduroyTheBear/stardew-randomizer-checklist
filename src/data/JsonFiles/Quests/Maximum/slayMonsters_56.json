@@ -1,0 +1,50 @@
+[
+    {
+      "id": "slayMonsters_1",
+      "name": "Slay Monsters 1",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "slayMonsters_2",
+      "name": "Slay Monsters 2",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "slayMonsters_3",
+      "name": "Slay Monsters 3",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "slayMonsters_4",
+      "name": "Slay Monsters 4",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "slayMonsters_5",
+      "name": "Slay Monsters 5",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "slayMonsters_6",
+      "name": "Slay Monsters 6",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "slayMonsters_7",
+      "name": "Slay Monsters 7",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "slayMonsters_8",
+      "name": "Slay Monsters 8",
+      "done": false,
+      "found": false
+    }
+]

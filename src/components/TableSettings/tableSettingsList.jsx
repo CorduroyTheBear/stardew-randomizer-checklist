@@ -83,6 +83,19 @@ export default function SettingsList({settings, setSettings, })
             </label>
 
             <label>
+                Quest Locations:
+
+                <select value = {settings.quests} onChange = {(e) => update("quests", e.target.value)}>
+                    <option value="none">None</option>
+                    <option value="story">Story</option>
+                    <option value="minimum">Minimum - 7</option>
+                    <option value="normal">Normal - 14</option>
+                    <option value="lots">Lots - 28</option>
+                    <option value="maximum">Maximum - 56</option>
+                </select>
+            </label>
+
+            <label>
                 Skill Progression:
 
                 <select value = {settings.skillProgression} onChange = {(e) => update("skillProgression", e.target.value)}>

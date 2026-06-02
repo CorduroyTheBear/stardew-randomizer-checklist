@@ -1,0 +1,26 @@
+[
+    {
+      "id": "gathering_1",
+      "name": "Gathering 1",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "gathering_2",
+      "name": "Gathering 2",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "gathering_3",
+      "name": "Gathering 3",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "gathering_4",
+      "name": "Gathering 4",
+      "done": false,
+      "found": false
+    }
+]

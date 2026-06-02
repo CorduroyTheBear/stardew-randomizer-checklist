@@ -1,0 +1,50 @@
+[
+    {
+      "id": "fishing_1",
+      "name": "Fishing 1",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fishing_2",
+      "name": "Fishing 2",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fishing_3",
+      "name": "Fishing 3",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fishing_4",
+      "name": "Fishing 4",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fishing_5",
+      "name": "Fishing 5",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fishing_6",
+      "name": "Fishing 6",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fishing_7",
+      "name": "Fishing 7",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fishing_8",
+      "name": "Fishing 8",
+      "done": false,
+      "found": false
+    }
+]

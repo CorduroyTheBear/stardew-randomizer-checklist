@@ -73,6 +73,32 @@ import snacks from "./JsonFiles/Movies/snacks.json";
   import geodeMinerals from "./JsonFiles/Museam/geodeMinerals.json";
   import magmaGeodeMinerals from "./JsonFiles/Museam/magmaGeodeMinerals.json";
 
+// Quests
+import storyQuests from "./JsonFiles/Quests/storyQuests.json";
+
+     // Minimum
+     import minimumFishing from "./JsonFiles/Quests/Minimum/fishing_7.json";
+     import minimumGathering from "./JsonFiles/Quests/Minimum/gathering_7.json";
+     import minimumItemDelivery from "./JsonFiles/Quests/Minimum/itemDelivery_7.json";
+     import minimumSlayMonsters from "./JsonFiles/Quests/Minimum/slayMonsters_7.json";
+
+     // Normal
+     import normalFishing from "./JsonFiles/Quests/Normal/fishing_14.json";
+     import normalGathering from "./JsonFiles/Quests/Normal/gathering_14.json";
+     import normalItemDelivery from "./JsonFiles/Quests/Normal/itemDelivery_14.json";
+     import normalSlayMonsters from "./JsonFiles/Quests/Normal/slayMonsters_14.json";
+
+     // Lots
+     import lotsFishing from "./JsonFiles/Quests/Lots/fishing_28.json";
+     import lotsGathering from "./JsonFiles/Quests/Lots/gathering_28.json";
+     import lotsItemDelivery from "./JsonFiles/Quests/Lots/itemDelivery_28.json";
+     import lotsSlayMonsters from "./JsonFiles/Quests/Lots/slayMonsters_28.json";
+
+     // Maximum
+     import maximumFishing from "./JsonFiles/Quests/Maximum/fishing_56.json";
+     import maximumGathering from "./JsonFiles/Quests/Maximum/gathering_56.json";
+     import maximumItemDelivery from "./JsonFiles/Quests/Maximum/itemDelivery_56.json";
+     import maximumSlayMonsters from "./JsonFiles/Quests/Maximum/slayMonsters_56.json";
 
 // Raccoon
 import raccoonChecks from "./JsonFiles/raccoonRequestChecks.json";
@@ -257,6 +283,40 @@ export const GROUPED_TABLES =
             {id: "gems", heading: "Gems", className: "tableLevel-2_Tables", data: gems},
             {id: "geodeMinerals", heading: "Geode", className: "tableLevel-2_Tables", data: geodeMinerals},
             {id: "magmaGeodeMinerals", heading: "Magma Geode", className: "tableLevel-2_Tables", data: magmaGeodeMinerals},
+        ]
+   },
+
+   quests:
+   {
+        heading: "Quests",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "storyQuests", heading: "Story", className: "tableLevel-2_Tables", data: storyQuests},
+          
+            // Minimum
+            {id: "minimumFishing", heading: "Fishing", className: "tableLevel-2_Tables", data: minimumFishing},
+            {id: "minimumGathering", heading: "Gathering", className: "tableLevel-2_Tables", data: minimumGathering},
+            {id: "minimumItemDelivery", heading: "Item Delivery", className: "tableLevel-2_Tables", data: minimumItemDelivery},
+            {id: "minimumSlayMonsters", heading: "Slay Monsters", className: "tableLevel-2_Tables", data: minimumSlayMonsters},
+
+            // Normal
+            {id: "normalFishing", heading: "Fishing", className: "tableLevel-2_Tables", data: normalFishing},
+            {id: "normalGathering", heading: "Gathering", className: "tableLevel-2_Tables", data: normalGathering},
+            {id: "normalItemDelivery", heading: "Item Delivery", className: "tableLevel-2_Tables", data: normalItemDelivery},
+            {id: "normalSlayMonsters", heading: "Slay Monsters", className: "tableLevel-2_Tables", data: normalSlayMonsters},
+
+            // Lots
+            {id: "lotsFishing", heading: "Fishing", className: "tableLevel-2_Tables", data: lotsFishing},
+            {id: "lotsGathering", heading: "Gathering", className: "tableLevel-2_Tables", data: lotsGathering},
+            {id: "lotsItemDelivery", heading: "Item Delivery", className: "tableLevel-2_Tables", data: lotsItemDelivery},
+            {id: "lotsSlayMonsters", heading: "Slay Monsters", className: "tableLevel-2_Tables", data: lotsSlayMonsters},
+
+            // Maximum
+            {id: "maximumFishing", heading: "Fishing", className: "tableLevel-2_Tables", data: maximumFishing},
+            {id: "maximumGathering", heading: "Gathering", className: "tableLevel-2_Tables", data: maximumGathering},
+            {id: "maximumItemDelivery", heading: "Item Delivery", className: "tableLevel-2_Tables", data: maximumItemDelivery},
+            {id: "maximumSlayMonsters", heading: "Slay Monsters", className: "tableLevel-2_Tables", data: maximumSlayMonsters}
         ]
    },
 

@@ -17,6 +17,7 @@ export function filterGroupedTables(settings)
     if (settings.festivalLocations !== "none") visible.push("festivalLocations");
     if (settings.movieSanity !== "none") visible.push("movieSanity");
     if (settings.museamsity !== "none") visible.push("museamsity");
+    if (settings.quests !== "none") visible.push("quests");
     if (settings.skillProgression !== "vanilla") visible.push("skillProgression");
     if (settings.specialOrders !== "vanilla") visible.push("specialOrders");
     if (settings.toolProgression !== "vanilla") visible.push("toolProgression");
@@ -35,9 +36,8 @@ export function filterGroups(tableKey, settings)
         {
             const visible = [];
 
-            if (settings.groupTableName === "settingName" || settings.bookSanity === "settingName2") visible.push("individualTable");
-            if (settings.groupTableName === "settingName" || settings.bookSanity === "settingName2") visible.push("individualTable2");
-            if (settings.groupTableName === "all") visible.push("individualTable3");
+            if (settings.groupTableName === "settingName") visible.push("individualTable");
+            if (settings.groupTableName === "settingName") visible.push("individualTable2");
 
             return visible;
         }
@@ -93,6 +93,19 @@ export function filterGroups(tableKey, settings)
             if (settings.museamsity === "milestones") visible.push("artifactMilestones", "generalMilestones", "mineralMilestones");
             if (settings.museamsity === "all") visible.push("artifacts", "forgedMinerals", "frozenGeodeMinerals", "gems", "geodeMinerals", "magmaGeodeMinerals");
 
+            return visible;
+        }
+
+        case "quests":
+        {
+            const visible = [];
+
+            if (settings.quests === "story") visible.push("storyQuests");
+            if (settings.quests === "minimum") visible.push("storyQuests", "minimumFishing", "minimumGathering", "minimumItemDelivery", "minimumSlayMonsters");
+            if (settings.quests === "normal") visible.push("storyQuests", "normalFishing", "normalGathering", "normalItemDelivery","normalSlayMonsters");
+            if (settings.quests === "lots") visible.push("storyQuests", "lotsFishing", "lotsGathering", "lotsItemDelivery", "lotsSlayMonsters");
+            if (settings.quests === "maximum") visible.push("storyQuests", "maximumFishing", "maximumGathering", "maximumItemDelivery", "maximumSlayMonsters");
+            
             return visible;
         }
 
