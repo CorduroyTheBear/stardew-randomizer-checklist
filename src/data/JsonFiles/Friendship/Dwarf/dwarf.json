@@ -1,0 +1,52 @@
+[
+ {
+  "id": "dwarf_1",
+  "name": "Heart 1",
+  "found": false
+ },
+ {
+  "id": "dwarf_2",
+  "name": "Heart 2",
+  "found": false
+ },
+ {
+  "id": "dwarf_3",
+  "name": "Heart 3",
+  "found": false
+ },
+ {
+  "id": "dwarf_4",
+  "name": "Heart 4",
+  "found": false
+ },
+ {
+  "id": "dwarf_5",
+  "name": "Heart 5",
+  "found": false
+ },
+ {
+  "id": "dwarf_6",
+  "name": "Heart 6",
+  "found": false
+ },
+ {
+  "id": "dwarf_7",
+  "name": "Heart 7",
+  "found": false
+ },
+ {
+  "id": "dwarf_8",
+  "name": "Heart 8",
+  "found": false
+ },
+{
+  "id": "dwarf_9",
+  "name": "Heart 9",
+  "found": false
+ },
+{
+  "id": "dwarf_10",
+  "name": "Heart 10",
+  "found": false
+ }
+]
