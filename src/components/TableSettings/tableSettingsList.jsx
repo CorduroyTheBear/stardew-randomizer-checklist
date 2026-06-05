@@ -62,6 +62,18 @@ export default function SettingsList({settings, setSettings, })
             </label>
 
             <label>
+                Friendsanity:
+
+                <select value = {settings.friendsanity} onChange = {(e) => update("friendsanity", e.target.value)}>
+                    <option value="none">None</option>
+                    <option value="bachelors">Bachelors</option>
+                    <option value = "startingNpcs">Starting Npcs</option>
+                    <option value = "all">All</option>
+                    <option value = "allWithMarriage">All With Marriage</option>
+                </select>
+            </label>
+
+            <label>
                 Moviesanity:
 
                 <select value = {settings.movieSanity} onChange = {(e) => update("movieSanity", e.target.value)}>

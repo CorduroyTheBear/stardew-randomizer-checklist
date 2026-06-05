@@ -50,6 +50,126 @@ import elevatorProgression from "./JsonFiles/minesElevators.json";
     import stardewValleyFair from "./JsonFiles/Festivals/stardewValleyFair.json";
     import troutDerby from "./JsonFiles/Festivals/troutDerby.json";
 
+// Friendship
+import otherFriendChecks from "./JsonFiles/Friendship/otherFriendChecks.json";
+import pet from "./JsonFiles/Friendship/pet.json";
+
+     // Abigail
+     import abigail from "./JsonFiles/Friendship/Abigail/abigail.json";
+     import abigail_14 from "./JsonFiles/Friendship/Abigail/abigail_14.json";
+
+     // Alex
+     import alex from "./JsonFiles/Friendship/Alex/alex.json";
+     import alex_14 from "./JsonFiles/Friendship/Alex/alex_14.json";
+
+     // Caroline
+     import caroline from "./JsonFiles/Friendship/Caroline/caroline.json";
+
+     // Clint
+     import clint from "./JsonFiles/Friendship/Clint/clint.json";
+     //import clint_14 from "./JsonFiles/Friendship/Clint/clint_14.json";
+
+     // Demetrius
+     import demetrius from "./JsonFiles/Friendship/Demetrius/demetrius.json";
+
+     // Dwarf
+     import dwarf from "./JsonFiles/Friendship/Dwarf/dwarf.json";
+
+     // Elliot
+     import elliot from "./JsonFiles/Friendship/Elliot/elliot.json";
+     import elliot_14 from "./JsonFiles/Friendship/Elliot/elliot_14.json";
+
+     // Emily
+     import emily from "./JsonFiles/Friendship/Emily/emily.json";
+     import emily_14 from "./JsonFiles/Friendship/Emily/emily_14.json";
+
+     // Evelyn
+     import evelyn from "./JsonFiles/Friendship/Evelyn/evelyn.json";
+
+     // George
+     import george from "./JsonFiles/Friendship/George/george.json";
+
+     // Gus
+     import gus from "./JsonFiles/Friendship/Gus/gus.json";
+
+     // Haley
+     import haley from "./JsonFiles/Friendship/Haley/haley.json";
+     import haley_14 from "./JsonFiles/Friendship/Haley/haley_14.json";
+
+     // Harvey
+     import harvey from "./JsonFiles/Friendship/Harvey/harvey.json";
+     import harvey_14 from "./JsonFiles/Friendship/Harvey/harvey_14.json";
+
+     // Jas
+     import jas from "./JsonFiles/Friendship/Jas/jas.json";
+
+     // Jodi
+     import jodi from "./JsonFiles/Friendship/Jodi/jodi.json";
+
+     // Kent
+     import kent from "./JsonFiles/Friendship/Kent/kent.json";
+
+     // Krobus
+     import krobus from "./JsonFiles/Friendship/Krobus/krobus.json";
+
+     // Leah
+     import leah from "./JsonFiles/Friendship/Leah/leah.json";
+     import leah_14 from "./JsonFiles/Friendship/Leah/leah_14.json";
+
+     // Linuis
+     import linus from "./JsonFiles/Friendship/Linus/linus.json";
+
+     // Leo
+     import leo from "./JsonFiles/Friendship/Leo/leo.json";
+
+     // Lewis
+     import lewis from "./JsonFiles/Friendship/Lewis/lewis.json";
+
+     // Marnie
+     import marnie from "./JsonFiles/Friendship/Marnie/marnie.json";
+
+     // Maru
+     import maru from "./JsonFiles/Friendship/Maru/maru.json";
+     import maru_14 from "./JsonFiles/Friendship/Maru/maru_14.json";
+
+     // Pam
+     import pam from "./JsonFiles/Friendship/Pam/pam.json";
+
+     // Penny
+     import penny from "./JsonFiles/Friendship/Penny/penny.json";
+     import penny_14 from "./JsonFiles/Friendship/Penny/penny_14.json";
+
+     // Pierre
+     import pierre from "./JsonFiles/Friendship/Pierre/pierre.json";
+
+     // Robin
+     import robin from "./JsonFiles/Friendship/Robin/robin.json";
+
+     // Sam
+     import sam from "./JsonFiles/Friendship/Sam/sam.json";
+     import sam_14 from "./JsonFiles/Friendship/Sam/sam_14.json";
+
+     // Sandy <3
+     import sandy from "./JsonFiles/Friendship/Sandy/sandy.json";
+     import sandy_14 from "./JsonFiles/Friendship/Sandy/sandy_14.json";
+
+     // Sebastian
+     import sebastian from "./JsonFiles/Friendship/Sebastian/sebastian.json";
+     import sebastian_14 from "./JsonFiles/Friendship/Sebastian/sebastian_14.json";
+
+     // Shane
+     import shane from "./JsonFiles/Friendship/Shane/shane.json";
+     import shane_14 from "./JsonFiles/Friendship/Shane/shane_14.json";
+
+     // Vincent
+     import vincent from "./JsonFiles/Friendship/Vincent/vincent.json";
+
+     // Willy
+     import willy from "./JsonFiles/Friendship/Willy/willy.json";
+
+     // Wizard
+     import wizard from "./JsonFiles/Friendship/Wizard/wizard.json";
+
 // Mines Chests
 import minesChests from "./JsonFiles/minesTreasure.json";
 
@@ -139,7 +259,18 @@ import tm_Sat from "./JsonFiles/TravelingMerchant/tm_Sat.json";
 
 
 // Group entry template
-// {id: "", heading: "", className: "tableLevel-2_Tables", data: },
+
+/*
+tableName:
+   {
+        heading: "Table Name",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "", heading: "", className: "tableLevel-2_Tables", data: },
+        ]
+   },
+*/
 
 export const GROUPED_TABLES = 
 {
@@ -240,6 +371,133 @@ export const GROUPED_TABLES =
             {id: "stardewValleyFair", heading: "Stardew Valley Fair", className: "tableLevel-2_Tables", data: stardewValleyFair},
             {id: "troutDerby", heading: "Trout Derby", className: "tableLevel-2_Tables", data: troutDerby},
             {id: "feastOfTheWinterStar", heading: "Winter Star", className: "tableLevel-2_Tables", data: feastOfTheWinterStar}, 
+        ]
+   },
+
+   friendsanity:
+   {
+        heading: "Friendship",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "otherFriendChecks", heading: "Other", className: "tableLevel-2_Tables", data: otherFriendChecks},
+            {id: "pet", heading: "Pet", className: "tableLevel-2_Tables", data: pet},
+
+               // Abigail
+               {id: "abigail", heading: "Abigail", className: "tableLevel-2_Tables", data: abigail},
+               {id: "abigail_14", heading: "Abigail", className: "tableLevel-2_Tables", data: abigail_14},
+
+               // Alex
+               {id: "alex", heading: "Alex", className: "tableLevel-2_Tables", data: alex},
+               {id: "alex_14", heading: "Alex", className: "tableLevel-2_Tables", data: alex_14},
+
+               // Caroline     
+               {id: "caroline", heading: "Caroline", className: "tableLevel-2_Tables", data: caroline},
+
+               // Clint
+               {id: "clint", heading: "Clint", className: "tableLevel-2_Tables", data: clint},
+               //{id: "clint_14", heading: "Clint", className: "tableLevel-2_Tables", data: clint_14},
+
+               // Demetrius
+               {id: "demetrius", heading: "Demetrius", className: "tableLevel-2_Tables", data: demetrius},
+
+               // Dwarf
+               {id: "dwarf", heading: "Dwarf", className: "tableLevel-2_Tables", data: dwarf},
+
+               // Elliot
+               {id: "elliot", heading: "Elliot", className: "tableLevel-2_Tables", data: elliot},
+               {id: "elliot_14", heading: "Elliot", className: "tableLevel-2_Tables", data: elliot_14},
+
+               // Emily
+               {id: "emily", heading: "Emily", className: "tableLevel-2_Tables", data: emily},
+               {id: "emily_14", heading: "Emily", className: "tableLevel-2_Tables", data: emily_14},
+
+               // Evelyn
+               {id: "evelyn", heading: "Evelyn", className: "tableLevel-2_Tables", data: evelyn},
+
+               // George
+               {id: "george", heading: "George", className: "tableLevel-2_Tables", data: george},
+
+               // Gus
+               {id: "gus", heading: "Gus", className: "tableLevel-2_Tables", data: gus},
+
+               // Haley
+               {id: "haley", heading: "Haley", className: "tableLevel-2_Tables", data: haley},
+               {id: "haley_14", heading: "Haley", className: "tableLevel-2_Tables", data: haley_14},
+
+               // Harvey
+               {id: "harvey", heading: "Harvey", className: "tableLevel-2_Tables", data: harvey},
+               {id: "harvey_14", heading: "Harvey", className: "tableLevel-2_Tables", data: harvey_14},
+
+               // Jas
+               {id: "jas", heading: "Jas", className: "tableLevel-2_Tables", data: jas},
+
+               // Jodi
+               {id: "jodi", heading: "Jodi", className: "tableLevel-2_Tables", data: jodi},
+
+               // Kent
+               {id: "kent", heading: "Kent", className: "tableLevel-2_Tables", data: kent},
+
+               // Krobus
+               {id: "krobus", heading: "Krobus", className: "tableLevel-2_Tables", data: krobus},
+
+               // Leah
+               {id: "leah", heading: "Leah", className: "tableLevel-2_Tables", data: leah},
+               {id: "leah_14", heading: "Leah", className: "tableLevel-2_Tables", data: leah_14},
+
+               // Linuis
+               {id: "linus", heading: "Linus", className: "tableLevel-2_Tables", data: linus},
+
+               // Leo
+               {id: "leo", heading: "Leo", className: "tableLevel-2_Tables", data: leo},
+
+               // Lewis
+               {id: "lewis", heading: "Lewis", className: "tableLevel-2_Tables", data: lewis},
+
+               // Marnie
+               {id: "marnie", heading: "Marnie", className: "tableLevel-2_Tables", data: marnie},
+
+               // Maru
+               {id: "maru", heading: "Maru", className: "tableLevel-2_Tables", data: maru},
+               {id: "maru_14", heading: "Maru", className: "tableLevel-2_Tables", data: maru_14},
+
+               // Pam
+               {id: "pam", heading: "Pam", className: "tableLevel-2_Tables", data: pam},
+
+               // Penny
+               {id: "penny", heading: "Penny", className: "tableLevel-2_Tables", data: penny},
+               {id: "penny_14", heading: "Penny", className: "tableLevel-2_Tables", data: penny_14},
+
+               // Pierre
+               {id: "pierre", heading: "Pierre", className: "tableLevel-2_Tables", data: pierre},
+
+               // Robin
+               {id: "robin", heading: "Robin", className: "tableLevel-2_Tables", data: robin},
+
+               // Sam
+               {id: "sam", heading: "Sam", className: "tableLevel-2_Tables", data: sam},
+               {id: "sam_14", heading: "Sam", className: "tableLevel-2_Tables", data: sam_14},
+
+               // Sandy <3
+               {id: "sandy", heading: "Sandy", className: "tableLevel-2_Tables", data: sandy},
+               //{id: "sandy_14", heading: "Sandy", className: "tableLevel-2_Tables", data: sandy_14},
+
+               // Sebastian
+               {id: "sebastian", heading: "Sebastian", className: "tableLevel-2_Tables", data: sebastian},
+               {id: "sebastian_14", heading: "Sebastian", className: "tableLevel-2_Tables", data: sebastian_14},
+
+               // Shane
+               {id: "shane", heading: "Shane", className: "tableLevel-2_Tables", data: shane},
+               {id: "shane_14", heading: "Shane", className: "tableLevel-2_Tables", data: shane_14},
+
+               // Vincent
+               {id: "vincent", heading: "Vincent", className: "tableLevel-2_Tables", data: vincent},
+
+               // Willy
+               {id: "willy", heading: "Willy", className: "tableLevel-2_Tables", data: willy},
+
+               // Wizard
+               {id: "wizard", heading: "Wizard", className: "tableLevel-2_Tables", data: wizard}
         ]
    },
 

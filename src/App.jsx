@@ -32,6 +32,7 @@ function App()
     cropsanity: "disabled",
     elevatorProgression: "vanilla",
     festivalLocations: "none",
+    friendsanity: "none",
     bookSanity: "none",
     movieSanity: "none",
     museamsity: "none",

@@ -15,6 +15,7 @@ export function filterGroupedTables(settings)
     if (settings.cropsanity !== "disabled") visible.push("cropsanity");
     if (settings.elevatorProgression !== "vanilla") visible.push("elevatorProgression");
     if (settings.festivalLocations !== "none") visible.push("festivalLocations");
+    if (settings.friendsanity !== "none") visible.push("friendsanity");
     if (settings.movieSanity !== "none") visible.push("movieSanity");
     if (settings.museamsity !== "none") visible.push("museamsity");
     if (settings.quests !== "none") visible.push("quests");
@@ -72,6 +73,18 @@ export function filterGroups(tableKey, settings)
             if (settings.festivalLocations === "easy") visible.push("danceOfTheMoonlightJellies_e", "flowerDance_e", "nightMarket_e", "spiritsEve_e");
             if (settings.festivalLocations === "hard") visible.push("danceOfTheMoonlightJellies", "dessertFestival", "eggFestival", "festiveOfIce", "flowerDance", "luau", "nightMarket", "squidFest", "spiritsEve", "stardewValleyFair", "troutDerby", "feastOfTheWinterStar");
             
+            return visible;
+        }
+
+        case "friendsanity":
+        {
+            const visible = [];
+
+            if (settings.friendsanity === "bachelors") visible.push("otherFriendChecks", "alex", "elliot", "harvey", "sam", "sebastian", "shane", "abigail", "emily", "haley", "leah", "maru", "penny");
+            if (settings.friendsanity === "startingNpcs") visible.push("otherFriendChecks", "alex", "elliot", "harvey", "sam", "sebastian", "shane", "abigail", "emily", "haley", "leah", "maru", "penny", "caroline", "clint", "demetrius", "evelyn", "george", "gus", "jas", "jodi", "lewis", "linus", "marnie", "pam", "pierre", "robin", "vincent", "willy", "wizard", "pet");
+            if (settings.friendsanity === "all") visible.push("otherFriendChecks", "alex", "elliot", "harvey", "sam", "sebastian", "shane", "abigail", "emily", "haley", "leah", "maru", "penny", "caroline", "clint", "demetrius", "dwarf", "evelyn", "george", "gus", "jas", "jodi", "kent", "krobus", "lewis", "linus", "leo", "marnie", "pam", "pierre", "robin", "sandy", "vincent", "willy", "wizard", "pet");
+            if (settings.friendsanity === "allWithMarriage") visible.push("otherFriendChecks", "alex_14", "elliot_14", "harvey_14", "sam_14", "sebastian_14", "shane_14", "abigail_14", "emily_14", "haley_14", "leah_14", "maru_14", "penny_14", "caroline", "clint", "demetrius", "dwarf", "evelyn", "george", "gus", "jas", "jodi", "kent", "krobus", "lewis", "linus", "leo", "marnie", "pam", "pierre", "robin", "sandy", "vincent", "willy", "wizard", "pet");
+
             return visible;
         }
 
