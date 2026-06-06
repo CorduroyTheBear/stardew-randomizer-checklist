@@ -12,6 +12,7 @@ export function filterGroupedTables(settings)
     if (settings.arcade !== "disabled") visible.push("arcade");
     if (settings.buildingProgression !== "vanilla") visible.push("buildingProgression");
     if (settings.bookSanity !== "none") visible.push("bookSanity");
+    if (settings.cooksanity !== "none") visible.push("cooksanity");
     if (settings.cropsanity !== "disabled") visible.push("cropsanity");
     if (settings.elevatorProgression !== "vanilla") visible.push("elevatorProgression");
     if (settings.festivalLocations !== "none") visible.push("festivalLocations");
@@ -63,6 +64,16 @@ export function filterGroups(tableKey, settings)
             if (settings.bookSanity === "power" || settings.bookSanity === "powerSkill" || settings.bookSanity === "all") visible.push("powerBooks");
             if (settings.bookSanity === "powerSkill" || settings.bookSanity === "all") visible.push("skillBooks");
             if (settings.bookSanity === "all") visible.push("lostBooks");
+
+            return visible;
+        }
+
+        case "cooksanity":
+        {
+            const visible = [];
+
+            if (settings.cooksanity === "queenOfSauce") visible.push("queenOfSauceChecks");
+            if (settings.cooksanity === "all") visible.push("cookSanityChecks");
 
             return visible;
         }

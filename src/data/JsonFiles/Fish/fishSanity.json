@@ -1,0 +1,556 @@
+[
+    {
+      "id": "(O)705",
+      "name": "Albacore",
+      "season": ["fall", "winter"],
+      "fishingLocation": "ocean",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)160",
+      "name": "Angler",
+      "season": "fall",
+      "fishingLocation": "legend",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)129",
+      "name": "Anchovy",
+      "season": ["spring", "fall"],
+      "fishingLocation": "ocean",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)800",
+      "name": "Blobfish",
+      "season": "winter",
+      "fishingLocation": "nightMarket",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)838",
+      "name": "Blue Discus",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "gingerIslandRiver",
+      "location": "gingerIsland",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)132",
+      "name": "Bream",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": ["townRiver", "forestRiver"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)700",
+      "name": "Bullhead",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "lake",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)142",
+      "name": "Carp",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": ["lake", "secretWoods", "sewers", "bugLair"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)143",
+      "name": "Catfish",
+      "season": ["spring", "fall", "winter"],
+      "fishingLocation": ["townRiver", "forestRiver", "secretWoods", "witchSwamp"],
+      "weather": "rain",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)159",
+      "name": "Crimsonfish",
+      "season": "summer",
+      "fishingLocation": "legend",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)702",
+      "name": "Chub",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": ["forestRiver", "lake"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)704",
+      "name": "Dorado",
+      "season": "summer",
+      "fishingLocation": "forestRiver",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)148",
+      "name": "Eel",
+      "season": ["spring", "fall"],
+      "fishingLocation": "ocean",
+      "weather": "rain",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)267",
+      "name": "Flounder",
+      "season": ["spring", "summer"],
+      "fishingLocation": ["ocean", "gingerIslandOcean"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)156",
+      "name": "Ghostfish",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "mines",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)775",
+      "name": "Glacierfish",
+      "season": "winter",
+      "fishingLocation": "legend",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)902",
+      "name": "Glacierfish Jr.",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "legend",
+      "location": "gingerIsland",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)Goby",
+      "name": "Goby",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "forestWaterfall",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)708",
+      "name": "Halibut",
+      "season": ["spring", "summer", "winter"],
+      "fishingLocation": "ocean",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)147",
+      "name": "Herring",
+      "season": ["spring", "winter"],
+      "fishingLocation": "ocean",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)161",
+      "name": "Ice Pip",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "mines",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)136",
+      "name": "Largemouth Bass",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "lake",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)162",
+      "name": "Lava Eel",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "mines",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)163",
+      "name": "Legend",
+      "season": "spring",
+      "fishingLocation": "legend",
+      "weather": "rain",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)900",
+      "name": "Legend II",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "legend",
+      "location": "gingerIsland",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)837",
+      "name": "Lionfish",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "gingerIslandOcean",
+      "location": "gingerIsland",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)707",
+      "name": "Lingcod",
+      "season": ["winter"],
+      "fishingLocation": ["townRiver", "forestRiver", "lake"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)269",
+      "name": "Midnight Carp",
+      "season": ["fall", "winter"],
+      "fishingLocation": ["forestPond", "lake", "gingerIslandRiver"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)798",
+      "name": "Midnight Squid",
+      "season": "winter",
+      "fishingLocation": "nightMarket",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)899",
+      "name": "Ms. Angler",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "legend",
+      "location": "gingerIsland",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)772",
+      "name": "Mutant Carp",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "legend",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)149",
+      "name": "Octopus",
+      "fishingLocation": ["ocean", "gingerIslandOcean"],
+      "season": "summer",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)636",
+      "name": "Perch",
+      "season": "winter",
+      "fishingLocation": ["townRiver", "forestRiver", "forestPond", "lake"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)144",
+      "name": "Pike",
+      "season": ["summer", "winter"],
+      "fishingLocation": ["townRiver", "forestRiver", "forestPond"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)128",
+      "name": "Pufferfish",
+      "season": "summer",
+      "fishingLocation": ["ocean", "gingerIslandOcean"],
+      "weather": "sunny",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)901",
+      "name": "Radioactive Carp",
+      "season": "summer",
+      "fishingLocation": "legend",
+      "location": "gingerIsland",
+      "weather": "sunny",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)138",
+      "name": "Rainbow Trout",
+      "fishingLocation": ["townRiver", "forestRiver", "lake"],
+      "season": "summer",
+      "weather": "sunny"
+    },
+    {
+      "id": "(O)146",
+      "name": "Red Mullet",
+      "season": ["summer", "winter"],
+      "fishingLocation": "ocean",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)150",
+      "name": "Red Snapper",
+      "fishingLocation": ["ocean"],
+      "weather": "rain",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)139",
+      "name": "Salmon",
+      "season": "fall",
+      "fishingLocation": ["townRiver", "forestRiver", "forestWaterfall"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)164",
+      "name": "Sandfish",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "desert",
+      "location": "desert",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)131",
+      "name": "Sardine",
+      "season": ["spring", "fall", "winter"],
+      "fishingLocation": ["ocean"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)165",
+      "name": "Scorpion Carp",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "desert",
+      "location": "desert",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)154",
+      "name": "Sea Cucumber",
+      "season": ["fall", "winter"],
+      "fishingLocation": ["ocean"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)706",
+      "name": "Shad",
+      "season": ["spring", "summer", "fall"],
+      "fishingLocation": ["townRiver", "forestRiver"],
+      "weather": "rain",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)796",
+      "name": "Slimejack",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "bugLiar",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)137",
+      "name": "Smallmoth Bass",
+      "season": ["spring", "fall"],
+      "fishingLocation": ["townRiver", "forestPond"],
+      "weather": ["rain", "sunny"]
+    },
+    {
+      "id": "(O)898",
+      "name": "Son of Crimsonfish",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "legend",
+      "location": "gingerIsland",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)799",
+      "name": "Spook Fish",
+      "season": "winter",
+      "fishingLocation": "nightMarket",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)145",
+      "name": "Sunfish",
+      "season": ["spring", "summer"],
+      "fishingLocation": ["townRiver", "forestRiver"],
+      "weather": "sunny",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)155",
+      "name": "Super Cucumber",
+      "season": ["summer", "fall"],
+      "fishingLocation": ["ocean", "gingerIslandOcean"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)158",
+      "name": "Stonefish",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "mines",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)836",
+      "name": "Stingray",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "pirateCove",
+      "location": "gingerIsland",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)698",
+      "name": "Sturgeon",
+      "season": ["summer", "winter"],
+      "fishingLocation": "lake",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)151",
+      "name": "Squid",
+      "season": "winter",
+      "fishingLocation": "ocean",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)699",
+      "name": "Tiger Trout",
+      "season": ["fall", "winter"],
+      "fishingLocation": ["townRiver", "forestRiver"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)701",
+      "name": "Tilapia",
+      "season": ["summer", "fall"],
+      "fishingLocation": ["ocean", "gingerIslandRiver"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)130",
+      "name": "Tuna",
+      "season": ["summer", "winter"],
+      "fishingLocation": ["ocean", "gingerIslandOcean"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)795",
+      "name": "Void Samon",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": ["witchSwamp"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)140",
+      "name": "Walleye",
+      "season": ["fall", "winter"],
+      "fishingLocation": ["townRiver", "forestRiver", "forestPond", "lake"],
+      "weather": "rain",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)734",
+      "name": "Woodskip",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": ["secretWoods", "forestFarm"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    }
+  ]

@@ -29,6 +29,7 @@ function App()
   const [settings, setSettings] = useState({
     arcade: "disabled",
     buildingProgression: "vanilla",
+    cooksanity: "none",
     cropsanity: "disabled",
     elevatorProgression: "vanilla",
     festivalLocations: "none",

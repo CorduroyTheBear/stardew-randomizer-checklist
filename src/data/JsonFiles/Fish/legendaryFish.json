@@ -1,0 +1,97 @@
+[
+  {
+    "id": "(O)160",
+    "name": "Angler",
+    "season": "fall",
+    "fishingLocation": "legend",
+    "weather": ["rain", "sunny"],
+    "done": false,
+    "found": false
+  },  
+  {
+    "id": "(O)159",
+    "name": "Crimsonfish",
+    "season": "summer",
+    "fishingLocation": "legend",
+    "weather": ["rain", "sunny"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)775",
+    "name": "Glacierfish",
+    "season": "winter",
+    "fishingLocation": "legend",
+    "weather": ["rain", "sunny"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)902",
+    "name": "Glacierfish Jr.",
+    "season": ["spring", "summer", "fall", "winter"],
+    "fishingLocation": "legend",
+    "location": "gingerIsland",
+    "weather": ["rain", "sunny"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)163",
+    "name": "Legend",
+    "season": "spring",
+    "fishingLocation": "legend",
+    "weather": "rain",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)900",
+    "name": "Legend II",
+    "season": ["spring", "summer", "fall", "winter"],
+    "fishingLocation": "legend",
+    "location": "gingerIsland",
+    "weather": ["rain", "sunny"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)899",
+    "name": "Ms. Angler",
+    "season": ["spring", "summer", "fall", "winter"],
+    "fishingLocation": "legend",
+    "location": "gingerIsland",
+    "weather": ["rain", "sunny"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)772",
+    "name": "Mutant Carp",
+    "season": ["spring", "summer", "fall", "winter"],
+    "fishingLocation": "legend",
+    "weather": ["rain", "sunny"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)901",
+    "name": "Radioactive Carp",
+    "season": "summer",
+    "fishingLocation": "legend",
+    "location": "gingerIsland",
+    "weather": "sunny",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)898",
+    "name": "Son of Crimsonfish",
+    "season": ["spring", "summer", "fall", "winter"],
+    "fishingLocation": "legend",
+    "location": "gingerIsland",
+    "weather": ["rain", "sunny"],
+    "done": false,
+    "found": false
+  }
+]

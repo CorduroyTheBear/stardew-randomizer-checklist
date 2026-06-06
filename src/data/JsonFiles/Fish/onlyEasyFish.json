@@ -1,0 +1,124 @@
+[
+    {
+      "id": "(O)129",
+      "name": "Anchovy",
+      "season": ["spring", "fall"],
+      "fishingLocation": "ocean",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)132",
+      "name": "Bream",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": ["townRiver", "forestRiver"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)702",
+      "name": "Chub",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": ["forestRiver", "lake"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)147",
+      "name": "Herring",
+      "season": ["spring", "winter"],
+      "fishingLocation": "ocean",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)837",
+      "name": "Lionfish",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "gingerIslandOcean",
+      "location": "gingerIsland",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)636",
+      "name": "Perch",
+      "season": "winter",
+      "fishingLocation": ["townRiver", "forestRiver", "forestPond", "lake"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)138",
+      "name": "Rainbow Trout",
+      "fishingLocation": ["townRiver", "forestRiver", "lake"],
+      "season": "summer",
+      "weather": "sunny"
+    },
+    {
+      "id": "(O)150",
+      "name": "Red Snapper",
+      "fishingLocation": "ocean",
+      "weather": "rain",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)131",
+      "name": "Sardine",
+      "season": ["spring", "fall", "winter"],
+      "fishingLocation": ["ocean"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)154",
+      "name": "Sea Cucumber",
+      "season": ["fall", "winter"],
+      "fishingLocation": ["ocean"],
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)706",
+      "name": "Shad",
+      "season": ["spring", "summer", "fall"],
+      "fishingLocation": ["townRiver", "forestRiver"],
+      "weather": "rain",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)137",
+      "name": "Smallmoth Bass",
+      "season": ["spring", "fall"],
+      "fishingLocation": ["townRiver", "forestPond"],
+      "weather": ["rain", "sunny"]
+    },
+    {
+      "id": "(O)145",
+      "name": "Sunfish",
+      "season": ["spring", "summer"],
+      "fishingLocation": ["townRiver", "forestRiver"],
+      "weather": "sunny",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)140",
+      "name": "Walleye",
+      "season": ["fall", "winter"],
+      "fishingLocation": ["townRiver", "forestRiver", "forestPond", "lake"],
+      "weather": "rain",
+      "done": false,
+      "found": false
+    }
+  ]

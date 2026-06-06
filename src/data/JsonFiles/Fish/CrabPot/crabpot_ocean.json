@@ -1,0 +1,65 @@
+[
+    {
+      "id": "372",
+      "name": "Clam",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "ocean",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "717",
+      "name": "Crab",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "ocean",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "718",
+      "name": "Cockle",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "ocean",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "715",
+      "name": "Lobster",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "ocean",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "719",
+      "name": "Mussel",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "ocean",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "723",
+      "name": "Oyster",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "ocean",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "720",
+      "name": "Shrimp",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": "ocean",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    }
+  ]

@@ -26,6 +26,10 @@ import vaultBunddles from "./JsonFiles/Bundles/vault.json";
 import crops from "./JsonFiles/CropSanity/crops.json";
 import fruit from "./JsonFiles/CropSanity/fruit.json";
 
+// Cooksanity
+import cookSanityChecks from "./JsonFiles/CookSanity/cookSanity.json";
+import queenOfSauceChecks from "./JsonFiles/CookSanity/queenOfSauce.json";
+
 // Elevator Progression
 import elevatorProgression from "./JsonFiles/minesElevators.json";
 
@@ -340,6 +344,17 @@ export const GROUPED_TABLES =
             {id: "fishBundles", heading: "Fish Tank", className: "tableLevel-2_Tables", data: fishBundles},
             {id: "pantryBundles", heading: "Pantry", className: "tableLevel-2_Tables", data: pantryBundles},
             {id: "vaultBunddles", heading: "Vault", className: "tableLevel-2_Tables", data: vaultBunddles},
+        ]
+   },
+
+   cooksanity:
+   {
+        heading: "Cook Recipes",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "cookSanityChecks", heading: "Cook Recipes", className: "tableLevel-2_Tables", data: cookSanityChecks},
+            {id: "queenOfSauceChecks", heading: "Cook Recipes", className: "tableLevel-2_Tables", data: queenOfSauceChecks},
         ]
    },
 

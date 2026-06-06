@@ -34,6 +34,15 @@ export default function SettingsList({settings, setSettings, })
                 </select>
             </label>
 
+             <label>
+                Cooksanity:
+                <select value = {settings.cooksanity} onChange = {(e) => update("cooksanity", e.target.value)}>
+                    <option value = "none">None</option>
+                    <option value = "queenOfSauce">Queen of Sauce</option>
+                    <option value = "all">All</option>
+                </select>
+            </label>
+
             <label>
                 Cropssanity:
                 <select value = {settings.cropsanity} onChange = {(e) => update("cropsanity", e.target.value)}>
