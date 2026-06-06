@@ -1,0 +1,32 @@
+[
+    {
+      "id": "skeleton_1",
+      "name": "Skeletons",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "skeleton_2",
+      "name": "10 Skeletons",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "skeleton_3",
+      "name": "20 Skeletons",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "skeleton_4",
+      "name": "30 Skeletons",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "skeleton_5",
+      "name": "40 Skeletons",
+      "done": false,
+      "found": false
+    }
+]

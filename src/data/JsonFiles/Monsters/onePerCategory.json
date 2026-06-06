@@ -1,0 +1,68 @@
+[
+ {
+      "id": "bat_1",
+      "name": "Bat",
+      "done": false,
+      "found": false 
+ }, 
+ {
+      "id": "caveInsect_1",
+      "name": "Cave Insect",
+      "done": false,
+      "found": false 
+  },
+  {
+     "id": "duggy_1",
+      "name": "Duggy",
+      "done": false,
+      "found": false 
+  },
+  {
+      "id": "dustSprite_1",
+      "name": "Dust Sprite",
+      "done": false,
+      "found": false 
+  },
+  {
+      "id": "mummy_1",
+      "name": "Mummy",
+      "done": false,
+      "found": false 
+  },
+  {
+      "id": "pepperRex_1",
+      "name": "Pepper Rex",
+      "done": false,
+      "found": false 
+  },
+  {
+      "id": "rockCrab_1",
+      "name": "Rock Crabs",
+      "done": false,
+      "found": false 
+  },
+  {
+      "id": "serpent_1",
+      "name": "Serpent",
+      "done": false,
+      "found": false 
+  },
+  {
+      "id": "skeleton_1",
+      "name": "Skeleton",
+      "done": false,
+      "found": false 
+  },
+  {
+      "id": "slime_1",
+      "name": "Slime",
+      "done": false,
+      "found": false 
+  },
+  {
+      "id": "voidSprite_1",
+      "name": "Void Sprite",
+      "done": false,
+      "found": false 
+  }
+]

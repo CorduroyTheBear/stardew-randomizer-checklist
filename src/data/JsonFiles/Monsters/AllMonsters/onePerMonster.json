@@ -1,0 +1,170 @@
+[
+ {
+      "id": "bat_1",
+      "name": "Bat",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "bug_1",
+      "name": "Bug",
+      "done": false,
+      "found": false 
+ },
+ {
+     "id": "duggy_1",
+      "name": "Duggy",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "dustSprite_1",
+      "name": "Dust Sprite",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "fly_1",
+      "name": "Fly",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "frostBat_1",
+      "name": "Frost Bat",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "frostJelly_1",
+      "name": "Frost Jelly",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "greenSlime_1",
+      "name": "Green Slime",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "grub_1",
+      "name": "Grub",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "iridiumBat_1",
+      "name": "Iriddium Bat",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "iridiumCrab_1",
+      "name": "Iridium Crab",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "lavaBat_1",
+      "name": "Lava Bat",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "lavaCrab_1",
+      "name": "Lava Crab",
+      "done": false,
+      "found": false 
+ },
+ {
+     "id": "magma_duggy_1",
+     "name": "Magma Duggy",
+     "done": false,
+     "found": false
+ },
+ {
+     "id": "magma_sparker_1",
+     "name": "Magma Sparker",
+     "done": false,
+     "found": false
+ },
+ {
+     "id": "magma_sprite_1",
+     "name": "Magma Sprite",
+     "done": false,
+     "found": false
+ },
+ {
+      "id": "mummy_1",
+      "name": "Mummy",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "pepperRex_1",
+      "name": "Pepper Rex",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "rockCrab_1",
+      "name": "Rock Crab",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "royal_serpent_1",
+      "name": "Royal Serpent",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "serpent_1",
+      "name": "Serpent",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "shadowBrute_1",
+      "name": "Shadow Brute",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "shadowShaman_1",
+      "name": "Shadow Shaman",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "shadowSniper_1",
+      "name": "Shadow Sniper",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "skeleton_1",
+      "name": "Skeleton",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "skeletonMage_1",
+      "name": "Skeleton Mage",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "sludge_1",
+      "name": "Sludge",
+      "done": false,
+      "found": false 
+ },
+ {
+      "id": "tigerSlinme_1",
+      "name": "Tiger Slime",
+      "done": false,
+      "found": false 
+ }
+]

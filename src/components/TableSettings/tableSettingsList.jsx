@@ -74,6 +74,19 @@ export default function SettingsList({settings, setSettings, })
             </label>
 
             <label>
+                Monstersanity:
+
+                <select value = {settings.monstersanity} onChange = {(e) => update("monstersanity", e.target.value)}>
+                    <option value="none">None</option>
+                    <option value="onePerCategory">One Per Category</option>
+                    <option value = "onePerMonster">One Per Monster</option>
+                    <option value = "goals">Goals</option>
+                    <option value = "progressiveGoals">Progressive Goals</option>
+                    <option value = "splitGoals">Split Goals</option>
+                </select>
+            </label>
+
+            <label>
                 Moviesanity:
 
                 <select value = {settings.movieSanity} onChange = {(e) => update("movieSanity", e.target.value)}>

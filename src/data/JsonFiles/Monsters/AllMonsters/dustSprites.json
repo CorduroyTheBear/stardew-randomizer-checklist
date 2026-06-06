@@ -1,0 +1,32 @@
+[
+    {
+      "id": "dustSprite_1",
+      "name": "Dust Sprites",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "dustSprite_2",
+      "name": "100 Dust Sprites",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "dustSprite_3",
+      "name": "200 Dust Sprites",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "dustSprite_4",
+      "name": "300 Dust Sprites",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "dustSprite_5",
+      "name": "400 Dust Sprites",
+      "done": false,
+      "found": false
+    }
+  ]

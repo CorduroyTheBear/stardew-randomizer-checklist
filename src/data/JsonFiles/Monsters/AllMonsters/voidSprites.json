@@ -1,0 +1,32 @@
+[
+    {
+      "id": "voidSprite_1",
+      "name": "Void Sprites",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "voidSprite_2",
+      "name": "30 Void Sprites",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "voidSprite_3",
+      "name": "60 Void Sprites",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "voidSprite_4",
+      "name": "90 Void Sprites",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "voidSprite_5",
+      "name": "120 Void Sprites",
+      "done": false,
+      "found": false
+    }
+]

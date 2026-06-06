@@ -1,0 +1,32 @@
+[
+    {
+      "id": "pepperRex_1",
+      "name": "Rock Crabs",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "pepperRex_2",
+      "name": "10 Pepper Rex's",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "pepperRex_3",
+      "name": "20 Pepper Rex's",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "pepperRex_4",
+      "name": "30 Pepper Rex's",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "pepperRex_5",
+      "name": "40 Pepper Rex's",
+      "done": false,
+      "found": false
+    }
+]

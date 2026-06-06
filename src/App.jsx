@@ -34,6 +34,7 @@ function App()
     festivalLocations: "none",
     friendsanity: "none",
     bookSanity: "none",
+    monstersanity: "none",
     movieSanity: "none",
     museamsity: "none",
     quests: "none",

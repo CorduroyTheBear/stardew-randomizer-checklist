@@ -1,0 +1,32 @@
+[
+    {
+      "id": "duggie_1",
+      "name": "Duggies",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "duggie_2",
+      "name": "6 Duggies",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "duggie_3",
+      "name": "12 Duggies",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "duggie_4",
+      "name": "18 Duggies",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "duggie_5",
+      "name": "24 Duggies",
+      "done": false,
+      "found": false
+    }
+  ]

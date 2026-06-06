@@ -173,6 +173,24 @@ import pet from "./JsonFiles/Friendship/pet.json";
 // Mines Chests
 import minesChests from "./JsonFiles/minesTreasure.json";
 
+// Monsters
+import onePerCategory from "./JsonFiles/Monsters/onePerCategory.json";
+import onePerMonster from "./JsonFiles/Monsters/onePerMonster.json";
+
+     // all monsters
+     import bats from "./JsonFiles/Monsters/AllMonsters/bats.json";
+     import caveInsects from "./JsonFiles/Monsters/AllMonsters/caveInsects.json";
+     import duggies from "./JsonFiles/Monsters/AllMonsters/duggies.json";
+     import dustSprites from "./JsonFiles/Monsters/AllMonsters/dustSprites.json";
+     import magmaSprites from "./JsonFiles/Monsters/AllMonsters/magmaSprites.json";
+     import mummies from "./JsonFiles/Monsters/AllMonsters/mummies.json";
+     import pepperRex from "./JsonFiles/Monsters/AllMonsters/pepperRex.json";
+     import rockCrabs from "./JsonFiles/Monsters/AllMonsters/rockCrabs.json";
+     import serpents from "./JsonFiles/Monsters/AllMonsters/serpents.json";
+     import skeletons from "./JsonFiles/Monsters/AllMonsters/skeletons.json";
+     import slimes from "./JsonFiles/Monsters/AllMonsters/slimes.json";
+     import voidSprites from "./JsonFiles/Monsters/AllMonsters/voidSprites.json";
+
 // Moviesanity
 import oneMovie from "./JsonFiles/Movies/one.json";
 import movies from "./JsonFiles/Movies/movies.json";
@@ -508,6 +526,31 @@ export const GROUPED_TABLES =
         groups:
         [
             {id: "minesChests", heading: "Mines Chests", className: "tableLevel-2_Tables", data: minesChests}
+        ]
+   },
+
+   monstersanity:
+   {
+        heading: "Monsters",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+          {id: "onePerCategory", heading: "Monsters", className: "tableLevel-2_Tables", data: onePerCategory},
+          {id: "onePerMonster", heading: "Monsters", className: "tableLevel-2_Tables", data: onePerMonster},
+
+          // all monsters
+          {id: "bats", heading: "Bats", className: "tableLevel-2_Tables", data: bats},
+          {id: "caveInsects", heading: "Cave Insects", className: "tableLevel-2_Tables", data: caveInsects},
+          {id: "duggies", heading: "Duggies", className: "tableLevel-2_Tables", data: duggies},
+          {id: "dustSprites", heading: "Dust Sprites", className: "tableLevel-2_Tables", data: dustSprites},
+          {id: "magmaSprites", heading: "Magma Sprites", className: "tableLevel-2_Tables", data: magmaSprites},
+          {id: "mummies", heading: "Mummies", className: "tableLevel-2_Tables", data: mummies},
+          {id: "pepperRex", heading: "Pepper Rex", className: "tableLevel-2_Tables", data: pepperRex},
+          {id: "rockCrabs", heading: "Rock Crabs", className: "tableLevel-2_Tables", data: rockCrabs},
+          {id: "serpents", heading: "Serpents", className: "tableLevel-2_Tables", data: serpents},
+          {id: "skeletons", heading: "Skeletons", className: "tableLevel-2_Tables", data: skeletons},
+          {id: "slimes", heading: "Slimes", className: "tableLevel-2_Tables", data: slimes},
+          {id: "voidSprites", heading: "Void Sprites", className: "tableLevel-2_Tables", data: voidSprites},
         ]
    },
 
