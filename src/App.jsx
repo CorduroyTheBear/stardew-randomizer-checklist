@@ -142,7 +142,7 @@ function App()
             ? table.groups.filter(group => allowedGroups.includes(group.id))
             : table.groups;
 
-          return filteredGroups.some(group => group.data.some(item => !item.done));
+          return filteredGroups.some(group => group.data.some(item => !item.done && filterSeasons(item, season, seasonExclusive)));
         })
 
         .map(([key, table]) =>
@@ -154,7 +154,7 @@ function App()
 
           const allVisibleGroups = filteredGroups
           .filter(group => group.data.some(item => filterSeasons(item, season, seasonExclusive)))
-          .filter(group => !settings.hideCompleted || group.data.some(item => !item.done));
+          .filter(group => !settings.hideCompleted || group.data.some(item => !item.done && filterSeasons(item, season, seasonExclusive)));
 
           // Handle styles based on # of tables
           const headingClass = allVisibleGroups.length === 1 ? "tableLevel-2_Heading" : "tableLevel-2_Heading";

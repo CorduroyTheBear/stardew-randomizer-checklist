@@ -11,13 +11,15 @@ export default function GroupedChecklist ({className, groups, heading, hideCompl
     const seasonVisibleGroups = groups.filter(group => group.data.some(item => filterSeasons(item, season, seasonExclusive)));
 
     // Filter out tables with no checks left when hide completed is selected
-    const completedVisibleGroups = seasonVisibleGroups.filter(group => !hideCompleted || group.data.some(item => !item.done));
+    const completedVisibleGroups = seasonVisibleGroups.filter(group => !hideCompleted || group.data.some(item => !item.done && filterSeasons(item, season, seasonExclusive)));
 
     // Filter out level 1 tables
     const visibleItems = completedVisibleGroups.flatMap(group => group.data.filter(item => filterSeasons(item, season, seasonExclusive)));
 
     const doneCount = visibleItems.filter(i => i.done).length;
     const totalCount = visibleItems.length;
+
+    if (totalCount === 0) return null;
 
     // Set up table UI, similar to code in rendderChecklist.jsx
     // Main difference between the two is in "isOpen &&..."
