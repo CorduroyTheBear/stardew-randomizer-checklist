@@ -33,6 +33,7 @@ function App()
     cropsanity: "disabled",
     elevatorProgression: "vanilla",
     festivalLocations: "none",
+    fishsanity: "none",
     friendsanity: "none",
     bookSanity: "none",
     monstersanity: "none",

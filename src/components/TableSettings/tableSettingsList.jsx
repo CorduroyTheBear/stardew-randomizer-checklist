@@ -71,6 +71,19 @@ export default function SettingsList({settings, setSettings, })
             </label>
 
             <label>
+                Fishsanity:
+
+                <select value = {settings.fishsanity} onChange = {(e) => update("fishsanity", e.target.value)}>
+                    <option value="none">None</option>
+                    <option value="legendaries">Legendaries</option>
+                    <option value = "all">All</option>
+                    <option value = "excludeLegendaries">Exclude Legendaries</option>
+                    <option value = "excludeHardFish">Exclude Hard Fish</option>
+                    <option value = "onlyEasyFish">Only Easy Fish</option>
+                </select>
+            </label>
+
+            <label>
                 Friendsanity:
 
                 <select value = {settings.friendsanity} onChange = {(e) => update("friendsanity", e.target.value)}>

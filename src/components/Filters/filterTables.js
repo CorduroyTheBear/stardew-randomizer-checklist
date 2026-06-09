@@ -16,6 +16,7 @@ export function filterGroupedTables(settings)
     if (settings.cropsanity !== "disabled") visible.push("cropsanity");
     if (settings.elevatorProgression !== "vanilla") visible.push("elevatorProgression");
     if (settings.festivalLocations !== "none") visible.push("festivalLocations");
+    if (settings.fishsanity !== "none") visible.push("fishsanity");
     if (settings.friendsanity !== "none") visible.push("friendsanity");
     if (settings.monstersanity !== "none") visible.push("monstersanity");
     if (settings.movieSanity !== "none") visible.push("movieSanity");
@@ -39,8 +40,7 @@ export function filterGroups(tableKey, settings)
         {
             const visible = [];
 
-            if (settings.groupTableName === "settingName") visible.push("individualTable");
-            if (settings.groupTableName === "settingName") visible.push("individualTable2");
+            if (settings.groupTableName === "") visible.push("");
 
             return visible;
         }
@@ -85,6 +85,19 @@ export function filterGroups(tableKey, settings)
             if (settings.festivalLocations === "easy") visible.push("danceOfTheMoonlightJellies_e", "flowerDance_e", "nightMarket_e", "spiritsEve_e");
             if (settings.festivalLocations === "hard") visible.push("danceOfTheMoonlightJellies", "dessertFestival", "eggFestival", "festiveOfIce", "flowerDance", "luau", "nightMarket", "squidFest", "spiritsEve", "stardewValleyFair", "troutDerby", "feastOfTheWinterStar");
             
+            return visible;
+        }
+
+        case "fishsanity":
+        {
+            const visible = [];
+
+            if (settings.fishsanity === "legendaries") visible.push("legendaryFish");
+            if (settings.fishsanity === "all") visible.push("crabPotFreshWater", "crabPotOcean", "allFish");
+            if (settings.fishsanity === "excludeLegendaries") visible.push("crabPotFreshWater", "crabPotOcean", "excludeLegendaryFish");
+            if (settings.fishsanity === "excludeHardFish") visible.push("crabPotFreshWater", "crabPotOcean", "excludeHardFish");
+            if (settings.fishsanity === "onlyEasyFish") visible.push("crabPotFreshWater", "crabPotOcean", "onlyEasyFish");
+
             return visible;
         }
 

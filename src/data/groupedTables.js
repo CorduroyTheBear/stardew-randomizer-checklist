@@ -54,6 +54,16 @@ import elevatorProgression from "./JsonFiles/minesElevators.json";
     import stardewValleyFair from "./JsonFiles/Festivals/stardewValleyFair.json";
     import troutDerby from "./JsonFiles/Festivals/troutDerby.json";
 
+// Fishsanity
+import crabPotFreshWater from "./JsonFiles/Fish/CrabPot/crabpot_freshwater.json";
+import crabPotOcean from "./JsonFiles/Fish/CrabPot/crabpot_ocean.json";
+
+import allFish from "./JsonFiles/Fish/fishSanity.json";
+import excludeHardFish from "./JsonFiles/Fish/excludeHardFish.json"
+import excludeLegendaryFish from "./JsonFiles/Fish/excludeLegendaryFish.json";
+import legendaryFish from "./JsonFiles/Fish/legendaryFish.json";
+import onlyEasyFish from "./JsonFiles/Fish/onlyEasyFish.json";
+
 // Friendship
 import otherFriendChecks from "./JsonFiles/Friendship/otherFriendChecks.json";
 import pet from "./JsonFiles/Friendship/pet.json";
@@ -404,6 +414,23 @@ export const GROUPED_TABLES =
             {id: "stardewValleyFair", heading: "Stardew Valley Fair", className: "tableLevel-2_Tables", data: stardewValleyFair},
             {id: "troutDerby", heading: "Trout Derby", className: "tableLevel-2_Tables", data: troutDerby},
             {id: "feastOfTheWinterStar", heading: "Winter Star", className: "tableLevel-2_Tables", data: feastOfTheWinterStar}, 
+        ]
+   },
+
+   fishsanity:
+   {
+        heading: "Fishing",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "crabPotFreshWater", heading: "CP Fresh Water", className: "tableLevel-2_Tables", data: crabPotFreshWater},
+            {id: "crabPotOcean", heading: "CP Ocean", className: "tableLevel-2_Tables", data: crabPotOcean},
+
+            {id: "allFish", heading: "Fish", className: "tableLevel-2_Tables", data: allFish},
+            {id: "excludeHardFish", heading: "Fish", className: "tableLevel-2_Tables", data: excludeHardFish},
+            {id: "excludeLegendaryFish", heading: "Fish", className: "tableLevel-2_Tables", data: excludeLegendaryFish},
+            {id: "legendaryFish", heading: "Fish", className: "tableLevel-2_Tables", data: legendaryFish},
+            {id: "onlyEasyFish", heading: "Fish", className: "tableLevel-2_Tables", data: onlyEasyFish},
         ]
    },
 
