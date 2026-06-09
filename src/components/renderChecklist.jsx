@@ -11,12 +11,6 @@ export default function RenderChecklist({className, data, heading, hideCompleted
 
     // Use item filters if included. If there is no item filters, include all items
     //const progressItems = itemFilter ? items.filter(itemFilter) : items;
-
-    // Keeps items marked as done and calculates its length
-    const doneCount = data.filter(i => i.done).length;
-
-    // Calculates the total number of items
-    const totalCount = data.length;
     
     const visibleItems = data.filter(item =>
     {
@@ -29,6 +23,12 @@ export default function RenderChecklist({className, data, heading, hideCompleted
             return true;
         }
     });
+
+    // Keeps items marked as done and calculates its length
+    const doneCount = visibleItems.filter(i => i.done).length;
+
+    // Calculates the total number of items
+    const totalCount = visibleItems.length;
 
     // Set up table UI
     return(
