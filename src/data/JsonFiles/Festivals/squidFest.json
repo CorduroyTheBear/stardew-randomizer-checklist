@@ -2,56 +2,56 @@
     {
       "id": "squidFest_1",
       "name": "Day 1 Copper",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "squidFest_2",
       "name": "Day 1 Iron",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "squidFest_3",
       "name": "Day 1 Gold",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "squidFest_4",
       "name": "Day 1 Iridium",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "squidFest_5",
       "name": "Day 2 Copper",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "squidFest_6",
       "name": "Day 2 Iron",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "squidFest_7",
       "name": "Day 2 Gold",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "squidFest_8",
       "name": "Day 2 Iridium",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     }

@@ -2,7 +2,7 @@
   {
     "id": "(O)160",
     "name": "Angler",
-    "season": "fall",
+    "season": ["fall"],
     "fishingLocation": "legend",
     "weather": ["rain", "sunny"],
     "done": false,
@@ -11,7 +11,7 @@
   {
     "id": "(O)159",
     "name": "Crimsonfish",
-    "season": "summer",
+    "season": ["summer"],
     "fishingLocation": "legend",
     "weather": ["rain", "sunny"],
     "done": false,
@@ -20,7 +20,7 @@
   {
     "id": "(O)775",
     "name": "Glacierfish",
-    "season": "winter",
+    "season": ["winter"],
     "fishingLocation": "legend",
     "weather": ["rain", "sunny"],
     "done": false,
@@ -39,7 +39,7 @@
   {
     "id": "(O)163",
     "name": "Legend",
-    "season": "spring",
+    "season": ["spring"],
     "fishingLocation": "legend",
     "weather": "rain",
     "done": false,
@@ -77,7 +77,7 @@
   {
     "id": "(O)901",
     "name": "Radioactive Carp",
-    "season": "summer",
+    "season": ["summer"],
     "fishingLocation": "legend",
     "location": "gingerIsland",
     "weather": "sunny",

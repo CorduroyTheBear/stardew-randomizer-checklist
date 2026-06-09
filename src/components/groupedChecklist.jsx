@@ -31,6 +31,8 @@ export default function GroupedChecklist ({className, groups, heading, hideCompl
                 heading = {heading}
                 hideCompleted = {hideCompleted}
                 onToggle = {(itemID, field) => onToggle(completedVisibleGroups[0].id, itemID, field)}
+                season={season}
+                seasonExclusive={seasonExclusive}
             />
         );
     }

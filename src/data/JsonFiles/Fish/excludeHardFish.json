@@ -20,7 +20,7 @@
     {
       "id": "(O)800",
       "name": "Blobfish",
-      "season": "winter",
+      "season": ["winter"],
       "fishingLocation": "nightMarket",
       "weather": ["rain", "sunny"],
       "done": false,
@@ -84,7 +84,7 @@
     {
       "id": "(O)704",
       "name": "Dorado",
-      "season": "summer",
+      "season": ["summer"],
       "fishingLocation": "forestRiver",
       "weather": ["rain", "sunny"],
       "done": false,
@@ -175,7 +175,7 @@
     {
       "id": "(O)798",
       "name": "Midnight Squid",
-      "season": "winter",
+      "season": ["winter"],
       "fishingLocation": "nightMarket",
       "weather": ["rain", "sunny"],
       "done": false,
@@ -184,7 +184,7 @@
     {
       "id": "(O)636",
       "name": "Perch",
-      "season": "winter",
+      "season": ["winter"],
       "fishingLocation": ["townRiver", "forestRiver", "forestPond", "lake"],
       "weather": ["rain", "sunny"],
       "done": false,
@@ -203,7 +203,7 @@
       "id": "(O)138",
       "name": "Rainbow Trout",
       "fishingLocation": ["townRiver", "forestRiver", "lake"],
-      "season": "summer",
+      "season": ["summer"],
       "weather": "sunny"
     },
     {
@@ -226,7 +226,7 @@
     {
       "id": "(O)139",
       "name": "Salmon",
-      "season": "fall",
+      "season": ["fall"],
       "fishingLocation": ["townRiver", "forestRiver", "forestWaterfall"],
       "weather": ["rain", "sunny"],
       "done": false,
@@ -287,7 +287,7 @@
     {
       "id": "(O)799",
       "name": "Spook Fish",
-      "season": "winter",
+      "season": ["winter"],
       "fishingLocation": "nightMarket",
       "weather": ["rain", "sunny"],
       "done": false,
@@ -323,7 +323,7 @@
     {
       "id": "(O)151",
       "name": "Squid",
-      "season": "winter",
+      "season": ["winter"],
       "fishingLocation": "ocean",
       "weather": ["rain", "sunny"],
       "done": false,

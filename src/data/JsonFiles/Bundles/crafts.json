@@ -12,25 +12,25 @@
     {
       "id": "springForage",
       "name": "Spring",
-      "season": "spring",
+      "season": ["spring"],
       "done": false
     },
     {
       "id": "summerForage",
       "name": "Summer",
-      "season": "summer",
+      "season": ["summer"],
       "done": false
     },
     {
       "id": "fallForage",
       "name": "Fall",
-      "season": "fall",
+      "season": ["fall"],
       "done": false
     },
     {
       "id": "winterForage",
       "name": "Winter",
-      "season": "winter",
+      "season": ["winter"],
       "done": false
     }
 ]

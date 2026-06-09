@@ -2,7 +2,7 @@
     {
       "id": "634",
       "name": "Apricot",
-      "season": "spring",
+      "season": ["spring"],
       "image": "images.apricot",
       "done": false,
       "found": false
@@ -10,7 +10,7 @@
     {
       "id": "638",
       "name": "Cherry",
-      "season": "spring",
+      "season": ["spring"],
       "image": "images.cherry",
       "done": false,
       "found": false
@@ -18,7 +18,7 @@
     {
       "id": "91",
       "name": "Banana",
-      "season": "summer",
+      "season": ["summer"],
       "location": "gingerIsland",
       "image": "images.banana",
       "done": false,
@@ -27,7 +27,7 @@
     {
       "id": "834",
       "name": "Mango",
-      "season": "summer",
+      "season": ["summer"],
       "location": "gingerIsland",
       "image": "images.mango",
       "done": false,
@@ -36,7 +36,7 @@
     {
       "id": "635",
       "name": "Orange",
-      "season": "summer",
+      "season": ["summer"],
       "image": "images.orange",
       "done": false,
       "found": false
@@ -44,7 +44,7 @@
 {
       "id": "636",
       "name": "Peach",
-      "season": "summer",
+      "season": ["summer"],
       "image": "images.peach",
       "done": false,
       "found": false
@@ -52,7 +52,7 @@
     {
       "id": "613",
       "name": "Apple",
-      "season": "fall",
+      "season": ["fall"],
       "image": "images.apple",
       "done": false,
       "found": false
@@ -60,7 +60,7 @@
     {
       "id": "637",
       "name": "Pomegranate",
-      "season": "fall",
+      "season": ["fall"],
       "image": "images.pomegranate",
       "done": false,
       "found": false

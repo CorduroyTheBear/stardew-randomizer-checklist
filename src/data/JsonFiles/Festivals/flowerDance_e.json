@@ -2,7 +2,7 @@
    {
       "id": "flowerDance_1",
       "name": "Dance with someone",
-      "season": "spring",
+      "season": ["spring"],
       "done": false,
       "found": false
     }

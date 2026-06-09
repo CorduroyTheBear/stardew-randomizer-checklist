@@ -2,84 +2,84 @@
     {
       "id": "nightMarket_1",
       "name": "Mermaid Pearl",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "nightMarket_2",
       "name": "Lupini: Red Eagle",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "nightMarket_3",
       "name": "Lupini: Portrait Of A Mermaid",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "nightMarket_4",
       "name": "Lupini: Solar Kingdom",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "nightMarket_5",
       "name": "Cone Hat",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "nightMarket_6",
       "name": "Iridium Fireplace",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "nightMarket_7",
       "name": "Lupini: Clouds",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "nightMarket_8",
       "name": "Lupini: 1000 Years From Now",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "nightMarket_9",
       "name": "Lupini: Three Trees",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "nightMarket_10",
       "name": "Lupini: The Serpent",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "nightMarket_11",
       "name": "Lupini: 'Tropical Fish #173'",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     },
     {
       "id": "nightMarket_12",
       "name": "Lupini: Land Of Clay",
-      "season": "winter",
+      "season": ["winter"],
       "done": false,
       "found": false
     }

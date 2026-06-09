@@ -2,7 +2,6 @@
     {
       "id": "716",
       "name": "Crayfish",
-      "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "river",
       "weather": ["rain", "sunny"],
       "done": false,
@@ -11,7 +10,6 @@
     {
       "id": "721",
       "name": "Snail",
-      "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "river",
       "weather": ["rain", "sunny"],
       "done": false,
@@ -20,7 +18,6 @@
     {
       "id": "722",
       "name": "Periwinkle",
-      "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "river",
       "weather": ["rain", "sunny"],
       "done": false,

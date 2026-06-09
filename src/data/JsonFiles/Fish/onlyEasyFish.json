@@ -48,7 +48,7 @@
     {
       "id": "(O)636",
       "name": "Perch",
-      "season": "winter",
+      "season": ["winter"],
       "fishingLocation": ["townRiver", "forestRiver", "forestPond", "lake"],
       "weather": ["rain", "sunny"],
       "done": false,
@@ -58,7 +58,7 @@
       "id": "(O)138",
       "name": "Rainbow Trout",
       "fishingLocation": ["townRiver", "forestRiver", "lake"],
-      "season": "summer",
+      "season": ["summer"],
       "weather": "sunny"
     },
     {

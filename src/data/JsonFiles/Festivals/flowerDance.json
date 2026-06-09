@@ -2,14 +2,14 @@
     {
       "id": "flowerDance_1",
       "name": "Dance with someone",
-      "season": "spring",
+      "season": ["spring"],
       "done": false,
       "found": false
     },
     {
       "id": "flowerDance_2",
       "name": "Tub o' Flowers Recipe",
-      "season": "spring",
+      "season": ["spring"],
       "done": false,
       "found": false
     }

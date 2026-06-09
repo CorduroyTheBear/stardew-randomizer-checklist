@@ -11,7 +11,7 @@
     {
       "id": "(O)160",
       "name": "Angler",
-      "season": "fall",
+      "season": ["fall"],
       "fishingLocation": "legend",
       "weather": ["rain", "sunny"],
       "done": false,
@@ -29,7 +29,7 @@
     {
       "id": "(O)800",
       "name": "Blobfish",
-      "season": "winter",
+      "season": ["winter"],
       "fishingLocation": "nightMarket",
       "weather": ["rain", "sunny"],
       "done": false,
@@ -84,7 +84,7 @@
     {
       "id": "(O)159",
       "name": "Crimsonfish",
-      "season": "summer",
+      "season": ["summer"],
       "fishingLocation": "legend",
       "weather": ["rain", "sunny"],
       "done": false,
@@ -102,7 +102,7 @@
     {
       "id": "(O)704",
       "name": "Dorado",
-      "season": "summer",
+      "season": ["summer"],
       "fishingLocation": "forestRiver",
       "weather": ["rain", "sunny"],
       "done": false,
@@ -138,7 +138,7 @@
     {
       "id": "(O)775",
       "name": "Glacierfish",
-      "season": "winter",
+      "season": ["winter"],
       "fishingLocation": "legend",
       "weather": ["rain", "sunny"],
       "done": false,
@@ -211,7 +211,7 @@
     {
       "id": "(O)163",
       "name": "Legend",
-      "season": "spring",
+      "season": ["spring"],
       "fishingLocation": "legend",
       "weather": "rain",
       "done": false,
@@ -258,7 +258,7 @@
     {
       "id": "(O)798",
       "name": "Midnight Squid",
-      "season": "winter",
+      "season": ["winter"],
       "fishingLocation": "nightMarket",
       "weather": ["rain", "sunny"],
       "done": false,
@@ -287,7 +287,7 @@
       "id": "(O)149",
       "name": "Octopus",
       "fishingLocation": ["ocean", "gingerIslandOcean"],
-      "season": "summer",
+      "season": ["summer"],
       "weather": ["rain", "sunny"],
       "done": false,
       "found": false
@@ -295,7 +295,7 @@
     {
       "id": "(O)636",
       "name": "Perch",
-      "season": "winter",
+      "season": ["winter"],
       "fishingLocation": ["townRiver", "forestRiver", "forestPond", "lake"],
       "weather": ["rain", "sunny"],
       "done": false,
@@ -313,7 +313,7 @@
     {
       "id": "(O)128",
       "name": "Pufferfish",
-      "season": "summer",
+      "season": ["summer"],
       "fishingLocation": ["ocean", "gingerIslandOcean"],
       "weather": "sunny",
       "done": false,
@@ -322,7 +322,7 @@
     {
       "id": "(O)901",
       "name": "Radioactive Carp",
-      "season": "summer",
+      "season": ["summer"],
       "fishingLocation": "legend",
       "location": "gingerIsland",
       "weather": "sunny",
@@ -333,7 +333,7 @@
       "id": "(O)138",
       "name": "Rainbow Trout",
       "fishingLocation": ["townRiver", "forestRiver", "lake"],
-      "season": "summer",
+      "season": ["summer"],
       "weather": "sunny"
     },
     {
@@ -356,7 +356,7 @@
     {
       "id": "(O)139",
       "name": "Salmon",
-      "season": "fall",
+      "season": ["fall"],
       "fishingLocation": ["townRiver", "forestRiver", "forestWaterfall"],
       "weather": ["rain", "sunny"],
       "done": false,
@@ -438,7 +438,7 @@
     {
       "id": "(O)799",
       "name": "Spook Fish",
-      "season": "winter",
+      "season": ["winter"],
       "fishingLocation": "nightMarket",
       "weather": ["rain", "sunny"],
       "done": false,
@@ -493,7 +493,7 @@
     {
       "id": "(O)151",
       "name": "Squid",
-      "season": "winter",
+      "season": ["winter"],
       "fishingLocation": "ocean",
       "weather": ["rain", "sunny"],
       "done": false,

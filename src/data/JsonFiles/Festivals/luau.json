@@ -2,7 +2,7 @@
     {
       "id": "luau_1",
       "name": "Luau Soup",
-      "season": "summer",
+      "season": ["summer"],
       "done": false,
       "found": false
     }
