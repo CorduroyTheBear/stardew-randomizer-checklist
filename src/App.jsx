@@ -4,9 +4,9 @@ import {filterGroups, filterGroupedTables} from './components/Filters/filterTabl
 import { filterSeasons } from './components/Filters/filterSeasons';
 import {GROUPED_TABLES} from './data/groupedTables';
 
-
-import RenderChecklist from './components/renderChecklist';
 import GroupedChecklist from './components/groupedChecklist';
+import image from './components/images';
+import RenderChecklist from './components/renderChecklist';
 import RandomizerSettings from './components/TableSettings/randomizerSettings';
 
 import './App.css';
@@ -20,7 +20,6 @@ function App()
 {
 
   // Pulls data
-  
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [season, setSeason] = useState("all");
   const [seasonExclusive, setSeasonExclusive] = useState(false);
@@ -57,9 +56,21 @@ function App()
     
     const visibleGroupedKeys = filterGroupedTables(settings);
 
+    // Debug
+    console.log(image.background);
+
   return(
-    <>
-      <div>
+
+    <div style =
+        {{
+          backgroundImage: `url(${image.background})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          minHeight: "100vh",
+          opacity: "80%"
+        }}
+       >
+        
         <h1>Stardew Valley Checklist</h1>
 
         <div className = "top-bar">
@@ -109,35 +120,33 @@ function App()
           />
         )}
 
-      </div>
-
       {Object.entries(GROUPED_TABLES)
-      .filter(([key]) => visibleGroupedKeys.includes(key))
+        .filter(([key]) => visibleGroupedKeys.includes(key))
 
-      .filter(([key, table]) =>
-      {
-        const allowedGroups = filterGroups(key, settings);
-        const filteredGroups = allowedGroups
-          ? table.groups.filter(group => allowedGroups.includes(group.id))
-          : table.groups;
+        .filter(([key, table]) =>
+        {
+          const allowedGroups = filterGroups(key, settings);
+          const filteredGroups = allowedGroups
+            ? table.groups.filter(group => allowedGroups.includes(group.id))
+            : table.groups;
 
           return filteredGroups.some(group => group.data.some(item => filterSeasons(item, season, seasonExclusive)));
-      })
+        })
 
-      .filter(([key, table]) =>
-      {
-        if (!settings.hideCompleted) return true;
+        .filter(([key, table]) =>
+        {
+          if (!settings.hideCompleted) return true;
 
-        const allowedGroups = filterGroups(key, settings);
-        const filteredGroups = allowedGroups
-          ? table.groups.filter(group => allowedGroups.includes(group.id))
-          : table.groups;
+          const allowedGroups = filterGroups(key, settings);
+          const filteredGroups = allowedGroups
+            ? table.groups.filter(group => allowedGroups.includes(group.id))
+            : table.groups;
 
-        return filteredGroups.some(group => group.data.some(item => !item.done));
-      })
+          return filteredGroups.some(group => group.data.some(item => !item.done));
+        })
 
-      .map(([key, table]) =>
-      {
+        .map(([key, table]) =>
+        {
           const allowedGroups = filterGroups(key, settings);
           const filteredGroups = allowedGroups
             ? table.groups.filter(group => allowedGroups.includes(group.id))
@@ -163,9 +172,9 @@ function App()
             hideCompleted = {settings.hideCompleted}
           />
           );
-      })
-    }
-  </>
+        })
+      }
+    </div>
   );
 }
 

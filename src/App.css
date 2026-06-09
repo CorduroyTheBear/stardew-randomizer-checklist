@@ -1,20 +1,18 @@
+*, *::before, *::after /* Targets virtual elements browsers sometimes addd before or after real elements for styling purposes */
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 h1
 {
     text-align: center;
     font-size: 50px;
-    color: #724202de;
-}
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 10px;
 
-body
-{
-    background-image: url("/Background.png");
-    background-color: rgba(194, 233, 255, 0.466);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 100vh;
-    margin: 0;
 }
 
 .settings-button
