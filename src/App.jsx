@@ -2,6 +2,7 @@ import {useState} from 'react';
 
 import {filterGroups, filterGroupedTables} from './components/Filters/filterTables';
 import { filterSeasons } from './components/Filters/filterSeasons';
+import { filterFishingLocations } from './components/Filters/filterFishingLocations';
 import {GROUPED_TABLES} from './data/groupedTables';
 
 import GroupedChecklist from './components/groupedChecklist';
@@ -22,6 +23,7 @@ function App()
   // Pulls data
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [season, setSeason] = useState("all");
+  const [fishingLocation, setFishingLocation] = useState("any");
   const [seasonExclusive, setSeasonExclusive] = useState(false);
 
   // Default Settings
@@ -101,6 +103,31 @@ function App()
               </label>
 
               <label>
+                Fishing Location:
+                <select value = {fishingLocation} onChange = {(e) => setFishingLocation(e.target.value)}>
+                  <option value = "any">Any</option>
+                  <option value = "bugLiar">Bug Liar</option>
+                  <option value = "desert">Desert</option> 
+                  <option value = "forestFarm">Forest Farm</option>
+                  <option value = "forestPond">Forest Pond</option>
+                  <option value = "forestRiver">Forest River</option>
+                  <option value = "forestWaterfall">Forest Waterfall</option>
+                  <option value = "gingerIslandRiver">Ginger Island River</option>
+                  <option value = "gingerIslandOcean">Ginger Island Ocean</option>
+                  <option value = "legend">Legend</option>
+                  <option value = "lake">Lake</option>
+                  <option value = "mines">Mines</option>
+                  <option value = "nightMarket">Night Market</option>
+                  <option value = "ocean">Ocean</option>
+                  <option value = "pirateCove">Pirate Cove</option> 
+                  <option value = "secretWoods">Secret Woods</option>
+                  <option value = "sewers">Sewers</option>
+                  <option value = "townRiver">Town River</option>
+                  <option value = "witchSwamp">Witch Swamp</option>
+                </select>
+              </label>
+
+              <label>
                 Hide Completed Checks
                 <input
                     type = "checkbox"
@@ -130,7 +157,10 @@ function App()
             ? table.groups.filter(group => allowedGroups.includes(group.id))
             : table.groups;
 
-          return filteredGroups.some(group => group.data.some(item => filterSeasons(item, season, seasonExclusive)));
+            return filteredGroups.some(group => group.data.some(item => 
+              filterSeasons(item, season, seasonExclusive) &&
+              filterFishingLocations(item, fishingLocation)
+            ));
         })
 
         .filter(([key, table]) =>
@@ -142,7 +172,10 @@ function App()
             ? table.groups.filter(group => allowedGroups.includes(group.id))
             : table.groups;
 
-          return filteredGroups.some(group => group.data.some(item => !item.done && filterSeasons(item, season, seasonExclusive)));
+            return filteredGroups.some(group => group.data.some(item => !item.done &&
+              filterSeasons(item, season, seasonExclusive) &&
+              filterFishingLocations(item, fishingLocation)
+            ));
         })
 
         .map(([key, table]) =>
@@ -153,8 +186,15 @@ function App()
             : table.groups;
 
           const allVisibleGroups = filteredGroups
-          .filter(group => group.data.some(item => filterSeasons(item, season, seasonExclusive)))
-          .filter(group => !settings.hideCompleted || group.data.some(item => !item.done && filterSeasons(item, season, seasonExclusive)));
+          .filter(group => group.data.some(item =>
+            filterSeasons(item, season, seasonExclusive) &&
+            filterFishingLocations(item, fishingLocation)
+          ))
+
+          .filter(group => !settings.hideCompleted || group.data.some(item =>!item.done &&
+            filterSeasons(item, season, seasonExclusive) &&
+            filterFishingLocations(item, fishingLocation)
+          ));
 
           // Handle styles based on # of tables
           const headingClass = allVisibleGroups.length === 1 ? "tableLevel-2_Heading" : "tableLevel-2_Heading";
@@ -169,6 +209,7 @@ function App()
             onToggle = {(groupID, itemID, field) => handleToggle(groupID, itemID, field)}
             season = {season}
             seasonExclusive = {seasonExclusive}
+            fishingLocation = {fishingLocation}
             hideCompleted = {settings.hideCompleted}
           />
           );

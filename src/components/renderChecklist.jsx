@@ -3,8 +3,9 @@
 import { useState } from "react";
 
 import { filterSeasons } from './Filters/filterSeasons';
+import { filterFishingLocations } from "./Filters/filterFishingLocations";
 
-export default function RenderChecklist({className, data, heading, hideCompleted = false, onToggle, season = "all", seasonExclusive = false})
+export default function RenderChecklist({className, data, fishingLocation = "any", heading, hideCompleted = false, onToggle, season = "all", seasonExclusive = false})
 {
     // Set table default setting to closed
     const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,10 @@ export default function RenderChecklist({className, data, heading, hideCompleted
     {
         // Hide completed items if setting is on
         if (hideCompleted && item.done) return false;
+
+        // Filters
         if (!filterSeasons(item, season, seasonExclusive)) return false;
+        if (!filterFishingLocations(item, fishingLocation)) return false;
         
         else
         {
