@@ -83,7 +83,7 @@ function App()
               </button>
 
               <label>
-                Seasons:
+                Season:
                 <select value = {season} onChange = {(e) => setSeason(e.target.value)}>
                   <option value = "all">All</option>
                   <option value = "spring">Spring</option>
