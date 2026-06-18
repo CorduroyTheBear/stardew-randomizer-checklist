@@ -1,9 +1,10 @@
 import {useState} from "react";
 import { filterSeasons } from "./Filters/filterSeasons";
 import { filterFishingLocations } from "./Filters/filterFishingLocations";
+import { filterGingerIslandChecks } from "./Filters/filterGIChecks";
 import RenderChecklist from "./renderChecklist";
 
-export default function GroupedChecklist ({className, fishingLocation = "any", groups, heading, hideCompleted = false, onToggle, season, seasonExclusive})
+export default function GroupedChecklist ({className, fishingLocation = "any", groups, heading, hideCompleted = false, isGI = "No", onToggle, season, seasonExclusive})
 {
     // Checklist is closed by default
     const [isOpen, setIsOpen] = useState(false);
@@ -11,19 +12,22 @@ export default function GroupedChecklist ({className, fishingLocation = "any", g
     // Filter out tables with no checks when a filter is selected
     const VisibleGroups = groups.filter(group => group.data.some(item =>
         filterSeasons(item, season, seasonExclusive) &&
-        filterFishingLocations(item, fishingLocation)
+        filterFishingLocations(item, fishingLocation) &&
+        filterGingerIslandChecks(item, isGI)
     ));
 
     // Filter out tables with no checks left when hide completed is selected
     const completedVisibleGroups = VisibleGroups.filter(group => !hideCompleted || group.data.some(item => !item.done &&
         filterSeasons(item, season, seasonExclusive) &&
-        filterFishingLocations(item, fishingLocation)
+        filterFishingLocations(item, fishingLocation) &&
+        filterGingerIslandChecks(item, isGI)
     ));
 
     // Filter out level 1 tables
     const visibleItems = completedVisibleGroups.flatMap(group => group.data.filter(item =>
         filterSeasons(item, season, seasonExclusive) &&
-        filterFishingLocations(item, fishingLocation)
+        filterFishingLocations(item, fishingLocation) &&
+        filterGingerIslandChecks(item, isGI)
     ));
 
     const doneCount = visibleItems.filter(i => i.done).length;
@@ -46,6 +50,7 @@ export default function GroupedChecklist ({className, fishingLocation = "any", g
                 season = {season}
                 seasonExclusive={seasonExclusive}
                 fishingLocation = {fishingLocation}
+                isGI = {isGI}
             />
         );
     }
@@ -81,6 +86,7 @@ export default function GroupedChecklist ({className, fishingLocation = "any", g
                                 season = {season}
                                 seasonExclusive = {seasonExclusive}
                                 fishingLocation = {fishingLocation}
+                                isGI = {isGI}
                             />
                         ))}
                     </div>

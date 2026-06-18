@@ -3,6 +3,7 @@ import {useState} from 'react';
 import {filterGroups, filterGroupedTables} from './components/Filters/filterTables';
 import { filterSeasons } from './components/Filters/filterSeasons';
 import { filterFishingLocations } from './components/Filters/filterFishingLocations';
+import { filterGingerIslandChecks } from './components/Filters/filterGIChecks';
 import {GROUPED_TABLES} from './data/groupedTables';
 
 import GroupedChecklist from './components/groupedChecklist';
@@ -25,6 +26,7 @@ function App()
   const [season, setSeason] = useState("all");
   const [fishingLocation, setFishingLocation] = useState("any");
   const [seasonExclusive, setSeasonExclusive] = useState(false);
+  const [isGI, setIsGingerIsland] = useState("No");
 
   // Default Settings
   const [settings, setSettings] = useState({
@@ -128,6 +130,14 @@ function App()
               </label>
 
               <label>
+                Show only GI Checks?:
+                <select value = {isGI} onChange = {(e) => setIsGingerIsland(e.target.value)}>
+                  <option value = "No">No</option>
+                  <option value = "Yes">Yes</option>
+                </select>
+              </label>
+
+              <label>
                 Hide Completed Checks
                 <input
                     type = "checkbox"
@@ -159,7 +169,8 @@ function App()
 
             return filteredGroups.some(group => group.data.some(item => 
               filterSeasons(item, season, seasonExclusive) &&
-              filterFishingLocations(item, fishingLocation)
+              filterFishingLocations(item, fishingLocation) &&
+              filterGingerIslandChecks(item, isGI)
             ));
         })
 
@@ -174,7 +185,8 @@ function App()
 
             return filteredGroups.some(group => group.data.some(item => !item.done &&
               filterSeasons(item, season, seasonExclusive) &&
-              filterFishingLocations(item, fishingLocation)
+              filterFishingLocations(item, fishingLocation) &&
+              filterGingerIslandChecks(item, isGI)
             ));
         })
 
@@ -188,12 +200,14 @@ function App()
           const allVisibleGroups = filteredGroups
           .filter(group => group.data.some(item =>
             filterSeasons(item, season, seasonExclusive) &&
-            filterFishingLocations(item, fishingLocation)
+            filterFishingLocations(item, fishingLocation) &&
+            filterGingerIslandChecks(item, isGI)
           ))
 
           .filter(group => !settings.hideCompleted || group.data.some(item =>!item.done &&
             filterSeasons(item, season, seasonExclusive) &&
-            filterFishingLocations(item, fishingLocation)
+            filterFishingLocations(item, fishingLocation) &&
+            filterGingerIslandChecks(item, isGI)
           ));
 
           // Handle styles based on # of tables
@@ -210,6 +224,7 @@ function App()
             season = {season}
             seasonExclusive = {seasonExclusive}
             fishingLocation = {fishingLocation}
+            isGI = {isGI}
             hideCompleted = {settings.hideCompleted}
           />
           );
