@@ -96,7 +96,8 @@
   {
     "id": "Book_Diamounds",
     "location": "stardewValley",
-    "name": "gingerIsland",
+    "name": "The Diamond Hunter",
+    "isGI": true,
     "done": false,
     "found": false
   },

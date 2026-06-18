@@ -40,7 +40,7 @@
       "name": "Lionfish",
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "gingerIslandOcean",
-      "location": "gingerIsland",
+      "isGI": true,
       "weather": ["rain", "sunny"],
       "done": false,
       "found": false

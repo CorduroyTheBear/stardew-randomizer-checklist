@@ -40,7 +40,7 @@
       "name": "Blue Discus",
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "gingerIslandRiver",
-      "location": "gingerIsland",
+      "isGI": true,
       "weather": ["rain", "sunny"],
       "done": false,
       "found": false
@@ -149,7 +149,7 @@
       "name": "Glacierfish Jr.",
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": ["legend", "forestRiver"],
-      "location": "gingerIsland",
+      "isGI": true,
       "weather": ["rain", "sunny"],
       "done": false,
       "found": false
@@ -222,7 +222,7 @@
       "name": "Legend II",
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": ["legend", "lake"],
-      "location": "gingerIsland",
+      "isGI": true,
       "weather": ["rain", "sunny"],
       "done": false,
       "found": false
@@ -232,7 +232,7 @@
       "name": "Lionfish",
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "gingerIslandOcean",
-      "location": "gingerIsland",
+      "isGI": true,
       "weather": ["rain", "sunny"],
       "done": false,
       "found": false
@@ -269,7 +269,7 @@
       "name": "Ms. Angler",
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": ["legend", "townRiver"],
-      "location": "gingerIsland",
+      "isGI": true,
       "weather": ["rain", "sunny"],
       "done": false,
       "found": false
@@ -324,7 +324,7 @@
       "name": "Radioactive Carp",
       "season": ["summer"],
       "fishingLocation": ["legend", "sewers"],
-      "location": "gingerIsland",
+      "isGI": true,
       "weather": "sunny",
       "done": false,
       "found": false
@@ -430,7 +430,7 @@
       "name": "Son of Crimsonfish",
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": ["legend", "ocean"],
-      "location": "gingerIsland",
+      "isGI": true,
       "weather": ["rain", "sunny"],
       "done": false,
       "found": false
@@ -476,7 +476,7 @@
       "name": "Stingray",
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "pirateCove",
-      "location": "gingerIsland",
+      "isGI": true,
       "weather": ["rain", "sunny"],
       "done": false,
       "found": false

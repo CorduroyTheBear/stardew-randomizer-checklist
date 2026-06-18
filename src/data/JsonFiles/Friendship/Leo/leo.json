@@ -2,51 +2,61 @@
  {
   "id": "leo_1",
   "name": "Heart 1",
+  "isGI": true,
   "found": false
  },
  {
   "id": "leo_2",
   "name": "Heart 2",
+  "isGI": true,
   "found": false
  },
  {
   "id": "leo_3",
   "name": "Heart 3",
+  "isGI": true,
   "found": false
  },
  {
   "id": "leo_4",
   "name": "Heart 4",
+  "isGI": true,
   "found": false
  },
  {
   "id": "leo_5",
   "name": "Heart 5",
+  "isGI": true,
   "found": false
  },
  {
   "id": "leo_6",
   "name": "Heart 6",
+  "isGI": true,
   "found": false
  },
  {
   "id": "leo_7",
   "name": "Heart 7",
+  "isGI": true,
   "found": false
  },
  {
   "id": "leo_8",
   "name": "Heart 8",
+  "isGI": true,
   "found": false
  },
 {
   "id": "leo_9",
   "name": "Heart 9",
+  "isGI": true,
   "found": false
  },
 {
   "id": "leo_10",
   "name": "Heart 10",
+  "isGI": true,
   "found": false
  }
 ]

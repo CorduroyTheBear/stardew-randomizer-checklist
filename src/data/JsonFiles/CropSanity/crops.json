@@ -197,7 +197,7 @@
       "id": "832",
       "name": "Pineapple",
       "season": ["summer"],
-      "location": "gingerIsland",
+      "isGI": true,
       "image": "images.pineapple",
       "done": false,
       "found": false
@@ -206,7 +206,7 @@
       "id": "830",
       "name": "Taro Root",
       "season": ["summer"],
-      "location": "gingerIsland",
+      "isGI": true,
       "image": "images.taroRoot",
       "done": false,
       "found": false

@@ -80,18 +80,21 @@
  {
      "id": "magma_duggy_1",
      "name": "Magma Duggy",
+     "isGI": true,
      "done": false,
      "found": false
  },
  {
      "id": "magma_sparker_1",
      "name": "Magma Sparker",
+     "isGI": true,
      "done": false,
      "found": false
  },
  {
      "id": "magma_sprite_1",
      "name": "Magma Sprite",
+     "isGI": true,
      "done": false,
      "found": false
  },
@@ -164,6 +167,7 @@
  {
       "id": "tigerSlinme_1",
       "name": "Tiger Slime",
+      "isGI": true,
       "done": false,
       "found": false 
  }

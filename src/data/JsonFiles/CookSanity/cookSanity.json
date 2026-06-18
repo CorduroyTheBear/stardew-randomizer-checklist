@@ -26,7 +26,7 @@
     {
       "id": "(O)904",
       "name": "Banana Pudding",
-      "location": "gingerIsland",
+      "isGI": true,
       "done": false,
       "found": false
     },
@@ -201,7 +201,7 @@
     {
       "id": "(O)903",
       "name": "Ginger Ale",
-      "location": "gingerIsland",
+      "isGI": true,
       "done": false,
       "found": false
     },
@@ -244,7 +244,7 @@
     {
       "id": "(O)905",
       "name": "Mango Sticky Rice",
-      "location": "gingerIsland",
+      "isGI": true,
       "done": false,
       "found": false
     },
@@ -317,7 +317,7 @@
     {
       "id": "(O)906",
       "name": "Poi",
-      "location": "gingerIsland",
+      "isGI": true,
       "done": false,
       "found": false
     },

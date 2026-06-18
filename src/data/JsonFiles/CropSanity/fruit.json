@@ -19,7 +19,7 @@
       "id": "91",
       "name": "Banana",
       "season": ["summer"],
-      "location": "gingerIsland",
+      "isGI": true,
       "image": "images.banana",
       "done": false,
       "found": false
@@ -28,7 +28,7 @@
       "id": "834",
       "name": "Mango",
       "season": ["summer"],
-      "location": "gingerIsland",
+      "isGI": true,
       "image": "images.mango",
       "done": false,
       "found": false
