@@ -170,6 +170,15 @@ export default function SettingsList({settings, setSettings, })
                     <option value = "progressive">Progressive</option>
                 </select>
             </label>
+
+            <label>
+                Exclude Ginger Island?:
+
+                <select value = {settings.gingerIsland} onChange = {(e) => update("gingerIsland", e.target.value)}>
+                    <option value = "yes">Yes</option>
+                    <option value = "no">No</option>
+                </select>
+            </label>
         </>
     );
 }
@@ -178,27 +187,10 @@ export default function SettingsList({settings, setSettings, })
 
 // Filter setting to add later
 /*
+            <label><strong>Walnutsanity:</strong></label>
 
-    <label><strong>Walnutsanity:</strong></label>
-
-      <label>
-        <input type="checkbox" checked={walnutType.bush} onChange={() => setWalnutType(prev => ({ ...prev, bush: !prev.bush }))} />
-        Bushes
-      </label>
-
-      <label>
-        <input type="checkbox" checked={walnutType.digSpot} onChange={() => setWalnutType(prev => ({ ...prev, digSpot: !prev.digSpot }))} />
-        Dig Spots
-      </label>
-
-      <label>
-        <input type="checkbox" checked={walnutType.puzzle} onChange={() => setWalnutType(prev => ({ ...prev, puzzle: !prev.puzzle }))} />
-        Puzzles
-      </label>
-
-      <label>
-        <input type="checkbox" checked={walnutType.repeatable} onChange={() => setWalnutType(prev => ({ ...prev, repeatable: !prev.repeatable }))} />
-        Repeatables
-      </label>
-
+            <label><input type="checkbox" checked={walnutType.bush} onChange={() => setWalnutType(prev => ({ ...prev, bush: !prev.bush }))} />Bushes</label>
+            <label><input type="checkbox" checked={walnutType.digSpot} onChange={() => setWalnutType(prev => ({ ...prev, digSpot: !prev.digSpot }))} />Dig Spots</label>
+            <label><input type="checkbox" checked={walnutType.puzzle} onChange={() => setWalnutType(prev => ({ ...prev, puzzle: !prev.puzzle }))} />Puzzles</label>
+            <label><input type="checkbox" checked={walnutType.repeatable} onChange={() => setWalnutType(prev => ({ ...prev, repeatable: !prev.repeatable }))} />Repeatables</label>
 */

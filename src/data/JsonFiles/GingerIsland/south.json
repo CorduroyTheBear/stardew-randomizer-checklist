@@ -1,0 +1,65 @@
+[
+    {
+      "id": "goldenWalnutSouth_6",
+      "name": "Diamond Of Yellow Starfish",
+      "hint": "Find a diamond of yellow starfish and dig up the center.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    },
+    {
+      "id": "goldenWalnutSouth_2",
+      "name": "Mermaid Song",
+      "hint": "Drum Blocks",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutSouth_7",
+      "name": "Pirate Cove Patch Of Sand",
+      "hint": "Go to the Pirate Cove, which is accessible after the beach resort is built. Dig up the patch of exposed sand among the barrels east of the water.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    },
+    {
+      "id": "goldenWalnutSouth_3",
+      "name": "Pirate Darts 1",
+      "hint": "Pirate's Cove",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutSouth_4",
+      "name": "Pirate Darts 2",
+      "hint": "Pirate's Cove",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutSouth_5",
+      "name": "Pirate Darts 3",
+      "hint": "Pirate's Cove",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutSouth_1",
+      "name": "Starfish Tide Pool",
+      "hint": "Fish for it",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    }
+]

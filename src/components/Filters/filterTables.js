@@ -18,6 +18,7 @@ export function filterGroupedTables(settings)
     if (settings.festivalLocations !== "none") visible.push("festivalLocations");
     if (settings.fishsanity !== "none") visible.push("fishsanity");
     if (settings.friendsanity !== "none") visible.push("friendsanity");
+    if (settings.gingerIsland !== "yes") visible.push("gingerIsland");
     if (settings.monstersanity !== "none") visible.push("monstersanity");
     if (settings.movieSanity !== "none") visible.push("movieSanity");
     if (settings.museamsity !== "none") visible.push("museamsity");
@@ -109,6 +110,15 @@ export function filterGroups(tableKey, settings)
             if (settings.friendsanity === "startingNpcs") visible.push("otherFriendChecks", "alex", "elliot", "harvey", "sam", "sebastian", "shane", "abigail", "emily", "haley", "leah", "maru", "penny", "caroline", "clint", "demetrius", "evelyn", "george", "gus", "jas", "jodi", "lewis", "linus", "marnie", "pam", "pierre", "robin", "vincent", "willy", "wizard", "pet");
             if (settings.friendsanity === "all") visible.push("otherFriendChecks", "alex", "elliot", "harvey", "sam", "sebastian", "shane", "abigail", "emily", "haley", "leah", "maru", "penny", "caroline", "clint", "demetrius", "dwarf", "evelyn", "george", "gus", "jas", "jodi", "kent", "krobus", "lewis", "linus", "leo", "marnie", "pam", "pierre", "robin", "sandy", "vincent", "willy", "wizard", "pet");
             if (settings.friendsanity === "allWithMarriage") visible.push("otherFriendChecks", "alex_14", "elliot_14", "harvey_14", "sam_14", "sebastian_14", "shane_14", "abigail_14", "emily_14", "haley_14", "leah_14", "maru_14", "penny_14", "caroline", "clint", "demetrius", "dwarf", "evelyn", "george", "gus", "jas", "jodi", "kent", "krobus", "lewis", "linus", "leo", "marnie", "pam", "pierre", "robin", "sandy", "vincent", "willy", "wizard", "pet");
+
+            return visible;
+        }
+
+        case "gingerIsland":
+        {
+            const visible = [];
+
+            if (settings.gingerIsland === "no") visible.push("gingerIslandGeneral", "gingerIslandNorth", "gingerIslandSouth", "gingerIslandEast", "gingerIslandWest");
 
             return visible;
         }

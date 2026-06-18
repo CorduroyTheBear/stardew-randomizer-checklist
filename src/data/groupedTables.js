@@ -184,7 +184,14 @@ import pet from "./JsonFiles/Friendship/pet.json";
      // Wizard
      import wizard from "./JsonFiles/Friendship/Wizard/wizard.json";
 
-// Mines Chests
+     // Ginger Island
+     import gingerIslandGeneral from "./JsonFiles/GingerIsland/gingerIsland.json";
+     import gingerIslandNorth from "./JsonFiles/GingerIsland/north.json";
+     import gingerIslandSouth from "./JsonFiles/GingerIsland/south.json";
+     import gingerIslandEast from "./JsonFiles/GingerIsland/east.json";
+     import gingerIslandWest from "./JsonFiles/GingerIsland/west.json";
+
+     // Mines Chests
 import minesChests from "./JsonFiles/minesTreasure.json";
 
 // Monsters
@@ -568,6 +575,20 @@ export const GROUPED_TABLES =
         groups:
         [
             {id: "minesChests", heading: "Mines Chests", className: "tableLevel-2_Tables", data: minesChests}
+        ]
+   },
+
+   gingerIsland:
+   {
+        heading: "Ginger Island",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+          {id: "gingerIslandGeneral", heading: "General", className: "tableLevel-2_Tables", data: gingerIslandGeneral},  
+          {id: "gingerIslandNorth", heading: "North", className: "tableLevel-2_Tables", data: gingerIslandNorth},
+          {id: "gingerIslandSouth", heading: "South", className: "tableLevel-2_Tables", data: gingerIslandSouth},
+          {id: "gingerIslandEast", heading: "East", className: "tableLevel-2_Tables", data: gingerIslandEast},
+          {id: "gingerIslandWest", heading: "West", className: "tableLevel-2_Tables", data: gingerIslandWest},
         ]
    },
 

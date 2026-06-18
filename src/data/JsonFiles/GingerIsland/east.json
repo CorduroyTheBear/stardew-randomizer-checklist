@@ -1,0 +1,56 @@
+[
+    {
+      "id": "goldenWalnutEast_1",
+      "name": "Banana Altar",
+      "hint": "Outside Leo's house.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutEast_2",
+      "name": "Gem Birds Bush",
+      "hint": "South inside of gem bird shrine",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutEast_3",
+      "name": "Gem Birds Shrine",
+      "hint": "Puzzle",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutEast_4",
+      "name": "Jungle Bush",
+      "hint": "A walnut in a bush is found in the jungle on the path towards Leo's hut.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutEast_5",
+      "name": "Leo's Tree",
+      "hint": "Hit Leo's Tree with an axe",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutEast_6",
+      "name": "Open Golden Coconut",
+      "hint": "Puzzle",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    }
+]

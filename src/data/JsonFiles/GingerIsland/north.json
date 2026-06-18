@@ -1,0 +1,389 @@
+[
+    {
+      "id": "goldenWalnutNorth_31",
+      "name": "Above Dig Site Bush",
+      "hint": "Up the north steps of the dig site and west across the bridge, there is a walnut plant",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutNorth_32",
+      "name": "Above Field Office Bush 1 ",
+      "hint": "Up the north steps of the dig site and east through the hidden passage in the cliff, the path emerges to a bridge eastward and two walnut plants beyond it.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutNorth_33",
+      "name": "Above Field Office Bush 2",
+      "hint": "Same as “Above Field Office Bush 1”",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutNorth_35",
+      "name": "Arc Of Stones",
+      "hint": "Eastward from the Volcano Dungeon entrance, dig in the sand circled by two bushes and an arc of stones.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    },
+    {
+      "id": "goldenWalnutNorth_25",
+      "name": "Big Circle Of Stones ",
+      "hint": "Atop the stairs at the Island North entrance, turn west and dig at the center of stone circle",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    },
+    {
+      "id": "goldenWalnutNorth_34",
+      "name": "Bush Behind Volcano Tree",
+      "hint": "Southeast of the Volcano Dungeon's entrance, find the walnut plant hidden by a tree.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutNorth_44",
+      "name": "Cliff Over Island South Bush",
+      "hint": "Go up the stairs to Island North, immediately turn east, then go south through a hidden route behind a tree to access the walnut bush visible on the upper cliff in Island South. Note that the Parrot Hint considers this walnut as being hidden in Island North.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutNorth_1",
+      "name": "Complete Large Animal Collection",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutNorth_4",
+      "name": "Complete Mummified Bat Collection",
+      "isGI": true,
+      "hint": "N/A",
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutNorth_3",
+      "name": "Complete Mummified Frog Collection",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutNorth_2",
+      "name": "Complete Snake Collection",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutNorth_30",
+      "name": "Crooked Circle Of Stones",
+      "hint": "Up the north steps of the dig site, dig at the center of the stone circle.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    },
+    {
+      "id": "goldenWalnutNorth_27",
+      "name": "Diamond Of Grass",
+      "hint": "Atop the stairs at the Island North entrance, move northeast to the grassy area and dig at the center of a circle of flowers",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    },
+    {
+      "id": "goldenWalnutNorth_42",
+      "name": "Forge Entrance Bush",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutNorth_43",
+      "name": "Forge Exit Bush",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutNorth_26",
+      "name": "Grove Bush",
+      "hint": "Atop the stairs at the Island North entrance, turn west into the hidden passage to reach a grove with a walnut bush.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutNorth_39",
+      "name": "Hidden Passage Bush",
+      "hint": "At the extreme northwest of the map, west of the volcano, proceed west along the wall and a notch north through the hidden passage westward. There is a walnut in the secluded bush.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutNorth_37",
+      "name": "Journal Scrap #10",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    },
+    {
+      "id": "goldenWalnutNorth_38",
+      "name": "Northmost Point Circle Of Stones",
+      "hint": "Near Joja Parrot",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    },
+    {
+      "id": "goldenWalnutNorth_29",
+      "name": "Patch Of Sand",
+      "hint": "Southeast of the Island Field Office, find the patch of sand with unusual texture and dig for the buried golden walnut.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    },
+    {
+      "id": "goldenWalnutNorth_36",
+      "name": "Protruding Tree Walnut",
+      "hint": "slingshot tree",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutNorth_5",
+      "name": "Purple Flowers Island Survey",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutNorth_6",
+      "name": "Purple Starfish Island Survey",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutNorth_40",
+      "name": "Secret Beach Bush 1",
+      "hint": "Secret West Volcano Exit",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutNorth_41",
+      "name": "Secret Beach Bush 2",
+      "hint": "Secret West Volcano Exit",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutNorth_28",
+      "name": "Small Circle Of Stones ",
+      "hint": "Atop the stairs at the Island North entrance, go northeast to the circle of flowers in the grassy area, then turn east and move onward to another grassy area. Dig at the center of the circle of stones.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    },
+    {
+      "id": "goldenWalnutNorth_22",
+      "name": "Volcano Common Chest Walnut",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutNorth_17",
+      "name": "Volcano Crates Walnut 1",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutNorth_18",
+      "name": "Volcano Crates Walnut 2",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutNorth_19",
+      "name": "Volcano Crates Walnut 3",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutNorth_20",
+      "name": "Volcano Crates Walnut 4",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutNorth_21",
+      "name": "Volcano Crates Walnut 5",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutNorth_12",
+      "name": "Volcano Monsters Walnut 1",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutNorth_13",
+      "name": "Volcano Monsters Walnut 2",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutNorth_14",
+      "name": "Volcano Monsters Walnut 3",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutNorth_15",
+      "name": "Volcano Monsters Walnut 4",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutNorth_16",
+      "name": "Volcano Monsters Walnut 5",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutNorth_23",
+      "name": "Volcano Rare Chest Walnut",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutNorth_7",
+      "name": "Volcano Rocks Walnut 1",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutNorth_8",
+      "name": "Volcano Rocks Walnut 2",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutNorth_9",
+      "name": "Volcano Rocks Walnut 3",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutNorth_10",
+      "name": "Volcano Rocks Walnut 4",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutNorth_11",
+      "name": "Volcano Rocks Walnut 5",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    }
+]

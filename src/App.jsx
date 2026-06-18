@@ -38,6 +38,7 @@ function App()
     festivalLocations: "none",
     fishsanity: "none",
     friendsanity: "none",
+    gingerIsland: "yes",
     bookSanity: "none",
     monstersanity: "none",
     movieSanity: "none",

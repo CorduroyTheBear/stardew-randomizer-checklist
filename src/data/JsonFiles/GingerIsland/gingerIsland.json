@@ -1,0 +1,186 @@
+[
+    {
+      "id": "gingerIsland_5",
+      "name": "Complete Island Field Office",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    },
+    {
+      "id": "gingerIsland_11",
+      "name": "Dig Site Bridge",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    },
+    {
+      "id": "gingerIsland_10",
+      "name": "Farm Obelisk",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    },
+    {
+      "id": "goldenWalnutGeneral_2",
+      "name": "Fishing Walnut 1",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutGeneral_3",
+      "name": "Fishing Walnut 2",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutGeneral_4",
+      "name": "Fishing Walnut 3",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutGeneral_5",
+      "name": "Fishing Walnut 4",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutGeneral_6",
+      "name": "Fishing Walnut 5",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "gingerIsland_8",
+      "name": "Island Farmhouse",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    },
+    {
+      "id": "gingerIsland_9",
+      "name": "Island Mailbox",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    },
+    {
+      "id": "gingerIsland_15",
+      "name": "Island Resort",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    },
+    {
+      "id": "gingerIsland_12",
+      "name": "Island Trader",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    },
+    {
+      "id": "gingerIsland_7",
+      "name": "Island West Turtle",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    },
+    {
+      "id": "gingerIsland_6",
+      "name": "Leo's Parrot",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    },
+    {
+      "id": "gingerIsland_4",
+      "name": "Open Professor Snail Cave",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    },
+    {
+      "id": "gingerIsland_16",
+      "name": "Parrot Express",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    },
+    {
+      "id": "gingerIsland_3",
+      "name": "Repair Boat Anchor",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    },
+    {
+      "id": "gingerIsland_2",
+      "name": "Repair Boat Hull",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    },
+    {
+      "id": "gingerIsland_1",
+      "name": "Repair Ticket Machine",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    },
+    {
+      "id": "goldenWalnutWest_23",
+      "name": "The Pirate's Wife",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    },
+    {
+      "id": "gingerIsland_13",
+      "name": "Volcano Bridge",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    },
+    {
+      "id": "goldenWalnutNorth_24",
+      "name": "Volcano Caldera Treasure",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    },
+    {
+      "id": "gingerIsland_14",
+      "name": "Volcano Exit Shortcut",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "general"
+    }
+  ]

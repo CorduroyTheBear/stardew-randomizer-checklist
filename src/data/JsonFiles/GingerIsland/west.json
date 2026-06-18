@@ -1,0 +1,299 @@
+[
+    {
+      "id": "goldenWalnutWest_29",
+      "name": "Below Colored Crystals Cave Bush",
+      "hint": "",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutWest_22",
+      "name": "Bush Behind Coconut Tree",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutWest_27",
+      "name": "Bush Behind Mahogany Tree",
+      "hint": "Where the slimes are",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutWest_30",
+      "name": "Cliff Edge Bush",
+      "hint": "Go east from the Tiger Slime Grove and follow the cliff edge, destroying any rocks or weeds along the way. At the end of the path is a walnut bush.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutWest_5",
+      "name": "Colored Crystals ",
+      "hint": "Simon says",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutWest_28",
+      "name": "Circle Of Grass",
+      "hint": "In slime area",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    },
+    {
+      "id": "goldenWalnutWest_26",
+      "name": "Coast Bush ",
+      "hint": "Walk up past Qi's Walnut Room through the ocean water to find a walnut bush.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutWest_21",
+      "name": "Diamond Of Indents ",
+      "hint": "Find a diamond of indents in the sand to the bottom-left of the tide pools, near the ocean. Dig up the center.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    },
+    {
+      "id": "goldenWalnutWest_31",
+      "name": "Diamond Of Pebbles",
+      "hint": "East of parrot express station",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    },
+    {
+      "id": "goldenWalnutWest_32",
+      "name": "Farm Parrot Express Bush",
+      "hint": "East of the farm's Parrot Express station, follow the hidden path that jogs eastward and northward. At its ultimate extent is a walnut bush.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutWest_33",
+      "name": "Farmhouse Cliff Bush",
+      "hint": "South of the farm's Parrot Express station, go south along the cliff and bend eastward overlooking the farmhouse, to the walnut bush.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutWest_1",
+      "name": "Gourmand Frog Melon",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutWest_3",
+      "name": "Gourmand Frog Garlic",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutWest_2",
+      "name": "Gourmand Frog Wheat",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutWest_6",
+      "name": "Harvesting Walnut 1",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutWest_7",
+      "name": "Harvesting Walnut 2",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutWest_8",
+      "name": "Harvesting Walnut 3",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutWest_9",
+      "name": "Harvesting Walnut 4",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutWest_10",
+      "name": "Harvesting Walnut 5",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutWest_17",
+      "name": "Journal Scrap #6",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    },
+    {
+      "id": "goldenWalnutWest_24",
+      "name": "Journal Scrap #4",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    },
+    {
+      "id": "goldenWalnutWest_11",
+      "name": "Mussel Node Walnut 1",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutWest_12",
+      "name": "Mussel Node Walnut 2",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutWest_13",
+      "name": "Mussel Node Walnut 3",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutWest_14",
+      "name": "Mussel Node Walnut 4",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutWest_15",
+      "name": "Mussel Node Walnut 5",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutWest_19",
+      "name": "Starfish Diamond ",
+      "hint": "Find the starfish diamond as depicted in the image near the tide pools. It may be partially covered by a large rock. Dig up the center.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    },
+    {
+      "id": "goldenWalnutWest_34",
+      "name": "Starfish Triangle",
+      "hint": "Find the blue starfish triangle as depicted in the image on the beach south of the farm. Dig up the center.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    },
+    {
+      "id": "goldenWalnutWest_18",
+      "name": "Shipwreck Bush",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutWest_16",
+      "name": "Tiger Slime Walnut",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "repeatable"
+    },
+    {
+      "id": "goldenWalnutWest_25",
+      "name": "Walnut Room Bush",
+      "hint": "Walk up the western coast towards Qi's Walnut Room to find a walnut bush to the bottom-right near a cliff.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "bush"
+    },
+    {
+      "id": "goldenWalnutWest_4",
+      "name": "Whack A Mole",
+      "hint": "N/A",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "puzzle"
+    },
+    {
+      "id": "goldenWalnutWest_20",
+      "name": "X in the sand",
+      "hint": "Find the X marked in the sand in the tide pools. Dig up the center.",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "type": "digSpot"
+    }
+]
