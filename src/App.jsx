@@ -171,7 +171,8 @@ function App()
             return filteredGroups.some(group => group.data.some(item => 
               filterSeasons(item, season, seasonExclusive) &&
               filterFishingLocations(item, fishingLocation) &&
-              filterGingerIslandChecks(item, isGI)
+              filterGingerIslandChecks(item, isGI) &&
+              !(settings.gingerIsland === "yes" && item.isGI)
             ));
         })
 
@@ -187,7 +188,8 @@ function App()
             return filteredGroups.some(group => group.data.some(item => !item.done &&
               filterSeasons(item, season, seasonExclusive) &&
               filterFishingLocations(item, fishingLocation) &&
-              filterGingerIslandChecks(item, isGI)
+              filterGingerIslandChecks(item, isGI) &&
+              !(settings.gingerIsland === "yes" && item.isGI)
             ));
         })
 
@@ -202,13 +204,15 @@ function App()
           .filter(group => group.data.some(item =>
             filterSeasons(item, season, seasonExclusive) &&
             filterFishingLocations(item, fishingLocation) &&
-            filterGingerIslandChecks(item, isGI)
+            filterGingerIslandChecks(item, isGI) &&
+            !(settings.gingerIsland === "yes" && item.isGI)
           ))
 
           .filter(group => !settings.hideCompleted || group.data.some(item =>!item.done &&
             filterSeasons(item, season, seasonExclusive) &&
             filterFishingLocations(item, fishingLocation) &&
-            filterGingerIslandChecks(item, isGI)
+            filterGingerIslandChecks(item, isGI) &&
+            !(settings.gingerIsland === "yes" && item.isGI)
           ));
 
           // Handle styles based on # of tables
@@ -226,6 +230,7 @@ function App()
             seasonExclusive = {seasonExclusive}
             fishingLocation = {fishingLocation}
             isGI = {isGI}
+            excludeGI = {settings.gingerIsland}
             hideCompleted = {settings.hideCompleted}
           />
           );

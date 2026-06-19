@@ -6,7 +6,7 @@ import { filterSeasons } from './Filters/filterSeasons';
 import { filterFishingLocations } from "./Filters/filterFishingLocations";
 import { filterGingerIslandChecks } from "./Filters/filterGIChecks";
 
-export default function RenderChecklist({className, data, fishingLocation = "any", heading, hideCompleted = false, isGI = "No", onToggle, season = "all", seasonExclusive = false})
+export default function RenderChecklist({className, data, excludeGI = "no", fishingLocation = "any", heading, hideCompleted = false, isGI = "No", onToggle, season = "all", seasonExclusive = false})
 {
     // Set table default setting to closed
     const [isOpen, setIsOpen] = useState(false);
@@ -23,6 +23,7 @@ export default function RenderChecklist({className, data, fishingLocation = "any
         if (!filterSeasons(item, season, seasonExclusive)) return false;
         if (!filterFishingLocations(item, fishingLocation)) return false;
         if (!filterGingerIslandChecks(item, isGI)) return false;
+        if (excludeGI === "yes" && item.isGI) return false;
         
         else
         {
