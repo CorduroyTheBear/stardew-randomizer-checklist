@@ -1,10 +1,11 @@
-import {useState} from "react";
+import { useState } from "react";
 import { filterSeasons } from "./Filters/filterSeasons";
 import { filterFishingLocations } from "./Filters/filterFishingLocations";
 import { filterGingerIslandChecks } from "./Filters/filterGIChecks";
+import { filterWalnutType } from "./Filters/filterWalnutType";
 import RenderChecklist from "./renderChecklist";
 
-export default function GroupedChecklist ({className, excludeGI = "no", fishingLocation = "any", groups, heading, hideCompleted = false, isGI = "No", onToggle, season, seasonExclusive})
+export default function GroupedChecklist ({className, excludeGI = "no", fishingLocation = "any", groups, heading, hideCompleted = false, isGI = "No", onToggle, season, seasonExclusive, walnutType})
 {
     // Checklist is closed by default
     const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,8 @@ export default function GroupedChecklist ({className, excludeGI = "no", fishingL
         filterSeasons(item, season, seasonExclusive) &&
         filterFishingLocations(item, fishingLocation) &&
         filterGingerIslandChecks(item, isGI) &&
-        !(excludeGI === "yes" && item.isGI)
+        !(excludeGI === "yes" && item.isGI) &&
+        filterWalnutType(item, walnutType)
     ));
 
     // Filter out tables with no checks left when hide completed is selected
@@ -22,7 +24,8 @@ export default function GroupedChecklist ({className, excludeGI = "no", fishingL
         filterSeasons(item, season, seasonExclusive) &&
         filterFishingLocations(item, fishingLocation) &&
         filterGingerIslandChecks(item, isGI) &&
-        !(excludeGI === "yes" && item.isGI)
+        !(excludeGI === "yes" && item.isGI) &&
+        filterWalnutType(item, walnutType)
     ));
 
     // Filter out level 1 tables
@@ -30,7 +33,8 @@ export default function GroupedChecklist ({className, excludeGI = "no", fishingL
         filterSeasons(item, season, seasonExclusive) &&
         filterFishingLocations(item, fishingLocation) &&
         filterGingerIslandChecks(item, isGI) &&
-        !(excludeGI === "yes" && item.isGI)
+        !(excludeGI === "yes" && item.isGI) &&
+        filterWalnutType(item, walnutType)
     ));
 
     const doneCount = visibleItems.filter(i => i.done).length;
@@ -55,6 +59,7 @@ export default function GroupedChecklist ({className, excludeGI = "no", fishingL
                 fishingLocation = {fishingLocation}
                 isGI = {isGI}
                 excludeGI = {excludeGI}
+                walnutType = {walnutType}
             />
         );
     }
@@ -92,6 +97,7 @@ export default function GroupedChecklist ({className, excludeGI = "no", fishingL
                                 fishingLocation = {fishingLocation}
                                 isGI = {isGI}
                                 excludeGI = {excludeGI}
+                                walnutType = {walnutType}
                             />
                         ))}
                     </div>

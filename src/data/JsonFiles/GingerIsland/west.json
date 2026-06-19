@@ -6,7 +6,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "bush"
+      "walnutType": "bush"
     },
     {
       "id": "goldenWalnutWest_22",
@@ -15,7 +15,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "bush"
+      "walnutType": "bush"
     },
     {
       "id": "goldenWalnutWest_27",
@@ -24,7 +24,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "bush"
+      "walnutType": "bush"
     },
     {
       "id": "goldenWalnutWest_30",
@@ -33,7 +33,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "bush"
+      "walnutType": "bush"
     },
     {
       "id": "goldenWalnutWest_5",
@@ -42,7 +42,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "puzzle"
+      "walnutType": "puzzle"
     },
     {
       "id": "goldenWalnutWest_28",
@@ -51,7 +51,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "digSpot"
+      "walnutType": "digSpot"
     },
     {
       "id": "goldenWalnutWest_26",
@@ -60,7 +60,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "bush"
+      "walnutType": "bush"
     },
     {
       "id": "goldenWalnutWest_21",
@@ -69,7 +69,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "digSpot"
+      "walnutType": "digSpot"
     },
     {
       "id": "goldenWalnutWest_31",
@@ -78,7 +78,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "digSpot"
+      "walnutType": "digSpot"
     },
     {
       "id": "goldenWalnutWest_32",
@@ -87,7 +87,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "bush"
+      "walnutType": "bush"
     },
     {
       "id": "goldenWalnutWest_33",
@@ -96,7 +96,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "bush"
+      "walnutType": "bush"
     },
     {
       "id": "goldenWalnutWest_1",
@@ -105,7 +105,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "puzzle"
+      "walnutType": "puzzle"
     },
     {
       "id": "goldenWalnutWest_3",
@@ -114,7 +114,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "puzzle"
+      "walnutType": "puzzle"
     },
     {
       "id": "goldenWalnutWest_2",
@@ -123,7 +123,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "puzzle"
+      "walnutType": "puzzle"
     },
     {
       "id": "goldenWalnutWest_6",
@@ -132,7 +132,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "repeatable"
+      "walnutType": "repeatable"
     },
     {
       "id": "goldenWalnutWest_7",
@@ -141,7 +141,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "repeatable"
+      "walnutType": "repeatable"
     },
     {
       "id": "goldenWalnutWest_8",
@@ -150,7 +150,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "repeatable"
+      "walnutType": "repeatable"
     },
     {
       "id": "goldenWalnutWest_9",
@@ -159,7 +159,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "repeatable"
+      "walnutType": "repeatable"
     },
     {
       "id": "goldenWalnutWest_10",
@@ -168,7 +168,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "repeatable"
+      "walnutType": "repeatable"
     },
     {
       "id": "goldenWalnutWest_17",
@@ -177,7 +177,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "digSpot"
+      "walnutType": "digSpot"
     },
     {
       "id": "goldenWalnutWest_24",
@@ -186,7 +186,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "digSpot"
+      "walnutType": "digSpot"
     },
     {
       "id": "goldenWalnutWest_11",
@@ -195,7 +195,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "repeatable"
+      "walnutType": "repeatable"
     },
     {
       "id": "goldenWalnutWest_12",
@@ -204,7 +204,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "repeatable"
+      "walnutType": "repeatable"
     },
     {
       "id": "goldenWalnutWest_13",
@@ -213,7 +213,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "repeatable"
+      "walnutType": "repeatable"
     },
     {
       "id": "goldenWalnutWest_14",
@@ -222,7 +222,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "repeatable"
+      "walnutType": "repeatable"
     },
     {
       "id": "goldenWalnutWest_15",
@@ -231,7 +231,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "repeatable"
+      "walnutType": "repeatable"
     },
     {
       "id": "goldenWalnutWest_19",
@@ -240,7 +240,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "digSpot"
+      "walnutType": "digSpot"
     },
     {
       "id": "goldenWalnutWest_34",
@@ -249,7 +249,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "digSpot"
+      "walnutType": "digSpot"
     },
     {
       "id": "goldenWalnutWest_18",
@@ -258,7 +258,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "bush"
+      "walnutType": "bush"
     },
     {
       "id": "goldenWalnutWest_16",
@@ -267,7 +267,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "repeatable"
+      "walnutType": "repeatable"
     },
     {
       "id": "goldenWalnutWest_25",
@@ -276,7 +276,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "bush"
+      "walnutType": "bush"
     },
     {
       "id": "goldenWalnutWest_4",
@@ -285,7 +285,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "puzzle"
+      "walnutType": "puzzle"
     },
     {
       "id": "goldenWalnutWest_20",
@@ -294,6 +294,6 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "digSpot"
+      "walnutType": "digSpot"
     }
 ]

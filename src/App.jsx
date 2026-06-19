@@ -1,9 +1,10 @@
 import {useState} from 'react';
 
-import {filterGroups, filterGroupedTables} from './components/Filters/filterTables';
+import { filterGroups, filterGroupedTables } from './components/Filters/filterTables';
 import { filterSeasons } from './components/Filters/filterSeasons';
 import { filterFishingLocations } from './components/Filters/filterFishingLocations';
 import { filterGingerIslandChecks } from './components/Filters/filterGIChecks';
+import { filterWalnutType } from './components/Filters/filterWalnutType';
 import {GROUPED_TABLES} from './data/groupedTables';
 
 import GroupedChecklist from './components/groupedChecklist';
@@ -14,8 +15,6 @@ import RandomizerSettings from './components/TableSettings/randomizerSettings';
 import './App.css';
 import './components/renderChecklist.css';
 import './data/tables.css';
-
-
 
 
 function App()
@@ -47,8 +46,15 @@ function App()
     skillProgression: "vanilla",
     specialOrders: "vanilla",
     toolProgression: "vanilla",
-
     hideCompleted: false
+  });
+
+  // Default checkbox settings
+  const [walnutType, setWalnutType] = useState({
+    bush: false,
+    digSpot: false,
+    puzzle: false,
+    repeatable: false
   });
   
   const [tableData, setTableData] = useState( () =>
@@ -154,6 +160,11 @@ function App()
           <RandomizerSettings
             settings = {settings}
             setSettings = {setSettings}
+
+            // Checkbox settings
+            walnutType = {walnutType}
+            setWalnutType = {setWalnutType}
+
             onClose = {() => setSettingsOpen(false)}
           />
         )}
@@ -172,7 +183,8 @@ function App()
               filterSeasons(item, season, seasonExclusive) &&
               filterFishingLocations(item, fishingLocation) &&
               filterGingerIslandChecks(item, isGI) &&
-              !(settings.gingerIsland === "yes" && item.isGI)
+              !(settings.gingerIsland === "yes" && item.isGI) &&
+              filterWalnutType(item, walnutType)
             ));
         })
 
@@ -189,7 +201,8 @@ function App()
               filterSeasons(item, season, seasonExclusive) &&
               filterFishingLocations(item, fishingLocation) &&
               filterGingerIslandChecks(item, isGI) &&
-              !(settings.gingerIsland === "yes" && item.isGI)
+              !(settings.gingerIsland === "yes" && item.isGI) &&
+              filterWalnutType(item, walnutType)
             ));
         })
 
@@ -205,14 +218,16 @@ function App()
             filterSeasons(item, season, seasonExclusive) &&
             filterFishingLocations(item, fishingLocation) &&
             filterGingerIslandChecks(item, isGI) &&
-            !(settings.gingerIsland === "yes" && item.isGI)
+            !(settings.gingerIsland === "yes" && item.isGI) &&
+            filterWalnutType(item, walnutType)
           ))
 
           .filter(group => !settings.hideCompleted || group.data.some(item =>!item.done &&
             filterSeasons(item, season, seasonExclusive) &&
             filterFishingLocations(item, fishingLocation) &&
             filterGingerIslandChecks(item, isGI) &&
-            !(settings.gingerIsland === "yes" && item.isGI)
+            !(settings.gingerIsland === "yes" && item.isGI) &&
+            filterWalnutType(item, walnutType)
           ));
 
           // Handle styles based on # of tables
@@ -232,6 +247,9 @@ function App()
             isGI = {isGI}
             excludeGI = {settings.gingerIsland}
             hideCompleted = {settings.hideCompleted}
+
+            // Checkbox filters
+            walnutType = {walnutType}
           />
           );
         })

@@ -6,7 +6,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "puzzle"
+      "walnutType": "puzzle"
     },
     {
       "id": "goldenWalnutEast_2",
@@ -15,7 +15,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "bush"
+      "walnutType": "bush"
     },
     {
       "id": "goldenWalnutEast_3",
@@ -24,7 +24,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "puzzle"
+      "walnutType": "puzzle"
     },
     {
       "id": "goldenWalnutEast_4",
@@ -33,7 +33,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "bush"
+      "walnutType": "bush"
     },
     {
       "id": "goldenWalnutEast_5",
@@ -42,7 +42,7 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "puzzle"
+      "walnutType": "puzzle"
     },
     {
       "id": "goldenWalnutEast_6",
@@ -51,6 +51,6 @@
       "isGI": true,
       "done": false,
       "found": false,
-      "type": "puzzle"
+      "walnutType": "puzzle"
     }
 ]
