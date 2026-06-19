@@ -15,7 +15,7 @@ export function filterWalnutType(item, walnutType)
 //    - Add && filterX(item, X) to chains
 //    - Pass X = {x} to both RenderChecklist calls
 
-// 3. In tableSettingsList
+// 3. In tableSettingsList.jsx
 //    - Add checkbox options
 
 // 4. In randomizerSettings.jsx
@@ -28,5 +28,3 @@ export function filterWalnutType(item, walnutType)
 //    - add if (!filterX(item, X)) return false; to const visibleItems
 
 // 6. In App.jsx, add to GroupedChecklist, and .filter() chains
-
-// filterX.js ->  -> groupedChecklist.jsx -> renderChecklist.jsx -> App.jsx
