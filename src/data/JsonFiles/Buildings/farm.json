@@ -1,0 +1,56 @@
+[
+  {
+    "id": "bigShed",
+    "name": "Big Shed",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "fishPond",
+    "name": "Fish Pond",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "mill",
+    "name": "Mill",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "shed",
+    "name": "Shed",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "shippingBin",
+    "name": "Shipping Bin",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "silo",
+    "name": "Silo",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "slimeHutch",
+    "name": "Slime Hutch",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "stable",
+    "name": "Stable",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "well",
+    "name": "Well",
+    "done": false,
+    "found": false
+  }
+]

@@ -1,0 +1,20 @@
+[
+    {
+      "id": "barn",
+      "name": "Barn",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "bigBarn",
+      "name": "Big Barn",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "deluxeBarn",
+      "name": "Deluxe Barn",
+      "done": false,
+      "found": false
+    }
+]

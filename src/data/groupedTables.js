@@ -11,7 +11,11 @@ import powerBooks from "./JsonFiles/Books/powerBooks.json";
 import skillBooks from "./JsonFiles/Books/skillBooks.json";
 
 // Building Progression
-import buildings from "./JsonFiles/buildings.json";
+import barn from "./JsonFiles/Buildings/barn.json";
+import coop from "./JsonFiles/Buildings/coop.json";
+import farmBuildings from "./JsonFiles/Buildings/farm.json";
+import house from "./JsonFiles/Buildings/house.json";
+
 
 // Bundles
 import jojaBundle from "./JsonFiles/Bundles/abandonedJoja.json";
@@ -353,7 +357,10 @@ export const GROUPED_TABLES =
         className: "tableLevel-2_Heading",
         groups:
         [
-            {id: "buildings", heading: "Buildings", className: "tableLevel-2_Tables", data: buildings},
+          {id: "barn", heading: "Barn", className: "tableLevel-2_Tables", data: barn},
+          {id: "coop", heading: "Coop", className: "tableLevel-2_Tables", data: coop},
+          {id: "farmBuildings", heading: "Farm", className: "tableLevel-2_Tables", data: farmBuildings},
+          {id: "house", heading: "House", className: "tableLevel-2_Tables", data: house},
         ]
    },
 

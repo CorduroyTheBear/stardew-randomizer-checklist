@@ -71,6 +71,15 @@ export function filterGroups(tableKey, settings)
             return visible;
         }
 
+        case "buildingProgression":
+        {
+            const visible = [];
+
+            if (settings.buildingProgression === "progressive") visible.push("barn", "coop", "farmBuildings", "house");
+
+            return visible;
+        }
+
         case "cooksanity":
         {
             const visible = [];

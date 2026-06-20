@@ -1,0 +1,20 @@
+[
+    {
+      "id": "coop",
+      "name": "Coop",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "bigCoop",
+      "name": "Big Coop",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "deluxeCoop",
+      "name": "Deluxe Coop",
+      "done": false,
+      "found": false
+    }
+]

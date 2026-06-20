@@ -1,0 +1,20 @@
+[
+    {
+      "id": "cellar",
+      "name": "Cellar",
+      "done": false,
+      "found": false
+    },
+    {
+    "id": "kidsRoom",
+    "name": "Kids Room",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "kitchen",
+    "name": "Kitchen",
+    "done": false,
+    "found": false
+  }
+]
