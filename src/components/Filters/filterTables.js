@@ -7,6 +7,7 @@ export function filterGroupedTables(settings)
     visible.push("minesChests");
     visible.push("travelingMerchant");
     visible.push("raccoonChecks");
+    visible.push("otherChecks");
 
     // Every other table
     if (settings.arcade !== "disabled") visible.push("arcade");

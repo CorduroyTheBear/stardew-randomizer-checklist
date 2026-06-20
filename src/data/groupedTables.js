@@ -238,6 +238,9 @@ import snacks from "./JsonFiles/Movies/snacks.json";
   import geodeMinerals from "./JsonFiles/Museam/geodeMinerals.json";
   import magmaGeodeMinerals from "./JsonFiles/Museam/magmaGeodeMinerals.json";
 
+// Other checks
+import otherChecks from "./JsonFiles/otherChecks.json";
+
 // Quests
 import storyQuests from "./JsonFiles/Quests/storyQuests.json";
 
@@ -587,16 +590,6 @@ export const GROUPED_TABLES =
         ]
    },
 
-   minesChests:
-   {
-        heading: "Mines Chests",
-        className: "tableLevel-2_Heading",
-        groups:
-        [
-            {id: "minesChests", heading: "Mines Chests", className: "tableLevel-2_Tables", data: minesChests}
-        ]
-   },
-
    gingerIsland:
    {
         heading: "Ginger Island",
@@ -608,6 +601,16 @@ export const GROUPED_TABLES =
           {id: "gingerIslandSouth", heading: "South", className: "tableLevel-2_Tables", data: gingerIslandSouth},
           {id: "gingerIslandEast", heading: "East", className: "tableLevel-2_Tables", data: gingerIslandEast},
           {id: "gingerIslandWest", heading: "West", className: "tableLevel-2_Tables", data: gingerIslandWest},
+        ]
+   },
+
+   minesChests:
+   {
+        heading: "Mines Chests",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "minesChests", heading: "Mines Chests", className: "tableLevel-2_Tables", data: minesChests}
         ]
    },
 
@@ -666,6 +669,16 @@ export const GROUPED_TABLES =
             {id: "gems", heading: "Gems", className: "tableLevel-2_Tables", data: gems},
             {id: "geodeMinerals", heading: "Geode", className: "tableLevel-2_Tables", data: geodeMinerals},
             {id: "magmaGeodeMinerals", heading: "Magma Geode", className: "tableLevel-2_Tables", data: magmaGeodeMinerals},
+        ]
+   },
+
+   otherChecks:
+   {
+        heading: "Other Checks",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "otherChecks", heading: "Other Checks", className: "tableLevel-2_Tables", data: otherChecks}
         ]
    },
 
