@@ -34,6 +34,7 @@ function App()
     cooksanity: "none",
     cropsanity: "disabled",
     elevatorProgression: "vanilla",
+    endGame: "no",
     festivalLocations: "none",
     fishsanity: "none",
     friendsanity: "none",

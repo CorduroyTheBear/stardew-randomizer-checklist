@@ -15,6 +15,7 @@ export function filterGroupedTables(settings)
     if (settings.cooksanity !== "none") visible.push("cooksanity");
     if (settings.cropsanity !== "disabled") visible.push("cropsanity");
     if (settings.elevatorProgression !== "vanilla") visible.push("elevatorProgression");
+    if (settings.endGame !== "no") visible.push("endGame");
     if (settings.festivalLocations !== "none") visible.push("festivalLocations");
     if (settings.fishsanity !== "none") visible.push("fishsanity");
     if (settings.friendsanity !== "none") visible.push("friendsanity");

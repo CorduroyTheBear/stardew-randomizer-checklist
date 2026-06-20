@@ -96,6 +96,15 @@ export default function SettingsList({settings, setSettings, walnutType, setWaln
             </label>
 
             <label>
+                Include Endgame Locations:
+
+                <select value = {settings.endGame} onChange = {(e) => update("endGame", e.target.value)}>
+                    <option value="no">No</option>
+                    <option value="yes">Yes</option>
+                </select>
+            </label>
+
+            <label>
                 Monstersanity:
 
                 <select value = {settings.monstersanity} onChange = {(e) => update("monstersanity", e.target.value)}>

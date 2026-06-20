@@ -33,6 +33,12 @@ import queenOfSauceChecks from "./JsonFiles/CookSanity/queenOfSauce.json";
 // Elevator Progression
 import elevatorProgression from "./JsonFiles/minesElevators.json";
 
+// Endgame locations
+import catalogues from "./JsonFiles/EndgameLocations/catalogues.json";
+import communityUpgrades from "./JsonFiles/EndgameLocations/communityUpgrades.json";
+import purchase from "./JsonFiles/EndgameLocations/purchase.json";
+import wizardBlueprints from "./JsonFiles/EndgameLocations/wizardBlueprints.json";
+
 // Festival Locations
    // easy
     import danceOfTheMoonlightJellies_e from "./JsonFiles/Festivals/danceOfTheMoonlightJellies_e.json";
@@ -184,14 +190,14 @@ import pet from "./JsonFiles/Friendship/pet.json";
      // Wizard
      import wizard from "./JsonFiles/Friendship/Wizard/wizard.json";
 
-     // Ginger Island
-     import gingerIslandGeneral from "./JsonFiles/GingerIsland/gingerIsland.json";
-     import gingerIslandNorth from "./JsonFiles/GingerIsland/north.json";
-     import gingerIslandSouth from "./JsonFiles/GingerIsland/south.json";
-     import gingerIslandEast from "./JsonFiles/GingerIsland/east.json";
-     import gingerIslandWest from "./JsonFiles/GingerIsland/west.json";
+// Ginger Island
+import gingerIslandGeneral from "./JsonFiles/GingerIsland/gingerIsland.json";
+import gingerIslandNorth from "./JsonFiles/GingerIsland/north.json";
+import gingerIslandSouth from "./JsonFiles/GingerIsland/south.json";
+import gingerIslandEast from "./JsonFiles/GingerIsland/east.json";
+import gingerIslandWest from "./JsonFiles/GingerIsland/west.json";
 
-     // Mines Chests
+// Mines Chests
 import minesChests from "./JsonFiles/minesTreasure.json";
 
 // Monsters
@@ -393,6 +399,19 @@ export const GROUPED_TABLES =
         groups:
         [
             {id: "elevatorProgression", heading: "Elevator", className: "tableLevel-2_Tables", data: elevatorProgression}
+        ]
+   },
+
+   endGame:
+   {
+        heading: "End Game",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "catalogues", heading: "Catalogues", className: "tableLevel-2_Tables", data: catalogues},
+            {id: "communityUpgrades", heading: "Community Upgrades", className: "tableLevel-2_Tables", data: communityUpgrades},
+            {id: "purchase", heading: "Purchase", className: "tableLevel-2_Tables", data: purchase},
+            {id: "wizardBlueprints", heading: "WizardBlueprints", className: "tableLevel-2_Tables", data: wizardBlueprints},
         ]
    },
 

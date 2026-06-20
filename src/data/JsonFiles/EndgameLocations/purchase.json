@@ -1,0 +1,17 @@
+[
+ {
+    "id": "returnScepter",
+    "name": "Return Scepter",
+    "done": false
+ },
+ {
+    "id": "endlessFortune",
+    "name": "Statue Of Endless Fortune",
+    "done": false
+ },
+ {
+    "id": "teaSet",
+    "name": "Tea Set",
+    "done": false
+ }
+]
