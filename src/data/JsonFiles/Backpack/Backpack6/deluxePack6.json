@@ -1,0 +1,16 @@
+[
+  {
+    "id": "dPack1",
+    "name": "1",
+    "w/oBackPack": false,
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "dPack2",
+    "name": "2",
+    "w/oBackPack": false,
+    "done": false,
+    "found": false
+  }
+]

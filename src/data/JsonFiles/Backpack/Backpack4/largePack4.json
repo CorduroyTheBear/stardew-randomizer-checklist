@@ -1,0 +1,23 @@
+[
+  {
+    "id": "lPack1",
+    "name": "1",
+    "w/oBackPack": false,
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "lPack2",
+    "name": "2",
+    "w/oBackPack": false,
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "lPack3",
+    "name": "3",
+    "w/oBackPack": false,
+    "done": false,
+    "found": false
+  }
+]

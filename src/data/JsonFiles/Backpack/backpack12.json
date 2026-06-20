@@ -1,0 +1,23 @@
+[
+  {
+    "id": "sPack1",
+    "name": "Small Pack",
+    "w/oBackPack": true,
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "lPack1",
+    "name": "Large Pack",
+    "w/oBackPack": false,
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "dPack1",
+    "name": "Deluxe Pack",
+    "w/oBackPack": false,
+    "done": false,
+    "found": false
+  }
+]
