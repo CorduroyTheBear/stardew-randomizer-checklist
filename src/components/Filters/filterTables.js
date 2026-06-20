@@ -11,6 +11,7 @@ export function filterGroupedTables(settings)
 
     // Every other table
     if (settings.arcade !== "disabled") visible.push("arcade");
+    if (settings.backpack !== "vanilla") visible.push("backpack");
     if (settings.buildingProgression !== "vanilla") visible.push("buildingProgression");
     if (settings.bookSanity !== "none") visible.push("bookSanity");
     if (settings.cooksanity !== "none") visible.push("cooksanity");
@@ -57,6 +58,20 @@ export function filterGroups(tableKey, settings)
             if (settings.arcade === "fullShuffling") visible.push("jotPK");
             if (settings.arcade === "fullShuffling") visible.push("junimoKart");
 
+            return visible;
+        }
+
+        case "backpack":
+        {
+            const visible = [];
+
+            if (settings.backpack === "12") visible.push("backpack12");
+            if (settings.backpack === "6") visible.push("smallPack6", "largePack6", "deluxePack6");
+            if (settings.backpack === "4") visible.push("smallPack4", "largePack4", "deluxePack4");
+            if (settings.backpack === "3") visible.push("smallPack3", "largePack3", "deluxePack3");
+            if (settings.backpack === "2") visible.push("smallPack2", "largePack2", "deluxePack2");
+            if (settings.backpack === "1") visible.push("smallPack1", "largePack1", "deluxePack1");
+          
             return visible;
         }
 

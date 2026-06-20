@@ -5,6 +5,35 @@ import arcadeVictories from "./JsonFiles/Arcade/arcadeVictories.json";
 import jotPK from "./JsonFiles/Arcade/jotPK.json";
 import junimoKart from "./JsonFiles/Arcade/junimoKart.json";
 
+// Backpack Progression
+     // 1
+     import smallPack1 from "./JsonFiles/Backpack/Backpack1/smallPack1.json";
+     import largePack1 from "./JsonFiles/Backpack/Backpack1/largePack1.json";
+     import deluxePack1 from "./JsonFiles/Backpack/Backpack1/deluxePack1.json";
+     
+     // 2
+     import smallPack2 from "./JsonFiles/Backpack/Backpack2/smallPack2.json";
+     import largePack2 from "./JsonFiles/Backpack/Backpack2/largePack2.json";
+     import deluxePack2 from "./JsonFiles/Backpack/Backpack2/deluxelPack2.json";
+
+     // 3
+     import smallPack3 from "./JsonFiles/Backpack/Backpack3/smallPack3.json";
+     import largePack3 from "./JsonFiles/Backpack/Backpack3/largePack3.json";
+     import deluxePack3 from "./JsonFiles/Backpack/Backpack3/deluxePack3.json";
+
+     // 4
+     import smallPack4 from "./JsonFiles/Backpack/Backpack4/smallPack4.json";
+     import largePack4 from "./JsonFiles/Backpack/Backpack4/largePack4.json";
+     import deluxePack4 from "./JsonFiles/Backpack/Backpack4/deluxePack4.json";
+
+     // 6
+     import smallPack6 from "./JsonFiles/Backpack/Backpack6/smallPack6.json";
+     import largePack6 from "./JsonFiles/Backpack/Backpack6/largePack6.json";
+     import deluxePack6 from "./JsonFiles/Backpack/Backpack6/deluxePack6.json";
+
+     // 12
+     import backpack12 from "./JsonFiles/Backpack/backpack12.json";
+     
 // Books
 import lostBooks from "./JsonFiles/Books/lostBooks.json";
 import powerBooks from "./JsonFiles/Books/powerBooks.json";
@@ -336,6 +365,42 @@ export const GROUPED_TABLES =
             {id: "arcadeVictories", heading: "Victories", className: "tableLevel-2_Tables", data: arcadeVictories},
             {id: "jotPK", heading: "JotPK", className: "tableLevel-2_Tables", data: jotPK},
             {id: "junimoKart", heading: "Junimo Kart", className: "tableLevel-2_Tables", data: junimoKart}
+        ]
+   },
+
+   backpack:
+   {
+        heading: "Backpack",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+          // 1  
+          {id: "smallPack1", heading: "Smallpack", className: "tableLevel-2_Tables", data: smallPack1},
+          {id: "largePack1", heading: "Largepack", className: "tableLevel-2_Tables", data: largePack1},
+          {id: "deluxePack1", heading: "DeluxePack", className: "tableLevel-2_Tables", data: deluxePack1},
+
+          // 2
+          {id: "smallPack2", heading: "Smallpack", className: "tableLevel-2_Tables", data: smallPack2},
+          {id: "largePack2", heading: "Largepack", className: "tableLevel-2_Tables", data: largePack2},
+          {id: "deluxePack2", heading: "DeluxePack", className: "tableLevel-2_Tables", data: deluxePack2},
+
+          // 3
+          {id: "smallPack3", heading: "Smallpack", className: "tableLevel-2_Tables", data: smallPack3},
+          {id: "largePack3", heading: "Largepack", className: "tableLevel-2_Tables", data: largePack3},
+          {id: "deluxePack3", heading: "DeluxePack", className: "tableLevel-2_Tables", data: deluxePack3},
+          
+          // 4
+          {id: "smallPack4", heading: "Smallpack", className: "tableLevel-2_Tables", data: smallPack4},
+          {id: "largePack4", heading: "Largepack", className: "tableLevel-2_Tables", data: largePack4},
+          {id: "deluxePack4", heading: "DeluxePack", className: "tableLevel-2_Tables", data: deluxePack4},
+
+          // 6
+          {id: "smallPack6", heading: "Smallpack", className: "tableLevel-2_Tables", data: smallPack6},
+          {id: "largePack6", heading: "Largepack", className: "tableLevel-2_Tables", data: largePack6},
+          {id: "deluxePack6", heading: "DeluxePack", className: "tableLevel-2_Tables", data: deluxePack6},
+
+          // 12
+          {id: "backpack12", heading: "Backpack", className: "tableLevel-2_Tables", data: backpack12},
         ]
    },
 

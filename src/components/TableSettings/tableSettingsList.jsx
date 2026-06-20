@@ -15,7 +15,20 @@ export default function SettingsList({settings, setSettings, walnutType, setWaln
                     <option value="fullShuffling">Full Shuffling</option>
                 </select>
             </label>
-            
+
+            <label>
+                Backpack Progression/Size:
+                <select value = {settings.backpack} onChange = {(e) => update("backpack", e.target.value)}>
+                    <option value="vanilla">Vanilla</option>
+                    <option value="12">Progression/12</option>
+                    <option value="6">Progression/6</option>
+                    <option value="4">Progression/4</option>
+                    <option value="3">Progression/3</option>
+                    <option value="2">Progression/2</option>
+                    <option value="1">Progression/1</option>
+                </select>
+            </label>
+
             <label>
                 Booksanity:
                 <select value = {settings.bookSanity} onChange = {(e) => update("bookSanity", e.target.value)}>

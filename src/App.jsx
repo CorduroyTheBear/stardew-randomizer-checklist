@@ -30,6 +30,7 @@ function App()
   // Default Settings
   const [settings, setSettings] = useState({
     arcade: "disabled",
+    backpack: "vanilla",
     buildingProgression: "vanilla",
     cooksanity: "none",
     cropsanity: "disabled",
