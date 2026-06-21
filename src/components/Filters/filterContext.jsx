@@ -6,6 +6,14 @@ const defaultFilterState =
     fishingLocation: "any",
     isGI: "No",
     excludeBackpack: false,
+
+    chefSanity:
+    {
+        friendship: false,
+        purchase: false,
+        queenOfSauce: false,
+        skills: false
+    },
     
     walnutType:
     {
