@@ -14,7 +14,7 @@ import junimoKart from "./JsonFiles/Arcade/junimoKart.json";
      // 2
      import smallPack2 from "./JsonFiles/Backpack/Backpack2/smallPack2.json";
      import largePack2 from "./JsonFiles/Backpack/Backpack2/largePack2.json";
-     import deluxePack2 from "./JsonFiles/Backpack/Backpack2/deluxelPack2.json";
+     import deluxePack2 from "./JsonFiles/Backpack/Backpack2/deluxePack2.json";
 
      // 3
      import smallPack3 from "./JsonFiles/Backpack/Backpack3/smallPack3.json";

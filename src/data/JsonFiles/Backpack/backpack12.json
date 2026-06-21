@@ -2,21 +2,21 @@
   {
     "id": "sPack1",
     "name": "Small Pack",
-    "w/oBackPack": true,
+    "excludeBackpack": true,
     "done": false,
     "found": false
   },
   {
     "id": "lPack1",
     "name": "Large Pack",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "dPack1",
     "name": "Deluxe Pack",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   }

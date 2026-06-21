@@ -2,28 +2,28 @@
   {
     "id": "dPack1",
     "name": "1",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "dPack2",
     "name": "2",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "dPack3",
     "name": "3",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "dPack4",
     "name": "4",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   }

@@ -5,6 +5,7 @@ const defaultFilterState =
     season: {season: "all", seasonExclusive: false},
     fishingLocation: "any",
     isGI: "No",
+    excludeBackpack: false,
     
     walnutType:
     {

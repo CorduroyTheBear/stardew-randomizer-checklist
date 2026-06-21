@@ -5,9 +5,13 @@ export default function SettingsList({settings, setSettings})
 {
     const update = (key, value) => setSettings(prev => ({ ...prev, [key]: value}));
     const { filterState, updateFilter } = useFilters();
+
+    const { excludeBackpack } = filterState;
+    const toggleBackpack = (subkey) => updateFilter("excludeBackpack", prev => ({...prev, [subkey]: !prev[subkey]}));
     
     const { walnutType } = filterState;
     const toggleWalnut = (subkey) => updateFilter("walnutType", prev => ({...prev, [subkey]: !prev[subkey]}));
+
 
     return(
         <>
@@ -33,6 +37,9 @@ export default function SettingsList({settings, setSettings})
                     <option value="1">Progression/1</option>
                 </select>
             </label>
+
+            <label><strong>Start Without Backpack?</strong></label>
+                <label><input type="checkbox" checked={excludeBackpack.true} onChange={() => toggleBackpack("true")} /></label>
 
             <label>
                 Booksanity:

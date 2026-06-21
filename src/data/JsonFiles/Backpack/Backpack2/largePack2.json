@@ -2,42 +2,42 @@
   {
     "id": "lPack1",
     "name": "1",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "lPack2",
     "name": "2",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "lPack3",
     "name": "3",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "lPack4",
     "name": "4",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "lPack5",
     "name": "5",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "lPack6",
     "name": "6",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   }

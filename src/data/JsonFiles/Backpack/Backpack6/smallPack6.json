@@ -2,14 +2,14 @@
   {
     "id": "sPack1",
     "name": "1",
-    "w/oBackPack": true,
+    "excludeBackpack": true,
     "done": false,
     "found": false
   },
   {
     "id": "sPack2",
     "name": "2",
-    "w/oBackPack": true,
+    "excludeBackpack": true,
     "done": false,
     "found": false
   }

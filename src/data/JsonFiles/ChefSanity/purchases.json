@@ -1,0 +1,74 @@
+[
+  {
+    "id": "(O)216",
+    "name": "Bread",
+    "chefCategory": "purchase",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)903",
+    "name": "Ginger Ale",
+    "chefCategory": "purchase",
+    "isGI": true,
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)210",
+    "name": "Hashbrowns",
+    "chefCategory": "purchase",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)228",
+    "name": "Maki Roll",
+    "chefCategory": "purchase",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)195",
+    "name": "Omelet",
+    "chefCategory": "purchase",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)211",
+    "name": "Pancakes",
+    "chefCategory": "purchase",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)206",
+    "name": "Pizza",
+    "chefCategory": "purchase",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)229",
+    "name": "Tortilla",
+    "chefCategory": "purchase",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)253",
+    "name": "Triple Shot Espresso",
+    "chefCategory": "purchase",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)907",
+    "name": "Tropical Curry",
+    "chefCategory": "purchase",
+    "isGI": true,
+    "done": false,
+    "found": false
+  }
+]

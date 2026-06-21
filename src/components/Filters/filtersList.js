@@ -1,13 +1,14 @@
-import { filterSeasons } from "./filterSeasons";
+import { filterAddBackpack } from "./filterBackpack";
 import { filterFishingLocations } from "./filterFishingLocations";
 import { filterGingerIslandChecks } from "./filterGIChecks";
+import { filterSeasons } from "./filterSeasons";
 import { filterWalnutType } from "./filterWalnutType";
 
 export const filterList =
 [
     {
-        key: "season",
-        fn: (item, state) => filterSeasons(item, state.season, state.seasonExclusive)
+        key: "excludeBackpack",
+        fn: (item, state) => filterAddBackpack(item, state)
     },
     {
         key: "fishingLocation",
@@ -16,6 +17,10 @@ export const filterList =
     {
         key: "isGI",
         fn: (item, state) => filterGingerIslandChecks(item, state)
+    },
+    {
+        key: "season",
+        fn: (item, state) => filterSeasons(item, state.season, state.seasonExclusive)
     },
     {
         key: "walnutType",

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "(O)242",
+    "name": "Dish O' The Sea",
+    "chefCategory": "skills",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)240",
+    "name": "Farmer's Lunch",
+    "chefCategory": "skills",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)243",
+    "name": "Miner's Treat",
+    "chefCategory": "skills",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)244",
+    "name": "Roots Platter",
+    "chefCategory": "skills",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)265",
+    "name": "Seafoam Pudding",
+    "chefCategory": "skills",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)921",
+    "name": "Squid Ink Ravioli",
+    "chefCategory": "skills",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)241",
+    "name": "Survival Burger",
+    "chefCategory": "skills",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "(O)mossSoup",
+    "name": "Moss Soup",
+    "chefCategory": "skills",
+    "done": false,
+    "found": false
+  }
+]

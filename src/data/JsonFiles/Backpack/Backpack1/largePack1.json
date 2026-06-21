@@ -2,84 +2,84 @@
   {
     "id": "lPack1",
     "name": "1",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "lPack2",
     "name": "2",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "lPack3",
     "name": "3",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "lPack4",
     "name": "4",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "lPack5",
     "name": "5",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "lPack6",
     "name": "6",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "lPack7",
     "name": "7",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "lPack8",
     "name": "8",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "lPack9",
     "name": "9",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "lPack10",
     "name": "10",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "lPack11",
     "name": "11",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   },
   {
     "id": "lPack12",
     "name": "12",
-    "w/oBackPack": false,
+    "excludeBackpack": false,
     "done": false,
     "found": false
   }
