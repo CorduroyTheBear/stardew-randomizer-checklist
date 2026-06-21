@@ -1,8 +1,13 @@
 // Lists all the settings
+import { useFilters } from "../Filters/filterContext";
 
-export default function SettingsList({settings, setSettings, walnutType, setWalnutType})
+export default function SettingsList({settings, setSettings})
 {
     const update = (key, value) => setSettings(prev => ({ ...prev, [key]: value}));
+    const { filterState, updateFilter } = useFilters();
+    
+    const { walnutType } = filterState;
+    const toggleWalnut = (subkey) => updateFilter("walnutType", prev => ({...prev, [subkey]: !prev[subkey]}));
 
     return(
         <>
@@ -203,10 +208,10 @@ export default function SettingsList({settings, setSettings, walnutType, setWaln
             </label>
 
             <label><strong>Walnutsanity:</strong></label>
-                <label><input type="checkbox" checked={walnutType.bush} onChange={() => setWalnutType(prev => ({ ...prev, bush: !prev.bush }))} />Bushes</label>
-                <label><input type="checkbox" checked={walnutType.digSpot} onChange={() => setWalnutType(prev => ({ ...prev, digSpot: !prev.digSpot }))} />Dig Spots</label>
-                <label><input type="checkbox" checked={walnutType.puzzle} onChange={() => setWalnutType(prev => ({ ...prev, puzzle: !prev.puzzle }))} />Puzzles</label>
-                <label><input type="checkbox" checked={walnutType.repeatable} onChange={() => setWalnutType(prev => ({ ...prev, repeatable: !prev.repeatable }))} />Repeatables</label>
+                <label><input type="checkbox" checked={walnutType.bush} onChange={() => toggleWalnut("bush")} />Bushes</label>
+                <label><input type="checkbox" checked={walnutType.digSpot} onChange={() => toggleWalnut("digSpot")} />Dig Spots</label>
+                <label><input type="checkbox" checked={walnutType.puzzle} onChange={() => toggleWalnut("puzzle")} />Puzzles</label>
+                <label><input type="checkbox" checked={walnutType.repeatable} onChange={() => toggleWalnut("repeatable")} />Repeatables</label>
         </>
     );
 }

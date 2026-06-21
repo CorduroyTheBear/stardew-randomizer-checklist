@@ -1,7 +1,7 @@
 import SettingsList from "./tableSettingsList";
 import "./settings.css";
 
-export default function RandomizerSettings({settings, setSettings, onClose, walnutType, setWalnutType})
+export default function RandomizerSettings({settings, setSettings, onClose})
 {
     return(
         <div className = "settings-overlay" onClick = {onClose}>
@@ -11,10 +11,6 @@ export default function RandomizerSettings({settings, setSettings, onClose, waln
                 <SettingsList
                     settings = {settings}
                     setSettings = {setSettings}
-
-                    // Checkbox Options
-                    walnutType = {walnutType}
-                    setWalnutType = {setWalnutType}
                 />
 
                 <button className = "close-button" onClick = {onClose}>Close</button>

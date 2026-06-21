@@ -1,41 +1,19 @@
 import { useState } from "react";
-import { filterSeasons } from "./Filters/filterSeasons";
-import { filterFishingLocations } from "./Filters/filterFishingLocations";
-import { filterGingerIslandChecks } from "./Filters/filterGIChecks";
-import { filterWalnutType } from "./Filters/filterWalnutType";
 import RenderChecklist from "./renderChecklist";
 
-export default function GroupedChecklist ({className, excludeGI = "no", fishingLocation = "any", groups, heading, hideCompleted = false, isGI = "No", onToggle, season, seasonExclusive, walnutType})
+export default function GroupedChecklist ({className, groups, heading, hideCompleted = false, isItemVisible, onToggle})
 {
     // Checklist is closed by default
     const [isOpen, setIsOpen] = useState(false);
 
-    // Filter out tables with no checks when a filter is selected
-    const VisibleGroups = groups.filter(group => group.data.some(item =>
-        filterSeasons(item, season, seasonExclusive) &&
-        filterFishingLocations(item, fishingLocation) &&
-        filterGingerIslandChecks(item, isGI) &&
-        !(excludeGI === "yes" && item.isGI) &&
-        filterWalnutType(item, walnutType)
-    ));
+    // Determine which items are visible
+    const visble = (item) => isItemVisible(item) &&  (!hideCompleted || !item.done);
 
     // Filter out tables with no checks left when hide completed is selected
-    const completedVisibleGroups = VisibleGroups.filter(group => !hideCompleted || group.data.some(item => !item.done &&
-        filterSeasons(item, season, seasonExclusive) &&
-        filterFishingLocations(item, fishingLocation) &&
-        filterGingerIslandChecks(item, isGI) &&
-        !(excludeGI === "yes" && item.isGI) &&
-        filterWalnutType(item, walnutType)
-    ));
+    const completedVisibleGroups = groups.filter(group => group.data.some(visble));
 
-    // Filter out level 1 tables
-    const visibleItems = completedVisibleGroups.flatMap(group => group.data.filter(item =>
-        filterSeasons(item, season, seasonExclusive) &&
-        filterFishingLocations(item, fishingLocation) &&
-        filterGingerIslandChecks(item, isGI) &&
-        !(excludeGI === "yes" && item.isGI) &&
-        filterWalnutType(item, walnutType)
-    ));
+    // Flatten items to compute progress counts
+    const visibleItems = completedVisibleGroups.flatMap(group => group.data.filter(isItemVisible));
 
     const doneCount = visibleItems.filter(i => i.done).length;
     const totalCount = visibleItems.length;
@@ -54,12 +32,7 @@ export default function GroupedChecklist ({className, excludeGI = "no", fishingL
                 heading = {heading}
                 hideCompleted = {hideCompleted}
                 onToggle = {(itemID, field) => onToggle(completedVisibleGroups[0].id, itemID, field)}
-                season = {season}
-                seasonExclusive={seasonExclusive}
-                fishingLocation = {fishingLocation}
-                isGI = {isGI}
-                excludeGI = {excludeGI}
-                walnutType = {walnutType}
+                isItemVisible = {isItemVisible}
             />
         );
     }
@@ -92,12 +65,7 @@ export default function GroupedChecklist ({className, excludeGI = "no", fishingL
                                 heading = {group.heading}
                                 hideCompleted = {hideCompleted}
                                 onToggle = {(itemID, field) => onToggle(group.id, itemID, field)}
-                                season = {season}
-                                seasonExclusive = {seasonExclusive}
-                                fishingLocation = {fishingLocation}
-                                isGI = {isGI}
-                                excludeGI = {excludeGI}
-                                walnutType = {walnutType}
+                                isItemVisible = {isItemVisible}
                             />
                         ))}
                     </div>

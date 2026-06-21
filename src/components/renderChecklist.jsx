@@ -2,12 +2,7 @@
 
 import { useState } from "react";
 
-import { filterSeasons } from './Filters/filterSeasons';
-import { filterFishingLocations } from "./Filters/filterFishingLocations";
-import { filterGingerIslandChecks } from "./Filters/filterGIChecks";
-import { filterWalnutType } from "./Filters/filterWalnutType";
-
-export default function RenderChecklist({className, data, excludeGI = "no", fishingLocation = "any", heading, hideCompleted = false, isGI = "No", onToggle, season = "all", seasonExclusive = false, walnutType})
+export default function RenderChecklist({className, data, heading, hideCompleted = false, isItemVisible, onToggle})
 {
     // Set table default setting to closed
     const [isOpen, setIsOpen] = useState(false);
@@ -19,20 +14,7 @@ export default function RenderChecklist({className, data, excludeGI = "no", fish
     {
         // Hide completed items if setting is on
         if (hideCompleted && item.done) return false;
-
-        // Filters
-        if (!filterSeasons(item, season, seasonExclusive)) return false;
-        if (!filterFishingLocations(item, fishingLocation)) return false;
-        if (!filterGingerIslandChecks(item, isGI)) return false;
-        if (excludeGI === "yes" && item.isGI) return false;
-
-        // Checkbox Filters
-        //if (!filterWalnutType(item, walnutType)) return false;
-        
-        else
-        {
-            return true;
-        }
+        return isItemVisible(item);
     });
 
     // Keeps items marked as done and calculates its length
