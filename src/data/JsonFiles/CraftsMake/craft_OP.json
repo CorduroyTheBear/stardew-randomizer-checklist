@@ -1,0 +1,27 @@
+[
+    {
+      "id": "(BC)19",
+      "name": "Oil Maker",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)772",
+      "name": "Oil of Garlic",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)254",
+      "name": "Ostrich Incubator",
+      "isGI": true,
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)15",
+      "name": "Preserves Jar",
+      "done": false,
+      "found": false
+    }
+]

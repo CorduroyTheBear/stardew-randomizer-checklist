@@ -1,0 +1,111 @@
+[
+    {
+      "id": "(O)690",
+      "name": "Warp Totem: Beach",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)261",
+      "name": "Warp Totem: Desert",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)688",
+      "name": "Warp Totem: Farm",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)886",
+      "name": "Warp Totem: Island",
+      "isGI": true,
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)689",
+      "name": "Warp Totem: Mountains",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)521",
+      "name": "Warrior Ring",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)331",
+      "name": "Weathered Floor",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)801",
+      "name": "Wedding Ring",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)83",
+      "name": "Wicked Statue",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)774",
+      "name": "Wild Bait",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)498",
+      "name": "Winter Seeds",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)322",
+      "name": "Wood Fence",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)328",
+      "name": "Wood Floor",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)152",
+      "name": "Wood Lamp-post",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)405",
+      "name": "Wood Path",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)37",
+      "name": "Wood Sign",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)143",
+      "name": "Wooden Brazier",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)154",
+      "name": "Worm Bin",
+      "done": false,
+      "found": false
+    }
+]

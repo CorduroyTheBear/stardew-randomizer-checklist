@@ -1,0 +1,70 @@
+[
+    {
+      "id": "(BC)39",
+      "name": "Dark Sign",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)Dehydrator",
+      "name": "Dehydrator",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)DeluxeBait",
+      "name": "Deluxe Bait",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)919",
+      "name": "Deluxe Fertilizer",
+      "isGI": true,
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)920",
+      "name": "Deluxe Retaining Soil",
+      "isGI": true,
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)167",
+      "name": "Deluxe Scarecrow",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)466",
+      "name": "Deluxe Speed-Gro",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)DeluxeWormBin",
+      "name": "Deluxe Worm Bin",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)687",
+      "name": "Dressed Spinner",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)463",
+      "name": "Drum Block",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)441",
+      "name": "Explosive Ammo",
+      "done": false,
+      "found": false
+    }
+]

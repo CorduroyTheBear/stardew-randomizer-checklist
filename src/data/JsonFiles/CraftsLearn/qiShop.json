@@ -1,0 +1,38 @@
+[
+    {
+      "id": "(O)BlueGrassStarter",
+      "name": "Blue Grass Starter",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)919",
+      "name": "Deluxe Fertilizer",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)264",
+      "name": "Heavy Tapper",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)275",
+      "name": "Hopper",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)918",
+      "name": "Hyper Speed-Gro",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)908",
+      "name": "Magic Bait",
+      "done": false,
+      "found": false
+    }
+]

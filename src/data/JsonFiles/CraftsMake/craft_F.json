@@ -1,0 +1,51 @@
+[
+    {
+      "id": "(O)872",
+      "name": "Fairy Dust",
+      "isGI": true,
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)497",
+      "name": "Fall Seeds",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)239",
+      "name": "Farm Computer",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)885",
+      "name": "Fiber Seeds",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)403",
+      "name": "Field Snack",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)FishSmoker",
+      "name": "Fish Smoker",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)464",
+      "name": "Flute Block",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)13",
+      "name": "Furnace",
+      "done": false,
+      "found": false
+    }
+]

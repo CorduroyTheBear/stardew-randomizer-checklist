@@ -1,0 +1,50 @@
+[
+    {
+      "id": "fishing2",
+      "name": "Fishing Lvl 2",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fishing3",
+      "name": "Fishing Lvl 3",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fishing4",
+      "name": "Fishing Lvl 4",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fishing6",
+      "name": "Fishing Lvl 6",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fishing7",
+      "name": "Fishing Lvl 7",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fishing8",
+      "name": "Fishing Lvl 8",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fishing9",
+      "name": "Fishing Lvl 9",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "fishingMastery",
+      "name": "Fishing Mastery",
+      "done": false,
+      "found": false
+    }
+]

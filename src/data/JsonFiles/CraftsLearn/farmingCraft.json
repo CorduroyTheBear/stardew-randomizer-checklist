@@ -1,0 +1,56 @@
+[
+    {
+      "id": "farming1",
+      "name": "Farming Lvl 1",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "farming2",
+      "name": "Farming Lvl 2",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "farming3",
+      "name": "Farming Lvl 3",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "farming4",
+      "name": "Farming Lvl 4",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "farming6",
+      "name": "Farming Lvl 6",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "farming7",
+      "name": "Farming Lvl 7",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "farming8",
+      "name": "Farming Lvl 8",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "farming9",
+      "name": "Farming Lvl 9",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "farmingMastery",
+      "name": "Farming Mastery",
+      "done": false,
+      "found": false
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+      "id": "(O)298",
+      "name": "Hardwood Fence",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)HeavyFurnace",
+      "name": "Heavy Furnace",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)264",
+      "name": "Heavy Tapper",
+      "isGI": true,
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)275",
+      "name": "Hopper",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)918",
+      "name": "Hyper Speed-Gro",
+      "isGI": true,
+      "done": false,
+      "found": false
+    }
+]

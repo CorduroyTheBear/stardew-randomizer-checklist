@@ -31,6 +31,7 @@ function InnerApp()
     buildingProgression: "vanilla",
     chefsanity: "none",
     cooksanity: "none",
+    craftsanity: "none",
     cropsanity: "disabled",
     elevatorProgression: "vanilla",
     endGame: "no",

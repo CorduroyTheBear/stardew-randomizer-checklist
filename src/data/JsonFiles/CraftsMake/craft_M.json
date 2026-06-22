@@ -1,0 +1,69 @@
+[
+    {
+      "id": "(O)908",
+      "name": "Magic Bait",
+      "isGI": true,
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)703",
+      "name": "Magnet",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)151",
+      "name": "Marble Brazier",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)24",
+      "name": "Mayonnaise Machine",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)288",
+      "name": "Mega Bomb",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)MiniForage",
+      "name": "Mini-Forge",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)209",
+      "name": "Mini-Jukebox",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)238",
+      "name": "Mini-Obelisk",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)879",
+      "name": "Monster Musk",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)MushroomLog",
+      "name": "Mushroom Log",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)MysticTreeSeed",
+      "name": "Mystic Tree Seed",
+      "done": false,
+      "found": false
+    }
+]

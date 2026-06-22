@@ -1,0 +1,80 @@
+[
+    {
+      "id": "(BC)105",
+      "name": "Tapper",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)251",
+      "name": "Tea Sapling",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)TentKit",
+      "name": "Tent Kit",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)TextSign",
+      "name": "Text Sign",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)839",
+      "name": "Thorns Ring",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)93",
+      "name": "Torch",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)336",
+      "name": "Transmute (Au)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)335",
+      "name": "Transmute (Fe)",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)694",
+      "name": "Trap Bobber",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)693",
+      "name": "Treasure Hunter",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)TreasureTotem",
+      "name": "Treasure Totem",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)805",
+      "name": "Tree Fertilizer",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)108",
+      "name": "Tub o' Flowers",
+      "done": false,
+      "found": false
+    }
+]

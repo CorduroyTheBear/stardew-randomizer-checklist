@@ -1,0 +1,87 @@
+[
+    {
+      "id": "(O)685",
+      "name": "Bait",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)BaitMaker",
+      "name": "Bait Maker",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)691",
+      "name": "Barbed Hook",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)150",
+      "name": "Barrel Brazier",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)368",
+      "name": "Basic Fertilizer",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)370",
+      "name": "Basic Retaining Soil",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)10",
+      "name": "Bee House",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)BigChest",
+      "name": "Big Chest",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)BigStoneChest",
+      "name": "Big Stone Chest",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)BlueGrassStarter",
+      "name": "Blue Grass Starter",
+      "isGI": true,
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)287",
+      "name": "Bomb",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)90",
+      "name": "Bone Mill",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)293",
+      "name": "Brick Floor",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)874",
+      "name": "Bug Steak",
+      "done": false,
+      "found": false
+    }
+]

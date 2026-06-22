@@ -1,0 +1,56 @@
+[
+    {
+      "id": "foraging1",
+      "name": "Foraging Lvl 1",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "foraging2",
+      "name": "Foraging Lvl 2",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "foraging3",
+      "name": "Foraging Lvl 3",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "foraging4",
+      "name": "Foraging Lvl 4",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "foraging6",
+      "name": "Foraging Lvl 6",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "foraging7",
+      "name": "Foraging Lvl 7",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "foraging8",
+      "name": "Foraging Lvl 8",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "foraging9",
+      "name": "Foraging Lvl 9",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "foragingMastery",
+      "name": "Foraging Mastery",
+      "done": false,
+      "found": false
+    }
+]

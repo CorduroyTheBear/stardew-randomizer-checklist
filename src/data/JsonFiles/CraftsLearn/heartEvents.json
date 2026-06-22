@@ -1,0 +1,32 @@
+[
+    {
+      "id": "Caroline2",
+      "name": "Caroline 2 hearts",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "gus5",
+      "name": "Gus 5 hearts",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "krobus3",
+      "name": "Krobus 3 hearts",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "linus4",
+      "name": "Linus 4 hearts",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Robin6",
+      "name": "Robin 6 hearts",
+      "done": false,
+      "found": false
+    }
+]

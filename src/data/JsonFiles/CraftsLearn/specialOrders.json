@@ -1,0 +1,56 @@
+[
+    {
+      "id": "carolineSO",
+      "name": "Caroline",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "clintSO",
+      "name": "Clint",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "DemetriusSO",
+      "name": "Demetrius",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "guntherSO",
+      "name": "Gunther",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "LinusdSO",
+      "name": "Linus",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "robinSO",
+      "name": "Robin",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "willySO",
+      "name": "Willy",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "WizardSO",
+      "name": "Wizard",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "Wizard2SO",
+      "name": "Wizard 2",
+      "done": false,
+      "found": false
+    }
+]

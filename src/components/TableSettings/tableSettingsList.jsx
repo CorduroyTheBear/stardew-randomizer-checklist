@@ -87,6 +87,14 @@ export default function SettingsList({settings, setSettings})
             </label>
 
             <label>
+                Craftsanity:
+                <select value = {settings.craftsanity} onChange = {(e) => update("craftsanity", e.target.value)}>
+                    <option value = "none">None</option>
+                    <option value = "all">All</option>
+                </select>
+            </label>
+
+            <label>
                 Cropssanity:
                 <select value = {settings.cropsanity} onChange = {(e) => update("cropsanity", e.target.value)}>
                     <option value = "disabled">Disabled</option>

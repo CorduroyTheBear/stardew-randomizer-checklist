@@ -1,0 +1,116 @@
+[
+    {
+      "id": "(BC)150",
+      "name": "Barrel Brazier",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)BigChest",
+      "name": "Big Chest",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)293",
+      "name": "Brick Floor",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)148",
+      "name": "Carved Brazier",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)409",
+      "name": "Crystal Path",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)145",
+      "name": "Gold Brazier",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)153",
+      "name": "Iron Lamp-post",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)151",
+      "name": "Marble Brazier",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)840",
+      "name": "Rustic Plank Floor",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)149",
+      "name": "Skull Brazier",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)415",
+      "name": "Stepping Stone Path",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)144",
+      "name": "Stone Brazier",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)329",
+      "name": "Stone Floor",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)841",
+      "name": "Stone Walkway Floor",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)401",
+      "name": "Straw Floor",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)147",
+      "name": "Stump Brazier",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)328",
+      "name": "Wood Floor",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)152",
+      "name": "Wood Lamp-post",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)143",
+      "name": "Wooden Brazier",
+      "done": false,
+      "found": false
+    }
+]

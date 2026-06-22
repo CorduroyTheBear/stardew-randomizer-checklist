@@ -1,0 +1,50 @@
+[
+    {
+      "id": "mining1",
+      "name": "Farming Lvl 1",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "mining2",
+      "name": "Farming Lvl 2",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "mining4",
+      "name": "Farming Lvl 4",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "mining6",
+      "name": "Farming Lvl 6",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "mining7",
+      "name": "Farming Lvl 7",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "mining8",
+      "name": "Farming Lvl 8",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "mining9",
+      "name": "Farming Lvl 9",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "miningMastery",
+      "name": "Mining Mastery",
+      "done": false,
+      "found": false
+    }
+]

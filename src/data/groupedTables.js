@@ -66,6 +66,24 @@ import skillsChef from "./JsonFiles/ChefSanity/skills.json";
 import cookSanityChecks from "./JsonFiles/CookSanity/cookSanity.json";
 import queenOfSauceChecks from "./JsonFiles/CookSanity/queenOfSauce.json";
 
+// Crafts - Make
+import craft_A from "./JsonFiles/CraftsMake/craft_A.json";
+import craft_B from "./JsonFiles/CraftsMake/craft_B.json";
+import craft_C from "./JsonFiles/CraftsMake/craft_C.json";
+import craft_DE from "./JsonFiles/CraftsMake/craft_DE.json";
+import craft_F from "./JsonFiles/CraftsMake/craft_F.json";
+import craft_G from "./JsonFiles/CraftsMake/craft_G.json";
+import craft_H from "./JsonFiles/CraftsMake/craft_H.json";
+import craft_I from "./JsonFiles/CraftsMake/craft_I.json";
+import craft_JKL from "./JsonFiles/CraftsMake/craft_JKL.json";
+import craft_M from "./JsonFiles/CraftsMake/craft_M.json";
+import craft_OP from "./JsonFiles/CraftsMake/craft_OP.json";
+import craft_Q from "./JsonFiles/CraftsMake/craft_Q.json";
+import craft_R from "./JsonFiles/CraftsMake/craft_R.json";
+import craft_S from "./JsonFiles/CraftsMake/craft_S.json";
+import craft_T from "./JsonFiles/CraftsMake/craft_T.json";
+import craft_W from "./JsonFiles/CraftsMake/craft_W.json";
+
 // Cropsanity
 import crops from "./JsonFiles/CropSanity/crops.json";
 import fruit from "./JsonFiles/CropSanity/fruit.json";
@@ -449,6 +467,31 @@ export const GROUPED_TABLES =
             {id: "fishBundles", heading: "Fish Tank", className: "tableLevel-2_Tables", data: fishBundles},
             {id: "pantryBundles", heading: "Pantry", className: "tableLevel-2_Tables", data: pantryBundles},
             {id: "vaultBunddles", heading: "Vault", className: "tableLevel-2_Tables", data: vaultBunddles},
+        ]
+   },
+
+   craftsMake:
+   {
+        heading: "Craft Items",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "craft_A", heading: "A", className: "tableLevel-2_Tables", data: craft_A},
+            {id: "craft_B", heading: "B", className: "tableLevel-2_Tables", data: craft_B},
+            {id: "craft_C", heading: "C", className: "tableLevel-2_Tables", data: craft_C},
+            {id: "craft_DE", heading: "D-E", className: "tableLevel-2_Tables", data: craft_DE},
+            {id: "craft_F", heading: "F", className: "tableLevel-2_Tables", data: craft_F},
+            {id: "craft_G", heading: "G", className: "tableLevel-2_Tables", data: craft_G},
+            {id: "craft_H", heading: "H", className: "tableLevel-2_Tables", data: craft_H},
+            {id: "craft_I", heading: "I", className: "tableLevel-2_Tables", data: craft_I},
+            {id: "craft_JKL", heading: "J-L", className: "tableLevel-2_Tables", data: craft_JKL},
+            {id: "craft_M", heading: "M", className: "tableLevel-2_Tables", data: craft_M},
+            {id: "craft_OP", heading: "O-P", className: "tableLevel-2_Tables", data: craft_OP},
+            {id: "craft_Q", heading: "Q", className: "tableLevel-2_Tables", data: craft_Q},
+            {id: "craft_R", heading: "R", className: "tableLevel-2_Tables", data: craft_R},
+            {id: "craft_S", heading: "S", className: "tableLevel-2_Tables", data: craft_S},
+            {id: "craft_T", heading: "T", className: "tableLevel-2_Tables", data: craft_T},
+            {id: "craft_W", heading: "W", className: "tableLevel-2_Tables", data: craft_W}
         ]
    },
 

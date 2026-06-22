@@ -1,0 +1,152 @@
+[
+    {
+      "id": "(BC)8",
+      "name": "Scarecrow",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)25",
+      "name": "Seed Maker",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)149",
+      "name": "Skull Brazier",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)158",
+      "name": "Slime Egg-Press",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)156",
+      "name": "Slime Incubator",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)231",
+      "name": "Solar Panel",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)SonarBobber",
+      "name": "Sonar Bobber",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)465",
+      "name": "Speed-Gro",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)686",
+      "name": "Spinner",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)495",
+      "name": "Spring Seeds",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)599",
+      "name": "Sprinkler",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)71",
+      "name": "Staircase",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)StatueOfBlessings",
+      "name": "Statue Of Blessings",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)StatueOfTheDwarfKing",
+      "name": "Statue Of The Dwarf King",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)415",
+      "name": "Stepping Stone Path",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)144",
+      "name": "Stone Brazier",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)232",
+      "name": "Stone Chest",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)323",
+      "name": "Stone Fence",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)329",
+      "name": "Stone Floor",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)38",
+      "name": "Stone Sign",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)841",
+      "name": "Stone Walkway Floor",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)401",
+      "name": "Straw Floor",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)147",
+      "name": "Stump Brazier",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)525",
+      "name": "Sturdy Ring",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)496",
+      "name": "Summer Seeds",
+      "done": false,
+      "found": false
+    }
+]

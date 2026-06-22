@@ -1,0 +1,32 @@
+[
+    {
+      "id": "(O)746",
+      "name": "Jack-O-Lantern",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)12",
+      "name": "Keg",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)773",
+      "name": "Life Elixir",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)9",
+      "name": "Lightning Rod",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(BC)17",
+      "name": "Loom",
+      "done": false,
+      "found": false
+    }
+]

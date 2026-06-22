@@ -1,0 +1,50 @@
+[
+    {
+      "id": "combat1",
+      "name": "Combat Lvl 1",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "combat2",
+      "name": "Combat Lvl 2",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "combat4",
+      "name": "Combat Lvl 4",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "combat6",
+      "name": "Combat Lvl 6",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "combat7",
+      "name": "Combat Lvl 7",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "combat8",
+      "name": "Combat Lvl 8",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "combat9",
+      "name": "Combat Lvl 9",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "combatMastery",
+      "name": "Mastery",
+      "done": false,
+      "found": false
+    }
+]

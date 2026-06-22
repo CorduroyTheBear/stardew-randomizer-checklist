@@ -15,6 +15,7 @@ export function filterGroupedTables(settings)
     if (settings.buildingProgression !== "vanilla") visible.push("buildingProgression");
     if (settings.bookSanity !== "none") visible.push("bookSanity"); 
     if (settings.chefsanity !== "no") visible.push("chefsanity");
+    if (settings.craftsanity !== "none") visible.push("craftsMake");
     if (settings.cooksanity !== "none") visible.push("cooksanity");
     if (settings.cropsanity !== "disabled") visible.push("cropsanity");
     if (settings.elevatorProgression !== "vanilla") visible.push("elevatorProgression");
@@ -101,6 +102,16 @@ export function filterGroups(tableKey, settings)
             const visible = [];
 
             if (settings.chefsanity === "yes") visible.push("friendshipChef", "purchaseChef", "queenOfSauceChef", "skillsChef");
+
+            return visible;
+        }
+
+        case "craftsMake":
+        {
+            const visible = [];
+
+            if (settings.craftsanity === "all") visible.push("craft_A", "craft_B", "craft_C", "craft_DE", "craft_F", "craft_G", "craft_H", "craft_I", "craft_JKL", "craft_M",
+                                                             "craft_OP", "craft_Q", "craft_R", "craft_S", "craft_T", "craft_W");
 
             return visible;
         }
