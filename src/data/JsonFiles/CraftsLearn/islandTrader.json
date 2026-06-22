@@ -2,6 +2,7 @@
     {
       "id": "(O)920",
       "name": "Deluxe Retaining Soil",
+      "isGI": true,
       "done": false,
       "found": false
     }

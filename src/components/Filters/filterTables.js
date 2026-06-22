@@ -15,7 +15,7 @@ export function filterGroupedTables(settings)
     if (settings.buildingProgression !== "vanilla") visible.push("buildingProgression");
     if (settings.bookSanity !== "none") visible.push("bookSanity"); 
     if (settings.chefsanity !== "no") visible.push("chefsanity");
-    if (settings.craftsanity !== "none") visible.push("craftsMake");
+    if (settings.craftsanity !== "none") visible.push("craftsMake", "craftsLearnShop", "craftsLearnSkills", "craftsLearnOther");
     if (settings.cooksanity !== "none") visible.push("cooksanity");
     if (settings.cropsanity !== "disabled") visible.push("cropsanity");
     if (settings.elevatorProgression !== "vanilla") visible.push("elevatorProgression");
@@ -114,6 +114,35 @@ export function filterGroups(tableKey, settings)
                                                              "craft_OP", "craft_Q", "craft_R", "craft_S", "craft_T", "craft_W");
 
             return visible;
+        }
+
+        
+        case "craftsLearnShop":
+        {
+            const visible = [];
+
+            if (settings.craftsanity === "all") visible.push("desertTraderCraft", "dwarfShopCraft", "flowerDanceCraft", "islandTraderCraft", "krobusShopCraft", "pierreShopCraft",
+                                                              "Qi", "robinShopCraft", "spiritsEveCraft", "travelingCartCraft", "volcanoShopCraft", "willyShopCraft") 
+
+            return visible
+        }
+
+        case "craftsLearnSkills":
+        {
+            const visible = [];
+
+            if (settings.craftsanity === "all") visible.push("combatCraft", "farmingCraft", "fishingCraft", "foragingCraft", "mineCraft")  
+                
+            return visible
+        }
+
+        case "craftsLearnOther":
+        {
+            const visible = [];
+
+            if (settings.craftsanity === "all") visible.push("heartEventCraft", "specialOrders", "other")
+                
+            return visible
         }
 
         case "cooksanity":

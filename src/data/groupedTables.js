@@ -84,6 +84,32 @@ import craft_S from "./JsonFiles/CraftsMake/craft_S.json";
 import craft_T from "./JsonFiles/CraftsMake/craft_T.json";
 import craft_W from "./JsonFiles/CraftsMake/craft_W.json";
 
+// Crafts - Learn
+import heartEventCraft from "./JsonFiles/CraftsLearn/heartEvents.json";
+import other from "./JsonFiles/CraftsLearn/other.json"
+import specialOrders from "./JsonFiles/CraftsLearn/specialOrders.json";
+
+     // Shops
+     import desertTraderCraft from "./JsonFiles/CraftsLearn/desertTrader.json";
+     import dwarfShopCraft from "./JsonFiles/CraftsLearn/dwarfShop.json";
+     import flowerDanceCraft from "./JsonFiles/CraftsLearn/flowerDance.json";
+     import islandTraderCraft from "./JsonFiles/CraftsLearn/islandTrader.json";
+     import krobusShopCraft from "./JsonFiles/CraftsLearn/krobusShop.json";
+     import pierreShopCraft from "./JsonFiles/CraftsLearn/pierreShop.json";
+     import qiShopCraft from "./JsonFiles/CraftsLearn/qiShop.json";
+     import robinShopCraft from "./JsonFiles/CraftsLearn/robinShop.json";
+     import spiritsEveCraft from "./JsonFiles/CraftsLearn/spiritEveShop.json";
+     import travelingCartCraft from "./JsonFiles/CraftsLearn/travelingCart.json";
+     import volcanoShopCraft from "./JsonFiles/CraftsLearn/volcanoShop.json";
+     import willyShopCraft from "./JsonFiles/CraftsLearn/willyShop.json";
+
+     // Skills
+     import combatCraft from "./JsonFiles/CraftsLearn/combatCraft.json";
+     import farmingCraft from "./JsonFiles/CraftsLearn/farmingCraft.json";
+     import fishingCraft from "./JsonFiles/CraftsLearn/fishingCraft.json";
+     import foragingCraft from "./JsonFiles/CraftsLearn/foragingCraft.json";
+     import mineCraft from "./JsonFiles/CraftsLearn/mineCraft.json";
+
 // Cropsanity
 import crops from "./JsonFiles/CropSanity/crops.json";
 import fruit from "./JsonFiles/CropSanity/fruit.json";
@@ -492,6 +518,54 @@ export const GROUPED_TABLES =
             {id: "craft_S", heading: "S", className: "tableLevel-2_Tables", data: craft_S},
             {id: "craft_T", heading: "T", className: "tableLevel-2_Tables", data: craft_T},
             {id: "craft_W", heading: "W", className: "tableLevel-2_Tables", data: craft_W}
+        ]
+   },
+
+   craftsLearnShop:
+   {
+        heading: "Learn Crafts - Shops",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "desertTraderCraft", heading: "Desert Trader", className: "tableLevel-2_Tables", data: desertTraderCraft},
+            {id: "dwarfShopCraft", heading: "Dwarf", className: "tableLevel-2_Tables", data: dwarfShopCraft},
+            {id: "flowerDanceCraft", heading: "Flower Dance", className: "tableLevel-2_Tables", data: flowerDanceCraft},
+            {id: "islandTraderCraft", heading: "Island Trader", className: "tableLevel-2_Tables", data: islandTraderCraft},
+            {id: "krobusShopCraft", heading: "Krobus", className: "tableLevel-2_Tables", data: krobusShopCraft},
+            {id: "pierreShopCraft", heading: "Pierre's", className: "tableLevel-2_Tables", data: pierreShopCraft},
+            {id: "qiShopCraft", heading: "Qi", className: "tableLevel-2_Tables", data: qiShopCraft},
+            {id: "robinShopCraft", heading: "Robin", className: "tableLevel-2_Tables", data: robinShopCraft},
+            {id: "spiritsEveCraft", heading: "Spirits Eve", className: "tableLevel-2_Tables", data: spiritsEveCraft},
+            {id: "travelingCartCraft", heading: "Traveling Cart", className: "tableLevel-2_Tables", data: travelingCartCraft},
+            {id: "volcanoShopCraft", heading: "Volcano Shop", className: "tableLevel-2_Tables", data: volcanoShopCraft},
+            {id: "willyShopCraft", heading: "Willy", className: "tableLevel-2_Tables", data: willyShopCraft},
+        ]
+   },
+
+   craftsLearnSkills:
+   {
+        heading: "Learn Crafts - Skills",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "combatCraft", heading: "Combat", className: "tableLevel-2_Tables", data: combatCraft},
+            {id: "farmingCraft", heading: "Farming", className: "tableLevel-2_Tables", data: farmingCraft},
+            {id: "fishingCraft", heading: "Fishing", className: "tableLevel-2_Tables", data: fishingCraft},
+            {id: "foragingCraft", heading: "Foraging", className: "tableLevel-2_Tables", data: foragingCraft},
+            {id: "mineCraft", heading: "Mining", className: "tableLevel-2_Tables", data: mineCraft},
+
+        ]
+   },
+
+   craftsLearnOther:
+   {
+        heading: "Learn Crafts - Other",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "heartEventCraft", heading: "Friendship", className: "tableLevel-2_Tables", data: heartEventCraft},
+            {id: "specialOrders", heading: "Special Orders", className: "tableLevel-2_Tables", data: specialOrders},
+            {id: "other", heading: "Other", className: "tableLevel-2_Tables", data: other},
         ]
    },
 

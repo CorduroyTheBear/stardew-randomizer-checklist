@@ -2,6 +2,7 @@
     {
       "id": "(O)886",
       "name": "Warp Totem: Island",
+      "isGI": true,
       "done": false,
       "found": false
     }

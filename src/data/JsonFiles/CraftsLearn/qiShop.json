@@ -2,36 +2,42 @@
     {
       "id": "(O)BlueGrassStarter",
       "name": "Blue Grass Starter",
+      "isGI": true,
       "done": false,
       "found": false
     },
     {
       "id": "(O)919",
       "name": "Deluxe Fertilizer",
+      "isGI": true,
       "done": false,
       "found": false
     },
     {
       "id": "(BC)264",
       "name": "Heavy Tapper",
+      "isGI": true,
       "done": false,
       "found": false
     },
     {
       "id": "(BC)275",
       "name": "Hopper",
+      "isGI": true,
       "done": false,
       "found": false
     },
     {
       "id": "(O)918",
       "name": "Hyper Speed-Gro",
+      "isGI": true,
       "done": false,
       "found": false
     },
     {
       "id": "(O)908",
       "name": "Magic Bait",
+      "isGI": true,
       "done": false,
       "found": false
     }

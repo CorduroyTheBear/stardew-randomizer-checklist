@@ -20,6 +20,7 @@
     {
       "id": "(O)872",
       "name": "Fairy Dust",
+      "isGI": true,
       "done": false,
       "found": false
     },
@@ -38,6 +39,7 @@
     {
       "id": "(BC)254",
       "name": "Ostrich Incubator",
+      "isGI": true,
       "done": false,
       "found": false
     }
