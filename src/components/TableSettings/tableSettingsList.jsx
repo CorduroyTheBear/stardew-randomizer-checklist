@@ -6,6 +6,11 @@ export default function SettingsList({settings, setSettings})
     const update = (key, value) => setSettings(prev => ({ ...prev, [key]: value}));
     const { filterState, updateFilter } = useFilters();
 
+    // Filters
+
+    const { chefCategory} = filterState;
+    const toggleChefCategory = (subkey) => updateFilter("chefCategory", prev => ({...prev, [subkey]: !prev[subkey]}));
+
     const { excludeBackpack } = filterState;
     const toggleBackpack = (subkey) => updateFilter("excludeBackpack", prev => ({...prev, [subkey]: !prev[subkey]}));
     
@@ -57,6 +62,19 @@ export default function SettingsList({settings, setSettings})
                     <option value = "vanilla">Vanilla</option>
                     <option value = "progressive">Progressive</option>
                 </select>
+            </label>
+
+            <label>
+                Chefsanity?:
+                <select value = {settings.chefsanity} onChange = {(e) => update("chefsanity", e.target.value)}>
+                    <option value = "no">No</option>
+                    <option value = "yes">Yes</option>
+                </select>
+
+                <label><input type="checkbox" checked={chefCategory.friendship} onChange={() => toggleChefCategory("friendship")} /> Friendship</label>
+                <label><input type="checkbox" checked={chefCategory.purchase} onChange={() => toggleChefCategory("purchase")} /> Purchase</label>
+                <label><input type="checkbox" checked={chefCategory.queenOfSauce} onChange={() => toggleChefCategory("queenOfSauce")} /> Queen of Sauce</label>
+                <label><input type="checkbox" checked={chefCategory.skills} onChange={() => toggleChefCategory("skills")} /> Skills</label>
             </label>
 
              <label>

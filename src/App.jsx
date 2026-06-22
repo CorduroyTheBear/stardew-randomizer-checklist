@@ -29,6 +29,7 @@ function InnerApp()
     arcade: "disabled",
     backpack: "vanilla",
     buildingProgression: "vanilla",
+    chefsanity: "none",
     cooksanity: "none",
     cropsanity: "disabled",
     elevatorProgression: "vanilla",

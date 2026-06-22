@@ -1,4 +1,5 @@
 import { filterAddBackpack } from "./filterBackpack";
+import { filterChefsanity } from "./filterChefsanity";
 import { filterFishingLocations } from "./filterFishingLocations";
 import { filterGingerIslandChecks } from "./filterGIChecks";
 import { filterSeasons } from "./filterSeasons";
@@ -6,6 +7,10 @@ import { filterWalnutType } from "./filterWalnutType";
 
 export const filterList =
 [
+    {
+        key: "chefCategory",
+        fn: (item, state) => filterChefsanity(item, state)
+    },
     {
         key: "excludeBackpack",
         fn: (item, state) => filterAddBackpack(item, state)

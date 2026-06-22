@@ -55,13 +55,20 @@ import fishBundles from "./JsonFiles/Bundles/fishTank.json";
 import pantryBundles from "./JsonFiles/Bundles/pantry.json";
 import vaultBunddles from "./JsonFiles/Bundles/vault.json";
 
-// Cropsanity
-import crops from "./JsonFiles/CropSanity/crops.json";
-import fruit from "./JsonFiles/CropSanity/fruit.json";
+// Chefsanity
+import friendshipChef from "./JsonFiles/ChefSanity/friendship.json";
+import purchaseChef from "./JsonFiles/ChefSanity/purchases.json";
+import queenOfSauceChef from "./JsonFiles/ChefSanity/queenOfSauceRecipes.json";
+import skillsChef from "./JsonFiles/ChefSanity/skills.json";
+
 
 // Cooksanity
 import cookSanityChecks from "./JsonFiles/CookSanity/cookSanity.json";
 import queenOfSauceChecks from "./JsonFiles/CookSanity/queenOfSauce.json";
+
+// Cropsanity
+import crops from "./JsonFiles/CropSanity/crops.json";
+import fruit from "./JsonFiles/CropSanity/fruit.json";
 
 // Elevator Progression
 import elevatorProgression from "./JsonFiles/minesElevators.json";
@@ -443,6 +450,19 @@ export const GROUPED_TABLES =
             {id: "pantryBundles", heading: "Pantry", className: "tableLevel-2_Tables", data: pantryBundles},
             {id: "vaultBunddles", heading: "Vault", className: "tableLevel-2_Tables", data: vaultBunddles},
         ]
+   },
+
+   chefsanity:
+   {
+     heading: "Learn Cooking Recipes",
+     className: "tableLevel-2_Heading",
+     groups:
+     [
+          {id: "friendshipChef", heading: "Friendship", className: "tableLevel-2_Tables", data: friendshipChef},
+          {id: "purchaseChef", heading: "Purchase", className: "tableLevel-2_Tables", data: purchaseChef},
+          {id: "queenOfSauceChef", heading: "Queen of Sauce", className: "tableLevel-2_Tables", data: queenOfSauceChef},
+          {id: "skillsChef", heading: "Skills", className: "tableLevel-2_Tables", data: skillsChef},
+     ]
    },
 
    cooksanity:

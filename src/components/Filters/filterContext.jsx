@@ -7,7 +7,7 @@ const defaultFilterState =
     isGI: "No",
     excludeBackpack: false,
 
-    chefSanity:
+    chefCategory:
     {
         friendship: false,
         purchase: false,

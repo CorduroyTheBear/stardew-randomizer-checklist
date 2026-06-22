@@ -13,7 +13,8 @@ export function filterGroupedTables(settings)
     if (settings.arcade !== "disabled") visible.push("arcade");
     if (settings.backpack !== "vanilla") visible.push("backpack");
     if (settings.buildingProgression !== "vanilla") visible.push("buildingProgression");
-    if (settings.bookSanity !== "none") visible.push("bookSanity");
+    if (settings.bookSanity !== "none") visible.push("bookSanity"); 
+    if (settings.chefsanity !== "no") visible.push("chefsanity");
     if (settings.cooksanity !== "none") visible.push("cooksanity");
     if (settings.cropsanity !== "disabled") visible.push("cropsanity");
     if (settings.elevatorProgression !== "vanilla") visible.push("elevatorProgression");
@@ -91,6 +92,15 @@ export function filterGroups(tableKey, settings)
             const visible = [];
 
             if (settings.buildingProgression === "progressive") visible.push("barn", "coop", "farmBuildings", "house");
+
+            return visible;
+        }
+
+        case "chefsanity":
+        {
+            const visible = [];
+
+            if (settings.chefsanity === "yes") visible.push("friendshipChef", "purchaseChef", "queenOfSauceChef", "skillsChef");
 
             return visible;
         }
@@ -217,7 +227,6 @@ export function filterGroups(tableKey, settings)
         }
         
         // Default settings = always show
-        default:
-            return null;
+        default: return null;
     }
 }
