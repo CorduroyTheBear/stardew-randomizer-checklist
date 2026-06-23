@@ -2,30 +2,35 @@
     {
         "id": "energyTonic",
         "name": "Energy Tonic",
+        "eatType": "shop",
         "done": false,
         "found": false
     },
     {
         "id": "magicRockCandy",
         "name": "Magic Rock Candy",
+        "eatType": "shop",
         "done": false,
         "found": false
     },
     {
         "id": "muscleRemedy",
         "name": "Muscle Remedy",
+        "eatType": "shop",
         "done": false,
         "found": false
     },
     {
         "id": "pinaColada",
         "name": "Pina Colada",
+        "eatType": "shop",
         "done": false,
         "found": false
     },
     {
         "id": "stardrop",
         "name": "Stardrop",
+        "eatType": "shop",
         "done": false,
         "found": false
     }

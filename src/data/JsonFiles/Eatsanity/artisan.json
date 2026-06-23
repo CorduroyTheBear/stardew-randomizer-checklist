@@ -2,102 +2,119 @@
     {
         "id": "447",
         "name": "Aged Roe",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "346",
         "name": "Beer",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "445",
         "name": "Caviar",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "424",
         "name": "Cheese",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "395",
         "name": "Coffee",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "807",
         "name": "Dinosaur Mayonnaise",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "driedFruit",
         "name": "Dried Fruit",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "driedMushrooms",
         "name": "Dried Mushrooms",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "442",
         "name": "Duck Egg",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "307",
         "name": "Duck Mayonnaise",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "180",
         "name": "Egg (Brown)",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "176",
         "name": "Egg",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "426",
         "name": "Goat Cheese",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "436",
         "name": "Goat Milk",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "928",
         "name": "Golden Egg",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "614",
         "name": "Green Tea",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
-        "id": "",
+        "id": "iridiumSnakeMilk",
         "name": "Iridium Snake Milk",
+        "eatType": "artisan",
         "isPoison": true,
         "done": false,
         "found": false
@@ -105,72 +122,84 @@
     {
         "id": "344",
         "name": "Jelly",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "350",
         "name": "Juice",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "182",
         "name": "Large Egg (Brown)",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "174",
         "name": "Large Egg",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "438",
         "name": "Large Goat Milk",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "186",
         "name": "Large Milk",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "724",
         "name": "Maple Syrup",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "306",
         "name": "Mayonnaise",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "459",
         "name": "Mead",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "184",
         "name": "Milk",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "247",
         "name": "Oil",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "289",
         "name": "Ostrich Egg",
+        "eatType": "artisan",
         "isGI": true,
         "done": false,
         "found": false
@@ -178,36 +207,42 @@
     {
         "id": "303",
         "name": "Pale Ale",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "342",
         "name": "Pickles",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "raisins",
         "name": "Raisins",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "423",
         "name": "Rice",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "812",
         "name": "Roe",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "smokedFish",
         "name": "Smoked Fish",
+        "eatType": "artisan",
         "isPoison": true,
         "done": false,
         "found": false
@@ -215,30 +250,35 @@
     {
         "id": "245",
         "name": "Sugar",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "432",
         "name": "Truffle Oil",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "430",
         "name": "Truffle",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "419",
         "name": "Vinegar",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "305",
         "name": "Void Egg",
+        "eatType": "artisan",
         "isPoison": true,
         "done": false,
         "found": false
@@ -246,6 +286,7 @@
     {
         "id": "308",
         "name": "Void Mayonnaise",
+        "eatType": "artisan",
         "isPoison": true,
         "done": false,
         "found": false
@@ -253,12 +294,14 @@
     {
         "id": "246",
         "name": "Wheat Flour",
+        "eatType": "artisan",
         "done": false,
         "found": false
     },
     {
         "id": "348",
         "name": "Wine",
+        "eatType": "artisan",
         "done": false,
         "found": false
     }

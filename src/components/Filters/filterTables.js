@@ -3,11 +3,19 @@ export function filterGroupedTables(settings)
     const visible = [];
 
     // Always visible
-    visible.push("bundles");
-    visible.push("minesChests");
-    visible.push("travelingMerchant");
-    visible.push("raccoonChecks");
-    visible.push("otherChecks");
+    visible.push(
+                    "bundles",
+                    "minesChests",
+                    "travelingMerchant",
+                    "raccoonChecks",
+                    "otherChecks",
+
+                    // Chefsanity
+                    "friendshipChef", "purchaseChef", "queenOfSauceChef", "skillsChef",
+
+                    // Eatsanity
+                    "artisanEat", "cookingEat", "cropsEat", "fishEat", "shopEat"
+                );
 
     // Every other table
     if (settings.arcade !== "disabled") visible.push("arcade");
@@ -18,6 +26,7 @@ export function filterGroupedTables(settings)
     if (settings.craftsanity !== "none") visible.push("craftsMake", "craftsLearnShop", "craftsLearnSkills", "craftsLearnOther");
     if (settings.cooksanity !== "none") visible.push("cooksanity");
     if (settings.cropsanity !== "disabled") visible.push("cropsanity");
+    if (settings.eatsanity !== "no") visible.push("eatsanity");
     if (settings.elevatorProgression !== "vanilla") visible.push("elevatorProgression");
     if (settings.endGame !== "no") visible.push("endGame");
     if (settings.festivalLocations !== "none") visible.push("festivalLocations");
@@ -97,15 +106,6 @@ export function filterGroups(tableKey, settings)
             return visible;
         }
 
-        case "chefsanity":
-        {
-            const visible = [];
-
-            if (settings.chefsanity === "yes") visible.push("friendshipChef", "purchaseChef", "queenOfSauceChef", "skillsChef");
-
-            return visible;
-        }
-
         case "craftsMake":
         {
             const visible = [];
@@ -154,6 +154,8 @@ export function filterGroups(tableKey, settings)
 
             return visible;
         }
+
+
 
         case "festivalLocations":
         {

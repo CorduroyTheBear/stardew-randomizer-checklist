@@ -5,6 +5,7 @@ const defaultFilterState =
     season: {season: "all", seasonExclusive: false},
     fishingLocation: "any",
     isGI: "No",
+    isPoison: false,
     excludeBackpack: false,
 
     chefCategory:
@@ -15,6 +16,15 @@ const defaultFilterState =
         skills: false
     },
     
+    eatType:
+    {
+        artisan: false,
+        cooking: false,
+        crop: false,
+        fish: false,
+        shop: false
+    },
+
     walnutType:
     {
         bush: false,

@@ -114,6 +114,13 @@ import specialOrders from "./JsonFiles/CraftsLearn/specialOrders.json";
 import crops from "./JsonFiles/CropSanity/crops.json";
 import fruit from "./JsonFiles/CropSanity/fruit.json";
 
+// Eatsanity
+import artisanEat from "./JsonFiles/Eatsanity/artisan.json";
+import cookingEat from "./JsonFiles/Eatsanity/cooking.json";
+import cropsEat from "./JsonFiles/Eatsanity/cropsEat.json";
+import fishEat from "./JsonFiles/Eatsanity/fish.json";
+import shopEat from "./JsonFiles/Eatsanity/shopEat.json";
+
 // Elevator Progression
 import elevatorProgression from "./JsonFiles/minesElevators.json";
 
@@ -604,6 +611,20 @@ export const GROUPED_TABLES =
         ]
    },
 
+   eatsanity:
+   {
+        heading: "Eat Food",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "artisanEat", heading: "Artisan", className: "tableLevel-2_Tables", data: artisanEat},
+            {id: "cookingEat", heading: "Cooking", className: "tableLevel-2_Tables", data: cookingEat},
+            {id: "cropsEat", heading: "Crops", className: "tableLevel-2_Tables", data: cropsEat},
+            {id: "fishEat", heading: "Fish", className: "tableLevel-2_Tables", data: fishEat},
+            {id: "shopEat", heading: "Shop", className: "tableLevel-2_Tables", data: shopEat},
+        ]
+   },
+
    elevatorProgression:
    {
         heading: "Elevator",
@@ -1003,7 +1024,7 @@ export const GROUPED_TABLES =
 
 
 
-// To Add more grouped tables
+// To Add more tables
 
 // 1. Put .json file in ./data/JsonFiles
 // 2. Export tables (shown above)

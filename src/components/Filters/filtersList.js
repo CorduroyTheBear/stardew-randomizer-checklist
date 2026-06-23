@@ -1,7 +1,9 @@
 import { filterAddBackpack } from "./filterBackpack";
 import { filterChefsanity } from "./filterChefsanity";
+import { filterEatsanity } from "./filterEatsanity";
 import { filterFishingLocations } from "./filterFishingLocations";
 import { filterGingerIslandChecks } from "./filterGIChecks";
+import { filterIsPoison } from "./isPoison";
 import { filterSeasons } from "./filterSeasons";
 import { filterWalnutType } from "./filterWalnutType";
 
@@ -10,6 +12,10 @@ export const filterList =
     {
         key: "chefCategory",
         fn: (item, state) => filterChefsanity(item, state)
+    },
+    {
+        key: "eatType",
+        fn: (item, state) => filterEatsanity(item, state)
     },
     {
         key: "excludeBackpack",
@@ -22,6 +28,10 @@ export const filterList =
     {
         key: "isGI",
         fn: (item, state) => filterGingerIslandChecks(item, state)
+    },
+    {
+        key: "isPoison",
+        fn: (item, state) => filterIsPoison(item, state)
     },
     {
         key: "season",
