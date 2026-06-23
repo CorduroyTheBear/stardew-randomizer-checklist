@@ -152,7 +152,7 @@
     },
     {
       "id": "(O)902",
-      "name": "Glacierfish Jr. ",
+      "name": "Glacierfish Jr. [NL]",
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": ["legend", "forestRiver"],
       "isGI": true,
@@ -167,6 +167,12 @@
       "fishingLocation": "forestWaterfall",
       "weather": ["rain", "sunny"],
       "isPoison": true,
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "greenAlgae",
+      "name": "Green Algae",
       "done": false,
       "found": false
     },
@@ -194,6 +200,12 @@
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "mines",
       "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "jojaCola",
+      "name": "Joja Cola",
       "done": false,
       "found": false
     },
@@ -273,7 +285,7 @@
     },
     {
       "id": "(O)899",
-      "name": "Ms. Angler ",
+      "name": "Ms. Angler [NL]",
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": ["legend", "townRiver"],
       "isGI": true,
@@ -292,7 +304,7 @@
     },
     {
       "id": "(O)149",
-      "name": "Octopus ",
+      "name": "Octopus [NL]",
       "fishingLocation": ["ocean", "gingerIslandOcean"],
       "season": ["summer"],
       "weather": ["rain", "sunny"],
@@ -329,7 +341,7 @@
     },
     {
       "id": "(O)901",
-      "name": "Radioactive Carp ",
+      "name": "Radioactive Carp [NL]",
       "season": ["summer"],
       "fishingLocation": ["legend", "sewers"],
       "isGI": true,
@@ -358,6 +370,12 @@
       "name": "Red Snapper",
       "fishingLocation": ["ocean"],
       "weather": "rain",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "riverJelly",
+      "name": "River Jelly",
       "done": false,
       "found": false
     },
@@ -411,6 +429,18 @@
       "found": false
     },
     {
+      "id": "seaJelly",
+      "name": "Sea Jelly",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "seaweed",
+      "name": "Seaweed",
+      "done": false,
+      "found": false
+    },
+    {
       "id": "(O)706",
       "name": "Shad",
       "season": ["spring", "summer", "fall"],
@@ -437,7 +467,7 @@
     },
     {
       "id": "(O)898",
-      "name": "Son of Crimsonfish ",
+      "name": "Son of Crimsonfish [NL]",
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": ["legend", "ocean"],
       "isGI": true,
@@ -502,7 +532,7 @@
     },
     {
       "id": "(O)158",
-      "name": "Stonefish ",
+      "name": "Stonefish [NL]",
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "mines",
       "weather": ["rain", "sunny"],
@@ -551,6 +581,12 @@
       "season": ["fall", "winter"],
       "fishingLocation": ["townRiver", "forestRiver", "forestPond", "lake"],
       "weather": "rain",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "whiteAlgae",
+      "name": "White Algae",
       "done": false,
       "found": false
     },

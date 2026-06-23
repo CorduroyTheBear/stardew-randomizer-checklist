@@ -1,0 +1,265 @@
+[
+    {
+        "id": "447",
+        "name": "Aged Roe",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "346",
+        "name": "Beer",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "445",
+        "name": "Caviar",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "424",
+        "name": "Cheese",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "395",
+        "name": "Coffee",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "807",
+        "name": "Dinosaur Mayonnaise",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "driedFruit",
+        "name": "Dried Fruit",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "driedMushrooms",
+        "name": "Dried Mushrooms",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "442",
+        "name": "Duck Egg",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "307",
+        "name": "Duck Mayonnaise",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "180",
+        "name": "Egg (Brown)",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "176",
+        "name": "Egg",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "426",
+        "name": "Goat Cheese",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "436",
+        "name": "Goat Milk",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "928",
+        "name": "Golden Egg",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "614",
+        "name": "Green Tea",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "",
+        "name": "Iridium Snake Milk",
+        "isPoison": true,
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "344",
+        "name": "Jelly",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "350",
+        "name": "Juice",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "182",
+        "name": "Large Egg (Brown)",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "174",
+        "name": "Large Egg",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "438",
+        "name": "Large Goat Milk",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "186",
+        "name": "Large Milk",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "724",
+        "name": "Maple Syrup",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "306",
+        "name": "Mayonnaise",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "459",
+        "name": "Mead",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "184",
+        "name": "Milk",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "247",
+        "name": "Oil",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "289",
+        "name": "Ostrich Egg",
+        "isGI": true,
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "303",
+        "name": "Pale Ale",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "342",
+        "name": "Pickles",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "raisins",
+        "name": "Raisins",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "423",
+        "name": "Rice",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "812",
+        "name": "Roe",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "smokedFish",
+        "name": "Smoked Fish",
+        "isPoison": true,
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "245",
+        "name": "Sugar",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "432",
+        "name": "Truffle Oil",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "430",
+        "name": "Truffle",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "419",
+        "name": "Vinegar",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "305",
+        "name": "Void Egg",
+        "isPoison": true,
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "308",
+        "name": "Void Mayonnaise",
+        "isPoison": true,
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "246",
+        "name": "Wheat Flour",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "348",
+        "name": "Wine",
+        "done": false,
+        "found": false
+    }
+]

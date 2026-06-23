@@ -8,13 +8,21 @@
     "found": false
   },
   {
-    "id": "454",
-    "name": "Ancient Fruit",
-    "season": ["spring", "summer", "fall"],
-    "image": "images.ancientFruit",
+    "id": "613",
+    "name": "Apple",
+    "season": ["fall"],
+    "image": "images.apple",
     "done": false,
     "found": false
-  },  
+  },
+  {
+    "id": "634",
+    "name": "Apricot",
+    "season": ["spring"],
+    "image": "images.apricot",
+    "done": false,
+    "found": false
+  },
   {
     "id": "274",
     "name": "Artichoke",
@@ -24,11 +32,28 @@
     "found": false
   },
   {
+    "id": "91",
+    "name": "Banana",
+    "season": ["summer"],
+    "isGI": true,
+    "image": "images.banana",
+    "done": false,
+    "found": false
+  },
+  {
     "id": "284",
     "name": "Beet",
     "season": ["fall"],
     "location": "dessert",
     "image": "images.beet",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "blackberry",
+    "name": "Blackberry",
+    "season": ["fall"],
+    "image": "images.blackberry",
     "done": false,
     "found": false
   },
@@ -89,10 +114,29 @@
     "found": false
   },
   {
-    "id": "433",
-    "name": "Coffee Bean",
-    "season": ["spring", "summer"],
-    "image": "images.coffeeBean",
+    "id": "caveCarrot",
+    "name": "Cave Carrot",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "chanterelle",
+    "name": "Chanterelle",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "638",
+    "name": "Cherry",
+    "season": ["spring"],
+    "image": "images.cherry",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "commonMushroom",
+    "name": "Common Mushroom",
+    "season": ["fall"],
     "done": false,
     "found": false
   },
@@ -113,6 +157,34 @@
     "found": false
   },
   {
+    "id": "crocus",
+    "name": "Crocus",
+    "season": ["winter"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "crystalFruit",
+    "name": "Crystal Fruit",
+    "season": ["winter"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "daffodil",
+    "name": "Daffodil",
+    "season": ["spring"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "dandelion",
+    "name": "Dandelion",
+    "season": ["spring"],
+    "done": false,
+    "found": false
+  },
+  {
     "id": "272",
     "name": "Eggplant",
     "season": ["fall"],
@@ -129,10 +201,24 @@
     "found": false
   },
   {
+    "id": "fiddleheadFern",
+    "name": "Fiddlehead Fern",
+    "season": ["summer"],
+    "done": false,
+    "found": false
+  },
+  {
     "id": "248",
     "name": "Garlic",
     "season": ["spring"],
     "image": "images.garlic",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "ginger",
+    "name": "Ginger",
+    "isGI": true,
     "done": false,
     "found": false
   },
@@ -149,6 +235,21 @@
     "name": "Green Bean",
     "season": ["spring"],
     "image": "images.greenBean",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "hazelnut",
+    "name": "Hazelnut",
+    "season": ["fall"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "holly",
+    "name": "Holly",
+    "season": ["winter"],
+    "isPoison": true,
     "done": false,
     "found": false
   },
@@ -177,10 +278,50 @@
     "found": false
   },
   {
+    "id": "leek",
+    "name": "Leek",
+    "season": ["spring"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "magmaCap",
+    "name": "Magma Cap",
+    "isGI": true,
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "834",
+    "name": "Mango",
+    "season": ["summer"],
+    "isGI": true,
+    "image": "images.mango",
+    "done": false,
+    "found": false
+  },
+  {
     "id": "254",
     "name": "Melon",
     "season": ["summer"],
     "image": "images.melon",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "morel",
+    "name": "Morel",
+    "season": ["fall"],
+    "isGI": true,
+    "image": "images.mango",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "635",
+    "name": "Orange",
+    "season": ["summer"],
+    "image": "images.orange",
     "done": false,
     "found": false
   },
@@ -193,11 +334,27 @@
     "found": false
   },
   {
+    "id": "636",
+    "name": "Peach",
+    "season": ["summer"],
+    "image": "images.peach",
+    "done": false,
+    "found": false
+  },
+  {
     "id": "832",
     "name": "Pineapple",
     "season": ["summer"],
     "isGI": true,
     "image": "images.pineapple",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "637",
+    "name": "Pomegranate",
+    "season": ["fall"],
+    "image": "images.pomegranate",
     "done": false,
     "found": false
   },
@@ -227,18 +384,9 @@
     "found": false
   },
   {
-    "id": "276",
-    "name": "Pumpkin",
-    "season": ["fall"],
-    "image": "images.pumpkin",
-    "done": false,
-    "found": false
-  },
-  {
-    "id": "889",
-    "name": "Qi Fruit",
-    "image": "images.qiFruit",
-    "isGI": true,
+    "id": "purpleMushroom",
+    "name": "Purple Mushroom",
+    "image": "images.pomegranate",
     "done": false,
     "found": false
   },
@@ -259,10 +407,44 @@
     "found": false
   },
   {
-    "id": "252",
-    "name": "Rhubarb",
+    "id": "redMushroom",
+    "name": "Red Mushroom",
+    "isPoison": true,
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "salmonberry",
+    "name": "Salmonberry",
     "season": ["spring"],
-    "image": "images.rhubarb",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "sap",
+    "name": "Sap",
+    "isPoison": true,
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "snowYam",
+    "name": "Snow Yam",
+    "season": ["winter"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "spiceBerry",
+    "name": "Spice Berry",
+    "season": ["summer"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "springOnion",
+    "name": "Spring Onion",
+    "season": ["spring"],
     "done": false,
     "found": false
   },
@@ -308,10 +490,9 @@
     "found": false
   },
   {
-    "id": "417",
-    "name": "Sweet Gem Berry",
-    "season": ["fall"],
-    "image": "images.sweetGemBerry",
+    "id": "sweetPea",
+    "name": "Sweet Pea",
+    "season": ["summer"],
     "done": false,
     "found": false
   },
@@ -349,10 +530,23 @@
     "found": false
   },
   {
-    "id": "262",
-    "name": "Wheat",
-    "season": ["summer", "fall"],
-    "image": "images.wheat",
+    "id": "wildHorseradish",
+    "name": "Wild Horseradish",
+    "season": ["spring"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "wildPlum",
+    "name": "Wild Plum",
+    "season": ["fall"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "winterRoot",
+    "name": "Winter Root",
+    "season": ["winter"],
     "done": false,
     "found": false
   },

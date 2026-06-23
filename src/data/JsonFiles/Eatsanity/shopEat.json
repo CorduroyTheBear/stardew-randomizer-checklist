@@ -1,0 +1,32 @@
+[
+    {
+        "id": "energyTonic",
+        "name": "Energy Tonic",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "magicRockCandy",
+        "name": "Magic Rock Candy",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "muscleRemedy",
+        "name": "Muscle Remedy",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "pinaColada",
+        "name": "Pina Colada",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "stardrop",
+        "name": "Stardrop",
+        "done": false,
+        "found": false
+    }
+]
