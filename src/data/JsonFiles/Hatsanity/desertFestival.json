@@ -16,6 +16,14 @@
         "found": false
     },
     {
+        "id": "darkBallcap",
+        "name": "Dark Ballcap",
+        "hatType": "rng",
+        "hint": "Emily's outfit service..",
+        "done": false,
+        "found": false
+    },
+    {
         "id": "darkVelvetBow",
         "name": "Dark Velvet Bow",
         "hatType": "easy",
@@ -28,6 +36,22 @@
         "name": "Gil's Hat",
         "hatType": "difficult",
         "hint": "Dessert festival, 25-54 egg rating..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "jojaCap",
+        "name": "Joja Cap",
+        "hatType": "rng",
+        "hint": "Emily's outfit service..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "laurelWreathCrown",
+        "name": "Laurel Wreath Crown",
+        "hatType": "rng",
+        "hint": "Emily's outfit service..",
         "done": false,
         "found": false
     },

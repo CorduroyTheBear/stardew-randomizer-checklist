@@ -288,6 +288,27 @@ import gingerIslandSouth from "./JsonFiles/GingerIsland/south.json";
 import gingerIslandEast from "./JsonFiles/GingerIsland/east.json";
 import gingerIslandWest from "./JsonFiles/GingerIsland/west.json";
 
+// Hatsanity
+import cookHat from "./JsonFiles/Hatsanity/cookHat.json";
+import craftHat from "./JsonFiles/Hatsanity/craftHat.json";
+import desertHat from "./JsonFiles/Hatsanity/desert.json";
+import desertFestivalHat from "./JsonFiles/Hatsanity/desertFestival.json";
+import festivalHat from "./JsonFiles/Hatsanity/festivalHat.json";
+import fishHat from "./JsonFiles/Hatsanity/fishHat.json";
+import friendshipHat from "./JsonFiles/Hatsanity/friendshipHat.json";
+import gingerIslandHat from "./JsonFiles/Hatsanity/gingerIslandHat.json";
+import helpWantedHat from "./JsonFiles/Hatsanity/helpWanted.json";
+import inTheValleyHat from "./JsonFiles/Hatsanity/inTheValleyHat.json";
+import moneyHat from "./JsonFiles/Hatsanity/money.json";
+import monsterHat from "./JsonFiles/Hatsanity/monsterHat.json";
+import otherHat from "./JsonFiles/Hatsanity/otherHat.json";
+import panHat from "./JsonFiles/Hatsanity/panHat.json";
+import postPerfectionHat from "./JsonFiles/Hatsanity/postPerfection.json";
+import raccoonHat from "./JsonFiles/Hatsanity/raccoonHat.json";
+import shipStuffHat from "./JsonFiles/Hatsanity/shipStuff.json";
+import tailoringHat from "./JsonFiles/Hatsanity/tailoring.json";
+import upgradeHouseHat from "./JsonFiles/Hatsanity/upgradeHouse.json";
+
 // Mines Chests
 import minesChests from "./JsonFiles/minesTreasure.json";
 
@@ -837,6 +858,34 @@ export const GROUPED_TABLES =
           {id: "gingerIslandSouth", heading: "South", className: "tableLevel-2_Tables", data: gingerIslandSouth},
           {id: "gingerIslandEast", heading: "East", className: "tableLevel-2_Tables", data: gingerIslandEast},
           {id: "gingerIslandWest", heading: "West", className: "tableLevel-2_Tables", data: gingerIslandWest},
+        ]
+   },
+
+   hatsanity:
+   {
+        heading: "Wear Hats",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "cookHat", heading: "Cooking", className: "tableLevel-2_Tables", data: cookHat},
+            {id: "craftHat", heading: "Crafting", className: "tableLevel-2_Tables", data: craftHat},
+            {id: "desertHat", heading: "Desert", className: "tableLevel-2_Tables", data: desertHat},
+            {id: "desertFestivalHat", heading: "Desert Festival", className: "tableLevel-2_Tables", data: desertFestivalHat},
+            {id: "festivalHat", heading: "Festival", className: "tableLevel-2_Tables", data: festivalHat},
+            {id: "fishHat", heading: "Fishing", className: "tableLevel-2_Tables", data: fishHat},
+            {id: "friendshipHat", heading: "Friendship", className: "tableLevel-2_Tables", data: friendshipHat},
+            {id: "gingerIslandHat", heading: "Ginger Island", className: "tableLevel-2_Tables", data: gingerIslandHat},
+            {id: "helpWantedHat", heading: "Help Wanted Quests", className: "tableLevel-2_Tables", data: helpWantedHat},
+            {id: "inTheValleyHat", heading: "In The Valley", className: "tableLevel-2_Tables", data: inTheValleyHat},
+            {id: "moneyHat", heading: "Money Goals", className: "tableLevel-2_Tables", data: moneyHat},
+            {id: "monsterHat", heading: "Monster Goals", className: "tableLevel-2_Tables", data: monsterHat},
+            {id: "otherHat", heading: "Other", className: "tableLevel-2_Tables", data: otherHat},
+            {id: "panHat", heading: "Pan", className: "tableLevel-2_Tables", data: panHat},
+            {id: "postPerfectionHat", heading: "Post Perfection", className: "tableLevel-2_Tables", data: postPerfectionHat},
+            {id: "raccoonHat", heading: "Raccoon", className: "tableLevel-2_Tables", data: raccoonHat},
+            {id: "shipStuffHat", heading: "Shipping Goals", className: "tableLevel-2_Tables", data: shipStuffHat},
+            {id: "tailoringHat", heading: "Tailoring", className: "tableLevel-2_Tables", data: tailoringHat},
+            {id: "upgradeHouseHat", heading: "Upgrade House", className: "tableLevel-2_Tables", data: upgradeHouseHat},
         ]
    },
 

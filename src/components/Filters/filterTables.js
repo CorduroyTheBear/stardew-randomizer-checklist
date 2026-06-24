@@ -5,32 +5,26 @@ export function filterGroupedTables(settings)
     // Always visible
     visible.push
     (
+        // Always push
         "bundles",
+        "chefsanity",
+        "eatsanity",
+        "hatsanity",
         "minesChests",
         "travelingMerchant",
         "raccoonChecks",
+        "secretsanity",
         "otherChecks",
-
-        // Chefsanity
-        "friendshipChef", "purchaseChef", "queenOfSauceChef", "skillsChef",
-
-        // Eatsanity
-        "artisanEat", "cookingEat", "cropsEat", "fishEat", "shopEat",
-
-        // Secretsanity
-        "difficultSecrets", "easySecrets", "fishSecrets", "secretNotes"
     )
 
     // Every other table
     if (settings.arcade !== "disabled") visible.push("arcade");
     if (settings.backpack !== "vanilla") visible.push("backpack");
     if (settings.buildingProgression !== "vanilla") visible.push("buildingProgression");
-    if (settings.bookSanity !== "none") visible.push("bookSanity"); 
-    if (settings.chefsanity !== "no") visible.push("chefsanity");
+    if (settings.bookSanity !== "none") visible.push("bookSanity");
     if (settings.craftsanity !== "none") visible.push("craftsMake", "craftsLearnShop", "craftsLearnSkills", "craftsLearnOther");
     if (settings.cooksanity !== "none") visible.push("cooksanity");
     if (settings.cropsanity !== "disabled") visible.push("cropsanity");
-    if (settings.eatsanity !== "no") visible.push("eatsanity");
     if (settings.elevatorProgression !== "vanilla") visible.push("elevatorProgression");
     if (settings.endGame !== "no") visible.push("endGame");
     if (settings.festivalLocations !== "none") visible.push("festivalLocations");
@@ -41,7 +35,6 @@ export function filterGroupedTables(settings)
     if (settings.movieSanity !== "none") visible.push("movieSanity");
     if (settings.museamsity !== "none") visible.push("museamsity");
     if (settings.quests !== "none") visible.push("quests");
-    if (settings.secretsanity !== "none") visible.push("secretsanity")
     if (settings.skillProgression !== "vanilla") visible.push("skillProgression");
     if (settings.specialOrders !== "vanilla") visible.push("specialOrders");
     if (settings.toolProgression !== "vanilla") visible.push("toolProgression");
