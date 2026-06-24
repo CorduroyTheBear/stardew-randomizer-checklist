@@ -1,0 +1,18 @@
+[
+    {
+        "id": "haley1",
+        "name": "Pink Cake",
+        "secretType": "note",
+        "hint": "Secret note #8",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "haley2",
+        "name": "Sunflower",
+        "secretType": "note",
+        "hint": "Secret note #8",
+        "done": false,
+        "found": false
+    }
+]

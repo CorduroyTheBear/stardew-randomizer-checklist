@@ -1,0 +1,18 @@
+[
+    {
+        "id": "sebastian",
+        "name": "Frozen Tear",
+        "secretType": "note",
+        "hint": "Secret note #2",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "sebastian",
+        "name": "Sashimi",
+        "secretType": "note",
+        "hint": "Secret note #2",
+        "done": false,
+        "found": false
+    }
+]

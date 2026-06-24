@@ -1,0 +1,18 @@
+[
+    {
+        "id": "penny1",
+        "name": "Emerald",
+        "secretType": "note",
+        "hint": "Secret note #2",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "penny2",
+        "name": "Poppy",
+        "secretType": "note",
+        "hint": "Secret note #2",
+        "done": false,
+        "found": false
+    }
+]

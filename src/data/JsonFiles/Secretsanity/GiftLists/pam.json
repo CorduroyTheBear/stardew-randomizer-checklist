@@ -1,0 +1,26 @@
+[
+    {
+        "id": "pam1",
+        "name": "Beer",
+        "secretType": "note",
+        "hint": "Secret note #5",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "pam2",
+        "name": "Glazed Yams",
+        "secretType": "note",
+        "hint": "Secret note #5",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "pam3",
+        "name": "Parsnip",
+        "secretType": "note",
+        "hint": "Secret note #5",
+        "done": false,
+        "found": false
+    }
+]

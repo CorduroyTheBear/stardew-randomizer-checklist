@@ -1,0 +1,26 @@
+[
+    {
+        "id": "shane1",
+        "name": "Beer",
+        "secretType": "note",
+        "hint": "Secret note #7",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "shane2",
+        "name": "Pepper Poppers",
+        "secretType": "note",
+        "hint": "Secret note #7",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "shane3",
+        "name": "Pizza",
+        "secretType": "note",
+        "hint": "Secret note #7",
+        "done": false,
+        "found": false
+    }
+]

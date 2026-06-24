@@ -1,0 +1,42 @@
+[
+    {
+        "id": "abigail1",
+        "name": "Amethyst",
+        "secretType": "note",
+        "hint": "Secret note #1",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "abigail2",
+        "name": "Blackberry Cobbler",
+        "secretType": "note",
+        "hint": "Secret note #1",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "abigail3",
+        "name": "Chocolate Cake",
+        "secretType": "note",
+        "hint": "Secret note #1..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "abigail4",
+        "name": "Pumpkin",
+        "secretType": "note",
+        "hint": "Secret note #1",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "abigail5",
+        "name": "Spicy Eel",
+        "secretType": "note",
+        "hint": "Secret note #1",
+        "done": false,
+        "found": false
+    }
+]

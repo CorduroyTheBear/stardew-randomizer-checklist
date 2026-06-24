@@ -1,0 +1,42 @@
+[
+    {
+        "id": "maru1",
+        "name": "Battery Pack",
+        "secretType": "note",
+        "hint": "Secret note #4",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "maru2",
+        "name": "Diamond",
+        "secretType": "note",
+        "hint": "Secret note #4",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "maru3",
+        "name": "Gold Bar",
+        "secretType": "note",
+        "hint": "Secret note #4",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "maru4",
+        "name": "Iridium Bar",
+        "secretType": "note",
+        "hint": "Secret note #4",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "maru5",
+        "name": "Strawberry",
+        "secretType": "note",
+        "hint": "Secret note #4",
+        "done": false,
+        "found": false
+    }
+]

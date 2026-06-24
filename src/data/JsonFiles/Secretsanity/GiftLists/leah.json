@@ -1,0 +1,42 @@
+[
+    {
+        "id": "leah1",
+        "name": "Goat Cheese",
+        "secretType": "note",
+        "hint": "Secret note #3",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "leah2",
+        "name": "Poppyseed Muffin",
+        "secretType": "note",
+        "hint": "Secret note #3",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "leah3",
+        "name": "Salad",
+        "secretType": "note",
+        "hint": "Secret note #3",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "leah4",
+        "name": "Truffle",
+        "secretType": "note",
+        "hint": "Secret note #3",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "leah5",
+        "name": "Wine",
+        "secretType": "note",
+        "hint": "Secret note #3",
+        "done": false,
+        "found": false
+    }
+]

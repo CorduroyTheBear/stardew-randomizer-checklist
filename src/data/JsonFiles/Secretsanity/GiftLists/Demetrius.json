@@ -1,0 +1,10 @@
+[
+    {
+        "id": "dem1",
+        "name": "Bean Hotpot",
+        "secretType": "note",
+        "hint": "Secret note #6",
+        "done": false,
+        "found": false
+    }
+]

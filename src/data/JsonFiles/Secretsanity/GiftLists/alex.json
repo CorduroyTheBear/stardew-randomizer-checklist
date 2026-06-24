@@ -1,0 +1,18 @@
+[
+    {
+        "id": "alex1",
+        "name": "Complete Breakfish",
+        "secretType": "note",
+        "hint": "Secret note #9",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "alex2",
+        "name": "Salmon Dinner",
+        "secretType": "note",
+        "hint": "Secret note #9",
+        "done": false,
+        "found": false
+    }
+]

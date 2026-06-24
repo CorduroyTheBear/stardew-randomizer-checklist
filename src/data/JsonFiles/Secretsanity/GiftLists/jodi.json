@@ -1,0 +1,18 @@
+[
+    {
+        "id": "joddi1",
+        "name": "Crispy Bass",
+        "secretType": "note",
+        "hint": "Secret note #2",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "joddi2",
+        "name": "Pancakes",
+        "secretType": "note",
+        "hint": "Secret note #2",
+        "done": false,
+        "found": false
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "id": "george1",
+        "name": "Fried Mushroom",
+        "secretType": "note",
+        "hint": "Secret note #5",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "george2",
+        "name": "Leek",
+        "secretType": "note",
+        "hint": "Secret note #5",
+        "done": false,
+        "found": false
+    }
+]

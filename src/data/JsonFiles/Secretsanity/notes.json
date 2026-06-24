@@ -1,0 +1,209 @@
+[
+    {
+        "id": "secretNote1",
+        "name": "A Page From Abigail's Diary",
+        "secretType": "note",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote2",
+        "name": "Sam's Holiday Shopping List",
+        "secretType": "note",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote3",
+        "name": "Leah's Perfect Dinner",
+        "secretType": "note",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote4",
+        "name": "Maru's Greatest Invention Yet",
+        "secretType": "note",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote5",
+        "name": "Penny gets everyone something they love",
+        "secretType": "note",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote6",
+        "name": "Stardrop Saloon Special Orders",
+        "secretType": "note",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote7",
+        "name": "Older Bachelors In Town",
+        "secretType": "note",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote8",
+        "name": "To Haley And Emily",
+        "secretType": "note",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote9",
+        "name": "Alex's Strength Training Diet",
+        "secretType": "note",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote10",
+        "name": "Cryptic Note",
+        "secretType": "note",
+        "hint": "Skull Cavern Level 100..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote11",
+        "name": "Marnie's Memory",
+        "secretType": "note",
+        "hint": "Just need the note..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote12",
+        "name": "Good Things In Garbage Cans",
+        "secretType": "note",
+        "hint": "Just need the note..?",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote13",
+        "name": "Junimo Plush",
+        "secretType": "note",
+        "hint": "12 o' clock noon SHARP. Last day of the season. Check the bush above the playground.",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote14",
+        "name": "Stone Junimo",
+        "secretType": "note",
+        "hint": "I hid something behind the community center..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote15",
+        "name": "Mermaid Show",
+        "secretType": "note",
+        "hint": "1-5-4-2-3",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote16",
+        "name": "Treasure Chest",
+        "secretType": "note",
+        "hint": "Dig one space using a Hoe to the right of the large boulder north of the Railroad tracks to get a Treasure Chest..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote17",
+        "name": "Green Strange Doll",
+        "secretType": "note",
+        "hint": "Head to the area north of JojaMart next to the river and dig the farthest north tile on the Eastern side..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote18",
+        "name": "Yellow Strange Doll",
+        "secretType": "note",
+        "hint": "Go to the Calico Desert and use a hoe on the area to the South West of the bench on the South East area of the map..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote19",
+        "name": "Solid Gold Lewis",
+        "secretType": "note",
+        "hint": "Behind Mayor Lewis' house..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote20",
+        "name": "Special Charm",
+        "secretType": "note",
+        "hint": "Talk to the man in the Joja truck..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote21",
+        "name": "A Date In Nature",
+        "secretType": "note",
+        "hint": "At 12:40am, interact with the large bush to the north west of the bridge out of Pelican Town to The Beach.",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote22",
+        "name": "The Mysterious Qi",
+        "secretType": "note",
+        "hint": "Place a battery pack in the box inside the tunnel..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote23",
+        "name": "Strange Note",
+        "secretType": "note",
+        "hint": "Give maple syrup to the bear..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote24",
+        "name": "M. Jasper's Book On Junimos",
+        "secretType": "note",
+        "hint": "Just need the note..?",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote25",
+        "name": "Ornate Necklace",
+        "secretType": "note",
+        "hint": "Fish outside the spa..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote26",
+        "name": "Ancient Farming Secrets",
+        "secretType": "note",
+        "hint": "Just need the note..?",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "secretNote27",
+        "name": "A Compendium Of My Greatest Discoveries",
+        "secretType": "note",
+        "hint": "Just need the note..?",
+        "done": false,
+        "found": false
+    }
+]
