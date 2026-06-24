@@ -1,0 +1,29 @@
+[
+    {
+        "id": "elegantTurban",
+        "name": "Elegant Turban",
+        "hatType": "postPerfection",
+        "hint": "Earn all achievements..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "junimoHat",
+        "name": "Junimo Hat",
+        "hatType": "postPerfection",
+        "hint": "Reach the summit..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "???",
+        "name": "???",
+        "hatType": "postPerfection",
+        "hint": "Interact with the monkey in the Volcano Caldera once you have achieved 100% Perfection..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    }
+]

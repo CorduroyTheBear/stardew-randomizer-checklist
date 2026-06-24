@@ -1,0 +1,50 @@
+[
+    {
+        "id": "abigailsBow",
+        "name": "Abigail's Bow",
+        "hatType": "rng",
+        "hint": "Desert Festival..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "blueBow",
+        "name": "Blue Bow",
+        "hatType": "easy",
+        "hint": "Calico Egg Merchant..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "darkVelvetBow",
+        "name": "Dark Velvet Bow",
+        "hatType": "easy",
+        "hint": "Calico Egg Merchant..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "gil",
+        "name": "Gil's Hat",
+        "hatType": "difficult",
+        "hint": "Dessert festival, 25-54 egg rating..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "mummyMask",
+        "name": "Mummy Mask",
+        "hatType": "easy",
+        "hint": "Callico Egg Merchant..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "Tricorn Hat",
+        "name": "tricornHat",
+        "hatType": "rng",
+        "hint": "Elliot's Desert Festival shop..",
+        "done": false,
+        "found": false
+    }
+]

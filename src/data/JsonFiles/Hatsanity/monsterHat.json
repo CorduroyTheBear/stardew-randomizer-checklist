@@ -1,0 +1,26 @@
+[
+    {
+        "id": "hardHat",
+        "name": "Hard Hat",
+        "hatType": "difficult",
+        "hint": "Kill 30 duggies..",
+        "done": false,
+        "found": false
+    }, 
+    {
+        "id": "skeletonMask",
+        "name": "Skeleton Mask",
+        "hatType": "medium",
+        "hint": "Kill 50 skeletons..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "squiresHelmet",
+        "name": "Squire's Helmet",
+        "hatType": "rng",
+        "hint": "Kill metal heads..",
+        "done": false,
+        "found": false
+    }
+]

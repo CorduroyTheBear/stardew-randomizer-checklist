@@ -1,0 +1,27 @@
+[
+    {
+        "id": "mushroomCap",
+        "name": "Mushroom Cap",
+        "hatType": "rng",
+        "hint": "Chop down mushroom trees..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "mysteryHat",
+        "name": "Mystery Hat",
+        "hatType": "rng",
+        "hint": "Mystery boxes..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "pageboyCap",
+        "name": "Pageboy Cap",
+        "hatType": "nearPerfection",
+        "hint": "Read every book..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    }
+]

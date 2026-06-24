@@ -1,0 +1,34 @@
+[
+    {
+        "id": "copperPan",
+        "name": "Copper Pan",
+        "hatType": "easy",
+        "hint": "Put the pan on your head..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "steelPan",
+        "name": "Steel Pan",
+        "hatType": "easy",
+        "hint": "Put the pan on your head..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "gold Pan",
+        "name": "Gold Pan",
+        "hatType": "easy",
+        "hint": "Put the pan on your head..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "iridiumPan",
+        "name": "Iridium Pan",
+        "hatType": "easy",
+        "hint": "Put the pan on your head..",
+        "done": false,
+        "found": false
+    }
+]

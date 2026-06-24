@@ -1,0 +1,223 @@
+[
+    {
+        "id": "beanie",
+        "name": "Beanie",
+        "hatType": "tailoring",
+        "hint": "Acorn, mahogany seed, maple seed, pinecone..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "blobfishMask",
+        "name": "Blobfish Mask",
+        "hatType": "tailoring",
+        "hint": "Blobfish..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "bridalVeil",
+        "name": "Bridal Veil",
+        "hatType": "tailoring",
+        "hint": "Pearl..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "dinosaurHat",
+        "name": "Dinosaur Hat",
+        "hatType": "tailoring",
+        "hint": "Dinosour Egg..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "fashionHat",
+        "name": "Fashion Hat",
+        "hatType": "tailoring",
+        "hint": "Caviar..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "fishingHat",
+        "name": "Fishing Hat",
+        "hatType": "tailoring",
+        "hint": "Ice pip, midnight squid, scorpion carp, slimejack, spook fish, stone fish, void salmon..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "flatToppedHat",
+        "name": "Flat Topped Hat",
+        "hatType": "tailoring",
+        "hint": "Cranberry sauce, stuffing..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "floppyBeanie",
+        "name": "Floppy Beanie",
+        "hatType": "tailoring",
+        "hint": "Maple syrup, oak resin, pine tar..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "foragersHat",
+        "name": "Forager's Hat",
+        "hatType": "tailoring",
+        "hint": "Ginger..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "goggles",
+        "name": "Goggles",
+        "hatType": "tailoring",
+        "hint": "Bug steak..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "goldenMask",
+        "name": "Golden Mask",
+        "hatType": "tailoring",
+        "hint": "Golden mask..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "hairBone",
+        "name": "Hair Bone",
+        "hatType": "tailoring",
+        "hint": "Prehistoric tibia..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "logoCap",
+        "name": "Logo Cap",
+        "hatType": "tailoring",
+        "hint": "Lava eel..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "partyHatBlue",
+        "name": "Party Hat (Blue) ",
+        "hatType": "tailoring",
+        "hint": "Chocolate cake, purple fireworks..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "partyHatGreen",
+        "name": "Party Hat (Green)",
+        "hatType": "tailoring",
+        "hint": "Fish taco, green fireworks..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "pirateHat",
+        "name": "Pirate Hat",
+        "hatType": "tailoring",
+        "hint": "Treasure chest..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "propellerHat",
+        "name": "Propeller Hat",
+        "hatType": "tailoring",
+        "hint": "Miner's treat..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "pumpkinMask",
+        "name": "Pumpkin Mask",
+        "hatType": "tailoring",
+        "hint": "Jack-O-Lantern..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "spottedHeadscarf",
+        "name": "Spotted Headscarf",
+        "hatType": "tailoring",
+        "hint": "Red mushroom..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "starHelmet",
+        "name": "Star Helmet",
+        "hatType": "tailoring",
+        "hint": "Mushroom tree seed..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "sunglasses",
+        "name": "Sunglasses",
+        "hatType": "tailoring",
+        "hint": "Cinder Shard..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "SwashbucklerHat",
+        "name": "swashbuckler Hat",
+        "hatType": "tailoring",
+        "hint": "Dragon tooth..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "totemMask",
+        "name": "Totem Mask",
+        "hatType": "tailoring",
+        "hint": "Any totem..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "warriorHelmet",
+        "name": "Warrior Helmet",
+        "hatType": "tailoring",
+        "hint": "Ostrich egg..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "wearableDwarfHelm",
+        "name": "Wearable Dwarf Helm",
+        "hatType": "tailoring",
+        "hint": "Dwarf gadget, dwarvish helm..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "whiteTurban",
+        "name": "White Turban",
+        "hatType": "tailoring",
+        "hint": "Sweet gem berry..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "witchHat",
+        "name": "Witch Hat",
+        "hatType": "tailoring",
+        "hint": "Golden pumpkin..",
+        "done": false,
+        "found": false
+    }
+]

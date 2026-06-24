@@ -1,0 +1,18 @@
+[
+    {
+        "id": "chickenMask",
+        "name": "Chicken Mask",
+        "hatType": "nearPerfection",
+        "hint": "Complete 40 help wanted quests..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "polkaBow",
+        "name": "Polka Bow",
+        "hatType": "medium",
+        "hint": "Complete 10 help wanted quests..",
+        "done": false,
+        "found": false
+    }
+]

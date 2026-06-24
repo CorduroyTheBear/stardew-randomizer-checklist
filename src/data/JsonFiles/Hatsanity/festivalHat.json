@@ -1,0 +1,66 @@
+[
+    {
+        "id": "blueRibbon",
+        "name": "Blue Ribbon",
+        "hatType": "medium",
+        "hint": "Win the Stardew Valley Fair competition..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "bucketHat",
+        "name": "Bucket Hat",
+        "hatType": "medium",
+        "hint": "Trout Derby..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "coneHat",
+        "name": "Cone Hat",
+        "hatType": "easy",
+        "hint": "Night Market..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "fedora",
+        "name": "Fedora",
+        "hatType": "easy",
+        "hint": "Stardew Valley Fair..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "governorsHat",
+        "name": "Governor's Hat",
+        "hatType": "medium",
+        "hint": "Make him happy..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "sailorsCap",
+        "name": "Sailor's Cap",
+        "hatType": "easy",
+        "hint": "Win fishing competition at Festival of Ice..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "squidHat",
+        "name": "Squid Hat",
+        "hatType": "medium",
+        "hint": "SquidFest..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "strawHat",
+        "name": "Straw Hat",
+        "hatType": "medium",
+        "hint": "Win egg hunt at the Egg Festival..",
+        "done": false,
+        "found": false
+    }
+]

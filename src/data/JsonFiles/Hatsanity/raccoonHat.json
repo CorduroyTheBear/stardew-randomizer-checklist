@@ -1,0 +1,18 @@
+[
+    {
+        "id": "raccoonHat",
+        "name": "Raccoon Hat",
+        "hatType": "medium",
+        "hint": "Help the raccoons..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "whiteBow",
+        "name": "White Bow",
+        "hatType": "difficult",
+        "hint": "Help the raccoons..",
+        "done": false,
+        "found": false
+    }
+]

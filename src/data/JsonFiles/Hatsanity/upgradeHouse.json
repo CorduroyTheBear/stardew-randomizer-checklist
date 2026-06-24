@@ -1,0 +1,18 @@
+[
+    {
+        "id": "huntersCap",
+        "name": "Hunter's Cap",
+        "hatType": "medium",
+        "hint": "Upgrade your house to the maximum size..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "tropiclip",
+        "name": "Tropiclip",
+        "hatType": "easy",
+        "hint": "Upgraded your house..",
+        "done": false,
+        "found": false
+    }
+]

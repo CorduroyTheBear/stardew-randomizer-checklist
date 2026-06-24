@@ -1,0 +1,27 @@
+[
+    {
+        "id": "cowgal",
+        "name": "Cowgal",
+        "hatType": "difficult",
+        "hint": "Ship 300 of one crop..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "cowpoke",
+        "name": "Cowpoke",
+        "hatType": "difficult",
+        "hint": "Ship 15 of each crop..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "goblinMask",
+        "name": "Goblin Mask",
+        "hatType": "nearPerfection",
+        "hint": "Ship every item..",
+        "done": false,
+        "found": false
+    }
+]

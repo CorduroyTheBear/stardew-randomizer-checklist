@@ -1,0 +1,50 @@
+[
+    {
+        "id": "garbageHat",
+        "name": "Garbage Hat",
+        "hatType": "rng",
+        "hint": "Dig through the trash..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "jesterHat",
+        "name": "Jester Hat",
+        "hatType": "easy",
+        "hint": "Watch a movie..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "leprechaunHat",
+        "name": "Leprechaun Hat",
+        "hatType": "easy",
+        "hint": "Find the pot of gold on Spring 17th..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "livingHat",
+        "name": "Living Hat",
+        "hatType": "rng",
+        "hint": "Cut weeds or kill wilderness golem..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "redFez",
+        "name": "Red Fez",
+        "hatType": "medium",
+        "hint": "Traveling cart..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "sportsCap",
+        "name": "Sports Cap",
+        "hatType": "medium",
+        "hint": "Prize machine..",
+        "done": false,
+        "found": false
+    }
+]

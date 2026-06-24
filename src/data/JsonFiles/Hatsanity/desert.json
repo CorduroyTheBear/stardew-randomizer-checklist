@@ -1,0 +1,74 @@
+[   
+    {
+        "id": "arcaneHat",
+        "name": "Arcane Hat",
+        "hatType": "nearPerfection",
+        "hint": "Kill 100 mummies..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "blueCowboyHat",
+        "name": "Blue Cowboy Hat",
+        "hatType": "rng",
+        "hint": "Skull Cavern treasure..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "darkCowboyHat",
+        "name": "Dark Cowboy Hat",
+        "hatType": "rng",
+        "hint": "Skull Cavern treasure..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "greenTurban",
+        "name": "Green Turban",
+        "hatType": "medium",
+        "hint": "Desert Trader..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "knightsHelmet",
+        "name": "Knight's Helmet",
+        "hatType": "nearPerfection",
+        "hint": "Kill 50 pepper rexes..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "magicCowboyHat",
+        "name": "Magic Cowboy Hat",
+        "hatType": "difficult",
+        "hint": "Desert trader..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "magicTurban",
+        "name": "Magic Turban",
+        "hatType": "difficult",
+        "hint": "Desert trader..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "redCowboyHat",
+        "name": "Red Cowboy Hat",
+        "hatType": "rng",
+        "hint": "Skull Cavern treasure..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "topHat",
+        "name": "Top Hat",
+        "hatType": "easy",
+        "hint": "Casino..",
+        "done": false,
+        "found": false
+    }
+]

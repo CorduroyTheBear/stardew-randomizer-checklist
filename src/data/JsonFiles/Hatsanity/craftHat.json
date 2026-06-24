@@ -1,0 +1,18 @@
+[
+    {
+        "id": "daisy",
+        "name": "Daisy",
+        "hatType": "easy",
+        "hint": "Craft 15 items..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "truckerHat",
+        "name": "Trucker Hat",
+        "hatType": "medium",
+        "hint": "Craft 30 different items..",
+        "done": false,
+        "found": false
+    }
+]

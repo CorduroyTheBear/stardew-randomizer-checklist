@@ -1,0 +1,36 @@
+[
+    {
+        "id": "archersCap",
+        "name": "Archer's Cap",
+        "hatType": "nearPerfection",
+        "hint": "Cook every recipe..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "chefHat",
+        "name": "Chef Hat",
+        "hatType": "nearPerfection",
+        "hint": "Cook every recipe..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "delicateBow",
+        "name": "Delicate Bow",
+        "hatType": "easy",
+        "hint": "Cook 10 differnt recipes..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "plumChapeau",
+        "name": "Plum Chapeau",
+        "hatType": "difficult",
+        "hint": "Cook 25 different recipes..",
+        "done": false,
+        "found": false
+    }
+]

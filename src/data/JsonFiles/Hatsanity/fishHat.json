@@ -1,0 +1,44 @@
+[
+    {
+        "id": "eyePatch",
+        "name": "Eye Patch",
+        "hatType": "nearPerfection",
+        "hint": "Catch every fish..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "frogHat",
+        "name": "Frog Hat",
+        "hatType": "medium",
+        "hint": "Fish in the frog cave..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "officialCap",
+        "name": "Official Cap",
+        "hatType": "medium",
+        "hint": "Catch 24 different fish..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "souwester",
+        "name": "Sou'wester",
+        "hatType": "easy",
+        "hint": "Catch 10 different fish..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "watermelonBand",
+        "name": "Watermelon Band",
+        "hatType": "difficult",
+        "hint": "Catch 100 fish..",
+        "done": false,
+        "found": false
+    }
+]

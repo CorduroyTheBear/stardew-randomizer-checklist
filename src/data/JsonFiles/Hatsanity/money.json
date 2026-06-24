@@ -1,0 +1,42 @@
+[
+    {
+        "id": "bowler",
+        "name": "Bowler",
+        "hatType": "difficult",
+        "hint": "Become a millionaire..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "coolCap",
+        "name": "Cool Cap",
+        "hatType": "medium",
+        "hint": "Earn 250,000G..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "goodOlCap",
+        "name": "Good Ol' Cap",
+        "hatType": "easy",
+        "hint": "Earn 15,000G..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "luckyBow",
+        "name": "Lucky Bow",
+        "hatType": "medium",
+        "hint": "Earn 50,000G..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "sombrero",
+        "name": "Sombrero",
+        "hatType": "nearPerfection",
+        "hint": "Earn 10,000,000G..",
+        "done": false,
+        "found": false
+    }
+]

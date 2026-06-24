@@ -1,0 +1,58 @@
+[
+    {
+        "id": "butterflyBow",
+        "name": "Butterfly Bow",
+        "hatType": "easy",
+        "hint": "Reach 5 hearts with someone..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "catEars",
+        "name": "Cat Ears",
+        "hatType": "medium",
+        "hint": "Reach 10 hearts with 8 people..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "earmuffs",
+        "name": "Earmuffs",
+        "hatType": "medium",
+        "hint": "Reach 5 hearts with 20 people..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "emilysMagicHat",
+        "name": "Emily's Magic Hat",
+        "hatType": "medium",
+        "hint": "Emily's 14 heart cutscene..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "mouseEars",
+        "name": "Mouse Ears",
+        "hatType": "easy",
+        "hint": "Reach 10 hearts with someone..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "santaHat",
+        "name": "Santa Hat",
+        "hatType": "medium",
+        "hint": "Reach 5 hearts with 10 people..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "tiara",
+        "name": "Tiara",
+        "hatType": "easy",
+        "hint": "Reach 5 hearts with 4 people..",
+        "done": false,
+        "found": false
+    }
+]

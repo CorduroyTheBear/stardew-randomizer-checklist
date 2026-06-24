@@ -1,0 +1,89 @@
+[
+    {
+        "id": "bluebirdMask",
+        "name": "Bluebird Mask",
+        "hatType": "medium",
+        "hint": "Island Trader..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "deluxePirateHat",
+        "name": "Deluxe Pirate Hat",
+        "hatType": "rng",
+        "hint": "Volcano Dungeon chest..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "deluxeCowboyHat",
+        "name": "Deluxe Cowboy Hat",
+        "hatType": "medium",
+        "hint": "Island Trader..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "goldenHelmet",
+        "name": "Golden Helmet",
+        "hatType": "rng",
+        "hint": "Golden coconut..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "infinityCrown",
+        "name": "Infinity Crown",
+        "hatType": "difficult",
+        "isGI": "yes",
+        "hint": "Obtain the infinity blade..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "mrQisHat",
+        "name": "Mr.Qi's Hat",
+        "hatType": "medium",
+        "hint": "Walnut room..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "paperHat",
+        "name": "Paper Hat",
+        "hatType": "easy",
+        "hint": "Reach Ginger Island..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "pinkBow",
+        "name": "Pink Bow",
+        "hatType": "easy",
+        "hint": "Volcano Dungeon..",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "smallCap",
+        "name": "Small Cap",
+        "hatType": "medium",
+        "hint": "Island Trader..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    },
+    {
+        "id": "tigerHat",
+        "name": "Tiger Hat",
+        "hatType": "rng",
+        "hint": "Kill tiger slimes..",
+        "isGI": "yes",
+        "done": false,
+        "found": false
+    }
+]
