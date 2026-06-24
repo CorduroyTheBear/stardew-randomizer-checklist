@@ -5,6 +5,7 @@ import { filterFishingLocations } from "./filterFishingLocations";
 import { filterGingerIslandChecks } from "./filterGIChecks";
 import { filterIsPoison } from "./isPoison";
 import { filterSeasons } from "./filterSeasons";
+import { filterSecretType } from "./filterSecrets";
 import { filterWalnutType } from "./filterWalnutType";
 
 export const filterList =
@@ -36,6 +37,10 @@ export const filterList =
     {
         key: "season",
         fn: (item, state) => filterSeasons(item, state.season, state.seasonExclusive)
+    },
+    {
+        key: "secretType",
+        fn: (item, state) => filterSecretType(item, state)
     },
     {
         key: "walnutType",

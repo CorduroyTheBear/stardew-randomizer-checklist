@@ -25,6 +25,14 @@ const defaultFilterState =
         shop: false
     },
 
+    secretType:
+    {
+        difficult: false,
+        easy: false,
+        fishing: false,
+        note: false
+    },
+
     walnutType:
     {
         bush: false,

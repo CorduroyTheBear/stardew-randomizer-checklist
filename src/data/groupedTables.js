@@ -362,6 +362,12 @@ import storyQuests from "./JsonFiles/Quests/storyQuests.json";
 // Raccoon
 import raccoonChecks from "./JsonFiles/raccoonRequestChecks.json";
 
+// Secretsanity
+import difficultSecrets from "./JsonFiles/Secretsanity/difficultSecrets.json";
+import easySecrets from "./JsonFiles/Secretsanity/easySecrets.json";
+import fishSecrets from "./JsonFiles/Secretsanity/fishSecrets.json";
+import secretNotes from "./JsonFiles/Secretsanity/notes.json";
+
 // Skill Progression
 import combat from "./JsonFiles/Skills/combat.json";
 import combat_m from "./JsonFiles/Skills/combat_m.json";
@@ -953,6 +959,19 @@ export const GROUPED_TABLES =
         groups:
         [
             {id: "raccoonChecks", heading: "Raccoon", className: "tableLevel-2_Tables", data: raccoonChecks}
+        ]
+   },
+
+   secretsanity:
+   {
+        heading: "Secrets",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "difficultSecrets", heading: "Difficult", className: "tableLevel-2_Tables", data: difficultSecrets},
+            {id: "easySecrets", heading: "Easy", className: "tableLevel-2_Tables", data: easySecrets},
+            {id: "fishSecrets", heading: "Fishing", className: "tableLevel-2_Tables", data: fishSecrets},
+            {id: "secretNotes", heading: "Secret Notes", className: "tableLevel-2_Tables", data: secretNotes}
         ]
    },
 

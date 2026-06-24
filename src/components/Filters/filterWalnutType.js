@@ -20,3 +20,5 @@ export function filterWalnutType(item, walnutType)
 
 // 4. Pick between Topbar.jsx and tableSettingsList.jsx
 //    - Add settings. (In tableSettings.jsx there are 2 places to add info)
+
+// filterX.js -> filterContext.jsx -> filterList.js -> Topbar.jsx OR tableSettingsList.jsx

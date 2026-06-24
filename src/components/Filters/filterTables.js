@@ -3,19 +3,23 @@ export function filterGroupedTables(settings)
     const visible = [];
 
     // Always visible
-    visible.push(
-                    "bundles",
-                    "minesChests",
-                    "travelingMerchant",
-                    "raccoonChecks",
-                    "otherChecks",
+    visible.push
+    (
+        "bundles",
+        "minesChests",
+        "travelingMerchant",
+        "raccoonChecks",
+        "otherChecks",
 
-                    // Chefsanity
-                    "friendshipChef", "purchaseChef", "queenOfSauceChef", "skillsChef",
+        // Chefsanity
+        "friendshipChef", "purchaseChef", "queenOfSauceChef", "skillsChef",
 
-                    // Eatsanity
-                    "artisanEat", "cookingEat", "cropsEat", "fishEat", "shopEat"
-                );
+        // Eatsanity
+        "artisanEat", "cookingEat", "cropsEat", "fishEat", "shopEat",
+
+        // Secretsanity
+        "difficultSecrets", "easySecrets", "fishSecrets", "secretNotes"
+    )
 
     // Every other table
     if (settings.arcade !== "disabled") visible.push("arcade");
@@ -37,6 +41,7 @@ export function filterGroupedTables(settings)
     if (settings.movieSanity !== "none") visible.push("movieSanity");
     if (settings.museamsity !== "none") visible.push("museamsity");
     if (settings.quests !== "none") visible.push("quests");
+    if (settings.secretsanity !== "none") visible.push("secretsanity")
     if (settings.skillProgression !== "vanilla") visible.push("skillProgression");
     if (settings.specialOrders !== "vanilla") visible.push("specialOrders");
     if (settings.toolProgression !== "vanilla") visible.push("toolProgression");

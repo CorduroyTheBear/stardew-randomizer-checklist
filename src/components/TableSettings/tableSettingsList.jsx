@@ -20,6 +20,8 @@ export default function SettingsList({settings, setSettings})
     const { isPoison } = filterState;
     const toggleIsPoison = (subkey) => updateFilter("isPoison", prev => ({...prev, [subkey]: !prev[subkey]}));
 
+    const { secretType } = filterState;
+    const toggleSecretType = (subkey) => updateFilter("secretType", prev => ({...prev, [subkey]: !prev[subkey]}));
     
     const { walnutType } = filterState;
     const toggleWalnut = (subkey) => updateFilter("walnutType", prev => ({...prev, [subkey]: !prev[subkey]}));
@@ -106,12 +108,12 @@ export default function SettingsList({settings, setSettings})
 
             <label>
                 Eatsanity:
-                <label><input type="checkbox" checked={eatType.artisan} onChange={() => toggleEatType("artisan")} />Artisan</label>
-                <label><input type="checkbox" checked={eatType.cooking} onChange={() => toggleEatType("cooking")} />Cooking</label>
-                <label><input type="checkbox" checked={eatType.crop} onChange={() => toggleEatType("crop")} />Crops</label>
-                <label><input type="checkbox" checked={eatType.fish} onChange={() => toggleEatType("fish")} />Fish</label>
-                <label><input type="checkbox" checked={isPoison.true} onChange={() => toggleIsPoison("true")} />Poisonous</label>
-                <label><input type="checkbox" checked={eatType.shop} onChange={() => toggleEatType("shop")} />Shop</label>
+                <label><input type="checkbox" checked={eatType.artisan} onChange={() => toggleEatType("artisan")} /> Artisan</label>
+                <label><input type="checkbox" checked={eatType.cooking} onChange={() => toggleEatType("cooking")} /> Cooking</label>
+                <label><input type="checkbox" checked={eatType.crop} onChange={() => toggleEatType("crop")} /> Crops</label>
+                <label><input type="checkbox" checked={eatType.fish} onChange={() => toggleEatType("fish")} /> Fish</label>
+                <label><input type="checkbox" checked={isPoison.true} onChange={() => toggleIsPoison("true")} /> Poisonous</label>
+                <label><input type="checkbox" checked={eatType.shop} onChange={() => toggleEatType("shop")} /> Shop</label>
             </label>
             
             <label>
@@ -205,6 +207,13 @@ export default function SettingsList({settings, setSettings})
                 </select>
             </label>
 
+            <label><strong>Secretsanity:</strong></label>
+                <label><input type="checkbox" checked={secretType.difficult} onChange={() => toggleSecretType("difficult")} /> Difficult</label>
+                <label><input type="checkbox" checked={secretType.easy} onChange={() => toggleSecretType("easy")} /> Easy</label>
+                <label><input type="checkbox" checked={secretType.fishing} onChange={() => toggleSecretType("fishing")} /> Fishing</label>
+                <label><input type="checkbox" checked={secretType.note} onChange={() => toggleSecretType("note")} /> Note</label>
+            
+
             <label>
                 Skill Progression:
                 <select value = {settings.skillProgression} onChange = {(e) => update("skillProgression", e.target.value)}>
@@ -240,10 +249,10 @@ export default function SettingsList({settings, setSettings})
             </label>
 
             <label><strong>Walnutsanity:</strong></label>
-                <label><input type="checkbox" checked={walnutType.bush} onChange={() => toggleWalnut("bush")} />Bushes</label>
-                <label><input type="checkbox" checked={walnutType.digSpot} onChange={() => toggleWalnut("digSpot")} />Dig Spots</label>
-                <label><input type="checkbox" checked={walnutType.puzzle} onChange={() => toggleWalnut("puzzle")} />Puzzles</label>
-                <label><input type="checkbox" checked={walnutType.repeatable} onChange={() => toggleWalnut("repeatable")} />Repeatables</label>
+                <label><input type="checkbox" checked={walnutType.bush} onChange={() => toggleWalnut("bush")} /> Bushes</label>
+                <label><input type="checkbox" checked={walnutType.digSpot} onChange={() => toggleWalnut("digSpot")} /> Dig Spots</label>
+                <label><input type="checkbox" checked={walnutType.puzzle} onChange={() => toggleWalnut("puzzle")} /> Puzzles</label>
+                <label><input type="checkbox" checked={walnutType.repeatable} onChange={() => toggleWalnut("repeatable")} /> Repeatables</label>
         </>
     );
 }
