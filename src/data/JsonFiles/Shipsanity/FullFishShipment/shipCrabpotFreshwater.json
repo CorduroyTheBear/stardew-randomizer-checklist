@@ -1,0 +1,26 @@
+[
+    {
+      "id": "716",
+      "name": "Crayfish",
+      "fishingLocation": "river",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "721",
+      "name": "Snail",
+      "fishingLocation": "river",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "722",
+      "name": "Periwinkle",
+      "fishingLocation": "river",
+      "weather": ["rain", "sunny"],
+      "done": false,
+      "found": false
+    }
+  ]

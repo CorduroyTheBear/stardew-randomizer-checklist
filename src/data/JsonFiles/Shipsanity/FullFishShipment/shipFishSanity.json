@@ -151,16 +151,6 @@
       "found": false
     },
     {
-      "id": "(O)902",
-      "name": "Glacierfish Jr. ",
-      "season": ["spring", "summer", "fall", "winter"],
-      "fishingLocation": ["legend", "forestRiver"],
-      "isGI": true,
-      "weather": ["rain", "sunny"],
-      "done": false,
-      "found": false
-    },
-    {
       "id": "(O)Goby",
       "name": "Goby",
       "season": ["spring", "summer", "fall", "winter"],
@@ -225,16 +215,6 @@
       "found": false
     },
     {
-      "id": "(O)900",
-      "name": "Legend II",
-      "season": ["spring", "summer", "fall", "winter"],
-      "fishingLocation": ["legend", "lake"],
-      "isGI": true,
-      "weather": ["rain", "sunny"],
-      "done": false,
-      "found": false
-    },
-    {
       "id": "(O)707",
       "name": "Lingcod",
       "season": ["winter"],
@@ -267,16 +247,6 @@
       "name": "Midnight Squid",
       "season": ["winter"],
       "fishingLocation": "nightMarket",
-      "weather": ["rain", "sunny"],
-      "done": false,
-      "found": false
-    },
-    {
-      "id": "(O)899",
-      "name": "Ms. Angler ",
-      "season": ["spring", "summer", "fall", "winter"],
-      "fishingLocation": ["legend", "townRiver"],
-      "isGI": true,
       "weather": ["rain", "sunny"],
       "done": false,
       "found": false
@@ -328,16 +298,6 @@
       "found": false
     },
     {
-      "id": "(O)901",
-      "name": "Radioactive Carp ",
-      "season": ["summer"],
-      "fishingLocation": ["legend", "sewers"],
-      "isGI": true,
-      "weather": "sunny",
-      "done": false,
-      "found": false
-    },
-    {
       "id": "(O)138",
       "name": "Rainbow Trout",
       "fishingLocation": ["townRiver", "forestRiver", "lake"],
@@ -358,6 +318,12 @@
       "name": "Red Snapper",
       "fishingLocation": ["ocean"],
       "weather": "rain",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)RiverJelly",
+      "name": "River Jelly",
       "done": false,
       "found": false
     },
@@ -411,6 +377,12 @@
       "found": false
     },
     {
+      "id": "(O)seaJelly",
+      "name": "Sea Jelly",
+      "done": false,
+      "found": false
+    },
+    {
       "id": "(O)706",
       "name": "Shad",
       "season": ["spring", "summer", "fall"],
@@ -434,16 +406,6 @@
       "season": ["spring", "fall"],
       "fishingLocation": ["townRiver", "forestPond"],
       "weather": ["rain", "sunny"]
-    },
-    {
-      "id": "(O)898",
-      "name": "Son of Crimsonfish ",
-      "season": ["spring", "summer", "fall", "winter"],
-      "fishingLocation": ["legend", "ocean"],
-      "isGI": true,
-      "weather": ["rain", "sunny"],
-      "done": false,
-      "found": false
     },
     {
       "id": "(O)799",
@@ -509,6 +471,7 @@
       "done": false,
       "found": false
     },
+    
     {
       "id": "(O)699",
       "name": "Tiger Trout",
