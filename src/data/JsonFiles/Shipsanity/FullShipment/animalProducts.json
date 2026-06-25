@@ -1,0 +1,79 @@
+[
+    {
+      "id": "(O)442",
+      "name": "Duck Egg",
+      "done": false
+    },
+    {
+      "id": "(O)444",
+      "name": "Duck Feather",
+      "done": false
+    },
+    {
+      "id": "(O)180",
+      "name": "Egg (Brown)",
+      "done": false
+    },
+    {
+      "id": "(O)eggWhite",
+      "name": "Egg (White)",
+      "done": false
+    },
+    {
+      "id": "(O)436",
+      "name": "Goat Milk",
+      "done": false
+    },
+    {
+      "id": "(O)174",
+      "name": "Large Egg (White)",
+      "done": false
+    },
+    {
+      "id": "(O)182",
+      "name": "Large Egg (Brown)",
+      "done": false
+    },
+    {
+      "id": "(O)438",
+      "name": "Large Goat Milk",
+      "done": false
+    },
+    {
+      "id": "(O)186",
+      "name": "Large Milk",
+      "done": false
+    },
+    {
+      "id": "(O)184",
+      "name": "Milk",
+      "done": false
+    },
+    {
+      "id": "(O)289",
+      "name": "Ostrich Egg",
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)446",
+      "name": "Rabbit's Foot",
+      "done": false
+    },
+    {
+      "id": "(O)truffle",
+      "name": "Truffle",
+      "season": ["spring", "summer", "fall"],
+      "done": false
+    },
+    {
+      "id": "(O)305",
+      "name": "Void Egg",
+      "done": false
+    },
+    {
+      "id": "(O)440",
+      "name": "Wool",
+      "done": false
+    }
+]

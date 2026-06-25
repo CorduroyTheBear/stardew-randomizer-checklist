@@ -1,0 +1,110 @@
+[
+    {
+      "id": "(O)767",
+      "name": "Bat Wing",
+      "done": false
+    },
+    {
+      "id": "(O)881",
+      "name": "Bone Fragment",
+      "done": false
+    },
+    {
+      "id": "(O)684",
+      "name": "Bug Meat",
+      "done": false
+    },
+    {
+      "id": "(O)848",
+      "name": "Cinder Shard",
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)330",
+      "name": "Clay",
+      "done": false
+    },
+    {
+      "id": "(O)382",
+      "name": "Coal",
+      "done": false
+    },
+    {
+      "id": "(O)334",
+      "name": "Copper Bar",
+      "done": false
+    },
+    {
+      "id": "(O)378",
+      "name": "Copper Ore",
+      "done": false
+    },
+    {
+      "id": "(O)336",
+      "name": "Gold Bar",
+      "done": false
+    },
+    {
+      "id": "(O)384",
+      "name": "Gold Ore",
+      "done": false
+    },
+    {
+      "id": "(O)337",
+      "name": "Iridium Bar",
+      "done": false
+    },
+    {
+      "id": "(O)386",
+      "name": "Iridium Ore",
+      "done": false
+    },
+    {
+      "id": "(O)335",
+      "name": "Iron Bar",
+      "done": false
+    },
+    {
+      "id": "(O)380",
+      "name": "Iron Ore",
+      "done": false
+    },
+    {
+      "id": "(O)radioactiveBar",
+      "name": "Radioactive Bar",
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)radioactiveOre",
+      "name": "Radioactive Ore",
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)338",
+      "name": "Refined Quartz",
+      "done": false
+    },
+    {
+      "id": "(O)766",
+      "name": "Slime",
+      "done": false
+    },
+    {
+      "id": "(O)768",
+      "name": "Solar Essence",
+      "done": false
+    },
+    {
+      "id": "(O)390",
+      "name": "Stone",
+      "done": false
+    },
+    {
+      "id": "(O)769",
+      "name": "Void Essence",
+      "done": false
+    }
+]
