@@ -17,6 +17,9 @@ export default function SettingsList({settings, setSettings})
     const { excludeBackpack } = filterState;
     const toggleBackpack = (subkey) => updateFilter("excludeBackpack", prev => ({...prev, [subkey]: !prev[subkey]}));
 
+    const { hatType } = filterState;
+    const toggleHattype = (subkey) => updateFilter("hatType", prev => ({...prev, [subkey]: !prev[subkey]}));
+
     const { isPoison } = filterState;
     const toggleIsPoison = (subkey) => updateFilter("isPoison", prev => ({...prev, [subkey]: !prev[subkey]}));
 
@@ -155,6 +158,15 @@ export default function SettingsList({settings, setSettings})
                     <option value = "allWithMarriage">All With Marriage</option>
                 </select>
             </label>
+
+            <label>Hatsanity:</label>
+                <label><input type="checkbox" checked={hatType.difficult} onChange={() => toggleHattype("difficult")} /> Difficult</label>
+                <label><input type="checkbox" checked={hatType.easy} onChange={() => toggleHattype("easy")} /> Easy</label>
+                <label><input type="checkbox" checked={hatType.medium} onChange={() => toggleHattype("medium")} /> Medium</label>
+                <label><input type="checkbox" checked={hatType.nearPerfection} onChange={() => toggleHattype("nearPerfection")} /> Near Perfection</label>
+                <label><input type="checkbox" checked={hatType.postPerfection} onChange={() => toggleHattype("postPerfection")} /> Post Perfection</label>
+                <label><input type="checkbox" checked={hatType.rng} onChange={() => toggleHattype("rng")} /> RNG</label>
+                <label><input type="checkbox" checked={hatType.tailoring} onChange={() => toggleHattype("tailoring")} /> Tailoring</label>
 
             <label>
                 Include Endgame Locations:

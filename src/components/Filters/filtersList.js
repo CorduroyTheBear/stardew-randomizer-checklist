@@ -3,6 +3,7 @@ import { filterChefsanity } from "./filterChefsanity";
 import { filterEatsanity } from "./filterEatsanity";
 import { filterFishingLocations } from "./filterFishingLocations";
 import { filterGingerIslandChecks } from "./filterGIChecks";
+import { filterHatType } from "./filterHats";
 import { filterIsPoison } from "./isPoison";
 import { filterSeasons } from "./filterSeasons";
 import { filterSecretType } from "./filterSecrets";
@@ -25,6 +26,10 @@ export const filterList =
     {
         key: "fishingLocation",
         fn: (item, state) => filterFishingLocations(item, state)
+    },
+    {
+        key: "hatType",
+        fn: (item, state) => filterHatType(item, state)
     },
     {
         key: "isGI",

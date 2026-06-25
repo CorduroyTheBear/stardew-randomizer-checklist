@@ -25,6 +25,17 @@ const defaultFilterState =
         shop: false
     },
 
+    hatType:
+    {
+        difficult: false,
+        easy: false,
+        medium: false,
+        nearPerfection: false,
+        postPerfection: false,
+        rng: false,
+        tailoring: false
+    },
+
     secretType:
     {
         difficult: false,
