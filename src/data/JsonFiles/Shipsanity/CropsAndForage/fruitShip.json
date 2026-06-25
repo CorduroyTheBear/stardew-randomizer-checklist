@@ -4,6 +4,7 @@
     "name": "Apple",
     "season": ["fall"],
     "image": "images.apple",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -12,6 +13,7 @@
     "name": "Apricot",
     "season": ["spring"],
     "image": "images.apricot",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -21,6 +23,7 @@
     "season": ["summer"],
     "isGI": true,
     "image": "images.banana",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -29,6 +32,7 @@
     "name": "Cherry",
     "season": ["spring"],
     "image": "images.cherry",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -38,6 +42,7 @@
     "season": ["summer"],
     "isGI": true,
     "image": "images.mango",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -46,6 +51,7 @@
     "name": "Orange",
     "season": ["summer"],
     "image": "images.orange",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },    
@@ -54,6 +60,7 @@
     "name": "Peach",
     "season": ["summer"],
     "image": "images.peach",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },  
@@ -62,6 +69,7 @@
     "name": "Pomegranate",
     "season": ["fall"],
     "image": "images.pomegranate",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   }

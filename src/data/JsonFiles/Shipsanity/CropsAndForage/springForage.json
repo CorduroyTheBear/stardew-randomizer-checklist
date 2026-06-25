@@ -3,7 +3,7 @@
     "id": "daffodil",
     "name": "Daffodil",
     "season": ["spring"],
-    "eatType": "crop",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -11,7 +11,7 @@
     "id": "dandelion",
     "name": "Dandelion",
     "season": ["spring"],
-    "eatType": "crop",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -19,7 +19,7 @@
     "id": "leek",
     "name": "Leek",
     "season": ["spring"],
-    "eatType": "crop",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -27,6 +27,7 @@
     "id": "(O)257",
     "name": "Morel",
     "season": ["spring"],
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -34,6 +35,7 @@
     "id": "(O)420",
     "name": "Red Mushroom",
     "season": ["spring"],
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -41,7 +43,7 @@
     "id": "salmonberry",
     "name": "Salmonberry",
     "season": ["spring"],
-    "eatType": "crop",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -49,7 +51,7 @@
     "id": "springOnion",
     "name": "Spring Onion",
     "season": ["spring"],
-    "eatType": "crop",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -57,7 +59,7 @@
     "id": "wildHorseradish",
     "name": "Wild Horseradish",
     "season": ["spring"],
-    "eatType": "crop",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   }

@@ -2,16 +2,19 @@
     {
       "id": "(O)787",
       "name": "Battery Pack",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)812",
       "name": "Roe",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)814",
       "name": "Squid Ink",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     }
 ]

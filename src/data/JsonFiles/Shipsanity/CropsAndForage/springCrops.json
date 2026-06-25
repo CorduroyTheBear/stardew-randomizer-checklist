@@ -4,6 +4,7 @@
     "name": "Blue Jazz",
     "season": ["spring"],
     "image": "images.blueJazz",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -12,6 +13,7 @@
     "name": "Carrot",
     "season": ["spring"],
     "image": "images.carrot",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -20,6 +22,7 @@
     "name": "Cauliflower",
     "season": ["spring"],
     "image": "images.cauliflower",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -28,6 +31,7 @@
     "name": "Coffee Bean",
     "season": ["spring", "summer"],
     "image": "images.coffeeBean",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -36,6 +40,7 @@
     "name": "Garlic",
     "season": ["spring"],
     "image": "images.garlic",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -44,6 +49,7 @@
     "name": "Green Bean",
     "season": ["spring"],
     "image": "images.greenBean",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -52,6 +58,7 @@
     "name": "Kale",
     "season": ["spring"],
     "image": "images.kale",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -60,6 +67,7 @@
     "name": "Parsnip",
     "season": ["spring"],
     "image": "images.parsnip",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -69,6 +77,7 @@
     "location": "dessert",
     "season": ["spring"],
     "image": "images.potato",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -77,6 +86,7 @@
     "name": "Rhubarb",
     "season": ["spring"],
     "image": "images.rhubarb",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -85,6 +95,7 @@
     "name": "Strawberry",
     "season": ["spring"],
     "image": "images.strawberry",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -93,6 +104,7 @@
     "name": "Tulip",
     "season": ["spring"],
     "image": "images.tulip",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -101,6 +113,7 @@
     "name": "Unmilled Rice",
     "season": ["spring"],
     "image": "images.unmilledRice",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   }

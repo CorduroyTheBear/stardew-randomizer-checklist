@@ -2,16 +2,16 @@
   {
     "id": "ginger",
     "name": "Ginger",
-    "eatType": "crop",
     "isGI": true,
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
   {
     "id": "magmaCap",
     "name": "Magma Cap",
-    "eatType": "crop",
     "isGI": true,
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -21,6 +21,7 @@
     "season": ["summer"],
     "isGI": true,
     "image": "images.pineapple",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -30,6 +31,7 @@
     "season": ["summer"],
     "isGI": true,
     "image": "images.taroRoot",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   }

@@ -4,6 +4,7 @@
     "name": "Ancient Fruit",
     "season": ["spring", "summer", "fall"],
     "image": "images.ancientFruit",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -11,6 +12,7 @@
     "id": "(O)815",
     "name": "Tea Leaves",
     "season": ["spring", "summer", "fall"],
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   }

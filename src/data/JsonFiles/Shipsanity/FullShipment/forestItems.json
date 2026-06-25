@@ -2,46 +2,55 @@
     {
       "id": "(O)771",
       "name": "Fiber",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)709",
       "name": "Hardwood",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)724",
       "name": "Maple Syrup",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)Moss",
       "name": "Moss",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)MysticSyrup",
       "name": "Mystic Syrup",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)725",
       "name": "Oak Resin",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)726",
       "name": "Pine Tar",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)92",
       "name": "Sap",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)388",
       "name": "Wood",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     }
 ]

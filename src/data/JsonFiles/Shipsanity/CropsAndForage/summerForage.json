@@ -3,6 +3,7 @@
     "id": "(O)259",
     "name": "Fiddlehead Fern",
     "season": ["summer"],
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
  },
@@ -11,6 +12,7 @@
     "name": "Grape",
     "season": ["fall"],
     "image": "images.grape",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -18,7 +20,7 @@
     "id": "spiceBerry",
     "name": "Spice Berry",
     "season": ["summer"],
-    "eatType": "crop",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -26,7 +28,7 @@
     "id": "sweetPea",
     "name": "Sweet Pea",
     "season": ["summer"],
-    "eatType": "crop",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   }

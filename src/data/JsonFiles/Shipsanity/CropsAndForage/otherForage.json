@@ -4,30 +4,35 @@
     "name": "Cactus Fruit",
     "location": "dessert",
     "image": "images.cactusFruit",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
   {
     "id": "(O)78",
     "name": "Cave Carrot",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
   {
     "id": "(O)88",
     "name": "Coconut",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
   {
     "id": "(O)393",
     "name": "Coral",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
   {
     "id": "(O)422",
     "name": "Purple Mushroom",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -35,12 +40,14 @@
     "id": "(O)394",
     "name": "Rainbow Shell",
     "season": ["summer"],
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
   {
     "id": "(O)397",
     "name": "Sea Urchin",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   }

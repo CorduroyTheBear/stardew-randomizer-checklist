@@ -3,15 +3,15 @@
     "id": "blackberry",
     "name": "Blackberry",
     "season": ["fall"],
-    "eatType": "crop",
     "image": "images.blackberry",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
   {
     "id": "chanterelle",
     "name": "Chanterelle",
-    "eatType": "crop",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -19,7 +19,7 @@
     "id": "commonMushroom",
     "name": "Common Mushroom",
     "season": ["fall"],
-    "eatType": "crop",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -27,7 +27,7 @@
     "id": "hazelnut",
     "name": "Hazelnut",
     "season": ["fall"],
-    "eatType": "crop",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -35,7 +35,7 @@
     "id": "wildPlum",
     "name": "Wild Plum",
     "season": ["fall"],
-    "eatType": "crop",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   }

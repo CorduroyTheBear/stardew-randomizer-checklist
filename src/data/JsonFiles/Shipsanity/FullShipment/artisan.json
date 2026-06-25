@@ -2,116 +2,139 @@
     {
       "id": "(O)447",
       "name": "Aged Roe",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)346",
       "name": "Beer",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)445",
       "name": "Caviar",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)424",
       "name": "Cheese",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)428",
       "name": "Cloth",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)807",
       "name": "Dinosaur Mayonnaise",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)DriedFriut",
       "name": "Dried Fruit",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)DriedMushrooms",
       "name": "Dried Mushrooms",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)307",
       "name": "Duck Mayonnaise",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)426",
       "name": "Goat Cheese",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)614",
       "name": "Green Tea",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)340",
       "name": "Honey",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)344",
       "name": "Jelly",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)350",
       "name": "Juice",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)306",
       "name": "Mayonnaise",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)459",
       "name": "Mead",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)303",
       "name": "Pale Ale",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)342",
       "name": "Pickles",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)Raisins",
       "name": "Raisins",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)SmokedFish",
       "name": "Smoked Fish",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)432",
       "name": "Truffle Oil",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)308",
       "name": "Void Mayonnaise",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {
       "id": "(O)348",
       "name": "Wine",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     }
 ]

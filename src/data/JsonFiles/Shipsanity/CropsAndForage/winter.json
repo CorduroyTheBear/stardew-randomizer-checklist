@@ -3,7 +3,7 @@
     "id": "crocus",
     "name": "Crocus",
     "season": ["winter"],
-    "eatType": "crop",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -11,7 +11,7 @@
     "id": "crystalFruit",
     "name": "Crystal Fruit",
     "season": ["winter"],
-    "eatType": "crop",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -19,8 +19,7 @@
     "id": "holly",
     "name": "Holly",
     "season": ["winter"],
-    "eatType": "crop",
-    "isPoison": true,
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -28,6 +27,7 @@
     "id": "(O)392",
     "name": "Nautilus Shell",
     "season": ["winter"],
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -36,6 +36,7 @@
     "name": "Powdermelon",
     "season": ["winter"],
     "image": "images.powdermelon",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -43,7 +44,7 @@
     "id": "snowYam",
     "name": "Snow Yam",
     "season": ["winter"],
-    "eatType": "crop",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   },
@@ -51,7 +52,7 @@
     "id": "winterRoot",
     "name": "Winter Root",
     "season": ["winter"],
-    "eatType": "crop",
+    "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
   }
