@@ -1,0 +1,33 @@
+[
+ {
+    "id": "(O)259",
+    "name": "Fiddlehead Fern",
+    "season": ["summer"],
+    "done": false,
+    "found": false
+ },
+ {
+    "id": "398",
+    "name": "Grape",
+    "season": ["fall"],
+    "image": "images.grape",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "spiceBerry",
+    "name": "Spice Berry",
+    "season": ["summer"],
+    "eatType": "crop",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "sweetPea",
+    "name": "Sweet Pea",
+    "season": ["summer"],
+    "eatType": "crop",
+    "done": false,
+    "found": false
+  }
+]

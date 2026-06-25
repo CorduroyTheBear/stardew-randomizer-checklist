@@ -1,0 +1,91 @@
+[
+  {
+    "id": "300",
+    "name": "Amaranth",
+    "season": ["fall"],
+    "image": "images.amaranth",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "274",
+    "name": "Artichoke",
+    "season": ["fall"],
+    "image": "images.artichoke",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "284",
+    "name": "Beet",
+    "season": ["fall"],
+    "location": "dessert",
+    "image": "images.beet",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "278",
+    "name": "Bok Choy",
+    "season": ["fall"],
+    "image": "images.bokChoy",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "Broccoli",
+    "name": "Broccoli",
+    "season": ["fall"],
+    "image": "images.broccoli",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "282",
+    "name": "Cranberries",
+    "season": ["fall"],
+    "image": "images.cranberries",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "272",
+    "name": "Eggplant",
+    "season": ["fall"],
+    "image": "images.eggplant",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "595",
+    "name": "Fairy Rose",
+    "season": ["fall"],
+    "image": "images.fairyRose",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "276",
+    "name": "Pumpkin",
+    "season": ["fall"],
+    "image": "images.pumpkin",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "417",
+    "name": "Sweet Gem Berry",
+    "season": ["fall"],
+    "image": "images.sweetGemBerry",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "280",
+    "name": "Yam",
+    "season": ["fall"],
+    "image": "images.yam",
+    "done": false,
+    "found": false
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "ginger",
+    "name": "Ginger",
+    "eatType": "crop",
+    "isGI": true,
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "magmaCap",
+    "name": "Magma Cap",
+    "eatType": "crop",
+    "isGI": true,
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "832",
+    "name": "Pineapple",
+    "season": ["summer"],
+    "isGI": true,
+    "image": "images.pineapple",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "830",
+    "name": "Taro Root",
+    "season": ["summer"],
+    "isGI": true,
+    "image": "images.taroRoot",
+    "done": false,
+    "found": false
+  }
+]

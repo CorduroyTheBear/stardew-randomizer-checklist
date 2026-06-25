@@ -1,0 +1,115 @@
+[
+  {
+    "id": "258",
+    "name": "Blueberry",
+    "season": ["summer"],
+    "image": "images.blueberry",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "270",
+    "name": "Corn",
+    "season": ["summer", "fall"],
+    "image": "images.corn",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "304",
+    "name": "Hops",
+    "season": ["summer"],
+    "image": "images.hops",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "260",
+    "name": "Hot Pepper",
+    "season": ["summer"],
+    "image": "images.hotPepper",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "254",
+    "name": "Melon",
+    "season": ["summer"],
+    "image": "images.melon",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "376",
+    "name": "Poppy",
+    "season": ["summer"],
+    "image": "images.poppy",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "264",
+    "name": "Radish",
+    "season": ["summer"],
+    "image": "images.radish",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "266",
+    "name": "Red Cabbage",
+    "season": ["summer"],
+    "image": "images.redCabbage",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "268",
+    "name": "Starfruit",
+    "season": ["summer"],
+    "location": "dessert",
+    "image": "images.starfruit",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "593",
+    "name": "Summer Spangle",
+    "season": ["summer"],
+    "image": "images.summerSpangle",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "SummerSquash",
+    "name": "Summer Squash",
+    "season": ["summer"],
+    "image": "images.summerSquash",
+    "done": false,
+    "found": false
+  }, 
+  {
+    "id": "421",
+    "name": "Sunflower",
+    "season": ["summer", "fall"],
+    "image": "images.sunflower",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "256",
+    "name": "Tomato",
+    "season": ["summer"],
+    "image": "images.tomato",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "262",
+    "name": "Wheat",
+    "season": ["summer", "fall"],
+    "image": "images.wheat",
+    "done": false,
+    "found": false
+  }
+]
