@@ -6,6 +6,12 @@
       "done": false
     },
     {
+      "id": "(O)787",
+      "name": "Battery Pack",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
+      "done": false
+    },
+    {
       "id": "(O)458",
       "name": "Bouquet",
       "shipType": ["everySingleItem"],
@@ -92,6 +98,12 @@
       "done": false
     },
     {
+      "id": "(O)812",
+      "name": "Roe",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
+      "done": false
+    },
+    {
       "id": "(O)747",
       "name": "Rotten Plant",
       "shipType": ["everySingleItem"],
@@ -101,6 +113,12 @@
       "id": "(O)79",
       "name": "Secret Note",
       "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
+      "id": "(O)814",
+      "name": "Squid Ink",
+      "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "done": false
     },
     {

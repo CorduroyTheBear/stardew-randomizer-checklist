@@ -389,6 +389,55 @@ import easySecrets from "./JsonFiles/Secretsanity/easySecrets.json";
 import fishSecrets from "./JsonFiles/Secretsanity/fishSecrets.json";
 import secretNotes from "./JsonFiles/Secretsanity/notes.json";
 
+// -----  Shipsanity -----  //
+ import bookItems from "./JsonFiles/Shipsanity/books.json";
+
+ import cookedItems from "./JsonFiles/Shipsanity/cookedItems.json";
+ import otherFoodItems from "./JsonFiles/Shipsanity/otherFood.json";
+
+ import craftItems from "./JsonFiles/Shipsanity/craftItems.json";
+
+ import otherGIItems from "./JsonFiles/Shipsanity/otherGIItems.json";
+ import otherItems from "./JsonFiles/Shipsanity/otherItems.json";
+
+ import slimeEggItems from "./JsonFiles/Shipsanity/slimeEggs.json";
+
+     // -- Crops and Forage
+     import springCropItems from "./JsonFiles/Shipsanity/CropsAndForage/springCrops.json";
+     import springForageItems from "./JsonFiles/Shipsanity/CropsAndForage/springForage.json";
+     import summerCropItems from "./JsonFiles/Shipsanity/CropsAndForage/summerCrops.json";
+     import summerForageItems from "./JsonFiles/Shipsanity/CropsAndForage/summerForage.json";     
+     import fallCropItems from "./JsonFiles/Shipsanity/CropsAndForage/fallCrops.json";
+     import fallForageItems from "./JsonFiles/Shipsanity/CropsAndForage/fallForage.json";
+     import winterItems from "./JsonFiles/Shipsanity/CropsAndForage/winter.json";
+     import gICropsFruitItems from "./JsonFiles/Shipsanity/CropsAndForage/gingerIslandCrops&Fruit.json";
+     import fruitItems from "./JsonFiles/Shipsanity/CropsAndForage/fruitShip.json";
+     import otherCrops from "./JsonFiles/Shipsanity/CropsAndForage/otherCrops.json";
+     import otherForage from "./JsonFiles/Shipsanity/CropsAndForage/otherForage.json";
+
+     // -- Fish
+     import fishItems from "./JsonFiles/Shipsanity/Fish/shipFishSanity.json";
+     import crapPotFreshItems from "./JsonFiles/Shipsanity/Fish/shipCrabpotFreshwater.json";
+     import crabPotOceanItems from "./JsonFiles/Shipsanity/Fish/shipCrabpotOcean.json";
+     import otherFishItems from "./JsonFiles/Shipsanity/Fish/otherFishItems.json";
+
+     // Full Shipment
+     import animalItems from "./JsonFiles/Shipsanity/FullShipment/animalProducts.json";
+     import artisanItems from "./JsonFiles/Shipsanity/FullShipment/artisan.json";
+     import forestItems from "./JsonFiles/Shipsanity/FullShipment/forestItems.json";
+     import minesItems from "./JsonFiles/Shipsanity/FullShipment/minesItems.json";
+     
+     // Museam
+     import artifactItems from "./JsonFiles/Shipsanity/Museam/artifacts.json";
+     import gemItems from "./JsonFiles/Shipsanity/Museam/gems.json";
+
+          // Minerals
+          import forgedMineralItems from "./JsonFiles/Shipsanity/Museam/Minerals/foregedMinerals.json";
+          import frozenGeodeItems from "./JsonFiles/Shipsanity/Museam/Minerals/frozenGeode.json";
+          import geodeItems from "./JsonFiles/Shipsanity/Museam/Minerals/geode.json";
+          import magmaGeodeItems from "./JsonFiles/Shipsanity/Museam/Minerals/magmaGeode.json";
+//
+
 // Skill Progression
 import combat from "./JsonFiles/Skills/combat.json";
 import combat_m from "./JsonFiles/Skills/combat_m.json";
