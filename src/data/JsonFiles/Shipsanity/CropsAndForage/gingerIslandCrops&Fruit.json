@@ -26,6 +26,12 @@
     "found": false
   },
   {
+    "id": "(O)833",
+    "name": "Pineapple Seeds",
+    "shipType": ["everySingleItem"],
+    "done": false
+  },
+  {
     "id": "830",
     "name": "Taro Root",
     "season": ["summer"],
@@ -34,5 +40,11 @@
     "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
+  },
+  {
+    "id": "(O)831",
+    "name": "Taro Tuber",
+    "shipType": ["everySingleItem"],
+    "done": false
   }
 ]

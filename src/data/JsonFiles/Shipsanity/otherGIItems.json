@@ -1,0 +1,135 @@
+[
+    {
+      "id": "(O)913",
+      "name": "Enricher",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)895",
+      "name": "Fireworks (Green)",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)894",
+      "name": "Fireworks (Purple)",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)893",
+      "name": "Fireworks (Red)",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)823",
+      "name": "Fossilized Leg",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)824",
+      "name": "Fossilized Ribs",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)820",
+      "name": "Fossilized Skull",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)821",
+      "name": "Fossilized Spine",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)822",
+      "name": "Fossilized Tail",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)896",
+      "name": "Galaxy Soul",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)842",
+      "name": "Journal Scrap",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)827",
+      "name": "Mummified Bat",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)828",
+      "name": "Mummified Frog",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)915",
+      "name": "Pressure Nozzle",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)890",
+      "name": "Qi Bean",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)889",
+      "name": "Qi Fruit",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)917",
+      "name": "Qi Seasoning",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)825",
+      "name": "Snake Skull",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    },
+    {
+      "id": "(O)826",
+      "name": "Snake Vertebrae",
+      "shipType": ["everySingleItem"],
+      "isGI": "yes",
+      "done": false
+    }
+]

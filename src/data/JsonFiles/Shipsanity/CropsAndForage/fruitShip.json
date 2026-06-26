@@ -9,6 +9,12 @@
     "found": false
   },
   {
+    "id": "(O)633",
+    "name": "Apple Sapling",
+    "shipType": ["everySingleItem"],
+    "done": false
+  },
+  {
     "id": "634",
     "name": "Apricot",
     "season": ["spring"],
@@ -16,6 +22,12 @@
     "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
+  },
+  {
+    "id": "(O)629",
+    "name": "Apricot Sapling",
+    "shipType": ["everySingleItem"],
+    "done": false
   },
   {
     "id": "91",
@@ -28,6 +40,13 @@
     "found": false
   },
   {
+    "id": "(O)69",
+    "name": "Banana Sapling",
+    "isGI": true,
+    "shipType": ["everySingleItem"],
+    "done": false
+  },
+  {
     "id": "638",
     "name": "Cherry",
     "season": ["spring"],
@@ -35,6 +54,12 @@
     "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
+  },
+  {
+    "id": "(O)628",
+    "name": "Cherry Sapling",
+    "shipType": ["everySingleItem"],
+    "done": false
   },
   {
     "id": "834",
@@ -47,6 +72,13 @@
     "found": false
   },
   {
+    "id": "(O)835",
+    "name": "Mango Sapling",
+    "isGI": true,
+    "shipType": ["everySingleItem"],
+    "done": false
+  },
+  {
     "id": "635",
     "name": "Orange",
     "season": ["summer"],
@@ -54,7 +86,13 @@
     "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
-  },    
+  },  
+  {
+    "id": "(O)630",
+    "name": "Orange Sapling",
+    "shipType": ["everySingleItem"],
+    "done": false
+  },  
   {
     "id": "636",
     "name": "Peach",
@@ -63,6 +101,12 @@
     "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
+  },
+  {
+    "id": "(O)631",
+    "name": "Peach Sapling",
+    "shipType": ["everySingleItem"],
+    "done": false
   },  
   {
     "id": "637",
@@ -72,5 +116,11 @@
     "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
+  },
+  {
+    "id": "(O)632",
+    "name": "Pomegranate Sapling",
+    "shipType": ["everySingleItem"],
+    "done": false
   }
 ]

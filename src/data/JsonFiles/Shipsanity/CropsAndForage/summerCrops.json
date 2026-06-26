@@ -9,6 +9,12 @@
     "found": false
   },
   {
+    "id": "(O)481",
+    "name": "Blueberry Seeds",
+    "shipType": ["everySingleItem"],
+    "done": false
+  },
+  {
     "id": "270",
     "name": "Corn",
     "season": ["summer", "fall"],
@@ -16,6 +22,12 @@
     "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
+  },
+  {
+    "id": "(O)487",
+    "name": "Corn Seeds",
+    "shipType": ["everySingleItem"],
+    "done": false
   },
   {
     "id": "304",
@@ -27,6 +39,12 @@
     "found": false
   },
   {
+    "id": "(O)302",
+    "name": "Hops Starter",
+    "shipType": ["everySingleItem"],
+    "done": false
+  },
+  {
     "id": "260",
     "name": "Hot Pepper",
     "season": ["summer"],
@@ -34,6 +52,12 @@
     "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
+  },
+  {
+    "id": "(O)482",
+    "name": "Pepper Seeds",
+    "shipType": ["everySingleItem"],
+    "done": false
   },
   {
     "id": "254",
@@ -45,6 +69,12 @@
     "found": false
   },
   {
+    "id": "(O)479",
+    "name": "Melon Seeds",
+    "shipType": ["everySingleItem"],
+    "done": false
+  },
+  {
     "id": "376",
     "name": "Poppy",
     "season": ["summer"],
@@ -52,6 +82,12 @@
     "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
+  },
+  {
+    "id": "(O)453",
+    "name": "Poppy Seeds",
+    "shipType": ["everySingleItem"],
+    "done": false
   },
   {
     "id": "264",
@@ -63,6 +99,12 @@
     "found": false
   },
   {
+    "id": "(O)484",
+    "name": "Radish Seeds",
+    "shipType": ["everySingleItem"],
+    "done": false
+  },
+  {
     "id": "266",
     "name": "Red Cabbage",
     "season": ["summer"],
@@ -70,6 +112,12 @@
     "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
+  },
+  {
+    "id": "(O)485",
+    "name": "Red Cabbage Seeds",
+    "shipType": ["everySingleItem"],
+    "done": false
   },
   {
     "id": "268",
@@ -82,6 +130,12 @@
     "found": false
   },
   {
+    "id": "(O)486",
+    "name": "Starfruit Seeds",
+    "shipType": ["everySingleItem"],
+    "done": false
+  },
+  {
     "id": "593",
     "name": "Summer Spangle",
     "season": ["summer"],
@@ -91,6 +145,12 @@
     "found": false
   },
   {
+    "id": "(O)455",
+    "name": "Spangle Seeds",
+    "shipType": ["everySingleItem"],
+    "done": false
+  },
+  {
     "id": "SummerSquash",
     "name": "Summer Squash",
     "season": ["summer"],
@@ -98,6 +158,12 @@
     "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
+  },
+  {
+    "id": "(O)SummerSquashSeeds",
+    "name": "Summer Squash Seeds",
+    "shipType": ["everySingleItem"],
+    "done": false
   }, 
   {
     "id": "421",
@@ -109,6 +175,12 @@
     "found": false
   },
   {
+    "id": "(O)431",
+    "name": "Sunflower Seeds",
+    "shipType": ["everySingleItem"],
+    "done": false
+  },
+  {
     "id": "256",
     "name": "Tomato",
     "season": ["summer"],
@@ -118,6 +190,12 @@
     "found": false
   },
   {
+    "id": "(O)480",
+    "name": "Tomato Seeds",
+    "shipType": ["everySingleItem"],
+    "done": false
+  },
+  {
     "id": "262",
     "name": "Wheat",
     "season": ["summer", "fall"],
@@ -125,5 +203,11 @@
     "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],
     "done": false,
     "found": false
+  },
+  {
+    "id": "(O)483",
+    "name": "Wheat Seeds",
+    "shipType": ["everySingleItem"],
+    "done": false
   }
 ]

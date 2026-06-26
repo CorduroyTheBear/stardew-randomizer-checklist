@@ -49,6 +49,13 @@
       "done": false
     },
     {
+      "id": "(O)852",
+      "name": "Dragon Tooth",
+      "isGI": "yes",
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
       "id": "(O)336",
       "name": "Gold Bar",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
@@ -82,6 +89,12 @@
       "id": "(O)380",
       "name": "Iron Ore",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
+      "done": false
+    },
+    {
+      "id": "(O)749",
+      "name": "Omni Geode",
+      "shipType": ["everySingleItem"],
       "done": false
     },
     {

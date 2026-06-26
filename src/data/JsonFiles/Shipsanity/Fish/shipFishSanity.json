@@ -168,6 +168,15 @@
       "found": false
     },
     {
+      "id": "(O)902",
+      "name": "Glacierfish Jr.",
+      "season": ["winter"],
+      "fishingLocation": ["legend", "forestRiver"],
+      "weather": ["rain", "sunny"],
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
       "id": "(O)Goby",
       "name": "Goby",
       "season": ["spring", "summer", "fall", "winter"],
@@ -238,6 +247,15 @@
       "found": false
     },
     {
+      "id": "(O)900",
+      "name": "Legend II",
+      "season": ["spring"],
+      "fishingLocation": ["legend", "lake"],
+      "weather": ["sunny", "rain"],
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
       "id": "(O)707",
       "name": "Lingcod",
       "season": ["winter"],
@@ -277,6 +295,15 @@
       "shipType": ["fullShipmentWithFish", "everySingleItem"],
       "done": false,
       "found": false
+    },
+    {
+      "id": "(O)899",
+      "name": "Ms. Angler",
+      "season": ["fall"],
+      "fishingLocation": ["legend", "townRiver"],
+      "weather": ["rain", "sunny"],
+      "shipType": ["everySingleItem"],
+      "done": false
     },
     {
       "id": "(O)772",
@@ -327,6 +354,15 @@
       "shipType": ["fullShipmentWithFish", "everySingleItem"],
       "done": false,
       "found": false
+    },
+    {
+      "id": "(O)901",
+      "name": "Radioactive Carp",
+      "season": ["spring", "summer", "fall", "winter"],
+      "fishingLocation": ["legend", "sewers"],
+      "weather": ["rain", "sunny"],
+      "shipType": ["everySingleItem"],
+      "done": false
     },
     {
       "id": "(O)138",
@@ -450,6 +486,15 @@
       "fishingLocation": ["townRiver", "forestPond"],
       "shipType": ["fullShipmentWithFish", "everySingleItem"],
       "weather": ["rain", "sunny"]
+    },
+    {
+      "id": "(O)898",
+      "name": "Son of Crimsonfish",
+      "season": ["summer"],
+      "fishingLocation": ["legend", "ocean"],
+      "weather": ["rain", "sunny"],
+      "shipType": ["everySingleItem"],
+      "done": false
     },
     {
       "id": "(O)799",

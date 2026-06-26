@@ -1,0 +1,80 @@
+[
+    {
+      "id": "(O)540",
+      "name": "Baryte",
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
+      "id": "(O)570",
+      "name": "Basalt",
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
+      "id": "(O)539",
+      "name": "Bixite",
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
+      "id": "(O)543",
+      "name": "Dolomite",
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
+      "id": "565",
+      "name": "Fire Opal",
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
+      "id": "(O)547",
+      "name": "Helvite",
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
+      "id": "(O)563",
+      "name": "Jasper",
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
+      "id": "(O)554",
+      "name": "Lemon Stone",
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
+      "id": "(O)537",
+      "name": "Magma Geode",
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
+      "id": "(O)553",
+      "name": "Neptunite",
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
+      "id": "(O)575",
+      "name": "Obsidian",
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
+      "id": "(O)578",
+      "name": "Star Shards",
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
+      "id": "(O)562",
+      "name": "Tigerseye",
+      "shipType": ["everySingleItem"],
+      "done": false
+    }
+]

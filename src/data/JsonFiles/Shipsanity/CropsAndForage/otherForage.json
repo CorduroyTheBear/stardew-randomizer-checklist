@@ -9,6 +9,12 @@
     "found": false
   },
   {
+    "id": "(O)802",
+    "name": "Cactus Seeds",
+    "shipType": ["everySingleItem"],
+    "done": false
+  },
+  {
     "id": "(O)78",
     "name": "Cave Carrot",
     "shipType": ["fullCrop", "fullShipment", "fullShipmentWithFish", "everySingleItem"],

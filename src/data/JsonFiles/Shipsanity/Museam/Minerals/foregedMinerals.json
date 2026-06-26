@@ -1,0 +1,26 @@
+[
+    {
+      "id": "(O)82",
+      "name": "Fire Quartz",
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
+      "id": "(O)84",
+      "name": "Frozen Tear",
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
+      "id": "(O)86",
+      "name": "Earth Crystal",
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
+      "id": "(O)80",
+      "name": "Quartz",
+      "shipType": ["everySingleItem"],
+      "done": false
+    }
+]

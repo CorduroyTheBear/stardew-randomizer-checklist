@@ -41,6 +41,12 @@
     "found": false
   },
   {
+    "id": "(O)PowdermelonSeeds",
+    "name": "Powdermelon Seeds",
+    "shipType": ["everySingleItem"],
+    "done": false
+  },
+  {
     "id": "snowYam",
     "name": "Snow Yam",
     "season": ["winter"],

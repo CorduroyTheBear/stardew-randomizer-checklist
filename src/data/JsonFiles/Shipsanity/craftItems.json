@@ -1,0 +1,561 @@
+[ 
+  {
+    "id": "(O)499",
+    "name": "Ancient Seeds",
+    "shipType": ["everySingleItem"],
+    "done": false
+  },
+  {
+      "id": "(O)685",
+      "name": "Bait",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)691",
+      "name": "Barbed Hook",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)368",
+      "name": "Basic Fertilizer",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)370",
+      "name": "Basic Retaining Soil",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)BlueGrassStarter",
+      "name": "Blue Grass Starter",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)287",
+      "name": "Bomb",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)293",
+      "name": "Brick Floor",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)874",
+      "name": "Bug Steak",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)ChallengeBait",
+      "name": "Challenge Bait",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)286",
+      "name": "Cherry Bomb",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(BC)130",
+      "name": "Chest",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)411",
+      "name": "Cobblestone Path",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)926",
+      "name": "Cookout Kit",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)695",
+      "name": "Cork Bobber",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)710",
+      "name": "Crab Pot",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)333",
+      "name": "Crystal Floor",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)409",
+      "name": "Crystal Path",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)DeluxeBait",
+      "name": "Deluxe Bait",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)919",
+      "name": "Deluxe Fertilizer",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)920",
+      "name": "Deluxe Retaining Soil",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)466",
+      "name": "Deluxe Speed-Gro",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)687",
+      "name": "Dressed Spinner",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)463",
+      "name": "Drum Block",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)441",
+      "name": "Explosive Ammo",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)872",
+      "name": "Fairy Dust",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)497",
+      "name": "Fall Seeds",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)885",
+      "name": "Fiber Seeds",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)403",
+      "name": "Field Snack",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)464",
+      "name": "Flute Block",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)325",
+      "name": "Gate",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)297",
+      "name": "Grass Starter",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)407",
+      "name": "Gravel Path",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)298",
+      "name": "Hardwood Fence",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)918",
+      "name": "Hyper Speed-Gro",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)645",
+      "name": "Iridium Sprinkler",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)324",
+      "name": "Iron Fence",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)773",
+      "name": "Life Elixir",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)908",
+      "name": "Magic Bait",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)703",
+      "name": "Magnet",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)288",
+      "name": "Mega Bomb",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)879",
+      "name": "Monster Musk",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)MysticTreeSeed",
+      "name": "Mystic Tree Seed",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)772",
+      "name": "Oil of Garlic",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)877",
+      "name": "Quality Bobber",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)369",
+      "name": "Quality Fertilizer",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)371",
+      "name": "Quality Retaining Soil",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)621",
+      "name": "Quality Sprinkler",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)681",
+      "name": "Rain Totem",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)840",
+      "name": "Rustic Plank Floor",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)SonarBobber",
+      "name": "Sonar Bobber",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)465",
+      "name": "Speed-Gro",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)686",
+      "name": "Spinner",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)495",
+      "name": "Spring Seeds",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)599",
+      "name": "Sprinkler",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)415",
+      "name": "Stepping Stone Path",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)323",
+      "name": "Stone Fence",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)329",
+      "name": "Stone Floor",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)841",
+      "name": "Stone Walkway Floor",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)401",
+      "name": "Straw Floor",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)496",
+      "name": "Summer Seeds",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+        "id": "(O)251",
+        "name": "Tea Sapling",
+        "shipType": ["everySingleItem"],
+        "done": false,
+        "found": false
+    },
+    {
+      "id": "(O)TentKit",
+      "name": "Tent Kit",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)93",
+      "name": "Torch",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)694",
+      "name": "Trap Bobber",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)693",
+      "name": "Treasure Hunter",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)TreasureTotem",
+      "name": "Treasure Totem",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)805",
+      "name": "Tree Fertilizer",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)690",
+      "name": "Warp Totem: Beach",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)261",
+      "name": "Warp Totem: Desert",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)688",
+      "name": "Warp Totem: Farm",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)886",
+      "name": "Warp Totem: Island",
+      "isGI": true,
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)689",
+      "name": "Warp Totem: Mountains",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)331",
+      "name": "Weathered Floor",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)774",
+      "name": "Wild Bait",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)498",
+      "name": "Winter Seeds",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)322",
+      "name": "Wood Fence",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)328",
+      "name": "Wood Floor",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
+      "id": "(O)405",
+      "name": "Wood Path",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    }
+]
