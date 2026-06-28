@@ -5,7 +5,7 @@
       "season": ["fall", "winter"],
       "fishingLocation": "ocean",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -15,7 +15,7 @@
       "season": ["spring", "fall"],
       "fishingLocation": "ocean",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -25,7 +25,7 @@
       "season": ["fall"],
       "fishingLocation": ["legend", "townRiver"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -35,7 +35,7 @@
       "season": ["winter"],
       "fishingLocation": "nightMarket",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -46,7 +46,7 @@
       "fishingLocation": "gingerIslandRiver",
       "isGI": true,
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -56,7 +56,7 @@
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": ["townRiver", "forestRiver"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -66,7 +66,7 @@
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "lake",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -76,7 +76,7 @@
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": ["lake", "secretWoods", "sewers", "bugLair"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -86,14 +86,14 @@
       "season": ["spring", "fall", "winter"],
       "fishingLocation": ["townRiver", "forestRiver", "secretWoods", "witchSwamp"],
       "weather": "rain",
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
     {
       "id": "caveJelly",
       "name": "Cave Jelly",
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -103,7 +103,7 @@
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": ["forestRiver", "lake"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -113,7 +113,7 @@
       "season": ["summer"],
       "fishingLocation": ["legend", "ocean"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -123,7 +123,7 @@
       "season": ["summer"],
       "fishingLocation": "forestRiver",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -133,7 +133,7 @@
       "season": ["spring", "fall"],
       "fishingLocation": "ocean",
       "weather": "rain",
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -143,7 +143,7 @@
       "season": ["spring", "summer"],
       "fishingLocation": ["ocean", "gingerIslandOcean"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -153,7 +153,7 @@
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "mines",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -163,7 +163,7 @@
       "season": ["winter"],
       "fishingLocation": ["legend", "forestRiver"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -182,7 +182,7 @@
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "forestWaterfall",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -192,7 +192,7 @@
       "season": ["spring", "summer", "winter"],
       "fishingLocation": "ocean",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -202,7 +202,7 @@
       "season": ["spring", "winter"],
       "fishingLocation": "ocean",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -212,7 +212,7 @@
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "mines",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -222,7 +222,7 @@
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "lake",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -232,7 +232,7 @@
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "mines",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -242,7 +242,7 @@
       "season": ["spring"],
       "fishingLocation": ["legend", "lake"],
       "weather": "rain",
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -261,7 +261,7 @@
       "season": ["winter"],
       "fishingLocation": ["townRiver", "forestRiver", "lake"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -272,7 +272,7 @@
       "fishingLocation": "gingerIslandOcean",
       "isGI": true,
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -282,7 +282,7 @@
       "season": ["fall", "winter"],
       "fishingLocation": ["forestPond", "lake", "gingerIslandRiver"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -292,7 +292,7 @@
       "season": ["winter"],
       "fishingLocation": "nightMarket",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -311,7 +311,7 @@
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": ["legend", "sewers"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -321,7 +321,7 @@
       "fishingLocation": ["ocean", "gingerIslandOcean"],
       "season": ["summer"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -331,7 +331,7 @@
       "season": ["winter"],
       "fishingLocation": ["townRiver", "forestRiver", "forestPond", "lake"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -341,7 +341,7 @@
       "season": ["summer", "winter"],
       "fishingLocation": ["townRiver", "forestRiver", "forestPond"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -351,7 +351,7 @@
       "season": ["summer"],
       "fishingLocation": ["ocean", "gingerIslandOcean"],
       "weather": "sunny",
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -370,7 +370,7 @@
       "fishingLocation": ["townRiver", "forestRiver", "lake"],
       "season": ["summer"],
       "weather": "sunny",
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -380,7 +380,7 @@
       "season": ["summer", "winter"],
       "fishingLocation": "ocean",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -389,14 +389,14 @@
       "name": "Red Snapper",
       "fishingLocation": ["ocean"],
       "weather": "rain",
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
     {
       "id": "(O)RiverJelly",
       "name": "River Jelly",
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -406,7 +406,7 @@
       "season": ["fall"],
       "fishingLocation": ["townRiver", "forestRiver", "forestWaterfall"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -417,7 +417,7 @@
       "fishingLocation": "desert",
       "location": "desert",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -427,7 +427,7 @@
       "season": ["spring", "fall", "winter"],
       "fishingLocation": ["ocean"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -438,7 +438,7 @@
       "fishingLocation": "desert",
       "location": "desert",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -448,14 +448,14 @@
       "season": ["fall", "winter"],
       "fishingLocation": ["ocean"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
     {
       "id": "(O)seaJelly",
       "name": "Sea Jelly",
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -465,7 +465,7 @@
       "season": ["spring", "summer", "fall"],
       "fishingLocation": ["townRiver", "forestRiver"],
       "weather": "rain",
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -475,7 +475,7 @@
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "bugLiar",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -484,7 +484,7 @@
       "name": "Smallmoth Bass",
       "season": ["spring", "fall"],
       "fishingLocation": ["townRiver", "forestPond"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "weather": ["rain", "sunny"]
     },
     {
@@ -502,7 +502,7 @@
       "season": ["winter"],
       "fishingLocation": "nightMarket",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -512,7 +512,7 @@
       "season": ["winter"],
       "fishingLocation": "ocean",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -523,7 +523,7 @@
       "fishingLocation": "pirateCove",
       "isGI": true,
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -533,7 +533,7 @@
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "mines",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -543,7 +543,7 @@
       "season": ["summer", "winter"],
       "fishingLocation": "lake",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -553,7 +553,7 @@
       "season": ["spring", "summer"],
       "fishingLocation": ["townRiver", "forestRiver"],
       "weather": "sunny",
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -563,7 +563,7 @@
       "season": ["summer", "fall"],
       "fishingLocation": ["ocean", "gingerIslandOcean"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -574,7 +574,7 @@
       "season": ["fall", "winter"],
       "fishingLocation": ["townRiver", "forestRiver"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -584,7 +584,7 @@
       "season": ["summer", "fall"],
       "fishingLocation": ["ocean", "gingerIslandRiver"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -594,7 +594,7 @@
       "season": ["summer", "winter"],
       "fishingLocation": ["ocean", "gingerIslandOcean"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -604,7 +604,7 @@
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": ["witchSwamp"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -614,7 +614,7 @@
       "season": ["fall", "winter"],
       "fishingLocation": ["townRiver", "forestRiver", "forestPond", "lake"],
       "weather": "rain",
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -624,7 +624,7 @@
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": ["secretWoods", "forestFarm"],
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     }

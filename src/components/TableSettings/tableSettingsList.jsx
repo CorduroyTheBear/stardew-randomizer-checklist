@@ -25,10 +25,24 @@ export default function SettingsList({settings, setSettings})
 
     const { secretType } = filterState;
     const toggleSecretType = (subkey) => updateFilter("secretType", prev => ({...prev, [subkey]: !prev[subkey]}));
+
+    const { shipType } = filterState;
     
     const { walnutType } = filterState;
     const toggleWalnut = (subkey) => updateFilter("walnutType", prev => ({...prev, [subkey]: !prev[subkey]}));
 
+    const handleShipsanity = (value) =>
+    {
+        update("shipsanity", value);
+
+        updateFilter("shipType",
+        {
+            fullCrop: ["crops", "cropsAndFish", "fullShipment", "fullShipmentWithFish", "everything"].includes(value),
+            fullFish: ["fish", "cropsAndFish", "fullShipmentWithFish", "everything"].includes(value),
+            fullShipment: ["fullShipment", "fullShipmentWithFish", "everything"].includes(value),
+            everySingleItem: value === "everything"
+        });
+    };
 
     return(
         <>
@@ -224,8 +238,20 @@ export default function SettingsList({settings, setSettings})
                 <label><input type="checkbox" checked={secretType.easy} onChange={() => toggleSecretType("easy")} /> Easy</label>
                 <label><input type="checkbox" checked={secretType.fishing} onChange={() => toggleSecretType("fishing")} /> Fishing</label>
                 <label><input type="checkbox" checked={secretType.note} onChange={() => toggleSecretType("note")} /> Note</label>
-            
 
+            <label>
+                Shipsanity:
+                <select value = {settings.shipsanity} onChange = {(e) => handleShipsanity(e.target.value)}>
+                    <option value="none">None</option>
+                    <option value="crops">Crops</option>
+                    <option value="fish">Fish</option>
+                    <option value="cropsAndFish">Crops And Fish</option>
+                    <option value="fullShipment">Full Shipment</option>
+                    <option value="fullShipmentWithFish">Full Shipment With Fish</option>
+                    <option value="everything">Everything</option>
+                </select>
+            </label>
+        
             <label>
                 Skill Progression:
                 <select value = {settings.skillProgression} onChange = {(e) => update("skillProgression", e.target.value)}>

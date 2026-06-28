@@ -4,7 +4,7 @@
       "name": "Clam",
       "fishingLocation": "ocean",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -13,7 +13,7 @@
       "name": "Cockle",
       "fishingLocation": "ocean",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -22,7 +22,7 @@
       "name": "Crab",
       "fishingLocation": "ocean",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -31,7 +31,7 @@
       "name": "Lobster",
       "fishingLocation": "ocean",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -40,7 +40,7 @@
       "name": "Mussel",
       "fishingLocation": "ocean",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -49,7 +49,7 @@
       "name": "Oyster",
       "fishingLocation": "ocean",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -58,7 +58,7 @@
       "name": "Shrimp",
       "fishingLocation": "ocean",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     }

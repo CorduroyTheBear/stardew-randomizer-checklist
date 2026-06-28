@@ -16,8 +16,6 @@ export function filterWalnutType(item, walnutType)
 //    - import {filterX} from "./../file"
 //    - Add to filter list
 
-// If similar to excludeGI (drop down), add to App.jsx
-
 // 4. Pick between Topbar.jsx and tableSettingsList.jsx
 //    - Add settings. (In tableSettings.jsx there are 2 places to add info)
 

@@ -44,6 +44,7 @@ function InnerApp()
     movieSanity: "none",
     museamsity: "none",
     quests: "none",
+    shipsanity: "none",
     skillProgression: "vanilla",
     specialOrders: "vanilla",
     toolProgression: "vanilla",
@@ -126,7 +127,6 @@ function InnerApp()
             className = {headingClass}
             groups = {filteredGroups.map(group => ({ ...group, data: tableData[group.id], className: groupClass }))}
             onToggle = {(groupID, itemID, field) => handleToggle(groupID, itemID, field)}
-            excludeGI = {settings.gingerIsland}
             hideCompleted = {settings.hideCompleted}
             isItemVisible = {visible}
           />

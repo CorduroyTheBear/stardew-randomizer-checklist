@@ -7,6 +7,7 @@ import { filterHatType } from "./filterHats";
 import { filterIsPoison } from "./isPoison";
 import { filterSeasons } from "./filterSeasons";
 import { filterSecretType } from "./filterSecrets";
+import { filterShipType } from "./filterShipsanity";
 import { filterWalnutType } from "./filterWalnutType";
 
 export const filterList =
@@ -48,6 +49,10 @@ export const filterList =
         fn: (item, state) => filterSecretType(item, state)
     },
     {
+        key: "shipType",
+        fn: (item, state) => filterShipType(item, state)
+    },
+    {
         key: "walnutType",
         fn: (item, state) => filterWalnutType(item, state)
     }
@@ -55,6 +60,7 @@ export const filterList =
 
 export function passItemFilters(item, filterState, settings)
 {
+    // Ginger Island
     if (settings?.gingerIsland === "yes" && item.isGI) return false;
 
     return filterList.every(({key, fn}) => fn(item, filterState[key]));

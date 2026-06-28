@@ -417,7 +417,7 @@ import secretNotes from "./JsonFiles/Secretsanity/notes.json";
 
      // -- Fish
      import fishItems from "./JsonFiles/Shipsanity/Fish/shipFishSanity.json";
-     import crapPotFreshItems from "./JsonFiles/Shipsanity/Fish/shipCrabpotFreshwater.json";
+     import crabPotFreshItems from "./JsonFiles/Shipsanity/Fish/shipCrabpotFreshwater.json";
      import crabPotOceanItems from "./JsonFiles/Shipsanity/Fish/shipCrabpotOcean.json";
      import otherFishItems from "./JsonFiles/Shipsanity/Fish/otherFishItems.json";
 
@@ -1070,6 +1070,75 @@ export const GROUPED_TABLES =
             {id: "easySecrets", heading: "Easy", className: "tableLevel-2_Tables", data: easySecrets},
             {id: "fishSecrets", heading: "Fishing", className: "tableLevel-2_Tables", data: fishSecrets},
             {id: "secretNotes", heading: "Secret Notes", className: "tableLevel-2_Tables", data: secretNotes}
+        ]
+   },
+
+   // Shipsanity
+   shipsanityFish:
+   {
+        heading: "Ship Fish",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "fishItems", heading: "Fish Items", className: "tableLevel-2_Tables", data: fishItems},
+            {id: "otherFishItems", heading: "Other Fish Items", className: "tableLevel-2_Tables", data: otherFishItems},
+            {id: "crabPotFreshItems", heading: "CP: Fresh Water", className: "tableLevel-2_Tables", data: crabPotFreshItems},
+            {id: "crabPotOceanItems", heading: "CP: Ocean", className: "tableLevel-2_Tables", data: crabPotOceanItems},
+        ]
+   },
+
+   shipCropsAndForage:
+   {
+        heading: "Ship Crops&Forage",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "springCropItems", heading: "Spring Crops", className: "tableLevel-2_Tables", data: springCropItems},
+            {id: "springForageItems", heading: "Spring Forage", className: "tableLevel-2_Tables", data: springForageItems},
+            {id: "summerCropItems", heading: "Summer Crops", className: "tableLevel-2_Tables", data: summerCropItems},
+            {id: "summerForageItems", heading: "Summer Forage", className: "tableLevel-2_Tables", data: summerForageItems},
+            {id: "fallCropItems", heading: "Fall Crops", className: "tableLevel-2_Tables", data: fallCropItems},
+            {id: "fallForageItems", heading: "Fall Forage", className: "tableLevel-2_Tables", data: fallForageItems},
+            {id: "winterItems", heading: "Winter", className: "tableLevel-2_Tables", data: winterItems},
+            {id: "gICropsFruitItems", heading: "Ginger Island", className: "tableLevel-2_Tables", data: gICropsFruitItems},
+            {id: "otherCrops", heading: "Other Crops", className: "tableLevel-2_Tables", data: otherCrops},
+            {id: "otherForage", heading: "Other Forage", className: "tableLevel-2_Tables", data: otherForage},
+            {id: "fruitItems", heading: "Fruit", className: "tableLevel-2_Tables", data: fruitItems}, 
+        ]
+   },
+
+   shipMinesAndMuseam:
+   {
+        heading: "Ship Mines&Museam",
+        className: "tableLevel-2_Heading",
+        groups:
+        [           
+            {id: "artifactItems", heading: "Artifacts", className: "tableLevel-2_Tables", data: artifactItems},
+            {id: "forgedMineralItems", heading: "Forged Minerals", className: "tableLevel-2_Tables", data: forgedMineralItems},
+            {id: "frozenGeodeItems", heading: "Frozen Geode", className: "tableLevel-2_Tables", data: frozenGeodeItems},
+            {id: "gemItems", heading: "Gems", className: "tableLevel-2_Tables", data: gemItems},
+            {id: "geodeItems ", heading: "Geode", className: "tableLevel-2_Tables", data: geodeItems},
+            {id: "magmaGeodeItems", heading: "Magma Geode", className: "tableLevel-2_Tables", data: magmaGeodeItems},
+            {id: "minesItems", heading: "Mines", className: "tableLevel-2_Tables", data: minesItems},
+            {id: "slimeEggItems", heading: "Slime Eggs", className: "tableLevel-2_Tables", data: slimeEggItems},           
+        ]
+   },
+
+   shipOtherItems:
+   {
+        heading: "Ship Other Items",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "animalItems", heading: "Animal Products", className: "tableLevel-2_Tables", data: animalItems},  
+            {id: "artisanItems", heading: "Artisan", className: "tableLevel-2_Tables", data: artisanItems},
+            {id: "bookItems", heading: "Books", className: "tableLevel-2_Tables", data: bookItems},
+            {id: "cookedItems", heading: "Cooked Items", className: "tableLevel-2_Tables", data: cookedItems},             
+            {id: "craftItems", heading: "Crafts", className: "tableLevel-2_Tables", data: craftItems},                       
+            {id: "forestItems", heading: "Forest", className: "tableLevel-2_Tables", data: forestItems},
+            {id: "otherFoodItems", heading: "Other Food", className: "tableLevel-2_Tables", data: otherFoodItems},
+            {id: "otherGIItems", heading: "Other GI", className: "tableLevel-2_Tables", data: otherGIItems},
+            {id: "otherItems", heading: "Other Items", className: "tableLevel-2_Tables", data: otherItems}            
         ]
    },
 

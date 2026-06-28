@@ -36,6 +36,14 @@ const defaultFilterState =
         tailoring: false
     },
 
+    shipType:
+    {
+        fullCrop: false,
+        fullFish: false,
+        fullShipment: false,
+        everySingleItem: false
+    },
+    
     secretType:
     {
         difficult: false,

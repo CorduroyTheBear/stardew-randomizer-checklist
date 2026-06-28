@@ -4,7 +4,7 @@
       "name": "Crayfish",
       "fishingLocation": "river",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -13,7 +13,7 @@
       "name": "Snail",
       "fishingLocation": "river",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     },
@@ -22,7 +22,7 @@
       "name": "Periwinkle",
       "fishingLocation": "river",
       "weather": ["rain", "sunny"],
-      "shipType": ["fullShipmentWithFish", "everySingleItem"],
+      "shipType": ["fullFish", "everySingleItem"],
       "done": false,
       "found": false
     }

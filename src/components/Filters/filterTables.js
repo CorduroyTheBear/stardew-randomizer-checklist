@@ -14,7 +14,7 @@ export function filterGroupedTables(settings)
         "travelingMerchant",
         "raccoonChecks",
         "secretsanity",
-        "otherChecks",
+        "otherChecks"
     )
 
     // Every other table
@@ -35,6 +35,7 @@ export function filterGroupedTables(settings)
     if (settings.movieSanity !== "none") visible.push("movieSanity");
     if (settings.museamsity !== "none") visible.push("museamsity");
     if (settings.quests !== "none") visible.push("quests");
+    if (settings.shipsanity !== "none") visible.push("shipsanityFish", "shipCropsAndForage", "shipMinesAndMuseam", "shipOtherItems");
     if (settings.skillProgression !== "vanilla") visible.push("skillProgression");
     if (settings.specialOrders !== "vanilla") visible.push("specialOrders");
     if (settings.toolProgression !== "vanilla") visible.push("toolProgression");
