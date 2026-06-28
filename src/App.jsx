@@ -4,6 +4,7 @@ import { filterGroups, filterGroupedTables } from './components/Filters/filterTa
 import { passItemFilters } from './components/Filters/filtersList';
 import { FilterProvider, useFilters} from './components/Filters/filterContext';
 import {GROUPED_TABLES} from './data/groupedTables';
+//import { Presets } from './components/TableSettings/presets';
 
 import GroupedChecklist from './components/groupedChecklist';
 import image from './components/images';
@@ -18,7 +19,7 @@ import './data/tables.css';
 
 function InnerApp()
 {
-
+  const [preset, setPreset] = useState("custom");
   const {filterState} = useFilters();
 
   // Pulls data
@@ -28,6 +29,7 @@ function InnerApp()
   const [settings, setSettings] = useState({
     arcade: "disabled",
     backpack: "vanilla",
+    bookSanity: "none",
     buildingProgression: "vanilla",
     chefsanity: "none",
     cooksanity: "none",
@@ -39,7 +41,6 @@ function InnerApp()
     fishsanity: "none",
     friendsanity: "none",
     gingerIsland: "yes",
-    bookSanity: "none",
     monstersanity: "none",
     movieSanity: "none",
     museamsity: "none",
@@ -89,6 +90,8 @@ function InnerApp()
           <RandomizerSettings
             settings = {settings}
             setSettings = {setSettings}
+            preset = {preset}
+            setPreset = {setPreset}
             onClose = {() => setSettingsOpen(false)}
           />
         )}

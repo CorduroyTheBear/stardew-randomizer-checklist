@@ -1,39 +1,64 @@
 // Lists all the settings
 import { useFilters } from "../Filters/filterContext";
+import { Presets } from "./presets";
 
-export default function SettingsList({settings, setSettings})
+export default function SettingsList({settings, setSettings, preset, setPreset})
 {
-    const update = (key, value) => setSettings(prev => ({ ...prev, [key]: value}));
     const { filterState, updateFilter } = useFilters();
+    
+    const update = (key, value) =>
+    {
+        setPreset("custom");
+        setSettings(prev => ({ ...prev, [key]: value}));
+    }
+
+    const updateFilterPresetToCustom = (key, value) =>
+    {
+        setPreset("custom");
+        updateFilter(key, value);
+    };
+
+    const handlePreset = (presetKey) =>
+    {
+        setPreset(presetKey);
+
+        if(presetKey === "custom") return;
+
+        const {settings: s, filterState: f} = Presets[presetKey];
+        setSettings(prev => ({...prev, ...s}));
+        Object.entries(f).forEach(([key, value]) => updateFilter(key, value));
+
+        if (s.shipsanity) handleShipsanity(s.shipsanity, true);
+    }
 
     // Filters
-
     const { chefCategory} = filterState;
-    const toggleChefCategory = (subkey) => updateFilter("chefCategory", prev => ({...prev, [subkey]: !prev[subkey]}));
+    const toggleChefCategory = (subkey) => updateFilterPresetToCustom("chefCategory", prev => ({...prev, [subkey]: !prev[subkey]}));
 
     const { eatType } = filterState;
-    const toggleEatType = (subkey) => updateFilter("eatType", prev => ({...prev, [subkey]: !prev[subkey]})); 
+    const toggleEatType = (subkey) => updateFilterPresetToCustom("eatType", prev => ({...prev, [subkey]: !prev[subkey]})); 
 
     const { excludeBackpack } = filterState;
-    const toggleBackpack = (subkey) => updateFilter("excludeBackpack", prev => ({...prev, [subkey]: !prev[subkey]}));
+    const toggleBackpack = (subkey) => updateFilterPresetToCustom("excludeBackpack", prev => ({...prev, [subkey]: !prev[subkey]}));
 
     const { hatType } = filterState;
-    const toggleHattype = (subkey) => updateFilter("hatType", prev => ({...prev, [subkey]: !prev[subkey]}));
+    const toggleHattype = (subkey) => updateFilterPresetToCustom("hatType", prev => ({...prev, [subkey]: !prev[subkey]}));
 
     const { isPoison } = filterState;
-    const toggleIsPoison = (subkey) => updateFilter("isPoison", prev => ({...prev, [subkey]: !prev[subkey]}));
+    const toggleIsPoison = (subkey) => updateFilterPresetToCustom("isPoison", prev => ({...prev, [subkey]: !prev[subkey]}));
 
     const { secretType } = filterState;
-    const toggleSecretType = (subkey) => updateFilter("secretType", prev => ({...prev, [subkey]: !prev[subkey]}));
+    const toggleSecretType = (subkey) => updateFilterPresetToCustom("secretType", prev => ({...prev, [subkey]: !prev[subkey]}));
 
     const { shipType } = filterState;
     
     const { walnutType } = filterState;
-    const toggleWalnut = (subkey) => updateFilter("walnutType", prev => ({...prev, [subkey]: !prev[subkey]}));
+    const toggleWalnut = (subkey) => updateFilterPresetToCustom("walnutType", prev => ({...prev, [subkey]: !prev[subkey]}));
 
-    const handleShipsanity = (value) =>
+    const handleShipsanity = (value, fromPreset = false) =>
     {
-        update("shipsanity", value);
+        if (!fromPreset) setPreset("custom");
+        setSettings(prev => ({...prev, shipsanity: value}));
 
         updateFilter("shipType",
         {
@@ -46,6 +71,14 @@ export default function SettingsList({settings, setSettings})
 
     return(
         <>
+
+            <label>
+                Preset:
+                <select value={preset} onChange={(e) => handlePreset(e.target.value)}>
+                    <option value="custom">Custom</option>
+                    <option value="default">Default</option>
+                </select>
+            </label>
 
             <label>
                 Arcade:
@@ -216,7 +249,7 @@ export default function SettingsList({settings, setSettings})
                 Museamsity:
                 <select value = {settings.museamsity} onChange = {(e) => update("museamsity", e.target.value)}>
                     <option value="none">None</option>
-                    <option value="milestones">Minestones</option>
+                    <option value="milestones">Milestones</option>
                     <option value="all">All</option>
                 </select>
             </label>
@@ -226,10 +259,10 @@ export default function SettingsList({settings, setSettings})
                 <select value = {settings.quests} onChange = {(e) => update("quests", e.target.value)}>
                     <option value="none">None</option>
                     <option value="story">Story</option>
-                    <option value="minimum">Minimum - 7</option>
-                    <option value="normal">Normal - 14</option>
-                    <option value="lots">Lots - 28</option>
-                    <option value="maximum">Maximum - 56</option>
+                    <option value="minimum">Minimum (7)</option>
+                    <option value="normal">Normal (14)</option>
+                    <option value="lots">Lots (28)</option>
+                    <option value="maximum">Maximum (56)</option>
                 </select>
             </label>
 
