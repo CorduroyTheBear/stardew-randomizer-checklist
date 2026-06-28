@@ -678,7 +678,7 @@ export const GROUPED_TABLES =
 
    cropsanity:
    {
-        heading: "Cropsanity",
+        heading: "Harvest Items",
         className: "tableLevel-2_Heading",
         groups:
         [
@@ -720,7 +720,7 @@ export const GROUPED_TABLES =
             {id: "catalogues", heading: "Catalogues", className: "tableLevel-2_Tables", data: catalogues},
             {id: "communityUpgrades", heading: "Community Upgrades", className: "tableLevel-2_Tables", data: communityUpgrades},
             {id: "purchase", heading: "Purchase", className: "tableLevel-2_Tables", data: purchase},
-            {id: "wizardBlueprints", heading: "WizardBlueprints", className: "tableLevel-2_Tables", data: wizardBlueprints},
+            {id: "wizardBlueprints", heading: "Wizard Blueprints", className: "tableLevel-2_Tables", data: wizardBlueprints},
         ]
    },
 
