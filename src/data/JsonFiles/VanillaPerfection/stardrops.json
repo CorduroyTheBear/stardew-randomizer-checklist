@@ -1,0 +1,37 @@
+[
+ {
+    "id": "catchEveryFish",
+    "name": "Catch Every Fish",
+    "done": false
+ },
+ {
+    "id": "completeMuseum",
+    "name": "Complete Museum",
+    "done": false
+ },
+ {
+    "id": "krobus",
+    "name": "Buy from Krobus",
+    "done": false
+ },
+ {
+    "id": "marriage",
+    "name": "Marriage",
+    "done": false
+ },
+ {
+    "id": "masterCannoli",
+    "name": "Master Cannoli",
+    "done": false
+ },
+ {
+    "id": "mines100",
+    "name": "Mines Floor 100",
+    "done": false
+ },
+ {
+    "id": "stardewValleyFair",
+    "name": "Stardew Valley Fair",
+    "done": false
+ }
+]

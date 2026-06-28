@@ -82,6 +82,12 @@
       "found": false
     },
     {
+      "id": "caveJelly",
+      "name": "Cave Jelly",
+      "done": false,
+      "found": false
+    },
+    {
       "id": "(O)702",
       "name": "Chub",
       "season": ["spring", "summer", "fall", "winter"],
@@ -136,15 +142,6 @@
       "found": false
     },
     {
-      "id": "(O)775",
-      "name": "Glacierfish",
-      "season": ["winter"],
-      "fishingLocation": ["legend", "forestRiver"],
-      "weather": ["rain", "sunny"],
-      "done": false,
-      "found": false
-    },
-    {
       "id": "(O)902",
       "name": "Glacierfish Jr. ",
       "season": ["spring", "summer", "fall", "winter"],
@@ -163,6 +160,11 @@
       "isPoison": true,
       "done": false,
       "found": false
+    },
+    {
+      "id": "(O)153",
+      "name": "Green Algae",
+      "done": false
     },
     {
       "id": "(O)708",
@@ -219,16 +221,6 @@
       "found": false
     },
     {
-      "id": "(O)900",
-      "name": "Legend II",
-      "season": ["spring", "summer", "fall", "winter"],
-      "fishingLocation": ["legend", "lake"],
-      "isGI": true,
-      "weather": ["rain", "sunny"],
-      "done": false,
-      "found": false
-    },
-    {
       "id": "(O)707",
       "name": "Lingcod",
       "season": ["winter"],
@@ -261,16 +253,6 @@
       "name": "Midnight Squid",
       "season": ["winter"],
       "fishingLocation": "nightMarket",
-      "weather": ["rain", "sunny"],
-      "done": false,
-      "found": false
-    },
-    {
-      "id": "(O)899",
-      "name": "Ms. Angler ",
-      "season": ["spring", "summer", "fall", "winter"],
-      "fishingLocation": ["legend", "townRiver"],
-      "isGI": true,
       "weather": ["rain", "sunny"],
       "done": false,
       "found": false
@@ -322,16 +304,6 @@
       "found": false
     },
     {
-      "id": "(O)901",
-      "name": "Radioactive Carp ",
-      "season": ["summer"],
-      "fishingLocation": ["legend", "sewers"],
-      "isGI": true,
-      "weather": "sunny",
-      "done": false,
-      "found": false
-    },
-    {
       "id": "(O)138",
       "name": "Rainbow Trout",
       "fishingLocation": ["townRiver", "forestRiver", "lake"],
@@ -352,6 +324,12 @@
       "name": "Red Snapper",
       "fishingLocation": ["ocean"],
       "weather": "rain",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "riverJelly",
+      "name": "River Jelly",
       "done": false,
       "found": false
     },
@@ -405,6 +383,18 @@
       "found": false
     },
     {
+      "id": "seaJelly",
+      "name": "Sea Jelly",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)152",
+      "name": "Seaweed",
+      "shipType": ["everySingleItem"],
+      "done": false
+    },
+    {
       "id": "(O)706",
       "name": "Shad",
       "season": ["spring", "summer", "fall"],
@@ -428,16 +418,6 @@
       "season": ["spring", "fall"],
       "fishingLocation": ["townRiver", "forestPond"],
       "weather": ["rain", "sunny"]
-    },
-    {
-      "id": "(O)898",
-      "name": "Son of Crimsonfish ",
-      "season": ["spring", "summer", "fall", "winter"],
-      "fishingLocation": ["legend", "ocean"],
-      "isGI": true,
-      "weather": ["rain", "sunny"],
-      "done": false,
-      "found": false
     },
     {
       "id": "(O)799",
@@ -547,6 +527,11 @@
       "weather": "rain",
       "done": false,
       "found": false
+    },
+    {
+      "id": "(O)157",
+      "name": "White Algae",
+      "done": false
     },
     {
       "id": "(O)734",
