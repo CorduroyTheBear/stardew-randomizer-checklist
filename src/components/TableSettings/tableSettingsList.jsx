@@ -80,12 +80,53 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                 </select>
             </label>
 
+            <label><strong>General</strong></label>
+
             <label>
-                Arcade:
-                <select value = {settings.arcade} onChange = {(e) => update("arcade", e.target.value)}>
-                    <option value="disabled">Disabled</option>
-                    <option value="arcadeVictories">Arcade Victories</option>
-                    <option value="fullShuffling">Full Shuffling</option>
+                Bundle:
+                <select value = {settings.x} onChange = {(e) => update("x", e.target.value)}>
+                    <option value = "1">Only Community Center</option>
+                    <option value = "2">Community Center and Joja</option>
+                </select>
+            </label>
+
+            <label>
+                Exclude Ginger Island?:
+                <select value = {settings.gingerIsland} onChange = {(e) => update("gingerIsland", e.target.value)}>
+                    <option value = "yes">Yes</option>
+                    <option value = "no">No</option>
+                </select>
+            </label>
+
+            <label>Show Mines Chests?<input type="checkbox"/></label>
+            <label>Show Other Checks?<input type="checkbox"/></label>
+            <label>Show Raccoon Checks?<input type="checkbox"/></label>
+
+            <label>Show Traveling Merchant?<input type="checkbox"/></label>
+            <label>
+                How many Checks?:
+                <select value = {settings.x} onChange = {(e) => update("x", e.target.value)}>
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "4">4</option>
+                    <option value = "5">5</option>
+                    <option value = "6">6</option>
+                    <option value = "7">7</option>
+                    <option value = "8">8</option>
+                    <option value = "9">9</option>
+                    <option value = "10">10</option>
+                </select>
+            </label>
+
+            
+            <label><strong>Major Unlocks</strong></label>
+
+            <label>
+                Cropssanity:
+                <select value = {settings.cropsanity} onChange = {(e) => update("cropsanity", e.target.value)}>
+                    <option value = "disabled">Disabled</option>
+                    <option value = "enabled">Enabled</option>
                 </select>
             </label>
 
@@ -102,8 +143,52 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                 </select>
             </label>
 
-            <label><strong>Start Without Backpack?</strong></label>
-                <label><input type="checkbox" checked={excludeBackpack.true} onChange={() => toggleBackpack("true")} /></label>
+            <label>Start Without Backpack? <input type="checkbox" checked={excludeBackpack.true} onChange={() => toggleBackpack("true")} /></label>
+
+            <label>
+                Building Progression:
+                <select value = {settings.buildingProgression} onChange = {(e) => update("buildingProgression", e.target.value)}>
+                    <option value = "vanilla">Vanilla</option>
+                    <option value = "progressive">Progressive</option>
+                </select>
+            </label>
+
+            <label>
+                Elevator Progression:
+                <select value = {settings.elevatorProgression} onChange = {(e) => update("elevatorProgression", e.target.value)}>
+                    <option value = "vanilla">Vanilla</option>
+                    <option value = "progressive">Progressive</option>
+                </select>
+            </label>
+
+            <label>
+                Skill Progression:
+                <select value = {settings.skillProgression} onChange = {(e) => update("skillProgression", e.target.value)}>
+                    <option value="vanilla">Vanilla</option>
+                    <option value="progressive">Progressive</option>
+                    <option value="progressiveMaster">Progressive With Masteries</option>
+                </select>
+            </label>
+
+            <label>
+                Tool Progression:
+                <select value = {settings.toolProgression} onChange = {(e) => update("toolProgression", e.target.value)}>
+                    <option value = "vanilla">Vanilla</option>
+                    <option value = "progressive">Progressive</option>
+                </select>
+            </label>
+
+
+            <label><strong>Extra Shuffling</strong></label>
+
+            <label>
+                Arcade:
+                <select value = {settings.arcade} onChange = {(e) => update("arcade", e.target.value)}>
+                    <option value="disabled">Disabled</option>
+                    <option value="arcadeVictories">Arcade Victories</option>
+                    <option value="fullShuffling">Full Shuffling</option>
+                </select>
+            </label>
 
             <label>
                 Booksanity:
@@ -116,62 +201,11 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
             </label>
 
             <label>
-                Building Progression:
-                <select value = {settings.buildingProgression} onChange = {(e) => update("buildingProgression", e.target.value)}>
-                    <option value = "vanilla">Vanilla</option>
-                    <option value = "progressive">Progressive</option>
-                </select>
-            </label>
-
-            <label>
                 Chefsanity:
                 <label><input type="checkbox" checked={chefCategory.friendship} onChange={() => toggleChefCategory("friendship")} /> Friendship</label>
                 <label><input type="checkbox" checked={chefCategory.purchase} onChange={() => toggleChefCategory("purchase")} /> Purchase</label>
                 <label><input type="checkbox" checked={chefCategory.queenOfSauce} onChange={() => toggleChefCategory("queenOfSauce")} /> Queen of Sauce</label>
                 <label><input type="checkbox" checked={chefCategory.skills} onChange={() => toggleChefCategory("skills")} /> Skills</label>
-            </label>
-
-             <label>
-                Cooksanity:
-                <select value = {settings.cooksanity} onChange = {(e) => update("cooksanity", e.target.value)}>
-                    <option value = "none">None</option>
-                    <option value = "queenOfSauce">Queen of Sauce</option>
-                    <option value = "all">All</option>
-                </select>
-            </label>
-
-            <label>
-                Craftsanity:
-                <select value = {settings.craftsanity} onChange = {(e) => update("craftsanity", e.target.value)}>
-                    <option value = "none">None</option>
-                    <option value = "all">All</option>
-                </select>
-            </label>
-
-            <label>
-                Cropssanity:
-                <select value = {settings.cropsanity} onChange = {(e) => update("cropsanity", e.target.value)}>
-                    <option value = "disabled">Disabled</option>
-                    <option value = "enabled">Enabled</option>
-                </select>
-            </label>
-
-            <label>
-                Eatsanity:
-                <label><input type="checkbox" checked={eatType.artisan} onChange={() => toggleEatType("artisan")} /> Artisan</label>
-                <label><input type="checkbox" checked={eatType.cooking} onChange={() => toggleEatType("cooking")} /> Cooking</label>
-                <label><input type="checkbox" checked={eatType.crop} onChange={() => toggleEatType("crop")} /> Crops</label>
-                <label><input type="checkbox" checked={eatType.fish} onChange={() => toggleEatType("fish")} /> Fish</label>
-                <label><input type="checkbox" checked={isPoison.true} onChange={() => toggleIsPoison("true")} /> Poisonous</label>
-                <label><input type="checkbox" checked={eatType.shop} onChange={() => toggleEatType("shop")} /> Shop</label>
-            </label>
-            
-            <label>
-                Elevator Progression:
-                <select value = {settings.elevatorProgression} onChange = {(e) => update("elevatorProgression", e.target.value)}>
-                    <option value = "vanilla">Vanilla</option>
-                    <option value = "progressive">Progressive</option>
-                </select>
             </label>
 
             <label>
@@ -203,23 +237,6 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value = "startingNpcs">Starting Npcs</option>
                     <option value = "all">All</option>
                     <option value = "allWithMarriage">All With Marriage</option>
-                </select>
-            </label>
-
-            <label>Hatsanity:</label>
-                <label><input type="checkbox" checked={hatType.difficult} onChange={() => toggleHattype("difficult")} /> Difficult</label>
-                <label><input type="checkbox" checked={hatType.easy} onChange={() => toggleHattype("easy")} /> Easy</label>
-                <label><input type="checkbox" checked={hatType.medium} onChange={() => toggleHattype("medium")} /> Medium</label>
-                <label><input type="checkbox" checked={hatType.nearPerfection} onChange={() => toggleHattype("nearPerfection")} /> Near Perfection</label>
-                <label><input type="checkbox" checked={hatType.postPerfection} onChange={() => toggleHattype("postPerfection")} /> Post Perfection</label>
-                <label><input type="checkbox" checked={hatType.rng} onChange={() => toggleHattype("rng")} /> RNG</label>
-                <label><input type="checkbox" checked={hatType.tailoring} onChange={() => toggleHattype("tailoring")} /> Tailoring</label>
-
-            <label>
-                Include Endgame Locations:
-                <select value = {settings.endGame} onChange = {(e) => update("endGame", e.target.value)}>
-                    <option value="no">No</option>
-                    <option value="yes">Yes</option>
                 </select>
             </label>
 
@@ -266,11 +283,73 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                 </select>
             </label>
 
+            <label>
+                Special Order Locations:
+                <select value = {settings.specialOrders} onChange = {(e) => update("specialOrders", e.target.value)}>
+                    <option value="vanilla">Vanilla</option>
+                    <option value="board">Board</option>
+                    <option value="boardQi">Board Qi</option>
+                </select>
+            </label>
+
+            <label>Walnutsanity:</label>
+                <label>Bushes <input type="checkbox" checked={walnutType.bush} onChange={() => toggleWalnut("bush")} /></label>
+                <label>Dig Spots <input type="checkbox" checked={walnutType.digSpot} onChange={() => toggleWalnut("digSpot")} /></label>
+                <label>Puzzles <input type="checkbox" checked={walnutType.puzzle} onChange={() => toggleWalnut("puzzle")} /></label>
+                <label>Repeatables <input type="checkbox" checked={walnutType.repeatable} onChange={() => toggleWalnut("repeatable")} /></label>
+
+
+            <label><strong>Extreme Options</strong></label>
+
+            <label>
+                Cooksanity:
+                <select value = {settings.cooksanity} onChange = {(e) => update("cooksanity", e.target.value)}>
+                    <option value = "none">None</option>
+                    <option value = "queenOfSauce">Queen of Sauce</option>
+                    <option value = "all">All</option>
+                </select>
+            </label>
+
+            <label>
+                Craftsanity:
+                <select value = {settings.craftsanity} onChange = {(e) => update("craftsanity", e.target.value)}>
+                    <option value = "none">None</option>
+                    <option value = "all">All</option>
+                </select>
+            </label>
+
+            <label>
+                Eatsanity:
+                <label>Artisan <input type="checkbox" checked={eatType.artisan} onChange={() => toggleEatType("artisan")} /></label>
+                <label>Cooking <input type="checkbox" checked={eatType.cooking} onChange={() => toggleEatType("cooking")} /></label>
+                <label>Crops <input type="checkbox" checked={eatType.crop} onChange={() => toggleEatType("crop")} /></label>
+                <label>Fish <input type="checkbox" checked={eatType.fish} onChange={() => toggleEatType("fish")} /></label>
+                <label>Poisonous <input type="checkbox" checked={isPoison.true} onChange={() => toggleIsPoison("true")} /></label>
+                <label>Shop <input type="checkbox" checked={eatType.shop} onChange={() => toggleEatType("shop")} /></label>
+            </label>
+
+            <label>Hatsanity:</label>
+                <label>Difficult <input type="checkbox" checked={hatType.difficult} onChange={() => toggleHattype("difficult")} /></label>
+                <label>Easy <input type="checkbox" checked={hatType.easy} onChange={() => toggleHattype("easy")} /></label>
+                <label>Medium <input type="checkbox" checked={hatType.medium} onChange={() => toggleHattype("medium")} /></label>
+                <label>Near Perfection <input type="checkbox" checked={hatType.nearPerfection} onChange={() => toggleHattype("nearPerfection")} /></label>
+                <label>Post Perfection <input type="checkbox" checked={hatType.postPerfection} onChange={() => toggleHattype("postPerfection")} /></label>
+                <label>RNG <input type="checkbox" checked={hatType.rng} onChange={() => toggleHattype("rng")} /> </label>
+                <label>Tailoring <input type="checkbox" checked={hatType.tailoring} onChange={() => toggleHattype("tailoring")} /></label>
+
+            <label>
+                Include Endgame Locations:
+                <select value = {settings.endGame} onChange = {(e) => update("endGame", e.target.value)}>
+                    <option value="no">No</option>
+                    <option value="yes">Yes</option>
+                </select>
+            </label>
+
             <label><strong>Secretsanity:</strong></label>
-                <label><input type="checkbox" checked={secretType.difficult} onChange={() => toggleSecretType("difficult")} /> Difficult</label>
-                <label><input type="checkbox" checked={secretType.easy} onChange={() => toggleSecretType("easy")} /> Easy</label>
-                <label><input type="checkbox" checked={secretType.fishing} onChange={() => toggleSecretType("fishing")} /> Fishing</label>
-                <label><input type="checkbox" checked={secretType.note} onChange={() => toggleSecretType("note")} /> Note</label>
+                <label>Difficult <input type="checkbox" checked={secretType.difficult} onChange={() => toggleSecretType("difficult")} /></label>
+                <label>Easy <input type="checkbox" checked={secretType.easy} onChange={() => toggleSecretType("easy")} /></label>
+                <label>Fishing <input type="checkbox" checked={secretType.fishing} onChange={() => toggleSecretType("fishing")} /></label>
+                <label>Note <input type="checkbox" checked={secretType.note} onChange={() => toggleSecretType("note")} /></label>
 
             <label>
                 Shipsanity:
@@ -283,47 +362,7 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value="fullShipmentWithFish">Full Shipment With Fish</option>
                     <option value="everything">Everything</option>
                 </select>
-            </label>
-        
-            <label>
-                Skill Progression:
-                <select value = {settings.skillProgression} onChange = {(e) => update("skillProgression", e.target.value)}>
-                    <option value="vanilla">Vanilla</option>
-                    <option value="progressive">Progressive</option>
-                    <option value="progressiveMaster">Progressive With Masteries</option>
-                </select>
-            </label>
-
-            <label>
-                Special Order Locations:
-                <select value = {settings.specialOrders} onChange = {(e) => update("specialOrders", e.target.value)}>
-                    <option value="vanilla">Vanilla</option>
-                    <option value="board">Board</option>
-                    <option value="boardQi">Board Qi</option>
-                </select>
-            </label>
-
-            <label>
-                Tool Progression:
-                <select value = {settings.toolProgression} onChange = {(e) => update("toolProgression", e.target.value)}>
-                    <option value = "vanilla">Vanilla</option>
-                    <option value = "progressive">Progressive</option>
-                </select>
-            </label>
-
-            <label>
-                Exclude Ginger Island?:
-                <select value = {settings.gingerIsland} onChange = {(e) => update("gingerIsland", e.target.value)}>
-                    <option value = "yes">Yes</option>
-                    <option value = "no">No</option>
-                </select>
-            </label>
-
-            <label><strong>Walnutsanity:</strong></label>
-                <label><input type="checkbox" checked={walnutType.bush} onChange={() => toggleWalnut("bush")} /> Bushes</label>
-                <label><input type="checkbox" checked={walnutType.digSpot} onChange={() => toggleWalnut("digSpot")} /> Dig Spots</label>
-                <label><input type="checkbox" checked={walnutType.puzzle} onChange={() => toggleWalnut("puzzle")} /> Puzzles</label>
-                <label><input type="checkbox" checked={walnutType.repeatable} onChange={() => toggleWalnut("repeatable")} /> Repeatables</label>
+            </label> 
         </>
     );
 }

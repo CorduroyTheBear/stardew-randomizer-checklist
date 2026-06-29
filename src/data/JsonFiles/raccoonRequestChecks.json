@@ -1,5 +1,11 @@
 [
   {
+    "id": "fixStump",
+    "done": false,
+    "name": "Fix Stump",
+    "unlocked": false
+  },
+  {
     "id": "raccoon_1",
     "done": false,
     "name": "Request 1",
@@ -45,6 +51,12 @@
     "id": "raccoon_8",
     "done": false,
     "name": "Request 8",
+    "unlocked": false
+  },
+  {
+    "id": "raccoon_9",
+    "done": false,
+    "name": "Request 9",
     "unlocked": false
   }
 ]
