@@ -83,10 +83,10 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
             <label><strong>General</strong></label>
 
             <label>
-                Bundle:
-                <select value = {settings.x} onChange = {(e) => update("x", e.target.value)}>
-                    <option value = "1">Only Community Center</option>
-                    <option value = "2">Community Center and Joja</option>
+                Bundles:
+                <select value = {settings.bundles} onChange = {(e) => update("bundles", e.target.value)}>
+                    <option value = "withJoja">Community Center and Joja</option>
+                    <option value = "withoutJoja">Community Center Only</option>
                 </select>
             </label>
 
@@ -98,11 +98,31 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                 </select>
             </label>
 
-            <label>Show Mines Chests?<input type="checkbox"/></label>
-            <label>Show Other Checks?<input type="checkbox"/></label>
-            <label>Show Raccoon Checks?<input type="checkbox"/></label>
+            <label>
+                Show Mines Chests?:
+                <select value = {settings.minesChests} onChange = {(e) => update("minesChests", e.target.value)}>
+                    <option value = "yes">Yes</option>
+                    <option value = "no">No</option>
+                </select>
+            </label>
 
-            <label>Show Traveling Merchant?<input type="checkbox"/></label>
+            <label>
+                Show Other Checks?:
+                <select value = {settings.otherChecks} onChange = {(e) => update("otherChecks", e.target.value)}>
+                    <option value = "yes">Yes</option>
+                    <option value = "no">No</option>
+                </select>
+            </label>
+
+            <label>
+                Show Raccoon Checks?:
+                <select value = {settings.raccoonChecks} onChange = {(e) => update("raccoonChecks", e.target.value)}>
+                    <option value = "yes">Yes</option>
+                    <option value = "no">No</option>
+                </select>
+            </label>
+
+            <label>Show Traveling Merchant?<input type="checkbox" checked={secretType.difficult} onChange={() => toggleSecretType("difficult")} /></label>
             <label>
                 How many Checks?:
                 <select value = {settings.x} onChange = {(e) => update("x", e.target.value)}>

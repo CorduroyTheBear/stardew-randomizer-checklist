@@ -6,20 +6,17 @@ export function filterGroupedTables(settings)
     visible.push
     (
         // Always push
-        "bundles",
         "chefsanity",
         "eatsanity",
         "hatsanity",
-        "minesChests",
         "travelingMerchant",
-        "raccoonChecks",
         "secretsanity",
-        "otherChecks"
     )
 
     // Every other table
     if (settings.arcade !== "disabled") visible.push("arcade");
     if (settings.backpack !== "vanilla") visible.push("backpack");
+    if (settings.bundles !== "none") visible.push("bundles");
     if (settings.buildingProgression !== "vanilla") visible.push("buildingProgression");
     if (settings.bookSanity !== "none") visible.push("bookSanity");
     if (settings.craftsanity !== "none") visible.push("craftsMake", "craftsLearnShop", "craftsLearnSkills", "craftsLearnOther");
@@ -31,10 +28,13 @@ export function filterGroupedTables(settings)
     if (settings.fishsanity !== "none") visible.push("fishsanity");
     if (settings.friendsanity !== "none") visible.push("friendsanity");
     if (settings.gingerIsland !== "yes") visible.push("gingerIsland");
+    if (settings.minesChests !== "no") visible.push("minesChests");
     if (settings.monstersanity !== "none") visible.push("monstersanity");
     if (settings.movieSanity !== "none") visible.push("movieSanity");
     if (settings.museamsity !== "none") visible.push("museamsity");
+    if (settings.otherChecks !== "no") visible.push("otherChecks");
     if (settings.quests !== "none") visible.push("quests");
+    if (settings.raccoonChecks !== "no") visible.push("raccoonChecks");
     if (settings.shipsanity !== "none") visible.push("shipsanityFish", "shipCropsAndForage", "shipMinesAndMuseam", "shipOtherItems");
     if (settings.skillProgression !== "vanilla") visible.push("skillProgression");
     if (settings.specialOrders !== "vanilla") visible.push("specialOrders");
@@ -67,6 +67,16 @@ export function filterGroups(tableKey, settings)
             if (settings.arcade === "arcadeVictories") visible.push("arcadeVictories");
             if (settings.arcade === "fullShuffling") visible.push("jotPK");
             if (settings.arcade === "fullShuffling") visible.push("junimoKart");
+
+            return visible;
+        }
+
+        case "bundles":
+        {
+            const visible = [];
+
+            if (settings.bundles === "withJoja") visible.push("boilerBundles", "bulletinBunddles", "craftsBundles", "pantryBundles", "vaultBunddles", "jojaBundle");
+            if (settings.bundles === "withoutJoja") visible.push("boilerBundles", "bulletinBunddles", "craftsBundles", "pantryBundles", "vaultBunddles");
 
             return visible;
         }
