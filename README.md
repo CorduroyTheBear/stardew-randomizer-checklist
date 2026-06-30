@@ -1,16 +1,41 @@
-# React + Vite
+# About the project
+- This project is a web application designed to help players track their progress while playing Stardew Valley Archipelago randomizers.
+- The checklist dynamically adjusts based on the player's selected randomizer settings, making it easier to keep track of available checks throughout a playthrough.
+- This project was inspired by Zelda's Rando Checklist.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Why I built This
+-  I enjoyed playing Stardew Valley randomizers, but found it difficult to keep tracks of all the checks, since I like to turn on a bunch of settings.
 
-Currently, two official plugins are available:
+# Built With
+- CSS
+- JavaScript
+- JSON
+- React
+- Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Current Features
+- Dynamic checklist generation based on selected randomizer settings.
+- Filters for seasons, Ginger Island, fishing locations, and completed checks.
+- Preset configurations matching official Archipelago presets.
+- A Vanilla Perfection preset for players pursuing Stardew Valley perfection.
 
-## React Compiler
+# Planned Before Initial Release
+- Local storage so users can save their progress in between sessions.
+- Search bar to help users find checks faster.
+- Update UI.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Features I want to add in future updates
+  # Gameplay
+  - Support for additional Stardew Valley Mods.
+  - Hints for difficult checks (such as Secretsanity)
+  - Item tracker for for cooking and crafting.
+  - Edit bundle items to incorporate the random bundles option.
 
-## Expanding the ESLint configuration
+  # Quality of Life
+  - Import a .yaml file and automatically adjust the settings to reflect it.
+  - Item images.
+  - Time filter for catching fish.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  # Long-Term
+  - Separate Vanilla checklist page.
+  - Synchronize checklist progress directly with the game.
