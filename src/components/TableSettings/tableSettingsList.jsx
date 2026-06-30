@@ -75,8 +75,16 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
             <label>
                 Preset:
                 <select value={preset} onChange={(e) => handlePreset(e.target.value)}>
-                    <option value="custom">Custom</option>
-                    <option value="default">Default</option>
+                    <option value = "default">Default</option>
+                    <option value = "vanillaPerfection">Vanilla Perfection</option>
+                    <option value = "easy">Easy</option>
+                    <option value = "medium">Medium</option>
+                    <option value = "hard">Hard</option>
+                    <option value = "nightmare">Nightmare</option>
+                    <option value = "short">Short</option>
+                    <option value = "minsanity">Minsanity</option>
+                    <option value = "allsanity">Allsanity</option>
+                    <option value = "custom">Custom</option>
                 </select>
             </label>
 
@@ -123,6 +131,14 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
             </label>
 
             <label>
+                Show Stardrops?:
+                <select value = {settings.stardrops} onChange = {(e) => update("stardrops", e.target.value)}>
+                    <option value = "yes">Yes</option>
+                    <option value = "no">No</option>
+                </select>
+            </label>
+
+            <label>
                 Show Traveling Merchant?:
                 <select value = {settings.travelingMerchant} onChange = {(e) => update("travelingMerchant", e.target.value)}>
                     <option value = "yes">Yes</option>
@@ -140,6 +156,14 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                 </select>
             </label>
 
+            <label>
+                Show Wizard Buildings (Vanilla Perfection)?:
+                <select value = {settings.wizardBuildings} onChange = {(e) => update("wizardBuildings", e.target.value)}>
+                    <option value = "yes">Yes</option>
+                    <option value = "no">No</option>
+                </select>
+            </label>
+
             
             <label><strong>Major Unlocks</strong></label>
 
@@ -152,15 +176,15 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
             </label>
 
             <label>
-                Backpack Progression/Size:
+                Backpack Progression / Size:
                 <select value = {settings.backpack} onChange = {(e) => update("backpack", e.target.value)}>
                     <option value="vanilla">Vanilla</option>
-                    <option value="12">Progression/12</option>
-                    <option value="6">Progression/6</option>
-                    <option value="4">Progression/4</option>
-                    <option value="3">Progression/3</option>
-                    <option value="2">Progression/2</option>
-                    <option value="1">Progression/1</option>
+                    <option value="12">Progression / 12</option>
+                    <option value="6">Progression / 6</option>
+                    <option value="4">Progression / 4</option>
+                    <option value="3">Progression / 3</option>
+                    <option value="2">Progression / 2</option>
+                    <option value="1">Progression / 1</option>
                 </select>
             </label>
 
@@ -241,8 +265,9 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
             <label>
                 Fishsanity:
                 <select value = {settings.fishsanity} onChange = {(e) => update("fishsanity", e.target.value)}>
-                    <option value="none">None</option>
-                    <option value="legendaries">Legendaries</option>
+                    <option value = "none">None</option>
+                    <option value = "vanillaPerfectionFish">Vanilla Perfection</option>
+                    <option value = "legendaries">Legendaries</option>
                     <option value = "all">All</option>
                     <option value = "excludeLegendaries">Exclude Legendaries</option>
                     <option value = "excludeHardFish">Exclude Hard Fish</option>
@@ -254,6 +279,7 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                 Friendsanity:
                 <select value = {settings.friendsanity} onChange = {(e) => update("friendsanity", e.target.value)}>
                     <option value="none">None</option>
+                    <option value="vanillaPerfectFriend">Vanilla Perfection</option>
                     <option value="bachelors">Bachelors</option>
                     <option value = "startingNpcs">Starting Npcs</option>
                     <option value = "all">All</option>
@@ -307,9 +333,10 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
             <label>
                 Special Order Locations:
                 <select value = {settings.specialOrders} onChange = {(e) => update("specialOrders", e.target.value)}>
-                    <option value="vanilla">Vanilla</option>
-                    <option value="board">Board</option>
-                    <option value="boardQi">Board Qi</option>
+                    <option value = "none">None</option>
+                    <option value = "vanilla">Vanilla Perfection</option>
+                    <option value = "board">Board</option>
+                    <option value = "boardQi">Board Qi</option>
                 </select>
             </label>
 

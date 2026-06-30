@@ -1,0 +1,63 @@
+[
+  {
+    "id": "aCuriousSubstance",
+    "name": "A Curious Substance",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "aquaticOverpopulation",
+    "name": "Aquatic Overpopulation",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "biomeBalance",
+    "name": "Biome Balance",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "cavePatrol",
+    "name": "Cave Patrol",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "communityCleanup",
+    "name": "Community Cleanup",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "fragmentsOfThePast",
+    "name": "Fragments of the past",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "islandIngredients",
+    "name": "Island Ingredients",
+    "isGI": true,
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "juicyBugsWanted",
+    "name": "Juicy Bugs Wanted!",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "prismaticJelly",
+    "name": "Prismatic Jelly",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "robinsResourceRush",
+    "name": "Robin's Resource Rush",
+    "done": false,
+    "found": false
+  }
+ ]

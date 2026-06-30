@@ -36,9 +36,11 @@ export function filterGroupedTables(settings)
     if (settings.raccoonChecks !== "no") visible.push("raccoonChecks");
     if (settings.shipsanity !== "none") visible.push("shipsanityFish", "shipCropsAndForage", "shipMinesAndMuseam", "shipOtherItems");
     if (settings.skillProgression !== "vanilla") visible.push("skillProgression");
-    if (settings.specialOrders !== "vanilla") visible.push("specialOrders");
+    if (settings.specialOrders !== "none") visible.push("specialOrders");
+    if (settings.stardrops !== "no") visible.push("stardrops");
     if (settings.toolProgression !== "vanilla") visible.push("toolProgression");
     if (settings.travelingMerchant !== "no") visible.push("travelingMerchant");
+    if (settings.wizardBuildings !== "no") visible.push("wizardBuildings");
 
     return visible;
 }
@@ -181,10 +183,11 @@ export function filterGroups(tableKey, settings)
             const visible = [];
 
             if (settings.fishsanity === "legendaries") visible.push("legendaryFish");
-            if (settings.fishsanity === "all") visible.push("crabPotFreshWater", "crabPotOcean", "allFish");
-            if (settings.fishsanity === "excludeLegendaries") visible.push("crabPotFreshWater", "crabPotOcean", "excludeLegendaryFish");
-            if (settings.fishsanity === "excludeHardFish") visible.push("crabPotFreshWater", "crabPotOcean", "excludeHardFish");
-            if (settings.fishsanity === "onlyEasyFish") visible.push("crabPotFreshWater", "crabPotOcean", "onlyEasyFish");
+            if (settings.fishsanity === "all") visible.push("allFish", "crabPotFreshWater", "crabPotOcean");
+            if (settings.fishsanity === "excludeLegendaries") visible.push("excludeLegendaryFish", "crabPotFreshWater", "crabPotOcean");
+            if (settings.fishsanity === "excludeHardFish") visible.push("excludeHardFish", "crabPotFreshWater", "crabPotOcean");
+            if (settings.fishsanity === "onlyEasyFish") visible.push("onlyEasyFish", "crabPotFreshWater", "crabPotOcean");
+            if (settings.fishsanity === "vanillaPerfectionFish") visible.push("vanillaPerfectionFish", "crabPotFreshWater", "crabPotOcean");
 
             return visible;
         }
@@ -197,6 +200,7 @@ export function filterGroups(tableKey, settings)
             if (settings.friendsanity === "startingNpcs") visible.push("otherFriendChecks", "alex", "elliot", "harvey", "sam", "sebastian", "shane", "abigail", "emily", "haley", "leah", "maru", "penny", "caroline", "clint", "demetrius", "evelyn", "george", "gus", "jas", "jodi", "lewis", "linus", "marnie", "pam", "pierre", "robin", "vincent", "willy", "wizard", "pet");
             if (settings.friendsanity === "all") visible.push("otherFriendChecks", "alex", "elliot", "harvey", "sam", "sebastian", "shane", "abigail", "emily", "haley", "leah", "maru", "penny", "caroline", "clint", "demetrius", "dwarf", "evelyn", "george", "gus", "jas", "jodi", "kent", "krobus", "lewis", "linus", "leo", "marnie", "pam", "pierre", "robin", "sandy", "vincent", "willy", "wizard", "pet");
             if (settings.friendsanity === "allWithMarriage") visible.push("otherFriendChecks", "alex_14", "elliot_14", "harvey_14", "sam_14", "sebastian_14", "shane_14", "abigail_14", "emily_14", "haley_14", "leah_14", "maru_14", "penny_14", "caroline", "clint", "demetrius", "dwarf", "evelyn", "george", "gus", "jas", "jodi", "kent", "krobus", "lewis", "linus", "leo", "marnie", "pam", "pierre", "robin", "sandy", "vincent", "willy", "wizard", "pet");
+            if (settings.friendsanity === "vanillaPerfectFriend") visible.push("alex", "elliot", "harvey", "sam", "sebastian", "shane", "abigail", "emily", "haley", "leah", "maru", "penny", "caroline", "clint", "demetrius", "dwarf", "evelyn", "george", "gus", "jas", "jodi", "kent", "krobus", "lewis", "linus", "leo", "marnie", "pam", "pierre", "robin", "sandy", "vincent", "willy", "wizard");
 
             return visible;
         }
@@ -273,6 +277,7 @@ export function filterGroups(tableKey, settings)
 
             if (settings.specialOrders === "board") visible.push("sdvBoard");
             if (settings.specialOrders === "boardQi") visible.push("sdvBoard", "qiBoard");
+            if (settings.specialOrders === "vanilla") visible.push("vanillaPerfectionOrders");
 
             return visible;
         }

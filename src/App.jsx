@@ -19,43 +19,47 @@ import './data/tables.css';
 
 function InnerApp()
 {
-  const [preset, setPreset] = useState("custom");
+  const [preset, setPreset] = useState("default");
   const {filterState} = useFilters();
 
   // Pulls data
   const [settingsOpen, setSettingsOpen] = useState(false);
 
   // Default Settings
-  const [settings, setSettings] = useState({
-    arcade: "disabled",
-    backpack: "vanilla",
-    bundles: "withJoja",
-    bookSanity: "none",
-    buildingProgression: "vanilla",
-    chefsanity: "none",
-    cooksanity: "none",
-    craftsanity: "none",
-    cropsanity: "disabled",
-    elevatorProgression: "vanilla",
-    endGame: "no",
-    festivalLocations: "none",
-    fishsanity: "none",
-    friendsanity: "none",
-    gingerIsland: "yes",
-    minesChests: "yes",
-    monstersanity: "none",
-    movieSanity: "none",
-    museamsity: "none",
-    otherChecks: "yes",
-    quests: "none",
-    raccoonChecks: "yes",
-    shipsanity: "none",
-    skillProgression: "vanilla",
-    specialOrders: "vanilla",
-    toolProgression: "vanilla",
-    travelingMerchant: "yes",
-    travelingMerchantCount: 6,
-    hideCompleted: false
+  const [settings, setSettings] = useState
+  ({
+      arcade: "fullShuffling",
+      backpack: "12",
+      bookSanity: "powerSkill",
+      buildingProgression: "progressive",
+      bundles: "withJoja", // Change only if Vanilla
+      chefsanity: "none",
+      cooksanity: "none",
+      craftsanity: "none",
+      cropsanity: "enabled",
+      elevatorProgression: "progressive",
+      festivalLocations: "easy",  
+      fishsanity: "none",
+      friendsanity: "none",
+      gingerIsland: "no",
+      endGame: "no",
+      minesChests: "yes", // Change only if Vanilla
+      monstersanity: "onePerCategory",
+      movieSanity: "oneMovie",
+      museamsity: "milestones",
+      otherChecks: "yes", // Change only if Vanilla
+      quests: "minimum",
+      raccoonChecks: "yes", // Change only if Vanilla
+      shipsanity: "none",
+      skillProgression: "progressive",
+      specialOrders: "board",
+      stardrops: "no",
+      toolProgression: "progressive",
+      travelingMerchant: "yes", // Change only if Vanilla
+      travelingMerchantCount: 6,
+      wizardBuildings: "no",
+    
+      hideCompleted: false,
   });
 
   const [tableData, setTableData] = useState( () =>

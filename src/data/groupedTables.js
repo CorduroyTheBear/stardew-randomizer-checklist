@@ -160,6 +160,7 @@ import excludeHardFish from "./JsonFiles/Fish/excludeHardFish.json"
 import excludeLegendaryFish from "./JsonFiles/Fish/excludeLegendaryFish.json";
 import legendaryFish from "./JsonFiles/Fish/legendaryFish.json";
 import onlyEasyFish from "./JsonFiles/Fish/onlyEasyFish.json";
+import vanillaPerfectionFish from "./JsonFiles/Fish/vanillaPerfectionFish.json";
 
 // Friendship
 import otherFriendChecks from "./JsonFiles/Friendship/otherFriendChecks.json";
@@ -453,6 +454,7 @@ import mining_m from "./JsonFiles/Skills/mining_m.json";
 // Special Orders
 import sdvBoard from "./JsonFiles/SpecialOrders/sdvBoard.json";
 import qiBoard from "./JsonFiles/SpecialOrders/qiBoard.json";
+import vanillaPerfectionOrders from "./JsonFiles/SpecialOrders/vanillaPerfection.json";
 
 // Tool Progression
 import axe from "./JsonFiles/Tools/axe.json";
@@ -472,6 +474,9 @@ import tm_Thu from "./JsonFiles/TravelingMerchant/tm_Thu.json";
 import tm_Fri from "./JsonFiles/TravelingMerchant/tm_Fri.json";
 import tm_Sat from "./JsonFiles/TravelingMerchant/tm_Sat.json";
 
+// Vanilla Perfection Exclusive
+import stardrops from "./JsonFiles/VanillaPerfection/stardrops.json";
+import wizardBuildings from "./JsonFiles/VanillaPerfection/wizardBuildings.json";
 
 // Group entry template
 
@@ -486,6 +491,8 @@ tableName:
         ]
    },
 */
+
+// Order of tables showing is based on the code below!
 
 export const GROUPED_TABLES = 
 {
@@ -758,14 +765,15 @@ export const GROUPED_TABLES =
         className: "tableLevel-2_Heading",
         groups:
         [
-            {id: "crabPotFreshWater", heading: "CP Fresh Water", className: "tableLevel-2_Tables", data: crabPotFreshWater},
-            {id: "crabPotOcean", heading: "CP Ocean", className: "tableLevel-2_Tables", data: crabPotOcean},
-
             {id: "allFish", heading: "Fish", className: "tableLevel-2_Tables", data: allFish},
             {id: "excludeHardFish", heading: "Fish", className: "tableLevel-2_Tables", data: excludeHardFish},
             {id: "excludeLegendaryFish", heading: "Fish", className: "tableLevel-2_Tables", data: excludeLegendaryFish},
             {id: "legendaryFish", heading: "Fish", className: "tableLevel-2_Tables", data: legendaryFish},
             {id: "onlyEasyFish", heading: "Fish", className: "tableLevel-2_Tables", data: onlyEasyFish},
+            {id: "vanillaPerfectionFish", heading: "Fish", className: "tableLevel-2_Tables", data: vanillaPerfectionFish},
+          
+            {id: "crabPotFreshWater", heading: "CP Fresh Water", className: "tableLevel-2_Tables", data: crabPotFreshWater},
+            {id: "crabPotOcean", heading: "CP Ocean", className: "tableLevel-2_Tables", data: crabPotOcean},
         ]
    },
 
@@ -950,7 +958,7 @@ export const GROUPED_TABLES =
 
    monstersanity:
    {
-        heading: "Monsters",
+        heading: "Monster Eradication",
         className: "tableLevel-2_Heading",
         groups:
         [
@@ -1168,8 +1176,19 @@ export const GROUPED_TABLES =
         groups:
      [
           {id: "sdvBoard", heading: "Stardew Valley", className: "tableLevel-2_Tables", data: sdvBoard},
-          {id: "qiBoard", heading: "Qi's Board", className: "tableLevel-2_Tables", data:qiBoard}
+          {id: "qiBoard", heading: "Qi's Board", className: "tableLevel-2_Tables", data: qiBoard},
+          {id: "vanillaPerfectionOrders", heading: "Special Orders", className: "tableLevel-2_Tables", data: vanillaPerfectionOrders}
      ]
+   },
+
+   stardrops:
+   {
+        heading: "Stardrops",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "stardrops", heading: "Stardrops", className: "tableLevel-2_Tables", data: stardrops}
+        ]
    },
 
    toolProgression:
@@ -1202,8 +1221,17 @@ export const GROUPED_TABLES =
             { id: "tm_Fri", heading: "Friday",    className: "tableLevel-2_Tables", data: tm_Fri },
             { id: "tm_Sat", heading: "Saturday",  className: "tableLevel-2_Tables", data: tm_Sat }
         ]
-   } 
-    
+   },
+   
+   wizardBuildings:
+   {
+        heading: "Wizard Buildings",
+        className: "tableLevel-2_Heading",
+        groups:
+        [
+            {id: "wizardBuildings", heading: "Wizard Buildings", className: "tableLevel-2_Tables", data: wizardBuildings},
+        ]
+   }    
 };
 
 
@@ -1216,7 +1244,7 @@ export const GROUPED_TABLES =
 // 2. Export tables (shown above)
 // 3. Create table settings in tableSettingsList.jsx
 
-// 4. Add filter table logic (2 differnt functions) in filterTables.js
+// 4. Add filter table logic (2 differnt places) in filterTables.js
 // 5. Add default setting in function App() in App.jsx
 
 // groupedTables.js -> tableSettingsList.jsx -> filterTables.js -> App.jsx

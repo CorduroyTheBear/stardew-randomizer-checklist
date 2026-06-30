@@ -22,6 +22,7 @@
  {
     "id": "masterCannoli",
     "name": "Master Cannoli",
+    "season": ["fall"],
     "done": false
  },
  {
@@ -32,6 +33,7 @@
  {
     "id": "stardewValleyFair",
     "name": "Stardew Valley Fair",
+    "season": ["fall"],
     "done": false
  }
 ]
