@@ -53,6 +53,8 @@ function InnerApp()
     skillProgression: "vanilla",
     specialOrders: "vanilla",
     toolProgression: "vanilla",
+    travelingMerchant: "yes",
+    travelingMerchantCount: 6,
     hideCompleted: false
   });
 
@@ -120,6 +122,12 @@ function InnerApp()
             ? table.groups.filter(group => allowedGroups.includes(group.id))
             : table.groups;
 
+          const slicedGroups = filteredGroups.map(group =>
+          {
+            if (key === "travelingMerchant") { return {...group, data: group.data.slice(0, settings.travelingMerchantCount)}; }
+            return group;
+          });
+          
           const allVisibleGroups = filteredGroups
           .filter(group => group.data.some(visible));
 
@@ -132,7 +140,7 @@ function InnerApp()
             key = {key}
             heading = {table.heading}
             className = {headingClass}
-            groups = {filteredGroups.map(group => ({ ...group, data: tableData[group.id], className: groupClass }))}
+            groups = {slicedGroups.map(group => ({ ...group, data: tableData[group.id]?.slice(0, settings.travelingMerchantCount) ?? [], className: groupClass }))}
             onToggle = {(groupID, itemID, field) => handleToggle(groupID, itemID, field)}
             hideCompleted = {settings.hideCompleted}
             isItemVisible = {visible}

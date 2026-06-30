@@ -122,20 +122,21 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                 </select>
             </label>
 
-            <label>Show Traveling Merchant?<input type="checkbox" checked={secretType.difficult} onChange={() => toggleSecretType("difficult")} /></label>
+            <label>
+                Show Traveling Merchant?:
+                <select value = {settings.travelingMerchant} onChange = {(e) => update("travelingMerchant", e.target.value)}>
+                    <option value = "yes">Yes</option>
+                    <option value = "no">No</option>
+                </select>
+            </label>
+            
+            
             <label>
                 How many Checks?:
-                <select value = {settings.x} onChange = {(e) => update("x", e.target.value)}>
-                    <option value = "1">1</option>
-                    <option value = "2">2</option>
-                    <option value = "3">3</option>
-                    <option value = "4">4</option>
-                    <option value = "5">5</option>
-                    <option value = "6">6</option>
-                    <option value = "7">7</option>
-                    <option value = "8">8</option>
-                    <option value = "9">9</option>
-                    <option value = "10">10</option>
+                <select value = {settings.travelingMerchantCount} onChange = {(e) => update("travelingMerchantCount", Number(e.target.value))}>
+                    {Array.from({length: 12}, (_, i) => i + 1).map(n => (
+                        <option key = {n} value = {n} > {n}</option>
+                    ))}
                 </select>
             </label>
 

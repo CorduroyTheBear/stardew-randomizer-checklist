@@ -9,7 +9,6 @@ export function filterGroupedTables(settings)
         "chefsanity",
         "eatsanity",
         "hatsanity",
-        "travelingMerchant",
         "secretsanity",
     )
 
@@ -39,6 +38,7 @@ export function filterGroupedTables(settings)
     if (settings.skillProgression !== "vanilla") visible.push("skillProgression");
     if (settings.specialOrders !== "vanilla") visible.push("specialOrders");
     if (settings.toolProgression !== "vanilla") visible.push("toolProgression");
+    if (settings.travelingMerchant !== "no") visible.push("travelingMerchant");
 
     return visible;
 }
