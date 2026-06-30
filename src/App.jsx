@@ -140,7 +140,16 @@ function InnerApp()
             key = {key}
             heading = {table.heading}
             className = {headingClass}
-            groups = {slicedGroups.map(group => ({ ...group, data: tableData[group.id]?.slice(0, settings.travelingMerchantCount) ?? [], className: groupClass }))}
+            
+            groups =
+            {slicedGroups.map(group => ({ 
+              ...group, 
+              data: key === "travelingMerchant" 
+              ? tableData[group.id]?.slice(0, settings.travelingMerchantCount) ?? []
+              : tableData[group.id] ?? [],
+              className: groupClass 
+            }))}
+
             onToggle = {(groupID, itemID, field) => handleToggle(groupID, itemID, field)}
             hideCompleted = {settings.hideCompleted}
             isItemVisible = {visible}
