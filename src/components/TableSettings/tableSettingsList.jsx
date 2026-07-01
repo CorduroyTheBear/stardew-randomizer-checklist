@@ -69,6 +69,10 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
         });
     };
 
+    // Debug feature to add all tables, or none
+    // <option value = "everythingSelected">Everything (DEBUGGING)</option>
+    // <option value = "nothingSelected">Nothing (DEBUGGING)</option>
+
     return(
         <>
 
@@ -76,6 +80,10 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                 Preset:
                 <select value={preset} onChange={(e) => handlePreset(e.target.value)}>
                     <option value = "default">Default</option>
+
+                    <option value = "selectEverything">Everything (DEBUGGING)</option>
+                    <option value = "selectNothing">Nothing (DEBUGGING)</option>
+
                     <option value = "vanillaPerfection">Vanilla Perfection</option>
                     <option value = "easy">Easy</option>
                     <option value = "medium">Medium</option>
@@ -88,7 +96,7 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                 </select>
             </label>
 
-            <label><strong>General</strong></label>
+        <label><strong>General</strong>
 
             <label>
                 Bundles:
@@ -96,7 +104,6 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value = "withJoja">Community Center and Joja</option>
                     <option value = "withoutJoja">Community Center Only</option>
                 </select>
-            </label>
 
             <label>
                 Exclude Ginger Island?:
@@ -104,7 +111,6 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value = "yes">Yes</option>
                     <option value = "no">No</option>
                 </select>
-            </label>
 
             <label>
                 Show Mines Chests?:
@@ -112,7 +118,6 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value = "yes">Yes</option>
                     <option value = "no">No</option>
                 </select>
-            </label>
 
             <label>
                 Show Other Checks?:
@@ -120,7 +125,6 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value = "yes">Yes</option>
                     <option value = "no">No</option>
                 </select>
-            </label>
 
             <label>
                 Show Raccoon Checks?:
@@ -128,7 +132,6 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value = "yes">Yes</option>
                     <option value = "no">No</option>
                 </select>
-            </label>
 
             <label>
                 Show Stardrops?:
@@ -136,7 +139,6 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value = "yes">Yes</option>
                     <option value = "no">No</option>
                 </select>
-            </label>
 
             <label>
                 Show Traveling Merchant?:
@@ -144,28 +146,26 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value = "yes">Yes</option>
                     <option value = "no">No</option>
                 </select>
-            </label>
             
-            
-            <label>
-                How many Checks?:
-                <select value = {settings.travelingMerchantCount} onChange = {(e) => update("travelingMerchantCount", Number(e.target.value))}>
-                    {Array.from({length: 12}, (_, i) => i + 1).map(n => (
-                        <option key = {n} value = {n} > {n}</option>
-                    ))}
+                <label>
+                    How many Checks?:
+                        <select value = {settings.travelingMerchantCount} onChange = {(e) => update("travelingMerchantCount", Number(e.target.value))}>
+                            {Array.from({length: 12}, (_, i) => i + 1).map(n => (
+                                <option key = {n} value = {n} > {n}</option>
+                            ))}
                 </select>
-            </label>
-
+                
             <label>
                 Show Wizard Buildings (Vanilla Perfection)?:
                 <select value = {settings.wizardBuildings} onChange = {(e) => update("wizardBuildings", e.target.value)}>
                     <option value = "yes">Yes</option>
                     <option value = "no">No</option>
                 </select>
-            </label>
-
             
-            <label><strong>Major Unlocks</strong></label>
+            </label></label></label></label></label></label></label></label></label>
+        </label>
+            
+        <label><strong>Major Unlocks</strong>
 
             <label>
                 Cropssanity:
@@ -173,12 +173,11 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value = "disabled">Disabled</option>
                     <option value = "enabled">Enabled</option>
                 </select>
-            </label>
-
+            
             <label>
                 Backpack Progression / Size:
                 <select value = {settings.backpack} onChange = {(e) => update("backpack", e.target.value)}>
-                    <option value="vanilla">Vanilla</option>
+                    <option value="vanilla">None</option>
                     <option value="12">Progression / 12</option>
                     <option value="6">Progression / 6</option>
                     <option value="4">Progression / 4</option>
@@ -186,45 +185,42 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value="2">Progression / 2</option>
                     <option value="1">Progression / 1</option>
                 </select>
-            </label>
-
-            <label>Start Without Backpack? <input type="checkbox" checked={excludeBackpack.true} onChange={() => toggleBackpack("true")} /></label>
-
+                
+                <label>Start Without Backpack? <input type="checkbox" checked={excludeBackpack} onChange={() => updateFilter("excludeBackpack", prev => !prev)} />
+            
             <label>
                 Building Progression:
                 <select value = {settings.buildingProgression} onChange = {(e) => update("buildingProgression", e.target.value)}>
-                    <option value = "vanilla">Vanilla</option>
+                    <option value = "vanilla">None</option>
                     <option value = "progressive">Progressive</option>
                 </select>
-            </label>
 
             <label>
                 Elevator Progression:
                 <select value = {settings.elevatorProgression} onChange = {(e) => update("elevatorProgression", e.target.value)}>
-                    <option value = "vanilla">Vanilla</option>
+                    <option value = "vanilla">None</option>
                     <option value = "progressive">Progressive</option>
                 </select>
-            </label>
 
             <label>
                 Skill Progression:
                 <select value = {settings.skillProgression} onChange = {(e) => update("skillProgression", e.target.value)}>
-                    <option value="vanilla">Vanilla</option>
+                    <option value="vanilla">None</option>
                     <option value="progressive">Progressive</option>
                     <option value="progressiveMaster">Progressive With Masteries</option>
                 </select>
-            </label>
 
             <label>
                 Tool Progression:
                 <select value = {settings.toolProgression} onChange = {(e) => update("toolProgression", e.target.value)}>
-                    <option value = "vanilla">Vanilla</option>
+                    <option value = "vanilla">None</option>
                     <option value = "progressive">Progressive</option>
                 </select>
-            </label>
 
+            </label></label></label></label></label></label></label>
+        </label>
 
-            <label><strong>Extra Shuffling</strong></label>
+        <label><strong>Extra Shuffling</strong>
 
             <label>
                 Arcade:
@@ -233,7 +229,6 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value="arcadeVictories">Arcade Victories</option>
                     <option value="fullShuffling">Full Shuffling</option>
                 </select>
-            </label>
 
             <label>
                 Booksanity:
@@ -243,15 +238,13 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value="powerSkill">Power Skill</option>
                     <option value="all">All</option>
                 </select>
-            </label>
 
             <label>
                 Chefsanity:
-                <label><input type="checkbox" checked={chefCategory.friendship} onChange={() => toggleChefCategory("friendship")} /> Friendship</label>
-                <label><input type="checkbox" checked={chefCategory.purchase} onChange={() => toggleChefCategory("purchase")} /> Purchase</label>
-                <label><input type="checkbox" checked={chefCategory.queenOfSauce} onChange={() => toggleChefCategory("queenOfSauce")} /> Queen of Sauce</label>
-                <label><input type="checkbox" checked={chefCategory.skills} onChange={() => toggleChefCategory("skills")} /> Skills</label>
-            </label>
+                <label><input type="checkbox" checked={chefCategory.friendship} onChange={() => toggleChefCategory("friendship")} /> Friendship
+                <label><input type="checkbox" checked={chefCategory.purchase} onChange={() => toggleChefCategory("purchase")} /> Purchase
+                <label><input type="checkbox" checked={chefCategory.queenOfSauce} onChange={() => toggleChefCategory("queenOfSauce")} /> Queen of Sauce
+                <label><input type="checkbox" checked={chefCategory.skills} onChange={() => toggleChefCategory("skills")} /> Skills
 
             <label>
                 Festival Locations:
@@ -260,7 +253,6 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value="easy">Easy</option>
                     <option value = "hard">Hard</option>
                 </select>
-            </label>
 
             <label>
                 Fishsanity:
@@ -273,7 +265,6 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value = "excludeHardFish">Exclude Hard Fish</option>
                     <option value = "onlyEasyFish">Only Easy Fish</option>
                 </select>
-            </label>
 
             <label>
                 Friendsanity:
@@ -285,7 +276,6 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value = "all">All</option>
                     <option value = "allWithMarriage">All With Marriage</option>
                 </select>
-            </label>
 
             <label>
                 Monstersanity:
@@ -297,7 +287,6 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value = "progressiveGoals">Progressive Goals</option>
                     <option value = "splitGoals">Split Goals</option>
                 </select>
-            </label>
 
             <label>
                 Moviesanity:
@@ -307,7 +296,6 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value = "allMovies">All Movies</option>
                     <option value = "allMoviesAndAllSnacks">All Movies And All Snacks</option>
                 </select>
-            </label>
 
             <label>
                 Museamsity:
@@ -316,7 +304,6 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value="milestones">Milestones</option>
                     <option value="all">All</option>
                 </select>
-            </label>
 
             <label>
                 Quest Locations:
@@ -328,7 +315,6 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value="lots">Lots (28)</option>
                     <option value="maximum">Maximum (56)</option>
                 </select>
-            </label>
 
             <label>
                 Special Order Locations:
@@ -338,16 +324,18 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value = "board">Board</option>
                     <option value = "boardQi">Board Qi</option>
                 </select>
-            </label>
 
-            <label>Walnutsanity:</label>
-                <label>Bushes <input type="checkbox" checked={walnutType.bush} onChange={() => toggleWalnut("bush")} /></label>
-                <label>Dig Spots <input type="checkbox" checked={walnutType.digSpot} onChange={() => toggleWalnut("digSpot")} /></label>
-                <label>Puzzles <input type="checkbox" checked={walnutType.puzzle} onChange={() => toggleWalnut("puzzle")} /></label>
-                <label>Repeatables <input type="checkbox" checked={walnutType.repeatable} onChange={() => toggleWalnut("repeatable")} /></label>
+            <label>Walnutsanity:
+                <label>Bushes <input type="checkbox" checked={walnutType.bush} onChange={() => toggleWalnut("bush")} />
+                <label>Dig Spots <input type="checkbox" checked={walnutType.digSpot} onChange={() => toggleWalnut("digSpot")} />
+                <label>Puzzles <input type="checkbox" checked={walnutType.puzzle} onChange={() => toggleWalnut("puzzle")} />
+                <label>Repeatables <input type="checkbox" checked={walnutType.repeatable} onChange={() => toggleWalnut("repeatable")} />
+                
+            </label></label></label></label></label></label></label></label></label></label></label>
+            </label></label></label></label></label></label></label></label></label>
+        </label>
 
-
-            <label><strong>Extreme Options</strong></label>
+        <label><strong>Extreme Options</strong>
 
             <label>
                 Cooksanity:
@@ -356,34 +344,31 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value = "queenOfSauce">Queen of Sauce</option>
                     <option value = "all">All</option>
                 </select>
-            </label>
-
+            
             <label>
                 Craftsanity:
                 <select value = {settings.craftsanity} onChange = {(e) => update("craftsanity", e.target.value)}>
                     <option value = "none">None</option>
                     <option value = "all">All</option>
                 </select>
-            </label>
-
+            
             <label>
                 Eatsanity:
-                <label>Artisan <input type="checkbox" checked={eatType.artisan} onChange={() => toggleEatType("artisan")} /></label>
-                <label>Cooking <input type="checkbox" checked={eatType.cooking} onChange={() => toggleEatType("cooking")} /></label>
-                <label>Crops <input type="checkbox" checked={eatType.crop} onChange={() => toggleEatType("crop")} /></label>
-                <label>Fish <input type="checkbox" checked={eatType.fish} onChange={() => toggleEatType("fish")} /></label>
-                <label>Poisonous <input type="checkbox" checked={isPoison.true} onChange={() => toggleIsPoison("true")} /></label>
-                <label>Shop <input type="checkbox" checked={eatType.shop} onChange={() => toggleEatType("shop")} /></label>
-            </label>
-
-            <label>Hatsanity:</label>
-                <label>Difficult <input type="checkbox" checked={hatType.difficult} onChange={() => toggleHattype("difficult")} /></label>
-                <label>Easy <input type="checkbox" checked={hatType.easy} onChange={() => toggleHattype("easy")} /></label>
-                <label>Medium <input type="checkbox" checked={hatType.medium} onChange={() => toggleHattype("medium")} /></label>
-                <label>Near Perfection <input type="checkbox" checked={hatType.nearPerfection} onChange={() => toggleHattype("nearPerfection")} /></label>
-                <label>Post Perfection <input type="checkbox" checked={hatType.postPerfection} onChange={() => toggleHattype("postPerfection")} /></label>
-                <label>RNG <input type="checkbox" checked={hatType.rng} onChange={() => toggleHattype("rng")} /> </label>
-                <label>Tailoring <input type="checkbox" checked={hatType.tailoring} onChange={() => toggleHattype("tailoring")} /></label>
+                <label>Artisan <input type="checkbox" checked={eatType.artisan} onChange={() => toggleEatType("artisan")} />
+                <label>Cooking <input type="checkbox" checked={eatType.cooking} onChange={() => toggleEatType("cooking")} />
+                <label>Crops <input type="checkbox" checked={eatType.crop} onChange={() => toggleEatType("crop")} />
+                <label>Fish <input type="checkbox" checked={eatType.fish} onChange={() => toggleEatType("fish")} />
+                <label>Poisonous <input type="checkbox" checked={isPoison.true} onChange={() => toggleIsPoison("true")} />
+                <label>Shop <input type="checkbox" checked={eatType.shop} onChange={() => toggleEatType("shop")} />
+            
+            <label>Hatsanity:
+                <label>Difficult <input type="checkbox" checked={hatType.difficult} onChange={() => toggleHattype("difficult")} />
+                <label>Easy <input type="checkbox" checked={hatType.easy} onChange={() => toggleHattype("easy")} />
+                <label>Medium <input type="checkbox" checked={hatType.medium} onChange={() => toggleHattype("medium")} />
+                <label>Near Perfection <input type="checkbox" checked={hatType.nearPerfection} onChange={() => toggleHattype("nearPerfection")} />
+                <label>Post Perfection <input type="checkbox" checked={hatType.postPerfection} onChange={() => toggleHattype("postPerfection")} />
+                <label>RNG <input type="checkbox" checked={hatType.rng} onChange={() => toggleHattype("rng")} />
+                <label>Tailoring <input type="checkbox" checked={hatType.tailoring} onChange={() => toggleHattype("tailoring")} />
 
             <label>
                 Include Endgame Locations:
@@ -391,13 +376,12 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value="no">No</option>
                     <option value="yes">Yes</option>
                 </select>
-            </label>
-
-            <label><strong>Secretsanity:</strong></label>
-                <label>Difficult <input type="checkbox" checked={secretType.difficult} onChange={() => toggleSecretType("difficult")} /></label>
-                <label>Easy <input type="checkbox" checked={secretType.easy} onChange={() => toggleSecretType("easy")} /></label>
-                <label>Fishing <input type="checkbox" checked={secretType.fishing} onChange={() => toggleSecretType("fishing")} /></label>
-                <label>Note <input type="checkbox" checked={secretType.note} onChange={() => toggleSecretType("note")} /></label>
+            
+            <label>Secretsanity:
+                <label>Difficult <input type="checkbox" checked={secretType.difficult} onChange={() => toggleSecretType("difficult")} />
+                <label>Easy <input type="checkbox" checked={secretType.easy} onChange={() => toggleSecretType("easy")} />
+                <label>Fishing <input type="checkbox" checked={secretType.fishing} onChange={() => toggleSecretType("fishing")} />
+                <label>Note <input type="checkbox" checked={secretType.note} onChange={() => toggleSecretType("note")} />
 
             <label>
                 Shipsanity:
@@ -409,8 +393,11 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                     <option value="fullShipment">Full Shipment</option>
                     <option value="fullShipmentWithFish">Full Shipment With Fish</option>
                     <option value="everything">Everything</option>
-                </select>
-            </label> 
+                </select></label></label></label></label></label></label></label></label></label>
+                </label></label></label></label></label></label></label></label></label></label>
+                </label></label></label></label>
+            </label>
+        </label>
         </>
     );
 }
