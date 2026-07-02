@@ -378,17 +378,6 @@
       "found": false
     },
     {
-      "id": "(O)901",
-      "name": "Radioactive Carp [NL]",
-      "season": ["summer"],
-      "fishingLocation": ["legend", "sewers"],
-      "isGI": true,
-      "weather": "sunny",
-      "eatType": "fish",
-      "done": false,
-      "found": false
-    },
-    {
       "id": "(O)138",
       "name": "Rainbow Trout",
       "fishingLocation": ["townRiver", "forestRiver", "lake"],

@@ -22,7 +22,9 @@ const defaultFilterState =
         cooking: false,
         crop: false,
         fish: false,
-        shop: false
+        shop: false,
+
+        search: ""
     },
 
     hatType:

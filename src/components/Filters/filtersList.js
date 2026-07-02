@@ -55,6 +55,11 @@ export const filterList =
     {
         key: "walnutType",
         fn: (item, state) => filterWalnutType(item, state)
+    },
+
+    {
+        key: "search",
+        fn: (item, state) => !state || (item.name?.toLowerCase().includes(state.toLowerCase()) ?? false)
     }
 ];
 

@@ -4,17 +4,18 @@ import { filterGroups, filterGroupedTables } from './components/Filters/filterTa
 import { passItemFilters } from './components/Filters/filtersList';
 import { FilterProvider, useFilters} from './components/Filters/filterContext';
 import {GROUPED_TABLES} from './data/groupedTables';
-//import { Presets } from './components/TableSettings/presets';
 
 import GroupedChecklist from './components/groupedChecklist';
 import image from './components/images';
 import RenderChecklist from './components/renderChecklist';
 import RandomizerSettings from './components/TableSettings/randomizerSettings';
+import SearchBar from './components/searchBar';
 import TopBar from './components/topBar';
 
 import './App.css';
 import './components/renderChecklist.css';
 import './data/tables.css';
+
 
 
 function InnerApp()
@@ -95,6 +96,8 @@ function InnerApp()
           setSettings = {setSettings}
           onOpenSettings = {() => setSettingsOpen(true)}
         />
+
+        <SearchBar></SearchBar>
 
         {settingsOpen && (
           <RandomizerSettings
