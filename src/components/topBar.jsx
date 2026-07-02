@@ -1,6 +1,6 @@
 import { useFilters } from "./Filters/filterContext";
 
-export default function TopBar({settings, setSettings, onOpenSettings})
+export default function TopBar({doneCount, onOpenSettings, settings, setSettings, totalCount})
 {
     const { filterState, updateFilter } = useFilters();
     const { season, fishingLocation, isGI } = filterState;
@@ -8,6 +8,8 @@ export default function TopBar({settings, setSettings, onOpenSettings})
     return(
         <div className = "top-bar">
             <div className = "top-bar-buttons">
+
+              <span className = "progress">{doneCount} / {totalCount}</span>
               
               <button className = "settings-button" onClick = {onOpenSettings}>
                 ⚙ Settings

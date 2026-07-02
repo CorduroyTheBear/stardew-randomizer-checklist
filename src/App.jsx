@@ -77,6 +77,19 @@ function InnerApp()
     const visible = (item) => passItemFilters(item, filterState, settings)
     && (!settings.hideCompleted || !item.done)
 
+    const settingsItems = Object.entries(GROUPED_TABLES)
+      .filter(([key]) => visibleGroupedKeys.includes(key))
+      .flatMap(([key, table]) => {
+        const allowedGroups = filterGroups(key, settings);
+        const filteredGroups = allowedGroups
+            ? table.groups.filter(group => allowedGroups.includes(group.id))
+            : table.groups;
+        return filteredGroups.flatMap(group => tableData[group.id] ?? []);
+    });
+
+  const doneCount = settingsItems.filter(i => i.done).length;
+  const totalCount = settingsItems.length;
+
   return(
 
     <div style =
@@ -95,6 +108,9 @@ function InnerApp()
           settings = {settings}
           setSettings = {setSettings}
           onOpenSettings = {() => setSettingsOpen(true)}
+
+          doneCount = {doneCount}
+          totalCount = {totalCount}
         />
 
         <SearchBar></SearchBar>
@@ -163,9 +179,6 @@ function InnerApp()
           />
           );
         })
-
-
-
       }
     </div>
   );
