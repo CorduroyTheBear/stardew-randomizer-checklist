@@ -27,6 +27,7 @@ function InnerApp()
   const [settingsOpen, setSettingsOpen] = useState(false);
 
   // Default Settings
+  const [preset, setPreset] = useState("selectNothing");
   const [settings, setSettings] = useState(Presets.selectNothing.settings)
 
   const [tableData, setTableData] = useState( () =>
@@ -35,22 +36,41 @@ function InnerApp()
       return {...fromGroupedTables};
     });
   
-    const handleToggle = (tableKey, itemID, field) => {setTableData(prev => ({...prev, [tableKey]: prev[tableKey].map(item => item.id === itemID ? {...item, [field]: !item[field]} : item)}));};
+  const handleToggle = (tableKey, itemID, field) => {setTableData(prev => ({...prev, [tableKey]: prev[tableKey].map(item => item.id === itemID ? {...item, [field]: !item[field]} : item)}));};
     
-    const visibleGroupedKeys = filterGroupedTables(settings);
+  const visibleGroupedKeys = filterGroupedTables(settings);
 
-    // Handles all filters
-    const visible = (item) => passItemFilters(item, filterState, settings)
+  // Handles all filters
+  const visible = (item) => passItemFilters(item, filterState, settings)
     && (!settings.hideCompleted || !item.done)
 
-    const settingsItems = Object.entries(GROUPED_TABLES)
-      .filter(([key]) => visibleGroupedKeys.includes(key))
-      .flatMap(([key, table]) => {
-        const allowedGroups = filterGroups(key, settings);
-        const filteredGroups = allowedGroups
-            ? table.groups.filter(group => allowedGroups.includes(group.id))
-            : table.groups;
-        return filteredGroups.flatMap(group => tableData[group.id] ?? []);
+  const settingsItems = Object.entries(GROUPED_TABLES)
+    .filter(([key]) => visibleGroupedKeys.includes(key))
+      
+    .flatMap(([key, table]) =>
+    {
+      const allowedGroups = filterGroups(key, settings);
+      const filteredGroups = allowedGroups
+        ? table.groups.filter(group => allowedGroups.includes(group.id))
+        : table.groups;
+        
+        return filteredGroups.flatMap
+        (
+          group =>
+          (
+            tableData[group.id] ?? []).filter(item =>
+            passItemFilters(item,
+            {
+              ...filterState,
+              season: {season: "all", seasonExclusive: false},
+              fishingLocation: "any",
+              isGI: "No",
+              search: "",
+            },
+            settings
+          )
+        )
+      )
     });
 
   const doneCount = settingsItems.filter(i => i.done).length;
