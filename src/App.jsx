@@ -1,9 +1,9 @@
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 
 import { filterGroups, filterGroupedTables } from './components/Filters/filterTables';
 import { passItemFilters } from './components/Filters/filtersList';
 import { FilterProvider, useFilters} from './components/Filters/filterContext';
-import {GROUPED_TABLES} from './data/groupedTables';
+import { GROUPED_TABLES } from './data/groupedTables';
 
 import GroupedChecklist from './components/groupedChecklist';
 import image from './components/images';
@@ -27,18 +27,105 @@ function InnerApp()
   const [settingsOpen, setSettingsOpen] = useState(false);
 
   // Default Settings
-  const [preset, setPreset] = useState("selectNothing");
-  const [settings, setSettings] = useState(Presets.selectNothing.settings)
+  const [preset, setPreset] = useState
+  (
+    () =>
+    {
+      try{return localStorage.getItem("preset") ?? "selectNothing"}
+      catch{return "selectNothing";}
+    }
+  );
 
-  const [tableData, setTableData] = useState( () =>
+  const [settings, setSettings] = useState
+  (
+    () =>
+    {
+      try
+      {
+        const saved = localStorage.getItem("settings");
+        return saved ? { ...Presets.selectNothing.settings, ...JSON.parse(saved)} : Presets.selectNothing.settings;
+      }
+
+      catch {return Presets.selectNothing.settings;}
+    }
+  );
+
+  const [tableData, setTableData] = useState
+  (
+    () =>
     {  
-      const fromGroupedTables = Object.fromEntries(Object.values(GROUPED_TABLES).flatMap(table => table.groups.map(group => [group.id, group.data])));
-      return {...fromGroupedTables};
-    });
+      const fresh = Object.fromEntries
+      (
+        Object.values(GROUPED_TABLES).flatMap
+        (
+          table => table.groups.map(group => [group.id, group.data])
+        )
+      );
+
+      try
+      {
+        const saved = localStorage.getItem("tableData");
+        if (saved)
+        {
+          const parsed = JSON.parse(saved);
+          return Object.fromEntries
+          (
+            Object.entries(fresh).map(([groupID, freshItems]) =>
+            {
+              const savedGroup = parsed[groupID] ?? [];
+              return [groupID, freshItems.map
+              (
+                freshItem =>
+                {
+                  const savedItem = savedGroup.find(s => s.id === freshItem.id);
+                  return savedItem
+                  ? {...freshItem, done: savedItem.done, found: savedItem.found}
+                  : freshItem;
+                }
+              )];
+            })
+          );
+        }
+      }
+
+      catch{}
+      return fresh;
+    }
+  );
+
+  useEffect(
+    () =>
+    {
+      try {localStorage.setItem("settings", JSON.stringify(settings));}
+      catch (e) {console.warn("Failed to save settings", e)}
+    },
+
+    [settings]
+  );
+
+  useEffect
+  (
+    () =>
+    {
+      try {localStorage.setItem("preset", preset);}
+      catch (e) {console.warn("Failed to save preset", e);}
+    },
+    [preset]
+  );
+
+  useEffect
+  (
+    () =>
+    {
+      try {localStorage.setItem("tableData", JSON.stringify(tableData));}
+      catch (e) {console.warn("Failed to save tableData", e);}
+    },
+    [tableData]
+  );
   
   const handleToggle = (tableKey, itemID, field) => {setTableData(prev => ({...prev, [tableKey]: prev[tableKey].map(item => item.id === itemID ? {...item, [field]: !item[field]} : item)}));};
     
-  const visibleGroupedKeys = filterGroupedTables(settings);
+  const visibleGroupedKeys = filterGroupedTables(filterState, settings);
 
   // Handles all filters
   const visible = (item) => passItemFilters(item, filterState, settings)

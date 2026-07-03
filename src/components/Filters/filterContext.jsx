@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 
 const defaultFilterState = 
 {
@@ -7,6 +7,7 @@ const defaultFilterState =
     isGI: "No",
     isPoison: false,
     excludeBackpack: false,
+    search: "",
 
     chefCategory:
     {
@@ -23,8 +24,6 @@ const defaultFilterState =
         crop: false,
         fish: false,
         shop: false,
-
-        search: ""
     },
 
     hatType:
@@ -67,14 +66,52 @@ const filterContext = createContext(null);
 
 export function FilterProvider({children})
 {
-    const [filterState, setFilterState] = useState(defaultFilterState);
+    const [filterState, setFilterState] = useState( () =>
+    {
+        try
+        {
+            const saved = localStorage.getItem("filterState");
+            return saved ? { ...defaultFilterState, ...JSON.parse(saved)} : defaultFilterState;
+        }
 
-    const updateFilter = (key, valueUpdater) => {setFilterState(prev => ({
-        ...prev,
-        [key]: typeof valueUpdater === "function"
-        ? valueUpdater(prev[key])
-        : valueUpdater
-    }))};
+        catch
+        {
+            return defaultFilterState;
+        }
+    });
+
+    useEffect
+    ( 
+        () =>
+        {
+            try
+            {
+                const {search, ...rest} = filterState;
+                localStorage.setItem("filterState", JSON.stringify(rest));
+            }
+
+            catch (e)
+            {
+                console.warn("Failed to save filterState", e);
+            }
+        },
+        
+        [filterState]
+    );
+
+    const updateFilter = (key, valueUpdater) =>
+    {
+        setFilterState
+        (
+            prev =>
+            ({
+                ...prev,
+                [key]: typeof valueUpdater === "function"
+                ? valueUpdater (prev[key])
+                : valueUpdater               
+            })
+        )
+    };
 
     return(
         <filterContext.Provider value = {{ filterState, updateFilter}}>

@@ -1,16 +1,13 @@
-export function filterGroupedTables(settings)
+export function filterGroupedTables(filterState, settings)
 {
     const visible = [];
 
-    // Always visible
-    visible.push
-    (
-        // Always push
-        "chefsanity",
-        "eatsanity",
-        "hatsanity",
-        "secretsanity",
-    )
+    const { chefCategory, eatType, isPoison, hatType, secretType } = filterState;
+
+    if (Object.values(chefCategory).some(Boolean)) visible.push("chefsanity");
+    if (Object.values(eatType).some(Boolean) || isPoison) visible.push("eatsanity");
+    if (Object.values(hatType).some(Boolean)) visible.push("hatsanity");
+    if (Object.values(secretType).some(Boolean)) visible.push("secretsanity");
 
     // Every other table
     if (settings.arcade !== "disabled") visible.push("arcade");
