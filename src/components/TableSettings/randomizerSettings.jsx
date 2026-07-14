@@ -1,8 +1,8 @@
+import ResetProgress from "./resetProgress";
 import SettingsList from "./tableSettingsList";
-//import { Presets } from "./presets";
 import "./settings.css";
 
-export default function RandomizerSettings({settings, setSettings, onClose, preset, setPreset})
+export default function RandomizerSettings({settings, setSettings, onClose, onResetProgress, preset, setPreset})
 {
     return(
         <div className = "settings-overlay" onClick = {onClose}>
@@ -14,6 +14,7 @@ export default function RandomizerSettings({settings, setSettings, onClose, pres
                     setSettings = {setSettings}
                     preset = {preset}
                     setPreset = {setPreset}
+                    onResetProgress = {onResetProgress}
                 />
 
                 <button className = "close-button" onClick = {onClose}>Close</button>

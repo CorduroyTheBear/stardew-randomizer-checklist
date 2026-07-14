@@ -1,8 +1,9 @@
 // Lists all the settings
 import { useFilters } from "../Filters/filterContext";
 import { Presets } from "./presets";
+import ResetProgress from "./resetProgress";
 
-export default function SettingsList({settings, setSettings, preset, setPreset})
+export default function SettingsList({settings, setSettings, onResetProgress, preset, setPreset})
 {
     const { filterState, updateFilter } = useFilters();
     
@@ -398,6 +399,8 @@ export default function SettingsList({settings, setSettings, preset, setPreset})
                 </label></label></label></label>
             </label>
         </label>
+
+        <ResetProgress onResetProgress = {onResetProgress}/>
         </>
     );
 }

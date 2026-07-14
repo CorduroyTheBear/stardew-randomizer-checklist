@@ -14,18 +14,18 @@
 - Vite
 
 # Current Features
-- A Vanilla Perfection preset for players pursuing Stardew Valley perfection.
 - Dynamic checklist generation based on selected randomizer settings.
+- Local storage so users can save their progress in between sessions.
 - Filters for seasons, Ginger Island, fishing locations, and completed checks.
 - Preset configurations matching official Archipelago presets.
+- A Vanilla Perfection preset for players pursuing Stardew Valley perfection.
 - Search bar to help users find checks faster.
 
 # Planned Before Initial Release
-- Local storage so users can save their progress in between sessions.
 - Update UI.
 
 # Features I want to add in future updates
-  # Gameplay
+  # Checklist Aditions
   - Edit bundle items to incorporate the random bundles option.
   - Hints for difficult checks (such as Secretsanity)
   - Item tracker for for cooking and crafting.

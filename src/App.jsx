@@ -1,5 +1,5 @@
+import { resetHandler } from './components/TableSettings/resetProgressHandler';
 import {useEffect, useState} from 'react';
-
 import { filterGroups, filterGroupedTables } from './components/Filters/filterTables';
 import { passItemFilters } from './components/Filters/filtersList';
 import { FilterProvider, useFilters} from './components/Filters/filterContext';
@@ -7,8 +7,8 @@ import { GROUPED_TABLES } from './data/groupedTables';
 
 import GroupedChecklist from './components/groupedChecklist';
 import image from './components/images';
-import RenderChecklist from './components/renderChecklist';
 import RandomizerSettings from './components/TableSettings/randomizerSettings';
+import RenderChecklist from './components/renderChecklist';
 import SearchBar from './components/searchBar';
 import TopBar from './components/topBar';
 
@@ -163,6 +163,8 @@ function InnerApp()
   const doneCount = settingsItems.filter(i => i.done).length;
   const totalCount = settingsItems.length;
 
+  const handleResetProgress = resetHandler(setTableData);
+
   return(
 
     <div style =
@@ -194,6 +196,7 @@ function InnerApp()
             setSettings = {setSettings}
             preset = {preset}
             setPreset = {setPreset}
+            onResetProgress = {handleResetProgress}
             onClose = {() => setSettingsOpen(false)}
           />
         )}
