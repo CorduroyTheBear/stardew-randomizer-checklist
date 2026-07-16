@@ -5,28 +5,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 500;
 }
 
 .settings-box {
-    background: #f5deb3;
+    background: #c0e2e2;
     border: 2px solid black;
-    border-radius: 0px;
     padding: 30px;
-    max-width: 500px;
-    max-height: 500px;
+    max-height: 90vh;
+    width: 600px;
     overflow-y: auto;
 }
 
 .settings-box h2 {
-    margin-top: 0;
-}
-
-.settings-box label {
-    display: block;
-    margin-bottom: 20px;
-    font-size: 18px;
-    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 45px;
+    color: rgb(90, 48, 9);
+    text-align: center;
 }
 
 .close-button {
@@ -35,4 +30,73 @@
     background: white;
     cursor: pointer;
     border-radius: 5px;
+}
+
+/* Presets */
+.presetSettings
+{
+    margin-bottom: 30px;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.presetSettings label
+{
+    margin-left: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.presetSettings select
+{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* Other Settings */
+
+.generalWarning
+{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #d4fffb;
+}
+
+.settings
+{
+    background-color: #ffd88e;
+    justify-content: center;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns:none;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding-bottom: 15px;
+}
+
+.settingsTitle
+{
+    color: rgb(63, 31, 1);
+    font-size: 30px;
+    text-align: center;
+    background-color: #ffd88e;
+    padding-top: 15px;
+}
+
+.settings label
+{
+    margin-left: 15px;
+    font-size: 30px;
+    font-size: 25px;
+}
+
+.settings select
+{
+    margin-left: 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
 }
