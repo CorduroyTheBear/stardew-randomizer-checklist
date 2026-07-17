@@ -66,32 +66,46 @@
     background-color: #d4fffb;
 }
 
-.settings
+.settingBlock
 {
-    background-color: #ffd88e;
+    justify-self: center;
     justify-content: center;
     margin-bottom: 30px;
     display: grid;
-    grid-template-columns:none;
-    column-gap: 10px;
     row-gap: 10px;
-    padding-bottom: 15px;
-}
-
-.settingsTitle
-{
-    color: rgb(63, 31, 1);
-    font-size: 30px;
-    text-align: center;
+    grid-template-columns:none;
     background-color: #ffd88e;
     padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    width: 475px;
+}
+
+.settingTitle
+{
+    color: rgb(63, 31, 1);
+    font-size: 25px;
+    text-align: center;
+}
+
+.settings
+{
+    justify-content: center;
+    margin-bottom: 10px;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 20px;
+    background-color: #ffe4b3;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 450px;
+    border-radius: 25px;
 }
 
 .settings label
 {
     margin-left: 15px;
-    font-size: 30px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .settings select

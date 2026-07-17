@@ -167,7 +167,9 @@ function InnerApp()
 
   return(
 
-    <div style =
+    <div className ='main'>
+      <div className = 'background'
+        style =
         {{
           backgroundImage: `url(${image.background})`,
           backgroundRepeat: "no-repeat",
@@ -175,8 +177,9 @@ function InnerApp()
           minHeight: "100vh",
           opacity: "80%"
         }}
-       >
-        
+      />
+      
+      <div className = 'content'>
         <h1>Stardew Valley Checklist</h1>
 
         <TopBar
@@ -189,17 +192,20 @@ function InnerApp()
         />
 
         <SearchBar></SearchBar>
-
-        {settingsOpen && (
-          <RandomizerSettings
-            settings = {settings}
-            setSettings = {setSettings}
-            preset = {preset}
-            setPreset = {setPreset}
-            onResetProgress = {handleResetProgress}
-            onClose = {() => setSettingsOpen(false)}
-          />
-        )}
+      
+        {
+          settingsOpen &&
+          (
+            <RandomizerSettings
+              settings = {settings}
+              setSettings = {setSettings}
+              preset = {preset}
+              setPreset = {setPreset}
+              onResetProgress = {handleResetProgress}
+              onClose = {() => setSettingsOpen(false)}
+            />
+          )
+        }
 
       {Object.entries(GROUPED_TABLES)
         .filter(([key]) => visibleGroupedKeys.includes(key))
@@ -256,6 +262,7 @@ function InnerApp()
           );
         })
       }
+    </div>
     </div>
   );
 }

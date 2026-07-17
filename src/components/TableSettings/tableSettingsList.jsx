@@ -101,9 +101,10 @@ export default function SettingsList({settings, setSettings, onResetProgress, pr
 
         <div className = "generalWarning"><label>* - These settings are not available on Archipelago, but are included to cater to vanilla gameplay. Refer to the non vanilla presets for the correct randomizer settings. I'm sorry if this is confusing, this will be fixed in the next update!</label></div>
         
-        <div className = "settingsTitle"><label><strong>General</strong></label></div>
-
-        <div className = "settings">
+        <div className = "settingBlock">
+            <div className = "settingTitle"><label><strong>General</strong></label></div>
+            
+            <div className = "settings">
             <label>
                 Bundles:
                 <select value = {settings.bundles} onChange = {(e) => update("bundles", e.target.value)}>
@@ -177,6 +178,8 @@ export default function SettingsList({settings, setSettings, onResetProgress, pr
                 </select>
             </label>
         </div>
+        </div>
+
 
         <div className = "settingsTitle"><label><strong>Major Unlocks</strong></label></div>
         <div className = "settings">
