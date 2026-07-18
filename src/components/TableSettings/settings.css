@@ -1,4 +1,5 @@
-.settings-overlay {
+.settings-overlay
+{
     position: fixed;
     inset: 0;
     background: rgba(0,0,0,0.4);
@@ -7,16 +8,18 @@
     align-items: center;
 }
 
-.settings-box {
+.settings-box
+{
     background: rgb(248, 213, 149);
     border: 2px solid black;
     padding: 30px;
     max-height: 90vh;
-    width: 85%;
+    max-width: 1000px;
     overflow-y: auto;
 }
 
-.settings-box h2 {
+.settings-box h2
+{
     margin-top: 0px;
     margin-bottom: 5px;
     font-size: 45px;
@@ -24,7 +27,8 @@
     text-align: center;
 }
 
-.close-button {
+.close-button
+{
     padding: 8px 16px;
     border: 2px solid black;
     background: white;
@@ -56,14 +60,11 @@
 }
 
 /* Settings */
-
-.allSettingBlocks
+.settingTitle
 {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(425px, 1px));
-    column-gap: 10px;
-    row-gap: 10px;
+    color: rgb(63, 31, 1);
+    font-size: 25px;
+    text-align: center;
 }
 
 .generalWarning
@@ -83,7 +84,31 @@
     background-color: rgba(250, 242, 174, 0.562);
 }
 
-.settingBlock
+.checkboxes
+{
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    row-gap: 10px;
+    column-gap: 15px;
+    margin-top: 6px;
+    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: 5px;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.allSmallSettingBlocks
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(425px, 1fr));
+    column-gap: 10px;
+    row-gap: 15px;
+    margin-bottom: 15px;
+}
+
+.smallSettingBlock
 {
     justify-self: center;
     justify-content: center;
@@ -97,53 +122,68 @@
     border-width: 5px;
     border-radius: 10px;
     width: 400px;
+    height: 475px;
 }
 
-.settingTitle
-{
-    color: rgb(63, 31, 1);
-    font-size: 25px;
-    text-align: center;
-}
-
-.settings
+.smallSettings
 {
     justify-content: center;
-    margin-bottom: 10px;
-    display: grid;
-    column-gap: 10px;
-    row-gap: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 450px;
-    border-radius: 25px;
-}
-
-.settings label
-{
+    align-content: center;
+    display: contents;
     margin-left: 15px;
     font-size: 18px;
 }
 
-.settings select
+.smallSettings select
 {
     margin-left: 5px;
     background-color: rgb(255, 255, 255);
     font-size: 15px;
 }
 
-.checkboxes
+.allBigSettingBlocks
 {
     display: grid;
-    justify-self: center;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: 1fr;
+    justify-content: stretch;
+    row-gap: 15px;
+}
+
+.bigSettingBlock
+{
+    justify-content: center;
     row-gap: 10px;
-    column-gap: 10px;
-    margin-bottom: 8px;
-    margin-top: 6px;
-    background-color: rgba(255, 255, 255, 0.397);
-    border-radius: 5px;
-    padding: 10px;
-    width: 325px;
-    height: fit-content;
+    background-color: rgba(250, 242, 174, 0.562);
+    padding: 15px;
+    border-color: rgba(173, 100, 60, 0.925);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+.bigSettings
+{
+    justify-content: stretch;
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    padding-top: 15px;
+    column-gap: 25px;
+    row-gap: 15px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.bigSettings > label
+{
+    min-width: 0;
+}
+
+.bigSettings select
+{
+    margin-left: 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    min-width: 0;
+    max-width: 100%;
 }
