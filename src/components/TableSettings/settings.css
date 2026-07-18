@@ -55,7 +55,16 @@
     font-size: 20px;
 }
 
-/* Other Settings */
+/* Settings */
+
+.allSettingBlocks
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(425px, 1px));
+    column-gap: 10px;
+    row-gap: 10px;
+}
 
 .generalWarning
 {
@@ -78,10 +87,8 @@
 {
     justify-self: center;
     justify-content: center;
-    margin-bottom: 30px;
     display: grid;
     row-gap: 10px;
-    grid-template-columns:none;
     background-color: rgba(250, 242, 174, 0.562);
     padding-top: 15px;
     padding-bottom: 15px;
@@ -123,4 +130,20 @@
     margin-left: 5px;
     background-color: rgb(255, 255, 255);
     font-size: 15px;
+}
+
+.checkboxes
+{
+    display: grid;
+    justify-self: center;
+    grid-template-columns: repeat(2, auto);
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-bottom: 8px;
+    margin-top: 6px;
+    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: 5px;
+    padding: 10px;
+    width: 325px;
+    height: fit-content;
 }
