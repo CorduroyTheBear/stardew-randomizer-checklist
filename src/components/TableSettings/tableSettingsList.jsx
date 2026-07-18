@@ -423,12 +423,12 @@ export default function SettingsList({settings, setSettings, onResetProgress, pr
                     
                     <label>Eatsanity:
                         <div className = "checkboxes">
-                            <label>Artisan <input type="checkbox" checked={eatType.artisan} onChange={() => toggleEatType("artisan")} /></label>
-                            <label>Cooking <input type="checkbox" checked={eatType.cooking} onChange={() => toggleEatType("cooking")} /></label>
-                            <label>Crops <input type="checkbox" checked={eatType.crop} onChange={() => toggleEatType("crop")} /></label>
-                            <label>Fish <input type="checkbox" checked={eatType.fish} onChange={() => toggleEatType("fish")} /></label>
-                            <label>Poisonous <input type="checkbox" checked={isPoison.true} onChange={() => toggleIsPoison("true")} /></label>
-                            <label>Shop <input type="checkbox" checked={eatType.shop} onChange={() => toggleEatType("shop")} /></label>
+                            <label>Artisan <input type="checkbox" checked={eatType.artisan} onChange = {() => toggleEatType("artisan")} /></label>
+                            <label>Cooking <input type="checkbox" checked={eatType.cooking} onChange = {() => toggleEatType("cooking")} /></label>
+                            <label>Crops <input type="checkbox" checked={eatType.crop} onChange = {() => toggleEatType("crop")} /></label>
+                            <label>Fish <input type="checkbox" checked={eatType.fish} onChange = {() => toggleEatType("fish")} /></label>
+                            <label>Poisonous <input type="checkbox" checked={isPoison} onChange={() => updateFilter("isPoison", prev => !prev)} /></label>
+                            <label>Shop <input type="checkbox" checked={eatType.shop} onChange = {() => toggleEatType("shop")} /></label>
                         </div>
                     </label>
             

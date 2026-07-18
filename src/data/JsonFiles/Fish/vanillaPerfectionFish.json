@@ -157,7 +157,6 @@
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": "forestWaterfall",
       "weather": ["rain", "sunny"],
-      "isPoison": true,
       "done": false,
       "found": false
     },
@@ -299,7 +298,6 @@
       "season": ["summer"],
       "fishingLocation": ["ocean", "gingerIslandOcean"],
       "weather": "sunny",
-      "isPoison": true,
       "done": false,
       "found": false
     },
@@ -368,7 +366,6 @@
       "fishingLocation": "desert",
       "location": "desert",
       "weather": ["rain", "sunny"],
-      "isPoison": true,
       "done": false,
       "found": false
     },
@@ -378,7 +375,6 @@
       "season": ["fall", "winter"],
       "fishingLocation": ["ocean"],
       "weather": ["rain", "sunny"],
-      "isPoison": true,
       "done": false,
       "found": false
     },
