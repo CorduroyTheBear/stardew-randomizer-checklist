@@ -8,11 +8,11 @@
 }
 
 .settings-box {
-    background: #c0e2e2;
+    background: rgb(248, 213, 149);
     border: 2px solid black;
     padding: 30px;
     max-height: 90vh;
-    width: 600px;
+    width: 85%;
     overflow-y: auto;
 }
 
@@ -62,8 +62,16 @@
     font-size: 20px;
     text-align: center;
     margin-top: 5px;
-    margin-bottom: 10px;
-    background-color: #d4fffb;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-color: rgb(173, 100, 60);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    background-color: rgba(250, 242, 174, 0.562);
 }
 
 .settingBlock
@@ -74,11 +82,14 @@
     display: grid;
     row-gap: 10px;
     grid-template-columns:none;
-    background-color: #ffd88e;
+    background-color: rgba(250, 242, 174, 0.562);
     padding-top: 15px;
     padding-bottom: 15px;
-    border-radius: 25px;
-    width: 475px;
+    border-color: rgba(173, 100, 60, 0.925);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 400px;
 }
 
 .settingTitle
@@ -95,7 +106,6 @@
     display: grid;
     column-gap: 10px;
     row-gap: 20px;
-    background-color: #ffe4b3;
     padding-top: 15px;
     padding-bottom: 15px;
     width: 450px;
@@ -105,7 +115,7 @@
 .settings label
 {
     margin-left: 15px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .settings select
