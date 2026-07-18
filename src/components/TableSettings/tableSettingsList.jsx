@@ -455,8 +455,6 @@ export default function SettingsList({settings, setSettings, onResetProgress, pr
                 </div>
                 </div>     
             </div>
-
-            <ResetProgress onResetProgress = {onResetProgress}/>
         </>
     );
 }
