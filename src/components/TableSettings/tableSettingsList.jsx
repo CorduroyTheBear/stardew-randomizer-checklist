@@ -432,7 +432,7 @@ export default function SettingsList({settings, setSettings, onResetProgress, pr
                         </div>
                     </label>
             
-                    <label><strong>Secretsanity:</strong>
+                    <label>Secretsanity:
                         <div className = "checkboxes">
                             <label>Difficult <input type="checkbox" checked={secretType.difficult} onChange={() => toggleSecretType("difficult")} /></label>
                             <label>Easy <input type="checkbox" checked={secretType.easy} onChange={() => toggleSecretType("easy")} /></label>
