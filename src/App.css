@@ -28,22 +28,6 @@ h1
     background-color: rgb(180, 228, 131);
 }
 
-.top-bar
-{
-    width: fit-content;
-    margin-bottom: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 12px 50px;
-    background-color: rgba(217, 255, 128, 0.459);
-    font-size: 25px;
-  
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-}
-
 .main
 {
     position: relative;

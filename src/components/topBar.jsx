@@ -5,21 +5,15 @@ export default function TopBar({doneCount, onOpenSettings, settings, setSettings
     const { filterState, updateFilter } = useFilters();
     const { season, fishingLocation, isGI } = filterState;
 
-    return(
-        <div className = "top-bar">
-            <div className = "top-bar-buttons">
-
-              <span className = "progress">{doneCount} / {totalCount}</span>
+    return(  
+            <div className = "top-bar">
               
-              <button className = "settings-button" onClick = {onOpenSettings}>
-                ⚙ Settings
-              </button>
+              <span className = "progress">{doneCount} / {totalCount}</span>
+              <button className = "settings-button" onClick = {onOpenSettings}>⚙ Settings</button>
 
-              <label>
-                Season:
-                <   select value = {season.season}
-                    onChange = {(e) => updateFilter("season", prev => ({ ...prev, season: e.target.value}))}
-                >
+              
+              <label>Season:
+                <select value = {season.season} onChange = {(e) => updateFilter("season", prev => ({ ...prev, season: e.target.value}))}>
                   <option value = "all">All</option>
                   <option value = "spring">Spring</option>
                   <option value = "summer">Summer</option>
@@ -27,21 +21,15 @@ export default function TopBar({doneCount, onOpenSettings, settings, setSettings
                   <option value = "winter">Winter</option>
                 </select>
               </label>
+              
 
-              <label>
-                Exclusive to Season?
-                <input
-                  type = "checkbox"
-                  checked = {season.seasonExclusive}
-                  onChange = {(e) => updateFilter("season", prev => ({ ...prev, seasonExclusive: e.target.checked }))}
-                  />
-              </label>
+              <label>Exclusive to Season?</label>
+              <input type = "checkbox" checked = {season.seasonExclusive} onChange = {(e) => updateFilter("season", prev => ({ ...prev, seasonExclusive: e.target.checked }))}/>
+              
 
-              <label>
-                Fishing Location:
-                <   select value = {fishingLocation}
-                    onChange={(e) => updateFilter("fishingLocation", e.target.value)}
-                >
+              
+              <label>Fishing Location:
+                <select value = {fishingLocation} onChange={(e) => updateFilter("fishingLocation", e.target.value)}>
                   <option value = "any">Any</option>
                   <option value = "bugLiar">Bug Liar</option>
                   <option value = "desert">Desert</option> 
@@ -64,26 +52,17 @@ export default function TopBar({doneCount, onOpenSettings, settings, setSettings
                 </select>
               </label>
 
-              <label>
-                Show only GI Checks?:
-                <   select value = {isGI}
-                    onChange={(e) => updateFilter("isGI", e.target.value)}
-                >
+              
+              <label>Show only GI Checks?:
+                <select value = {isGI} onChange={(e) => updateFilter("isGI", e.target.value)}>
                   <option value = "No">No</option>
                   <option value = "Yes">Yes</option>
                 </select>
               </label>
-
-              <label>
-                Hide Completed Checks
-                <input
-                    type = "checkbox"
-                    checked = {settings.hideCompleted}
-                    onChange = {(e) => setSettings(prev => ({ ...prev, hideCompleted: e.target.checked }))}
-                />
+              
+              <label>Hide Completed Checks
+                <input type = "checkbox" checked = {settings.hideCompleted} onChange = {(e) => setSettings(prev => ({ ...prev, hideCompleted: e.target.checked }))}/>
               </label>
-
             </div>
-        </div>
     )
 }

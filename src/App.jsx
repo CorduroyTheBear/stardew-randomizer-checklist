@@ -7,6 +7,7 @@ import { GROUPED_TABLES } from './data/groupedTables';
 
 import GroupedChecklist from './components/groupedChecklist';
 import image from './components/images';
+import { Presets } from './components/TableSettings/presets';
 import RandomizerSettings from './components/TableSettings/randomizerSettings';
 import RenderChecklist from './components/renderChecklist';
 import SearchBar from './components/searchBar';
@@ -15,8 +16,7 @@ import TopBar from './components/topBar';
 import './App.css';
 import './components/renderChecklist.css';
 import './data/tables.css';
-import { Presets } from './components/TableSettings/presets';
-
+import './topBar.css';
 
 
 function InnerApp()

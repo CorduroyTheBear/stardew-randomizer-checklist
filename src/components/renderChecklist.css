@@ -37,50 +37,48 @@
 /* item list location */
 .checklist-items
 {
-    list-style: none;
-    padding-left: 0px;
-    margin-top: 5px;
-    margin-right: 5px;
 }
 
 /* Table background */
 .checklist-box
 {
-    background-color: rgb(240, 210, 174);
-    border: 2px solid black;
-    border-radius: 8px;
-    padding-bottom: 5px;
-    height: auto;
-    padding-left: 5px;
+  background-color: rgb(240, 210, 174);
+  border: 2px solid black;
+  border-radius: 8px;
+  padding-bottom: 5px;
+  height: auto;
+  padding-left: 5px;
 }
 
 .checklist-enableScrolling
 {
-    max-height: 300px;
-    overflow-y: auto;
-    padding-right: 10px;
-}
-
-.table-column
-{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  flex: 1 1 300px;
-  min-width: 300px;
-  max-width: 400px;
+  max-height: 300px;
+  overflow-y: auto;
 }
 
 .checklist-columns
+{
+    display: stretch;
+    font-weight: bold;
+
+    background-color: rgb(255, 248, 248);
+    border-bottom: 1px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    color: rgb(0, 0, 0);
+    
+    top: 0;
+    position: sticky;
+    z-index: 8;
+}
+
+.xchecklist-columns
 {
     display: grid;
     grid-template-columns: 1fr 50px 66px;
     padding: 4px 10px;
     font-weight: bold;
-    margin-bottom: 5px;
-    margin-left: 0px;
-    margin-right: 5px;
-    margin-top: -5px;
     position: sticky; 
     top: 0;
     background-color: rgb(255, 248, 248);

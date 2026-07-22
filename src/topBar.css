@@ -1,0 +1,11 @@
+/* Greeen Box */
+.top-bar
+{
+    justify-self: center;
+    width: 95vw;
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: rgba(217, 255, 128, 0.30);
+    border: 3px solid rgba(87, 114, 26, 0.904);
+    border-radius: 5px;
+}
