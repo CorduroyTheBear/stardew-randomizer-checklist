@@ -174,7 +174,8 @@
       "fishingLocation": ["legend", "forestRiver"],
       "weather": ["rain", "sunny"],
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Goby",
@@ -253,7 +254,8 @@
       "fishingLocation": ["legend", "lake"],
       "weather": ["sunny", "rain"],
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)707",
@@ -303,7 +305,8 @@
       "fishingLocation": ["legend", "townRiver"],
       "weather": ["rain", "sunny"],
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)772",
@@ -362,7 +365,8 @@
       "fishingLocation": ["legend", "sewers"],
       "weather": ["rain", "sunny"],
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)138",
@@ -494,7 +498,8 @@
       "fishingLocation": ["legend", "ocean"],
       "weather": ["rain", "sunny"],
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)799",

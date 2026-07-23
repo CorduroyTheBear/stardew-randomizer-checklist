@@ -2,35 +2,41 @@
     {
       "id": "construction",
       "name": "Construction",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "exoticForage",
       "name": "Exotic Forage",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "springForage",
       "name": "Spring",
       "season": ["spring"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "summerForage",
       "name": "Summer",
       "season": ["summer"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "fallForage",
       "name": "Fall",
       "season": ["fall"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "winterForage",
       "name": "Winter",
       "season": ["winter"],
-      "done": false
+      "done": false,
+      "found": false
     }
 ]

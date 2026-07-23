@@ -3,78 +3,91 @@
       "id": "(O)171",
       "name": "Broken CD",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)170",
       "name": "Broken Glasses",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)856",
       "name": "Curiosity Lure",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)169",
       "name": "Driftwood",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)153",
       "name": "Green Algae",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)TroutDerbyTag",
       "name": "Golden Tag",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)692",
       "name": "Lead Bobber",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)152",
       "name": "Seaweed",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)172",
       "name": "Soggy Newspaper",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)814",
       "name": "Squid Ink",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)SpecificBait",
       "name": "Targeted Bait",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)168",
       "name": "Trash",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)157",
       "name": "White Algae",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     }
 ]

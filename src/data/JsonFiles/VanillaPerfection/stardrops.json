@@ -2,38 +2,45 @@
  {
     "id": "catchEveryFish",
     "name": "Catch Every Fish",
-    "done": false
+    "done": false,
+    "found": false
  },
  {
     "id": "completeMuseum",
     "name": "Complete Museum",
-    "done": false
+    "done": false,
+    "found": false
  },
  {
     "id": "krobus",
     "name": "Buy from Krobus",
-    "done": false
+    "done": false,
+    "found": false
  },
  {
     "id": "marriage",
     "name": "Marriage",
-    "done": false
+    "done": false,
+    "found": false
  },
  {
     "id": "masterCannoli",
     "name": "Master Cannoli",
     "season": ["fall"],
-    "done": false
+    "done": false,
+    "found": false
  },
  {
     "id": "mines100",
     "name": "Mines Floor 100",
-    "done": false
+    "done": false,
+    "found": false
  },
  {
     "id": "stardewValleyFair",
     "name": "Stardew Valley Fair",
     "season": ["fall"],
-    "done": false
+    "done": false,
+    "found": false
  }
 ]

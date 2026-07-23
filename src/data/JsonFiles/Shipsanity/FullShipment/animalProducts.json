@@ -3,92 +3,107 @@
       "id": "(O)442",
       "name": "Duck Egg",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)444",
       "name": "Duck Feather",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)180",
       "name": "Egg (Brown)",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)eggWhite",
       "name": "Egg (White)",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)436",
       "name": "Goat Milk",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)174",
       "name": "Large Egg (White)",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)182",
       "name": "Large Egg (Brown)",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)438",
       "name": "Large Goat Milk",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)186",
       "name": "Large Milk",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)184",
       "name": "Milk",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)289",
       "name": "Ostrich Egg",
       "isGI": "yes",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)446",
       "name": "Rabbit's Foot",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)truffle",
       "name": "Truffle",
       "season": ["spring", "summer", "fall"],
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)305",
       "name": "Void Egg",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)440",
       "name": "Wool",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     }
 ]

@@ -2,16 +2,19 @@
     {
       "id": "blacksmith",
       "name": "Blacksmith",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "geologist",
       "name": "Geologist",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "adventurer",
       "name": "Adventurer",
-      "done": false
+      "done": false,
+      "found": false
     }
 ]

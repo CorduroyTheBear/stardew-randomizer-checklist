@@ -12,7 +12,8 @@
     "id": "(O)299",
     "name": "Amaranth Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "274",
@@ -27,7 +28,8 @@
     "id": "(O)489",
     "name": "Artichoke Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "284",
@@ -43,7 +45,8 @@
     "id": "(O)494",
     "name": "Beet Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "278",
@@ -58,7 +61,8 @@
     "id": "(O)491",
     "name": "Bok Choy Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "Broccoli",
@@ -73,7 +77,8 @@
     "id": "(O)BroccoliSeeds",
     "name": "Broccoli Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "282",
@@ -88,7 +93,8 @@
     "id": "(O)493",
     "name": "Cranberry Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "272",
@@ -103,7 +109,8 @@
     "id": "(O)488",
     "name": "Eggplant Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "595",
@@ -118,7 +125,8 @@
     "id": "(O)425",
     "name": "Fairy Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "276",
@@ -133,7 +141,8 @@
     "id": "(O)490",
     "name": "Pumpkin Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },  
   {
     "id": "417",
@@ -148,7 +157,8 @@
       "id": "(O)347",
       "name": "Rare Seed",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+    "found": false
     },
   {
     "id": "280",
@@ -163,12 +173,14 @@
     "id": "(O)492",
     "name": "Yam Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "(O)301",
     "name": "Grape Starter",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   }
 ]

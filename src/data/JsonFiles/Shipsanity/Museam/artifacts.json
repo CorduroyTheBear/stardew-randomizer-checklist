@@ -3,252 +3,294 @@
       "id": "(O)587",
       "name": "Amphibian Fossil",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)117",
       "name": "Anchor",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)103",
       "name": "Ancient Doll",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)123",
       "name": "Ancient Drum",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)114",
       "name": "Ancient Seed",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)109",
       "name": "Ancient Sword",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)101",
       "name": "Arrowhead",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)119",
       "name": "Bone Flute",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)105",
       "name": "Chewing Stick",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)113",
       "name": "Chicken Statue",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)100",
       "name": "Chipped Amphora",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)107",
       "name": "Dinosaur Egg",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)116",
       "name": "Dried Starfish",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)122",
       "name": "Dwarf Gadget",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)96",
       "name": "Dwarf Scroll I",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)97",
       "name": "Dwarf Scroll II",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)98",
       "name": "Dwarf Scroll III",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)99",
       "name": "Dwarf Scroll IV",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)121",
       "name": "Dwarvish Helm",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)104",
       "name": "Elvish Jewelry",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)118",
       "name": "Glass Shards",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)134",
       "name": "Golden Mask",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)125",
       "name": "Golden Relic",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)586",
       "name": "Nautilus Fossil",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)106",
       "name": "Ornamental Fan",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)588",
       "name": "Palm Fossil",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)120",
       "name": "Prehistoric Handaxe",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)583",
       "name": "Prehistoric Rib",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)579",
       "name": "Prehistoric Scapula",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)581",
       "name": "Prehistoric Skull",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)580",
       "name": "Prehistoric Tibia",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)115",
       "name": "Prehistoric Tool",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)584",
       "name": "Prehistoric Vertebra",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)108",
       "name": "Rare Disc",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)112",
       "name": "Rusty Cog",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)110",
       "name": "Rusty Spoon",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)111",
       "name": "Rusty Spur",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)582",
       "name": "Skeletal Hand",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)585",
       "name": "Skeletal Tail",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)126",
       "name": "Strange Doll",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)127",
       "name": "Strange Doll (Green)",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)589",
       "name": "Trilobite",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     }
 ]

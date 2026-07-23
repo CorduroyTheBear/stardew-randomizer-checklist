@@ -2,211 +2,253 @@
     {
       "id": "117",
       "name": "Anchor",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "103",
       "name": "Ancient Doll",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "123",
       "name": "Ancient Drum",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "114",
       "name": "Ancient Seed",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "109",
       "name": "Ancient Sword",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "587",
       "name": "Amphibian Fossil",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "101",
       "name": "Arrowhead",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "119",
       "name": "Bone Flute",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "105",
       "name": "Chewing Stick",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "113",
       "name": "Chicken Statue",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "100",
       "name": "Chipped Amphora",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "107",
       "name": "Dinosaur Egg",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "99",
       "name": "Drawf Scroll IV",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "116",
       "name": "Dried Starfish",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "122",
       "name": "Dwarf Gadget",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "96",
       "name": "Dwarf Scroll I",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "97",
       "name": "Dwarf Scroll II",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "98",
       "name": "Dwarf Scroll III",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "121",
       "name": "Dwarvish Helm",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "104",
       "name": "Elvish Jewelry",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "118",
       "name": "Glass Shards",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "124",
       "name": "Golden Mask",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "125",
       "name": "Golden Relic",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "586",
       "name": "Nautilus Fossil",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "106",
       "name": "Ornamental Fan",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "588",
       "name": "Palm Fossil",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "120",
       "name": "Prehistoric Handaxe",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "583",
       "name": "Prehistoric Rib",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "579",
       "name": "Prehistoric Scapula",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "581",
       "name": "Prehistoric Skull",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "580",
       "name": "Prehistoric Tibia",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "115",
       "name": "Prehistoric Tool",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "584",
       "name": "Prehistoric Vertebra",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "108",
       "name": "Rare Disc",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "112",
       "name": "Rusty Cog",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "110",
       "name": "Rusty Spoon",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "111",
       "name": "Rusty Spur",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "582",
       "name": "Skeletal Hand",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "585",
       "name": "Skeletal Tail",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "126",
       "name": "Strange Doll (Green)",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "127",
       "name": "Strange Doll (Yellow)",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "589",
       "name": "Trilobite",
-      "done": false
+      "done": false,
+      "found": false
     }
 ]

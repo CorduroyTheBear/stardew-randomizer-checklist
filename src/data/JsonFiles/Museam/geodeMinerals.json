@@ -2,76 +2,91 @@
     {
       "id": "538",
       "name": "Alamite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "542",
       "name": "Calcite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "566",
       "name": "Celestine",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "569",
       "name": "Granite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "549",
       "name": "Jagoite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "548",
       "name": "Jamborite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "571",
       "name": "Limestone",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "552",
       "name": "Malachite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "574",
       "name": "Mudstone",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "555",
       "name": "Nekoite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "556",
       "name": "Orpiment",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "557",
       "name": "Petrified Slime",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "568",
       "name": "Sandstone",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "576",
       "name": "Slate",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "558",
       "name": "Thunder Egg",
-      "done": false
+      "done": false,
+      "found": false
     }
 ]

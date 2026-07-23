@@ -12,7 +12,8 @@
     "id": "(O)481",
     "name": "Blueberry Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "270",
@@ -27,7 +28,8 @@
     "id": "(O)487",
     "name": "Corn Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "304",
@@ -42,7 +44,8 @@
     "id": "(O)302",
     "name": "Hops Starter",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "260",
@@ -57,7 +60,8 @@
     "id": "(O)482",
     "name": "Pepper Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "254",
@@ -72,7 +76,8 @@
     "id": "(O)479",
     "name": "Melon Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "376",
@@ -87,7 +92,8 @@
     "id": "(O)453",
     "name": "Poppy Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "264",
@@ -102,7 +108,8 @@
     "id": "(O)484",
     "name": "Radish Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "266",
@@ -117,7 +124,8 @@
     "id": "(O)485",
     "name": "Red Cabbage Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "268",
@@ -133,7 +141,8 @@
     "id": "(O)486",
     "name": "Starfruit Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "593",
@@ -148,7 +157,8 @@
     "id": "(O)455",
     "name": "Spangle Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "SummerSquash",
@@ -163,7 +173,8 @@
     "id": "(O)SummerSquashSeeds",
     "name": "Summer Squash Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   }, 
   {
     "id": "421",
@@ -178,7 +189,8 @@
     "id": "(O)431",
     "name": "Sunflower Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "256",
@@ -193,7 +205,8 @@
     "id": "(O)480",
     "name": "Tomato Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "262",
@@ -208,6 +221,7 @@
     "id": "(O)483",
     "name": "Wheat Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   }
 ]

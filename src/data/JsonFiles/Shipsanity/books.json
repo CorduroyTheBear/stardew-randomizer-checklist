@@ -3,156 +3,182 @@
       "id": "(O)Book_AnimalCatalougue",
       "name": "Animal Catalogue",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)SkillBook_1",
       "name": "Bait And Bobber",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_Mystery",
       "name": "Book of Mysteries",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)PurpleBook",
       "name": "Book Of Stars",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)SkillBook_4",
       "name": "Combat Quarterly",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_Bombs",
       "name": "Dwarvish Safety Manual",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_Friendship",
       "name": "Friendship 101",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_Horse",
       "name": "Horse: The Book",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_Defense",
       "name": "Jack Be Nimble, Jack Be Thick",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_Roe",
       "name": "Jewels Of The Sea",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_Marlon",
       "name": "Mapping Cave Systems",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)SkillBook_3",
       "name": "Mining Monthly",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_Void",
       "name": "Monster Compendium",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_Grass",
       "name": "Ol' Slitherlegs",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_PriceCatalougue",
       "name": "Price Catalogue",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_QueenOfSauce",
       "name": "Queen Of Sauce Cookbook",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_WildSeeds",
       "name": "Raccoon Journal",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)SkillBook_0",
       "name": "Stardew Valley Almanac",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_Trash",
       "name": "The Alleyway Buffet",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_Crabbing",
       "name": "The Art O' Crabbing",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_Diamounds",
       "name": "The Diamond Hunter",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_Artifact",
       "name": "Treasure Appraisal Guide",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_Speed",
       "name": "Way Of The Wind pt. 1",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_Speed2",
       "name": "Way Of The Wind pt. 2",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)SkillBook_2",
       "name": "Woodcutter's Weekly",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Book_Woodcutting",
       "name": "Woody's Secret",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     }
 ]

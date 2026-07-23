@@ -1,7 +1,7 @@
 import { useState } from "react";
 import RenderChecklist from "./renderChecklist";
 
-export default function GroupedChecklist ({className, groups, heading, hideCompleted = false, isItemVisible, onToggle})
+export default function GroupedChecklist ({className, groups, heading, hideChecksNotFound = false, hideCompleted = false, isItemVisible, onToggle})
 {
     // Checklist is closed by default
     const [isOpen, setIsOpen] = useState(false);
@@ -31,6 +31,7 @@ export default function GroupedChecklist ({className, groups, heading, hideCompl
                 data = {completedVisibleGroups[0].data}
                 heading = {heading}
                 hideCompleted = {hideCompleted}
+                hideChecksNotFound = {hideChecksNotFound}
                 onToggle = {(itemID, field) => onToggle(completedVisibleGroups[0].id, itemID, field)}
                 isItemVisible = {isItemVisible}
             />
@@ -64,6 +65,7 @@ export default function GroupedChecklist ({className, groups, heading, hideCompl
                                 data = {group.data}
                                 heading = {group.heading}
                                 hideCompleted = {hideCompleted}
+                                hideChecksNotFound = {hideChecksNotFound}
                                 onToggle = {(itemID, field) => onToggle(group.id, itemID, field)}
                                 isItemVisible = {isItemVisible}
                             />

@@ -3,102 +3,119 @@
       "id": "(O)309",
       "name": "Acorn",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)771",
       "name": "Fiber",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)709",
       "name": "Hardwood",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)292",
       "name": "Mahogany Seed",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)310",
       "name": "Maple Seed",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)724",
       "name": "Maple Syrup",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)MixedFlowerSeeds",
       "name": "Mixed Flower Seeds",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)770",
       "name": "Mixed Seeds",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)Moss",
       "name": "Moss",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)MossySeed",
       "name": "Mossy Seed",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)891",
       "name": "Mushroom Tree Seed",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)MysticSyrup",
       "name": "Mystic Syrup",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)725",
       "name": "Oak Resin",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)311",
       "name": "Pine Cone",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)726",
       "name": "Pine Tar",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)92",
       "name": "Sap",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)388",
       "name": "Wood",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     }
 ]

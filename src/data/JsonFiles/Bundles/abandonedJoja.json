@@ -2,6 +2,7 @@
     {
       "id": "missingBundle",
       "name": "Abandoned Joja",
-      "done": false
+      "done": false,
+      "found": false
     }
 ]

@@ -2,21 +2,25 @@
  {
     "id": "desertObelisk",
     "name": "Desert Obelisk",
-    "done": false
+    "done": false,
+    "found": false
  },
  {
     "id": "earthObelisk",
     "name": "Earth Obelisk",
-    "done": false
+    "done": false,
+    "found": false
  },
  {
     "id": "goldClock",
     "name": "Gold Clock",
-    "done": false
+    "done": false,
+    "found": false
  },
  {
     "id": "waterObelisk",
     "name": "Water Obelisk",
-    "done": false
+    "done": false,
+    "found": false
  }
 ]

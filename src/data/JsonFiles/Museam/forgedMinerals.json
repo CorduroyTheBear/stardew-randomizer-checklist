@@ -2,21 +2,25 @@
     {
       "id": "82",
       "name": "Fire Quartz",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "84",
       "name": "Frozen Tear",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "86",
       "name": "Earth Crystals",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "80",
       "name": "Quartz",
-      "done": false
+      "done": false,
+      "found": false
     }
 ]

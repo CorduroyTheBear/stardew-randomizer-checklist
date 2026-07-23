@@ -2,71 +2,85 @@
     {
       "id": "541",
       "name": "Aerinite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "544",
       "name": "Esperite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "577",
       "name": "Fairy Stone",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "545",
       "name": "Fluorapatite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "546",
       "name": "Geminite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "561",
       "name": "Ghost Crystal",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "573",
       "name": "Hematite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "550",
       "name": "Kyanite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "551",
       "name": "Lunarite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "567",
       "name": "Marble",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "560",
       "name": "Ocean Stone",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "564",
       "name": "Opal",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "559",
       "name": "Pyrite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "572",
       "name": "Soapstone",
-      "done": false
+      "done": false,
+      "found": false
     }
 ]

@@ -3,48 +3,56 @@
       "id": "(O)66",
       "name": "Amethyst",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)62",
       "name": "Aquamarine",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)72",
       "name": "Diamond",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)60",
       "name": "Emerald",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)70",
       "name": "Jade",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)74",
       "name": "Prismatic Shard",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)64",
       "name": "Ruby",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)68",
       "name": "Topaz",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     }
 ]

@@ -2,61 +2,73 @@
     {
       "id": "540",
       "name": "Baryte",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "570",
       "name": "Basalt",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "539",
       "name": "Bixite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "543",
       "name": "Dolomite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "565",
       "name": "Fire Opal",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "547",
       "name": "Helvite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "563",
       "name": "Jasper",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "554",
       "name": "Lemon Stone",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "553",
       "name": "Neptunite",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "575",
       "name": "Obsidian",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "578",
       "name": "Star Shards",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "562",
       "name": "Tigerseye",
-      "done": false
+      "done": false,
+      "found": false
     }
 ]

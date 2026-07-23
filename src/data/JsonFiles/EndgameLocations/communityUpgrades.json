@@ -1,27 +1,32 @@
 [
  {
-    "id": "forestToBeach",
-    "name": "Forest To Beach",
-    "done": false
+   "id": "forestToBeach",
+   "name": "Forest To Beach",
+   "done": false,
+   "found": false
  },
  {
-    "id": "mountainShortcuts",
-    "name": "Mountain Shortcuts",
-    "done": false
+   "id": "mountainShortcuts",
+   "name": "Mountain Shortcuts",
+   "done": false,
+   "found": false
  },
  {
-    "id": "pamHouse",
-    "name": "Pam's House",
-    "done": false
+   "id": "pamHouse",
+   "name": "Pam's House",
+   "done": false,
+   "found": false
  },
  {
-    "id": "townToTidePools",
-    "name": "Town To Tide Pools",
-    "done": false
+   "id": "townToTidePools",
+   "name": "Town To Tide Pools",
+   "done": false,
+   "found": false
  },
  {
-    "id": "tunnelToBackwoods",
-    "name": "Tunnel To Backwoods",
-    "done": false
+   "id": "tunnelToBackwoods",
+   "name": "Tunnel To Backwoods",
+   "done": false,
+   "found": false
  }
 ]

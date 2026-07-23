@@ -3,142 +3,165 @@
       "id": "(O)767",
       "name": "Bat Wing",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)881",
       "name": "Bone Fragment",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)684",
       "name": "Bug Meat",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)848",
       "name": "Cinder Shard",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "isGI": "yes",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)330",
       "name": "Clay",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)382",
       "name": "Coal",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)334",
       "name": "Copper Bar",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)378",
       "name": "Copper Ore",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)852",
       "name": "Dragon Tooth",
       "isGI": "yes",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)336",
       "name": "Gold Bar",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)384",
       "name": "Gold Ore",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)337",
       "name": "Iridium Bar",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)386",
       "name": "Iridium Ore",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)335",
       "name": "Iron Bar",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)380",
       "name": "Iron Ore",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)749",
       "name": "Omni Geode",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)radioactiveBar",
       "name": "Radioactive Bar",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "isGI": "yes",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)radioactiveOre",
       "name": "Radioactive Ore",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
       "isGI": "yes",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)338",
       "name": "Refined Quartz",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)766",
       "name": "Slime",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)768",
       "name": "Solar Essence",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)390",
       "name": "Stone",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)769",
       "name": "Void Essence",
       "shipType": ["fullShipment", "fullShipmentWithFish", "everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     }
 ]

@@ -1,35 +1,41 @@
 [    
-    {
-      "id": "animalBundle",
-      "name": "Animal",
-      "done": false
-    },
-    {
-      "id": "artisan",
-      "name": "Artisan",
-      "done": false
-    },
-    {
-      "id": "springCrops",
-      "name": "Spring",
-      "season": ["spring"],
-      "done": false
-    },
-    {
-      "id": "summerCrops",
-      "name": "Summer",
-      "season": ["summer"],
-      "done": false
-    },
-    {
-      "id": "fallCrops",
-      "name": "Fall",
-      "season": ["fall"],
-      "done": false
-    },
-    {
-      "id": "qualityCrops",
-      "name": "Quality Crops",
-      "done": false
-    }
+  {
+    "id": "animalBundle",
+    "name": "Animal",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "artisan",
+    "name": "Artisan",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "springCrops",
+    "name": "Spring",
+    "season": ["spring"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "summerCrops",
+    "name": "Summer",
+    "season": ["summer"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "fallCrops",
+    "name": "Fall",
+    "season": ["fall"],
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "qualityCrops",
+    "name": "Quality Crops",
+    "done": false,
+    "found": false
+  }
 ]

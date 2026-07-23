@@ -1,9 +1,10 @@
 [ 
   {
-    "id": "(O)499",
-    "name": "Ancient Seeds",
-    "shipType": ["everySingleItem"],
-    "done": false
+      "id": "(O)499",
+      "name": "Ancient Seeds",
+      "shipType": ["everySingleItem"],
+      "done": false,
+      "found": false
   },
   {
       "id": "(O)685",
@@ -432,11 +433,11 @@
       "shipType": ["everySingleItem"]
     },
     {
-        "id": "(O)251",
-        "name": "Tea Sapling",
-        "shipType": ["everySingleItem"],
-        "done": false,
-        "found": false
+      "id": "(O)251",
+      "name": "Tea Sapling",
+      "shipType": ["everySingleItem"],
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)TentKit",

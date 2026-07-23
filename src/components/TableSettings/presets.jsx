@@ -35,6 +35,7 @@ export const Presets =
             wizardBuildings: "no", // Change only if Vanilla
     
             hideCompleted: false,
+            hideChecksNotFound: false
         },
 
         filterState:
@@ -124,6 +125,7 @@ export const Presets =
             wizardBuildings: "no", // Change only if Vanilla
     
             hideCompleted: false,
+            hideChecksNotFound: false,
         },
 
         filterState:
@@ -213,6 +215,7 @@ export const Presets =
             wizardBuildings: "no", // Change only if Vanilla
     
             hideCompleted: false,
+            hideChecksNotFound: false,
         },
 
         filterState:
@@ -302,6 +305,7 @@ export const Presets =
             wizardBuildings: "no", // Change only if Vanilla
     
             hideCompleted: false,
+            hideChecksNotFound: false,
         },
 
         filterState:
@@ -391,6 +395,7 @@ export const Presets =
             wizardBuildings: "no", // Change only if Vanilla
     
             hideCompleted: false,
+            hideChecksNotFound: false,
         },
 
         filterState:
@@ -480,6 +485,7 @@ export const Presets =
             wizardBuildings: "no", // Change only if Vanilla
     
             hideCompleted: false,
+            hideChecksNotFound: false,
         },
 
         filterState:
@@ -569,6 +575,7 @@ export const Presets =
             wizardBuildings: "no", // Change only if Vanilla
     
             hideCompleted: false,
+            hideChecksNotFound: false,
         },
 
         filterState:
@@ -658,6 +665,7 @@ export const Presets =
             wizardBuildings: "no", // Change only if Vanilla
     
             hideCompleted: false,
+            hideChecksNotFound: false,
         },
 
         filterState:
@@ -747,6 +755,7 @@ export const Presets =
             wizardBuildings: "yes", // Change only if Vanilla
     
             hideCompleted: false,
+            hideChecksNotFound: false,
         },
 
         filterState:
@@ -838,6 +847,7 @@ export const Presets =
                 wizardBuildings: "yes", // Change only if Vanilla
     
                 hideCompleted: false,
+                hideChecksNotFound: false,
             },
 
             filterState:
@@ -927,6 +937,7 @@ export const Presets =
                 wizardBuildings: "no", // Change only if Vanilla
     
                 hideCompleted: false,
+                hideChecksNotFound: false,
             },
 
             filterState:

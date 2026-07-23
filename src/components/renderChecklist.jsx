@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function RenderChecklist({className, data, heading, hideCompleted = false, isItemVisible, onToggle})
+export default function RenderChecklist({className, data, heading, hideChecksNotFound = false, hideCompleted = false, isItemVisible, onToggle})
 {
     // Set table default setting to closed
     const [isOpen, setIsOpen] = useState(false);
@@ -14,6 +14,10 @@ export default function RenderChecklist({className, data, heading, hideCompleted
     {
         // Hide completed items if setting is on
         if (hideCompleted && item.done) return false;
+        
+        // Show only found checks when toggled
+        if (hideChecksNotFound && !item.found) return false;
+        
         return isItemVisible(item);
     });
 

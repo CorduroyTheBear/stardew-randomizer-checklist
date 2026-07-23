@@ -3,31 +3,36 @@
       "id": "(O)413",
       "name": "Blue Slime Egg",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)680",
       "name": "Green Slime Egg",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)439",
       "name": "Purple Slime Egg",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)437",
       "name": "Red Slime Egg",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "(O)857",
       "name": "Tiger Slime Egg",
       "isGI": "yes",
       "shipType": ["everySingleItem"],
-      "done": false
+      "done": false,
+      "found": false
     }
 ]

@@ -12,7 +12,8 @@
     "id": "(O)802",
     "name": "Cactus Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "(O)78",

@@ -265,6 +265,7 @@ function InnerApp()
 
             onToggle = {(groupID, itemID, field) => handleToggle(groupID, itemID, field)}
             hideCompleted = {settings.hideCompleted}
+            hideChecksNotFound = {settings.hideChecksNotFound}
             isItemVisible = {visible}
           />
           );

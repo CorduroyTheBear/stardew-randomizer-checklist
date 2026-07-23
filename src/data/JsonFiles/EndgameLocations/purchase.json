@@ -1,17 +1,20 @@
 [
  {
-    "id": "returnScepter",
-    "name": "Return Scepter",
-    "done": false
+   "id": "returnScepter",
+   "name": "Return Scepter",
+   "done": false,
+   "found": false
  },
  {
-    "id": "endlessFortune",
-    "name": "Statue Of Endless Fortune",
-    "done": false
+   "id": "endlessFortune",
+   "name": "Statue Of Endless Fortune",
+   "done": false,
+   "found": false
  },
  {
-    "id": "teaSet",
-    "name": "Tea Set",
-    "done": false
+   "id": "teaSet",
+   "name": "Tea Set",
+   "done": false,
+   "found": false
  }
 ]

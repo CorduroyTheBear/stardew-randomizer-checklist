@@ -12,7 +12,8 @@
     "id": "(O)633",
     "name": "Apple Sapling",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "634",
@@ -27,7 +28,8 @@
     "id": "(O)629",
     "name": "Apricot Sapling",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "91",
@@ -44,7 +46,8 @@
     "name": "Banana Sapling",
     "isGI": true,
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "638",
@@ -59,7 +62,8 @@
     "id": "(O)628",
     "name": "Cherry Sapling",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "834",
@@ -76,7 +80,8 @@
     "name": "Mango Sapling",
     "isGI": true,
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "635",
@@ -91,7 +96,8 @@
     "id": "(O)630",
     "name": "Orange Sapling",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },  
   {
     "id": "636",
@@ -106,7 +112,8 @@
     "id": "(O)631",
     "name": "Peach Sapling",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },  
   {
     "id": "637",
@@ -121,6 +128,7 @@
     "id": "(O)632",
     "name": "Pomegranate Sapling",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   }
 ]

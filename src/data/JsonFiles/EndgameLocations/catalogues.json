@@ -1,37 +1,44 @@
 [
  {
-    "id": "catalogue",
-    "name": "Catalogue",
-    "done": false
+   "id": "catalogue",
+   "name": "Catalogue",
+   "done": false,
+   "found": false
  },
  {
-    "id": "furniture",
-    "name": "Furniture",
-    "done": false
+   "id": "furniture",
+   "name": "Furniture",
+   "done": false,
+   "found": false
  },
  {
-    "id": "joja",
-    "name": "Joja",
-    "done": false
+   "id": "joja",
+   "name": "Joja",
+   "done": false,
+   "found": false
  },
  {
-    "id": "junimo",
-    "name": "Junimo",
-    "done": false
+   "id": "junimo",
+   "name": "Junimo",
+   "done": false,
+   "found": false
  },
  {
-    "id": "retro",
-    "name": "Retro",
-    "done": false
+   "id": "retro",
+   "name": "Retro",
+   "done": false,
+   "found": false
  },
  {
-    "id": "trash",
-    "name": "Trash",
-    "done": false
+   "id": "trash",
+   "name": "Trash",
+   "done": false,
+   "found": false
  },
  {
-    "id": "wizard",
-    "name": "Wizard",
-    "done": false
+   "id": "wizard",
+   "name": "Wizard",
+   "done": false,
+   "found": false
  }
 ]

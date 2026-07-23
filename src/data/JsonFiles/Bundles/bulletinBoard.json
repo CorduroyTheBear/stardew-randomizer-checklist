@@ -2,26 +2,31 @@
     {
       "id": "chef",
       "name": "Chef",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "dye",
       "name": "Dye",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "fieldResearch",
       "name": "Field Research",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "fodder",
       "name": "Fodder",
-      "done": false
+      "done": false,
+      "found": false
     },
     {
       "id": "enchanter",
       "name": "Enchanter",
-      "done": false
+      "done": false,
+      "found": false
     }
 ]

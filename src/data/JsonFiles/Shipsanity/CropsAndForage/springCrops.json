@@ -12,7 +12,8 @@
     "id": "(O)429",
     "name": "Jazz Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "Carrot",
@@ -27,7 +28,8 @@
     "id": "(O)CarrotSeeds",
     "name": "Carrot Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "190",
@@ -42,7 +44,8 @@
     "id": "(O)474",
     "name": "Cauliflower Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "433",
@@ -66,7 +69,8 @@
     "id": "(O)476",
     "name": "Garlic Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "188",
@@ -81,7 +85,8 @@
     "id": "(O)473",
     "name": "Bean Starter",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "250",
@@ -96,7 +101,8 @@
     "id": "(O)477",
     "name": "Kale Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "24",
@@ -111,7 +117,8 @@
     "id": "(O)472",
     "name": "Parsnip Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "192",
@@ -127,7 +134,8 @@
     "id": "(O)475",
     "name": "Potato Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "252",
@@ -142,7 +150,8 @@
     "id": "(O)478",
     "name": "Rhubarb Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "400",
@@ -157,7 +166,8 @@
     "id": "(O)745",
     "name": "Strawberry Seeds",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "591",
@@ -172,7 +182,8 @@
     "id": "(O)427",
     "name": "Tulip Bulb",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   },
   {
     "id": "271",
@@ -187,6 +198,7 @@
     "id": "(O)273",
     "name": "Rice Shoot",
     "shipType": ["everySingleItem"],
-    "done": false
+    "done": false,
+    "found": false
   }
 ]
