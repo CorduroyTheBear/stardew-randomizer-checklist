@@ -1,17 +1,13 @@
 import { useFilters } from "./Filters/filterContext";
 
-export default function TopBar({doneCount, onOpenSettings, settings, setSettings, totalCount})
+export default function TopBar({settings, setSettings})
 {
     const { filterState, updateFilter } = useFilters();
     const { season, fishingLocation, isGI } = filterState;
 
     return(  
             <div className = "top-bar">
-              
-              <span className = "progress">{doneCount} / {totalCount}</span>
-              <button className = "settings-button" onClick = {onOpenSettings}>⚙ Settings</button>
-
-              
+                            
               <label>Season:
                 <select value = {season.season} onChange = {(e) => updateFilter("season", prev => ({ ...prev, season: e.target.value}))}>
                   <option value = "all">All</option>
@@ -21,12 +17,9 @@ export default function TopBar({doneCount, onOpenSettings, settings, setSettings
                   <option value = "winter">Winter</option>
                 </select>
               </label>
-              
 
               <label>Exclusive to Season?</label>
               <input type = "checkbox" checked = {season.seasonExclusive} onChange = {(e) => updateFilter("season", prev => ({ ...prev, seasonExclusive: e.target.checked }))}/>
-              
-
               
               <label>Fishing Location:
                 <select value = {fishingLocation} onChange={(e) => updateFilter("fishingLocation", e.target.value)}>

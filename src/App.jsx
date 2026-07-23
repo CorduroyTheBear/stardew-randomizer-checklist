@@ -17,6 +17,7 @@ import './App.css';
 import './components/renderChecklist.css';
 import './data/tables.css';
 import './topBar.css';
+import SettingsButton from './components/settingsButton';
 
 
 function InnerApp()
@@ -175,20 +176,27 @@ function InnerApp()
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           minHeight: "100vh",
-          opacity: "80%"
+          opacity: "70%"
         }}
       />
       
       <div className = 'content'>
-        <h1>Stardew Valley Checklist</h1>
+          
+          <div className = 'aboveBar'>
+          <div className = "progress">{doneCount} / {totalCount}</div>
+          
+          <h1>Stardew Valley Checklist</h1>
+
+          <SettingsButton
+            settings = {settings}
+            setSettings = {setSettings}
+            onOpenSettings = {() => setSettingsOpen(true)}
+          />
+        </div>
 
         <TopBar
           settings = {settings}
           setSettings = {setSettings}
-          onOpenSettings = {() => setSettingsOpen(true)}
-
-          doneCount = {doneCount}
-          totalCount = {totalCount}
         />
 
         <SearchBar></SearchBar>

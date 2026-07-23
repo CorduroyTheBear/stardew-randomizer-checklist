@@ -12,7 +12,7 @@
 .settings-box
 {
     background: rgb(248, 213, 149);
-    border: 2px solid black;
+    border: 3px solid rgba(121, 70, 43, 0.95);
     padding: 30px;
     max-height: 90vh;
     max-width: 1000px;

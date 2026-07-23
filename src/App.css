@@ -5,33 +5,79 @@
     padding: 0;
 }
 
+.aboveBar
+{
+    justify-items: center;
+    align-items: center;
+    
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-areas: "progress title settings";
+    column-gap: 20px;
+    row-gap: 10px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.progress
+{
+    grid-area: progress;
+    font-size: 40px;
+    color: #000000;
+    justify-self: center;
+    align-self: center;
+}
+
 h1
 {
-    text-align: center;
-    font-size: 50px;
-    color: #000000;
-    padding-top: 15px;
-    padding-bottom: 10px;
-
+    grid-area: title;
+    align-self: center;
+    font-size: 40px;
+    color: rgba(50, 50, 50, 0.9);
 }
 
 .settings-button
 {
-   font-size: 18px;
-   cursor: pointer;
-   margin-left: 30px;
-   height: 35px;
+    grid-area: settings;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    background: rgb(255, 226, 173);
+    border-color: rgba(121, 70, 43, 0.95);
+    color: rgba(107, 51, 21, 0.90);
+    font-weight: bold;
 }
-
 .settings-button:hover
 {
-    background-color: rgb(180, 228, 131);
+    background: rgb(255, 206, 115);
 }
 
-.main
+@media (max-width: 800px)
 {
-    position: relative;
-    min-height: 100vh;
+    .aboveBar
+    {
+        grid-template-columns: repeat(2, auto);
+        grid-template-areas:
+            "title title"
+            "progress settings";
+    }
+}
+
+@media (max-width: 450px)
+{
+    .aboveBar
+    {
+        grid-template-columns: auto;
+        grid-template-areas:
+            "title"
+            "settings"
+            "progress";
+    }
 }
 
 .background
