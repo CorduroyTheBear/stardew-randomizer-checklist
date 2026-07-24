@@ -7,13 +7,16 @@ export default function GroupedChecklist ({className, groups, heading, hideCheck
     const [isOpen, setIsOpen] = useState(false);
 
     // Determine which items are visible
-    const visble = (item) => isItemVisible(item) &&  (!hideCompleted || !item.done);
+    const visble = (item) =>
+        isItemVisible(item) &&
+            (!hideCompleted || !item.done) &&
+            (!hideChecksNotFound || item.found);
 
     // Filter out tables with no checks left when hide completed is selected
     const completedVisibleGroups = groups.filter(group => group.data.some(visble));
 
     // Flatten items to compute progress counts
-    const visibleItems = completedVisibleGroups.flatMap(group => group.data.filter(isItemVisible));
+    const visibleItems = completedVisibleGroups.flatMap(group => group.data.filter(visble));
 
     const doneCount = visibleItems.filter(i => i.done).length;
     const totalCount = visibleItems.length;

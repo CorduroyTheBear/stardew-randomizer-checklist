@@ -27,6 +27,8 @@ export default function RenderChecklist({className, data, heading, hideChecksNot
     // Calculates the total number of items
     const totalCount = visibleItems.length;
 
+    if (totalCount === 0) return null;
+
     // Set up table UI
     return(
         <div className = "checklist-section">
