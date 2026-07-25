@@ -1,5 +1,6 @@
 import { useState } from "react";
-import RenderChecklist from "./renderChecklist";
+import RenderChecklist from "./setChecklist";
+import ChecklistTable from "./checklistUI";
 
 export default function GroupedChecklist ({className, groups, heading, hideChecksNotFound = false, hideCompleted = false, isItemVisible, onToggle})
 {
@@ -43,7 +44,7 @@ export default function GroupedChecklist ({className, groups, heading, hideCheck
 
     return(
         <div className = "checklist-section">
-            <div className = {`checklist-box ${className}`}>
+            <div className = {`tableLevel-1 ${className}`}>
                 
                 <div className= "checklist-header" onClick = {() => setIsOpen(!isOpen)}>
                     <h3>{heading}</h3>

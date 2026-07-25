@@ -1,19 +1,98 @@
-.tableLevel-1
+/* Tables section */
+.table-grid
 {
-    width: 325px;
-    padding-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    row-gap: 15px;
+
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: pink;
 }
 
-.tableLevel-2_Heading
-{
-    width: 325px;
-    padding-left: 10px;
-}
+/* --- 1 layer --- */
+    .tableLevel-1
+    {
+        width: 300px;
+        background-color: rgba(0, 255, 255, 1);
+        border-radius: 8px;
+    }
 
-.tableLevel-2_Tables
-{
-    margin-bottom: 5px;
-    width: 285px;
-    background-color: rgba(247, 215, 147, 0.795);
-    margin-right: 35px;
-}
+    /* Check name, progress, and arrow */
+    .checklist-header
+    {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        cursor: pointer;
+
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+
+        height: 45px;
+    }
+
+    .headerName
+    {
+        font-size: 25px;
+    }
+
+    .checklist-progress
+    {
+        font-size: 25px;
+    }
+
+    .openCloseButton
+    {
+        font-size: 20px;
+        cursor: pointer;
+        background: none;
+        border: none;
+    }
+
+/* --- Opened tab --- */
+
+    .checklist-enableScrolling
+    {
+        max-height: 300px;
+        overflow-y: auto;
+    }
+
+    /* Done, Found */
+    .listHeader
+    {
+        display: grid;
+        grid-template-columns: 1fr 50px 66px;
+        padding: 4px 10px;
+        font-weight: bold;
+        position: sticky; 
+        top: 0;
+        background-color: rgb(255, 248, 248);
+        border-bottom: 1px solid black;
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        color: rgb(0, 0, 0);
+    }
+
+/* --- 2 layers --- */
+
+    /* outside */
+    .tableLevel-2_Heading
+    {
+        width: 350px;
+        border-color: rgb(187, 127, 255);
+        border: solid 5px;
+    }
+
+    /* inside */
+    .tableLevel-2_Tables
+    {
+        margin-bottom: 5px;
+        width: 350px;
+        border-color: rgba(255, 182, 193, 1);
+        border: solid 5px;
+    }
+
+
+

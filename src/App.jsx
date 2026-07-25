@@ -6,16 +6,16 @@ import { FilterProvider, useFilters} from './components/Filters/filterContext';
 import { GROUPED_TABLES } from './data/groupedTables';
 import { Presets } from './components/TableSettings/presets';
 
-import GroupedChecklist from './components/groupedChecklist';
+import GroupedChecklist from './components/Checklists/groupedChecklist.jsx';
 import image from './components/images';
 import RandomizerSettings from './components/TableSettings/randomizerSettings';
-import RenderChecklist from './components/renderChecklist';
+import RenderChecklist from './components/Checklists/setChecklist.jsx';
 import SearchBar from './components/SearchBar/searchBar.jsx';
-import SettingsButton from './components/settingsButton';
+import SettingsButton from './components/TableSettings/settingsButton.jsx';
 import TopBar from './components/TopBar/topBar.jsx';
 
 import './App.css';
-import './components/renderChecklist.css';
+import './components/Checklists/renderChecklist.css';
 import './components/SearchBar/searchBar.css';
 import './data/tables.css';
 import './components/TopBar/topBar.css';
@@ -207,9 +207,8 @@ function InnerApp()
         />
 
 
-          <SearchBar></SearchBar>
+        <SearchBar></SearchBar>
 
-      
         {
           settingsOpen &&
           (
@@ -224,62 +223,65 @@ function InnerApp()
           )
         }
 
-      {Object.entries(GROUPED_TABLES)
-        .filter(([key]) => visibleGroupedKeys.includes(key))
+        <div className = 'table-grid'>
 
-        .filter(([key, table]) =>
-        {
-          const allowedGroups = filterGroups(key, settings);
-          const filteredGroups = allowedGroups
-            ? table.groups.filter(group => allowedGroups.includes(group.id))
-            : table.groups;
+        {Object.entries(GROUPED_TABLES)
+          .filter(([key]) => visibleGroupedKeys.includes(key))
 
-            return filteredGroups.some(group => group.data.some(visible));
-        })
-
-        .map(([key, table]) =>
-        {
-          const allowedGroups = filterGroups(key, settings);
-          const filteredGroups = allowedGroups
-            ? table.groups.filter(group => allowedGroups.includes(group.id))
-            : table.groups;
-
-          const slicedGroups = filteredGroups.map(group =>
+          .filter(([key, table]) =>
           {
-            if (key === "travelingMerchant") { return {...group, data: group.data.slice(0, settings.travelingMerchantCount)}; }
-            return group;
-          });
+            const allowedGroups = filterGroups(key, settings);
+            const filteredGroups = allowedGroups
+              ? table.groups.filter(group => allowedGroups.includes(group.id))
+              : table.groups;
+
+              return filteredGroups.some(group => group.data.some(visible));
+          })
+
+          .map(([key, table]) =>
+          {
+            const allowedGroups = filterGroups(key, settings);
+            const filteredGroups = allowedGroups
+              ? table.groups.filter(group => allowedGroups.includes(group.id))
+              : table.groups;
+
+            const slicedGroups = filteredGroups.map(group =>
+            {
+              if (key === "travelingMerchant") { return {...group, data: group.data.slice(0, settings.travelingMerchantCount)}; }
+              return group;
+            });
           
-          const allVisibleGroups = filteredGroups
-          .filter(group => group.data.some(visible));
+            const allVisibleGroups = filteredGroups
+            .filter(group => group.data.some(visible));
 
-          // Handle styles based on # of tables
-          const headingClass = allVisibleGroups.length === 1 ? "tableLevel-2_Heading" : "tableLevel-2_Heading";
-          const groupClass = allVisibleGroups.length === 1 ? "tableLevel-1" : "tableLevel-2_Tables";
+            // Handle styles based on # of tables
+            const headingClass = allVisibleGroups.length === 1 ? "tableLevel-2_Heading" : "tableLevel-2_Heading";
+            const groupClass = allVisibleGroups.length === 1 ? "tableLevel-1" : "tableLevel-2_Tables";
 
-          return(
-            <GroupedChecklist
-            key = {key}
-            heading = {table.heading}
-            className = {headingClass}
+            return(
+              <GroupedChecklist
+              key = {key}
+              heading = {table.heading}
+              className = {headingClass}
             
-            groups =
-            {slicedGroups.map(group => ({ 
-              ...group, 
-              data: key === "travelingMerchant" 
-              ? tableData[group.id]?.slice(0, settings.travelingMerchantCount) ?? []
-              : tableData[group.id] ?? [],
-              className: groupClass 
-            }))}
+              groups =
+              {slicedGroups.map(group => ({ 
+                ...group, 
+                data: key === "travelingMerchant" 
+                ? tableData[group.id]?.slice(0, settings.travelingMerchantCount) ?? []
+                : tableData[group.id] ?? [],
+                className: groupClass 
+              }))}
 
-            onToggle = {(groupID, itemID, field) => handleToggle(groupID, itemID, field)}
-            hideCompleted = {settings.hideCompleted}
-            hideChecksNotFound = {settings.hideChecksNotFound}
+              onToggle = {(groupID, itemID, field) => handleToggle(groupID, itemID, field)}
+              hideCompleted = {settings.hideCompleted}
+              hideChecksNotFound = {settings.hideChecksNotFound}
             isItemVisible = {visible}
-          />
-          );
-        })
-      }
+            />
+            );
+          })
+        }
+        </div>
     </div>
     </div>
   );
