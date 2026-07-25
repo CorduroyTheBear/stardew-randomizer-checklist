@@ -1,12 +1,52 @@
 .table-grid
 {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(6, auto);
     row-gap: 15px;
 
     justify-content: center;
     justify-content: space-evenly;
     background-color: pink;
+}
+
+@media (max-width: 1800px)
+{
+    .table-grid
+    {
+        grid-template-columns: repeat(5, auto);
+    }
+}
+
+@media (max-width: 1500px)
+{
+    .table-grid
+    {
+        grid-template-columns: repeat(4, auto);
+    }
+}
+
+@media (max-width: 1200px)
+{
+    .table-grid
+    {
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media (max-width: 900px)
+{
+    .table-grid
+    {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media (width < 600px)
+{
+    .table-grid
+    {
+        grid-template-columns: repeat(1, auto);
+    }
 }
 
 /* --- 1 layer --- */
@@ -57,7 +97,28 @@
     .checklist-enableScrolling
     {
         max-height: 300px;
-        overflow-y: auto;
+        overflow-y: scroll;
+    }
+
+    .checklist-enableScrolling::-webkit-scrollbar
+    {
+        width: 10px;
+        background-color: aquamarine;
+    }
+
+    .checklist-enableScrolling::-webkit-scrollbar-track
+    {
+        /* Track: The background */
+        border-left: solid 1px rgb(47, 12, 245);
+        border-right: solid 1px rgb(47, 12, 245);;  
+    }
+
+    .checklist-enableScrolling::-webkit-scrollbar-thumb
+    {
+        /* Thumb: The part the user clicks and drags */
+        border-radius: 100px;
+        width: 1px;
+        background-color: #070707;
     }
 
     /* Done, Found */

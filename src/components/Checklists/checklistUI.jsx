@@ -24,29 +24,34 @@ export default function ChecklistTable({className, heading, items, onToggle})
                 </div>
 
                 {isOpen && (
-                    <div className = "checklist-enableScrolling">
+                    <div className = "openTab">
                         <div className = "listHeader">
                             <span className = "itemName-header"></span>
                             <span className = "columnName">Done</span>
                             <span className = "columnName">Found</span>
                         </div>
+                        
+                        <div className = "checklist-enableScrolling">
                             {items.map(item => (
-                                <li key = {item.id} className = "checklist-row">
-                                    <span className = "item-name">{item.name}</span>
+                                
+                                    <li key = {item.id} className = "checklist-row">
+                                        <span className = "item-name">{item.name}</span>
 
-                                    <input
-                                        type = "checkbox"
-                                        checked = {item.done || false}
-                                        onChange = {() => onToggle(item.id, "done")}
-                                    />
+                                        <input
+                                            type = "checkbox"
+                                            checked = {item.done || false}
+                                            onChange = {() => onToggle(item.id, "done")}
+                                        />
 
-                                    <input
-                                        type = "checkbox"
-                                        checked = {item.found || false}
-                                        onChange = {() => onToggle(item.id, "found")}
-                                    />
-                                </li>
+                                        <input
+                                            type = "checkbox"
+                                            checked = {item.found || false}
+                                            onChange = {() => onToggle(item.id, "found")}
+                                        />
+                                    </li>
+                                
                             ))}
+                        </div>
                     </div>
                 )}
             </div>
