@@ -30,8 +30,6 @@ export default function ChecklistTable({className, heading, items, onToggle})
                             <span className = "columnName">Done</span>
                             <span className = "columnName">Found</span>
                         </div>
-
-                        <ul className = "checklist-items">
                             {items.map(item => (
                                 <li key = {item.id} className = "checklist-row">
                                     <span className = "item-name">{item.name}</span>
@@ -49,7 +47,6 @@ export default function ChecklistTable({className, heading, items, onToggle})
                                     />
                                 </li>
                             ))}
-                        </ul>
                     </div>
                 )}
             </div>

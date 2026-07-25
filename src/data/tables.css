@@ -1,4 +1,3 @@
-/* Tables section */
 .table-grid
 {
     display: grid;
@@ -15,7 +14,10 @@
     {
         width: 300px;
         background-color: rgba(0, 255, 255, 1);
-        border-radius: 8px;
+        border-radius: 5px;
+        
+        border-color: brown;
+        border: solid;
     }
 
     /* Check name, progress, and arrow */
@@ -62,16 +64,21 @@
     .listHeader
     {
         display: grid;
-        grid-template-columns: 1fr 50px 66px;
-        padding: 4px 10px;
+        grid-template-columns: 1fr 50px 67px;
+        
         font-weight: bold;
         position: sticky; 
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-right: 3px;
         top: 0;
+
+        justify-self: stretch;
+        
         background-color: rgb(255, 248, 248);
-        border-bottom: 1px solid black;
         border-top: 2px solid black;
-        border-left: 2px solid black;
-        border-right: 2px solid black;
+        border-bottom: 1px solid black;
+
         color: rgb(0, 0, 0);
     }
 

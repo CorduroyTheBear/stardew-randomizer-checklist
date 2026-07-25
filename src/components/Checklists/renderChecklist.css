@@ -1,8 +1,3 @@
-/* item list location */
-.checklist-items
-{
-}
-
 /* Lines in between checks */
 .checklist-row
 {
@@ -13,8 +8,8 @@
     margin-top: 0px;
     border-top: 1px solid #222222;
     border-bottom: 1px solid #222222;
-    border-left: 2px solid #222222;
-    border-right: 2px solid #222222;
+
+    background-color: aquamarine;
 }
 
 /* item-name horizontal position */
@@ -29,37 +24,4 @@
     text-align: center;
     margin-right: 15px;
     margin-left: 0px;
-}
-
-
-
-/*-----------------------------------------------------------------------------------------------------*/
-
-/* Tables arrangement */
-
-@media (min-width: 1300px) {
-  .table-grid {
-    flex-wrap: nowrap;
-  }
-}
-
-@media (max-width: 1299px) and (min-width: 900px) {
-  .checklist-grid {
-    flex-wrap: wrap;
-  }
-  .checklist-column {
-    flex: 1 1 calc(33.333% - 16px);
-  }
-}
-
-@media (max-width: 899px) and (min-width: 600px) {
-  .checklist-column {
-    flex: 1 1 calc(50% - 16px);
-  }
-}
-
-@media (max-width: 599px) {
-  .checklist-column {
-    flex: 1 1 100%;
-  }
 }
