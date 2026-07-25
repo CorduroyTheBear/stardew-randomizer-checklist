@@ -1,4 +1,4 @@
-import { useFilters } from "./Filters/filterContext";
+import { useFilters } from "../Filters/filterContext";
 
 export default function SearchBar()
 {
@@ -8,14 +8,10 @@ export default function SearchBar()
         <div className = "search-bar">
             <input
                 type = "text"
-                placeholder = ""
+                placeholder = "Search for check"
                 value = {filterState.search}
                 onChange = {(e) => updateFilter("search", e.target.value)}
             />
-
-            {filterState.search &&(
-                <button onClick = {() => updateFilter("search", "")}>✕</button>
-            )}
         </div>
     );
 }

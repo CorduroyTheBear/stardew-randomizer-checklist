@@ -4,21 +4,21 @@ import { filterGroups, filterGroupedTables } from './components/Filters/filterTa
 import { passItemFilters } from './components/Filters/filtersList';
 import { FilterProvider, useFilters} from './components/Filters/filterContext';
 import { GROUPED_TABLES } from './data/groupedTables';
+import { Presets } from './components/TableSettings/presets';
 
 import GroupedChecklist from './components/groupedChecklist';
 import image from './components/images';
-import { Presets } from './components/TableSettings/presets';
 import RandomizerSettings from './components/TableSettings/randomizerSettings';
 import RenderChecklist from './components/renderChecklist';
-import SearchBar from './components/searchBar';
-import TopBar from './components/topBar';
+import SearchBar from './components/SearchBar/searchBar.jsx';
+import SettingsButton from './components/settingsButton';
+import TopBar from './components/TopBar/topBar.jsx';
 
 import './App.css';
 import './components/renderChecklist.css';
+import './components/SearchBar/searchBar.css';
 import './data/tables.css';
-import './topBar.css';
-import SettingsButton from './components/settingsButton';
-
+import './components/TopBar/topBar.css';
 
 function InnerApp()
 {
@@ -166,6 +166,11 @@ function InnerApp()
 
   const handleResetProgress = resetHandler(setTableData);
 
+  // Debugging Tool
+  // <div className = 'windowSize'>Width: {window.innerWidth}px, Height: {height}px</div>
+  const width = window.innerWidth;
+  const height = window.innerHeight;
+
   return(
 
     <div className ='main'>
@@ -180,6 +185,8 @@ function InnerApp()
         }}
       />
       
+      <div className = 'windowSize'>Width: {window.innerWidth}px, Height: {height}px</div>
+
       <div className = 'content'>
           
           <div className = 'aboveBar'>
@@ -199,7 +206,9 @@ function InnerApp()
           setSettings = {setSettings}
         />
 
-        <SearchBar></SearchBar>
+
+          <SearchBar></SearchBar>
+
       
         {
           settingsOpen &&

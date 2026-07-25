@@ -1,4 +1,4 @@
-import { useFilters } from "./Filters/filterContext";
+import { useFilters } from "../Filters/filterContext";
 
 export default function TopBar({settings, setSettings})
 {
@@ -6,8 +6,9 @@ export default function TopBar({settings, setSettings})
     const { season, fishingLocation, isGI } = filterState;
 
     return(  
-            <div className = "top-bar">
-              <div className = "topBar-content">
+ 
+          <div className = "top-bar">
+            <div className = "topBar-content">
                             
                 <label>Season:
                   <select value = {season.season} onChange = {(e) => updateFilter("season", prev => ({ ...prev, season: e.target.value}))}>
@@ -18,7 +19,7 @@ export default function TopBar({settings, setSettings})
                     <option value = "winter">Winter</option>
                   </select>
                 </label>
-
+              
                 <label>Exclusive to Season
                   <input type = "checkbox" checked = {season.seasonExclusive} onChange = {(e) => updateFilter("season", prev => ({ ...prev, seasonExclusive: e.target.checked }))}/>
                 </label>
@@ -35,7 +36,6 @@ export default function TopBar({settings, setSettings})
                     <option value = "gingerIslandRiver">Ginger Island River</option>
                     <option value = "gingerIslandOcean">Ginger Island Ocean</option>
                     <option value = "legend">Legend</option>
-                    <option value = "lake">Lake</option>
                     <option value = "mines">Mines</option>
                     <option value = "nightMarket">Night Market</option>
                     <option value = "ocean">Ocean</option>
@@ -47,22 +47,18 @@ export default function TopBar({settings, setSettings})
                   </select>
                 </label>
 
-              
-                <label>Show only GI Checks?:
-                  <select value = {isGI} onChange={(e) => updateFilter("isGI", e.target.value)}>
-                    <option value = "No">No</option>
-                    <option value = "Yes">Yes</option>
-                  </select>
-                </label>
-              
-                <label>Hide Completed Checks
-                  <input type = "checkbox" checked = {settings.hideCompleted} onChange = {(e) => setSettings(prev => ({ ...prev, hideCompleted: e.target.checked }))}/>
-                </label>
+                  <label>Show only GI Checks
+                    <input type="checkbox" checked={isGI === "Yes"} onChange={(e) => updateFilter("isGI", e.target.checked ? "Yes" : "No")} />
+                  </label>
 
-                <label>Hide Checks Not Found
-                  <input type = "checkbox" checked = {settings.hideChecksNotFound} onChange = {(e) => setSettings(prev => ({ ...prev, hideChecksNotFound: e.target.checked }))}/>
-                </label>
-              </div>
+                  <label>Hide Completed Checks
+                    <input type = "checkbox" checked = {settings.hideCompleted} onChange = {(e) => setSettings(prev => ({ ...prev, hideCompleted: e.target.checked }))}/>
+                  </label>
+
+                  <label>Hide Checks Not Found
+                    <input type = "checkbox" checked = {settings.hideChecksNotFound} onChange = {(e) => setSettings(prev => ({ ...prev, hideChecksNotFound: e.target.checked }))}/>
+                  </label>
             </div>
+          </div>
     )
 }

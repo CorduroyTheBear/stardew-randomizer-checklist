@@ -1,0 +1,84 @@
+/* Greeen Box */
+.top-bar
+{
+    justify-self: center;
+    width: 95vw;
+    padding: 10px;
+    background-color: rgba(217, 255, 128, 0.30);
+    border: 3px solid rgba(87, 114, 26, 0.75);
+    border-radius: 5px;
+}
+
+.topBar-content
+{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+}
+
+.topBar-content input[type = "checkbox"]
+{
+    position: relative;
+    margin-left: 3px;
+    vertical-align: center;
+    top: 3px;
+    width: 15px;
+    height: 15px;
+}
+
+.topBar-content select
+{
+    margin-left: 3px;
+    top: 3px
+}
+
+@media (max-width: 1100px)
+{
+    .topBar-content
+    {
+        grid-template-columns: repeat(4, auto);
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        row-gap: 10px;
+    }
+}
+
+@media (max-width: 830px)
+{
+    .topBar-content
+    {
+        grid-template-columns: repeat(3, auto);
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        row-gap: 10px;
+    }
+}
+
+@media (max-width: 700px)
+{
+    .topBar-content
+    {
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        row-gap: 10px;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .topBar-content
+    {
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        row-gap: 10px;
+    }
+}
