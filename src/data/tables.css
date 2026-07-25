@@ -3,10 +3,10 @@
     display: grid;
     grid-template-columns: repeat(6, auto);
     row-gap: 15px;
+    margin-bottom: 25px;
 
     justify-content: center;
     justify-content: space-evenly;
-    background-color: pink;
 }
 
 @media (max-width: 1800px)
@@ -54,10 +54,9 @@
     {
         width: 300px;
         background-color: rgba(0, 255, 255, 1);
-        border-radius: 5px;
         
-        border-color: brown;
-        border: solid;
+        border-radius: 10px;
+        border: solid 3px brown;
     }
 
     /* Check name, progress, and arrow */
@@ -94,10 +93,17 @@
 
 /* --- Opened tab --- */
 
+    .openTab
+    {
+        padding: 5px;
+    }
+
     .checklist-enableScrolling
     {
         max-height: 300px;
         overflow-y: scroll;
+        border-bottom: solid 1px rgb(1, 39, 26);
+        border-top: solid 1px rgb(1, 39, 26);
     }
 
     .checklist-enableScrolling::-webkit-scrollbar
@@ -109,38 +115,54 @@
     .checklist-enableScrolling::-webkit-scrollbar-track
     {
         /* Track: The background */
-        border-left: solid 1px rgb(47, 12, 245);
-        border-right: solid 1px rgb(47, 12, 245);;  
+        border-left: solid 1px rgb(1, 39, 26);
+        border-right: solid 1px rgb(1, 39, 26);
     }
 
     .checklist-enableScrolling::-webkit-scrollbar-thumb
     {
         /* Thumb: The part the user clicks and drags */
-        border-radius: 100px;
-        width: 1px;
-        background-color: #070707;
+        border-radius: 3px;
+        margin: 1px;
+        background-color: rgb(17, 133, 94);
     }
 
     /* Done, Found */
     .listHeader
     {
         display: grid;
-        grid-template-columns: 1fr 50px 67px;
+        grid-template-columns: 1fr 50px 68px;
+        column-gap: 6px;
         
         font-weight: bold;
         position: sticky; 
         padding-top: 1px;
         padding-bottom: 1px;
-        padding-right: 3px;
         top: 0;
 
         justify-self: stretch;
         
         background-color: rgb(255, 248, 248);
-        border-top: 2px solid black;
-        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
 
-        color: rgb(0, 0, 0);
+    .checklist-row
+    {
+        display: grid;
+        grid-template-columns: 1fr 60px 60px;
+        align-items: center;
+        padding: 5px;
+        border-top: 1px solid #222222;
+        border-left: 1px solid #222222;
+
+        background-color: aquamarine;
+    }
+
+    .item-name
+    {
+        text-align: center;
     }
 
 /* --- 2 layers --- */

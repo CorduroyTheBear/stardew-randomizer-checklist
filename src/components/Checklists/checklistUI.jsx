@@ -10,6 +10,7 @@ export default function ChecklistTable({className, heading, items, onToggle})
     return(
         <div className = "checklist-section">
             <div className = {`tableLevel-1 ${className}`}>
+            <div className="individualTable">
 
                 <div className = "checklist-header" onClick = {() => setIsOpen(!isOpen)}>
                     <div className = "headerName">{heading}</div>
@@ -27,8 +28,8 @@ export default function ChecklistTable({className, heading, items, onToggle})
                     <div className = "openTab">
                         <div className = "listHeader">
                             <span className = "itemName-header"></span>
-                            <span className = "columnName">Done</span>
-                            <span className = "columnName">Found</span>
+                            <text>Done</text>
+                            <text>Found</text>
                         </div>
                         
                         <div className = "checklist-enableScrolling">
@@ -54,6 +55,7 @@ export default function ChecklistTable({className, heading, items, onToggle})
                         </div>
                     </div>
                 )}
+            </div>
             </div>
         </div>
     );
