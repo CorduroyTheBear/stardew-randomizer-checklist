@@ -11,10 +11,19 @@
     width: 450px;
     height: 30px;
     border-radius: 20px;
+    border: solid 2px rgb(59, 80, 104, .75);
 }
 
 .search-bar input[type = "text"]
 {
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 15px;
+    align-self: center;
+    background-color: rgba(231, 241, 255, 0.85);
+    color: rgb(15, 37, 63);
+}
+
+.search-bar input:focus
+{
+    outline: none;
 }

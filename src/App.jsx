@@ -165,10 +165,10 @@ function InnerApp()
 
   const handleResetProgress = resetHandler(setTableData);
 
-  // Debugging Tool
+  // Debugging Tool - Check window size
   // <div className = 'windowSize'>Width: {window.innerWidth}px, Height: {height}px</div>
-  const width = window.innerWidth;
-  const height = window.innerHeight;
+  // const width = window.innerWidth;
+  // const height = window.innerHeight;
 
   return(
 
@@ -183,8 +183,6 @@ function InnerApp()
           opacity: "70%"
         }}
       />
-      
-      <div className = 'windowSize'>Width: {window.innerWidth}px, Height: {height}px</div>
 
       <div className = 'content'>
           
