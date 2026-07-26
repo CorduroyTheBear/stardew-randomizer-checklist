@@ -22,11 +22,12 @@
     margin-right: 10px;
 }
 
+/* overall progress */
 .progress
 {
     grid-area: progress;
     font-size: 40px;
-    color: #000000;
+    color: #383333;
     justify-self: center;
     align-self: center;
 }
@@ -36,7 +37,11 @@ h1
     grid-area: title;
     align-self: center;
     font-size: 40px;
-    color: rgba(50, 50, 50, 0.9);
+    color: rgb(158, 58, 0);
+    background-color: rgba(242, 243, 255, 0.50);
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .settings-button

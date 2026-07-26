@@ -4,6 +4,8 @@
     grid-template-columns: repeat(6, auto);
     row-gap: 15px;
     margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
 
     justify-content: center;
     justify-content: space-evenly;
@@ -53,10 +55,10 @@
     .tableLevel-1
     {
         width: 300px;
-        background-color: rgba(0, 255, 255, 1);
+        background-color: rgb(243, 216, 182, .9);
         
         border-radius: 10px;
-        border: solid 3px brown;
+        border: solid 3px rgb(184, 118, 32, .9);
     }
 
     /* Check name, progress, and arrow */
@@ -71,14 +73,10 @@
         align-items: center;
 
         height: 45px;
+        color: #242424;
     }
 
-    .headerName
-    {
-        font-size: 25px;
-    }
-
-    .checklist-progress
+    .checklist-progress, .headerName
     {
         font-size: 25px;
     }
@@ -102,21 +100,21 @@
     {
         max-height: 300px;
         overflow-y: scroll;
-        border-bottom: solid 1px rgb(1, 39, 26);
-        border-top: solid 1px rgb(1, 39, 26);
+        border-bottom: solid 1px rgb(87, 51, 5);
+        border-top: solid 1px rgb(87, 51, 5);
     }
 
     .checklist-enableScrolling::-webkit-scrollbar
     {
         width: 10px;
-        background-color: aquamarine;
+        background-color: rgb(184, 118, 32, .25);
     }
 
     .checklist-enableScrolling::-webkit-scrollbar-track
     {
         /* Track: The background */
-        border-left: solid 1px rgb(1, 39, 26);
-        border-right: solid 1px rgb(1, 39, 26);
+        border-left: solid 1px rgb(87, 51, 5);
+        border-right: solid 1px rgb(87, 51, 5);
     }
 
     .checklist-enableScrolling::-webkit-scrollbar-thumb
@@ -124,7 +122,7 @@
         /* Thumb: The part the user clicks and drags */
         border-radius: 3px;
         margin: 1px;
-        background-color: rgb(17, 133, 94);
+        background-color: rgb(143, 87, 15, .75);
     }
 
     /* Done, Found */
@@ -135,6 +133,7 @@
         column-gap: 6px;
         
         font-weight: bold;
+        color: #242424;
         position: sticky; 
         padding-top: 1px;
         padding-bottom: 1px;
@@ -142,10 +141,10 @@
 
         justify-self: stretch;
         
-        background-color: rgb(255, 248, 248);
-        border-top: 1px solid black;
-        border-left: 1px solid black;
-        border-right: 1px solid black;
+        background-color: rgba(255, 179, 79, 0.18);
+        border-top: 1px solid rgb(87, 51, 5);
+        border-left: 1px solid rgb(87, 51, 5);
+        border-right: 1px solid rgb(87, 51, 5);
     }
 
     .checklist-row
@@ -154,10 +153,11 @@
         grid-template-columns: 1fr 60px 60px;
         align-items: center;
         padding: 5px;
-        border-top: 1px solid #222222;
-        border-left: 1px solid #222222;
+        border-top: 1px solid rgb(87, 51, 5);
+        border-left: 1px solid rgb(87, 51, 5);
 
-        background-color: aquamarine;
+        background-color: rgba(255, 254, 210, 0.6);
+        color: rgb(15, 9, 0);
     }
 
     .item-name

@@ -15,7 +15,6 @@ import SettingsButton from './components/TableSettings/settingsButton.jsx';
 import TopBar from './components/TopBar/topBar.jsx';
 
 import './App.css';
-import './components/Checklists/renderChecklist.css';
 import './components/SearchBar/searchBar.css';
 import './data/tables.css';
 import './components/TopBar/topBar.css';
