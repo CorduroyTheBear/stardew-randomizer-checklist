@@ -1,6 +1,6 @@
 const image =
 {
-    background:"/assets/Background.png"
+    background: `${import.meta.env.BASE_URL}assets/Background.png`
 };
 
 export default image;
