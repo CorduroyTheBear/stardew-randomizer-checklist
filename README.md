@@ -16,18 +16,15 @@
 # Current Features
 - Dynamic checklist generation based on selected randomizer settings.
 - Local storage so users can save their progress in between sessions.
-- Filters for seasons, Ginger Island, fishing locations, and completed checks.
-- Preset configurations matching official Archipelago presets.
+- Filters for seasons, Ginger Island, fishing locations, completed checks, and checks found.
+- Preset configurations matching Archipelago presets.
 - A Vanilla Perfection preset for players pursuing Stardew Valley perfection.
 - Search bar to help users find checks faster.
-
-# Planned Before Initial Release
-- Update UI.
 
 # Features I want to add in future updates
   # Checklist Aditions
   - Edit bundle items to incorporate the random bundles option.
-  - Hints for difficult checks (such as Secretsanity)
+  - Hints for difficult checks (such as Secretsanity).
   - Item tracker for for cooking and crafting.
   - Support for additional Stardew Valley Mods.
 

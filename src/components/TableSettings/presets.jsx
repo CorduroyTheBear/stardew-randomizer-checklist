@@ -902,97 +902,6 @@ export const Presets =
             }
         },
 
-    selectNothing:
-        {
-            settings:
-            {
-                arcade: "disabled",
-                backpack: "vanilla",
-                bookSanity: "none",
-                buildingProgression: "vanilla",
-                bundles: "none", // Change only if Vanilla
-                cooksanity: "all",
-                craftsanity: "none",
-                cropsanity: "disabled",
-                elevatorProgression: "progressive",
-                festivalLocations: "none",  
-                fishsanity: "none",
-                friendsanity: "none",
-                gingerIsland: "yes",
-                endGame: "no",
-                minesChests: "yes", // Change only if Vanilla
-                monstersanity: "none",
-                movieSanity: "none",
-                museamsity: "none",
-                otherChecks: "yes", // Change only if Vanilla
-                quests: "none",
-                raccoonChecks: "yes", // Change only if Vanilla
-                shipsanity: "none",
-                skillProgression: "vanilla",
-                specialOrders: "none",
-                stardrops: "yes", // Change only if Vanilla
-                toolProgression: "vanilla",
-                travelingMerchant: "no", // Change only if Vanilla
-                travelingMerchantCount: 1,
-                wizardBuildings: "yes", // Change only if Vanilla
-    
-                hideCompleted: false,
-                hideChecksNotFound: false,
-            },
-
-            filterState:
-            {
-                // Chefsanity
-                chefCategory:
-                {
-                    friendship: false,
-                    purchase: false,
-                    queenOfSauce: false,
-                    skills: false
-                },
-
-                eatType:
-                {
-                    artisan: false,
-                    cooking: false,
-                    crop: false,
-                    fish: false,
-                    shop: false
-                },
-
-                isPoison: false,
-                excludeBackpack: false,
-
-                hatType:
-                {
-                    difficult: false,
-                    easy: false,
-                    medium: false,
-                    nearPerfection: false,
-                    postPerfection: false,
-                    rng: false,
-                    tailoring: false
-                },
-
-                secretType:
-                {
-                    difficult: false,
-                    easy: false,
-                    fishing: false,
-                    note: false
-                },
-
-                walnutType:
-                {
-                    bush: false,
-                    digSpot: false,
-                    puzzle: false,
-                    repeatable: false
-                },
-            }
-        },
-
-    /*
         selectNothing:
         {
             settings:
@@ -1081,6 +990,5 @@ export const Presets =
                     repeatable: false
                 },
             }
-        },
-    */
+        }
 };

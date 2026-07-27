@@ -71,7 +71,7 @@ export default function SettingsList({settings, setSettings, onResetProgress, pr
     };
 
     // Debug feature to add all tables, or none
-    // <option value = "everythingSelected">Everything (DEBUGGING)</option>
+    // <option value = "selectEverything">Everything (DEBUGGING)</option>
     // <option value = "nothingSelected">Nothing (DEBUGGING)</option>
 
     return(
@@ -82,10 +82,6 @@ export default function SettingsList({settings, setSettings, onResetProgress, pr
                 Preset:
                 <select value={preset} onChange={(e) => handlePreset(e.target.value)}>
                     <option value = "default">Default</option>
-
-                    <option value = "selectEverything">Everything (DEBUGGING)</option>
-                    <option value = "selectNothing">Nothing (DEBUGGING)</option>
-
                     <option value = "vanillaPerfection">Vanilla Perfection</option>
                     <option value = "easy">Easy</option>
                     <option value = "medium">Medium</option>

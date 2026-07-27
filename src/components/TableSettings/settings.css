@@ -19,6 +19,22 @@
     overflow-y: auto;
 }
 
+.settings-box::-webkit-scrollbar
+{
+    width: 8px;
+}
+
+.settings-box::-webkit-scrollbar-track
+{
+    border-left: solid 1px rgb(87, 51, 5);
+    background-color: rgba(221, 125, 0, 0.4);
+}
+
+.settings-box::-webkit-scrollbar-thumb
+{
+    background-color: rgba(221, 125, 0, 0.8);
+}
+
 .settings-box h2
 {
     margin-top: 0px;

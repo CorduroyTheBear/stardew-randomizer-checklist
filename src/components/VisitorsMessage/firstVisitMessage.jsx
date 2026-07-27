@@ -9,7 +9,7 @@ export function FirstVisitPopup()
         () =>
         {
             const seen = localStorage.getItem("hasVisited");
-            if (seen)
+            if (!seen)
             {
                 setShow(true);
                 localStorage.setItem("hasVisited", "true");

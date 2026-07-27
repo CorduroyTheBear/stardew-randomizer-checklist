@@ -1,12 +1,13 @@
 import { resetHandler } from './components/TableSettings/resetProgressHandler';
 import {useEffect, useState} from 'react';
+
 import { filterGroups, filterGroupedTables } from './components/Filters/filterTables';
-import { passItemFilters } from './components/Filters/filtersList';
 import { FilterProvider, useFilters} from './components/Filters/filterContext';
 import { GROUPED_TABLES } from './data/groupedTables';
+import { FirstVisitPopup } from './components/VisitorsMessage/firstVisitMessage.jsx';
+import { passItemFilters } from './components/Filters/filtersList';
 import { Presets } from './components/TableSettings/presets';
 
-import { FirstVisitPopup } from './components/VisitorsMessage/firstVisitMessage.jsx';
 import GroupedChecklist from './components/Checklists/groupedChecklist.jsx';
 import image from './components/images';
 import RandomizerSettings from './components/TableSettings/randomizerSettings';
@@ -33,8 +34,8 @@ function InnerApp()
   (
     () =>
     {
-      try{return localStorage.getItem("preset") ?? "selectNothing"}
-      catch{return "selectNothing";}
+      try{return localStorage.getItem("preset") ?? "default"}
+      catch{return "default";}
     }
   );
 
@@ -45,10 +46,10 @@ function InnerApp()
       try
       {
         const saved = localStorage.getItem("settings");
-        return saved ? { ...Presets.selectNothing.settings, ...JSON.parse(saved)} : Presets.selectNothing.settings;
+        return saved ? { ...Presets.default.settings, ...JSON.parse(saved)} : Presets.default.settings;
       }
 
-      catch {return Presets.selectNothing.settings;}
+      catch {return Presets.default.settings;}
     }
   );
 
@@ -259,9 +260,6 @@ function InnerApp()
             // Handle styles based on # of tables
             const headingClass = allVisibleGroups.length === 1 ? "tableLevel-1" : "tableLevel-1";
             const groupClass = allVisibleGroups.length === 1 ? "tableLevel-1" : "tableLevel-1";
-
-            //const headingClass = allVisibleGroups.length === 1 ? "tableLevel-2_Heading" : "tableLevel-2_Heading";
-            //const groupClass = allVisibleGroups.length === 1 ? "tableLevel-1" : "tableLevel-2_Tables";
 
             return(
               <GroupedChecklist
