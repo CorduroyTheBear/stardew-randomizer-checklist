@@ -645,7 +645,7 @@ export const Presets =
             elevatorProgression: "progressive",
             festivalLocations: "hard",  
             fishsanity: "all",
-            friendsanity: "All",
+            friendsanity: "all",
             gingerIsland: "no",
             endGame: "yes",
             minesChests: "yes", // Change only if Vanilla
