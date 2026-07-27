@@ -1,84 +1,46 @@
 .table-grid
 {
     display: grid;
-    grid-template-columns: repeat(6, auto);
-    row-gap: 15px;
-    margin-bottom: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
-
-    justify-content: center;
-    justify-content: space-evenly;
-}
-
-@media (max-width: 1800px)
-{
-    .table-grid
-    {
-        grid-template-columns: repeat(5, auto);
-    }
-}
-
-@media (max-width: 1500px)
-{
-    .table-grid
-    {
-        grid-template-columns: repeat(4, auto);
-    }
-}
-
-@media (max-width: 1200px)
-{
-    .table-grid
-    {
-        grid-template-columns: repeat(3, auto);
-    }
-}
-
-@media (max-width: 900px)
-{
-    .table-grid
-    {
-        grid-template-columns: repeat(2, auto);
-    }
-}
-
-@media (width < 600px)
-{
-    .table-grid
-    {
-        grid-template-columns: repeat(1, auto);
-    }
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    row-gap: 10px;
+    column-gap: 10px;
+    max-width: 98vw;
+    justify-self: center;
 }
 
 /* --- 1 layer --- */
     .tableLevel-1
     {
-        width: 300px;
-        background-color: rgb(243, 216, 182, .9);
+        width: 320px;
+        background-color: rgba(243, 234, 182, 0.8);
         
         border-radius: 10px;
         border: solid 3px rgb(184, 118, 32, .9);
+        margin-bottom: 10px;
     }
 
     /* Check name, progress, and arrow */
     .checklist-header
     {
         display: grid;
-        grid-template-columns: repeat(3, auto);
+        grid-template-columns: 1fr auto auto;
         cursor: pointer;
-
-        justify-content: center;
-        justify-content: space-evenly;
         align-items: center;
-
         height: 45px;
         color: #242424;
     }
 
-    .checklist-progress, .headerName
+    .headerName
     {
-        font-size: 25px;
+        margin-left: 10px;
+        font-size: 20px;
+        justify-self: center;
+    }
+
+    .checklist-progress
+    {
+        font-size: 20px;
+        margin-right: 10px;
     }
 
     .openCloseButton
@@ -87,6 +49,7 @@
         cursor: pointer;
         background: none;
         border: none;
+        margin-right: 10px;
     }
 
 /* --- Opened tab --- */
@@ -99,30 +62,29 @@
     .checklist-enableScrolling
     {
         max-height: 300px;
-        overflow-y: scroll;
+        overflow-y: auto;
         border-bottom: solid 1px rgb(87, 51, 5);
         border-top: solid 1px rgb(87, 51, 5);
     }
 
     .checklist-enableScrolling::-webkit-scrollbar
     {
-        width: 10px;
-        background-color: rgb(184, 118, 32, .25);
+        width: 9px;
     }
 
     .checklist-enableScrolling::-webkit-scrollbar-track
     {
         /* Track: The background */
-        border-left: solid 1px rgb(87, 51, 5);
+        
         border-right: solid 1px rgb(87, 51, 5);
+        background-color: rgb(218, 255, 197);
     }
 
     .checklist-enableScrolling::-webkit-scrollbar-thumb
     {
         /* Thumb: The part the user clicks and drags */
-        border-radius: 3px;
-        margin: 1px;
-        background-color: rgb(143, 87, 15, .75);
+        
+        background-color: rgb(4, 122, 0);
     }
 
     /* Done, Found */
@@ -141,7 +103,7 @@
 
         justify-self: stretch;
         
-        background-color: rgba(255, 179, 79, 0.18);
+        background-color: rgb(190, 236, 163);
         border-top: 1px solid rgb(87, 51, 5);
         border-left: 1px solid rgb(87, 51, 5);
         border-right: 1px solid rgb(87, 51, 5);
@@ -153,10 +115,11 @@
         grid-template-columns: 1fr 60px 60px;
         align-items: center;
         padding: 5px;
-        border-top: 1px solid rgb(87, 51, 5);
-        border-left: 1px solid rgb(87, 51, 5);
+        border-top: 1px solid rgb(3, 77, 0);
+        border-left: 1px solid rgb(3, 77, 0);
+        border-right: 1px solid rgb(3, 77, 0);
 
-        background-color: rgba(255, 254, 210, 0.6);
+        background-color: rgb(224, 255, 206);
         color: rgb(15, 9, 0);
     }
 
@@ -168,21 +131,46 @@
 /* --- 2 layers --- */
 
     /* outside */
-    .tableLevel-2_Heading
+    .tableLevel2-Container .tableLevel-1
     {
-        width: 350px;
-        border-color: rgb(187, 127, 255);
-        border: solid 5px;
+        width: 280px;
+        margin-right: 8px;
+        background-color: rgba(226, 145, 39, 0.25);
+        border: solid 3px rgb(153, 98, 27);
+    }
+    
+    .tableLevel2-Container
+    {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        row-gap: 8px;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+        align-self: center;
+        max-height: 400px;
+        overflow-y: auto;
     }
 
-    /* inside */
-    .tableLevel-2_Tables
+    .tableLevel2-Container::-webkit-scrollbar
     {
+        width: 9px;
+    }
+
+    .tableLevel2-Container::-webkit-scrollbar-track
+    {
+        /* Track: The background */
+        border: solid 2px rgb(87, 51, 5);
+        background-color: rgb(87, 51, 5, .25);
+        border-radius: 15px;
+
+        margin-top: 5px;
         margin-bottom: 5px;
-        width: 350px;
-        border-color: rgba(255, 182, 193, 1);
-        border: solid 5px;
     }
 
-
-
+    .tableLevel2-Container::-webkit-scrollbar-thumb
+    {
+        /* Thumb: The part the user clicks and drags */
+        border-radius: 50px;
+        background-color: rgb(87, 51, 5, .8);
+    }

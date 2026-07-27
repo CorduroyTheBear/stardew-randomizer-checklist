@@ -167,8 +167,8 @@ function InnerApp()
 
   // Debugging Tool - Check window size
   // <div className = 'windowSize'>Width: {window.innerWidth}px, Height: {height}px</div>
-  // const width = window.innerWidth;
-  // const height = window.innerHeight;
+  //const width = window.innerWidth;
+  //const height = window.innerHeight;
 
   return(
 
@@ -252,8 +252,11 @@ function InnerApp()
             .filter(group => group.data.some(visible));
 
             // Handle styles based on # of tables
-            const headingClass = allVisibleGroups.length === 1 ? "tableLevel-2_Heading" : "tableLevel-2_Heading";
-            const groupClass = allVisibleGroups.length === 1 ? "tableLevel-1" : "tableLevel-2_Tables";
+            const headingClass = allVisibleGroups.length === 1 ? "tableLevel-1" : "tableLevel-1";
+            const groupClass = allVisibleGroups.length === 1 ? "tableLevel-1" : "tableLevel-1";
+
+            //const headingClass = allVisibleGroups.length === 1 ? "tableLevel-2_Heading" : "tableLevel-2_Heading";
+            //const groupClass = allVisibleGroups.length === 1 ? "tableLevel-1" : "tableLevel-2_Tables";
 
             return(
               <GroupedChecklist
@@ -273,7 +276,7 @@ function InnerApp()
               onToggle = {(groupID, itemID, field) => handleToggle(groupID, itemID, field)}
               hideCompleted = {settings.hideCompleted}
               hideChecksNotFound = {settings.hideChecksNotFound}
-            isItemVisible = {visible}
+              isItemVisible = {visible}
             />
             );
           })

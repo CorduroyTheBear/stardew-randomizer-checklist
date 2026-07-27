@@ -44,39 +44,43 @@ export default function GroupedChecklist ({className, groups, heading, hideCheck
 
     return(
         <div className = "checklist-section">
+            
+        <div className = "tableLevel-2_Heading">
+            
             <div className = {`tableLevel-1 ${className}`}>
                 
                 <div className= "checklist-header" onClick = {() => setIsOpen(!isOpen)}>
-                    <h3>{heading}</h3>
+                    <div className = "headerName">{heading}</div>
 
                     <span className = "checklist-progress">
                         {doneCount}/{totalCount}
                     </span>
 
                     <button className = "openCloseButton">
-                        {isOpen ? "▼" : "▶"}
+                        {isOpen ? "⮟" : "⮞"}
                     </button>
                 </div>
 
                 {isOpen &&
                 (
-                    <div className = "table-grid">
-                        {completedVisibleGroups.map(group =>
-                        (
-                            <RenderChecklist
-                                key = {group.id}
-                                className = {group.className ?? ""}
-                                data = {group.data}
-                                heading = {group.heading}
-                                hideCompleted = {hideCompleted}
-                                hideChecksNotFound = {hideChecksNotFound}
-                                onToggle = {(itemID, field) => onToggle(group.id, itemID, field)}
-                                isItemVisible = {isItemVisible}
-                            />
-                        ))}
-                    </div>
+                        <div className = "tableLevel2-Container">
+                            {completedVisibleGroups.map(group =>
+                            (
+                                <RenderChecklist
+                                    key = {group.id}
+                                    className = {group.className ?? ""}
+                                    data = {group.data}
+                                    heading = {group.heading}
+                                    hideCompleted = {hideCompleted}
+                                    hideChecksNotFound = {hideChecksNotFound}
+                                    onToggle = {(itemID, field) => onToggle(group.id, itemID, field)}
+                                    isItemVisible = {isItemVisible}
+                                />
+                            ))}
+                        </div>
                 )}
             </div>
+        </div>  
         </div>
     );
 }
