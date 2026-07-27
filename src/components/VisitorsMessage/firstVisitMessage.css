@@ -1,0 +1,122 @@
+/* Box */
+    .popup-overlay
+    {
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9;
+    }
+
+    .popup-box
+    {
+        background: rgb(171, 230, 230);
+        border: 5px solid rgba(45, 87, 87, 0.95);
+        border-radius: 10px;
+        padding: 15px;
+    
+        width: 80vw;
+        max-height: 80vh;
+
+        overflow: auto;
+    }
+
+/* Titles */
+
+    .heading
+    {
+        width: fit-content;
+        justify-self: center;
+        text-align: center;
+        padding: 3px;
+        margin-bottom: 10px;
+    }
+
+    .welcome-h1
+    {
+        font-size: 30px;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .welcome-h2
+    {
+        text-align: center;
+        font-size: 25px;
+    }
+
+/* Paragraphs */
+    .paragraph-box
+    {
+        background-color: rgb(254, 254, 254, .65);
+        border-radius: 10px;
+        margin-bottom: 15px;
+
+        padding: 15px;
+        width: 95%;
+        justify-self: center;
+    }
+
+    .welcome-p1
+    {
+        
+        justify-self: center;
+        
+        width: 90%;
+        display: grid;
+        grid-template-columns: (1fr, auto);
+        row-gap: 10px;
+    }
+
+    .welcome-line
+    {
+        display: list-item;
+        font-size: 22px;
+    }
+
+    .welcome-h3
+    {
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .welcome-line2
+    {
+        font-size: 22px;
+        justify-self: center;
+        text-align: center;
+        
+        width: 95%;
+        display: grid;
+        grid-template-columns: (1fr, auto);
+        row-gap: 10px;
+    }
+
+/* Button */
+    .welcome-close
+    {
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 10px;
+        transition: background-color 0.2s ease;
+
+        border: solid 2px rgba(45, 87, 87, 1);
+        color: rgb(19, 44, 44);
+        background-color: rgba(255, 255, 255, .8);
+    }
+
+    .welcome-close:hover
+    {
+        background: rgba(179, 255, 0, 0.6);
+    }

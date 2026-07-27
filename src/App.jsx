@@ -6,6 +6,7 @@ import { FilterProvider, useFilters} from './components/Filters/filterContext';
 import { GROUPED_TABLES } from './data/groupedTables';
 import { Presets } from './components/TableSettings/presets';
 
+import { FirstVisitPopup } from './components/VisitorsMessage/firstVisitMessage.jsx';
 import GroupedChecklist from './components/Checklists/groupedChecklist.jsx';
 import image from './components/images';
 import RandomizerSettings from './components/TableSettings/randomizerSettings';
@@ -15,6 +16,7 @@ import SettingsButton from './components/TableSettings/settingsButton.jsx';
 import TopBar from './components/TopBar/topBar.jsx';
 
 import './App.css';
+import './components/VisitorsMessage/firstVisitMessage.css'
 import './components/SearchBar/searchBar.css';
 import './data/tables.css';
 import './components/TopBar/topBar.css';
@@ -173,6 +175,9 @@ function InnerApp()
   return(
 
     <div className ='main'>
+
+      <FirstVisitPopup></FirstVisitPopup>
+
       <div className = 'background'
         style =
         {{

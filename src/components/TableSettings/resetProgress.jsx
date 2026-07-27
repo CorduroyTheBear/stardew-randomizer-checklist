@@ -19,7 +19,7 @@ export default function ResetProgress({onResetProgress})
             </button>
 
             {confirming && (
-                <div className="reset-confirm-overlay" onClick={handleCancel}>
+                <div className="reset-confirm-overlay">
                     <div className="reset-confirm-box" onClick={(e) => e.stopPropagation()}>
                         <p>Are you sure you want to reset your progress?</p>
                         <div className="reset-confirm-buttons">

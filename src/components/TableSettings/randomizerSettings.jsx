@@ -5,7 +5,7 @@ import "./settings.css";
 export default function RandomizerSettings({settings, setSettings, onClose, onResetProgress, preset, setPreset})
 {
     return(
-        <div className="settings-overlay" onClick={onClose}>
+        <div className="settings-overlay">
             <div className="settings-box" onClick={(e) => e.stopPropagation()}>
                 <h2>Randomizer Settings</h2>
 
