@@ -103,7 +103,7 @@ export default function SettingsList({settings, setSettings, onResetProgress, pr
                         <div className = "smallSettings">
 
                             <label>
-                                Bundles:
+                                *Bundles:
                                 <select value = {settings.bundles} onChange = {(e) => update("bundles", e.target.value)}>
                                     <option value = "withJoja">Community Center and Joja</option>
                                     <option value = "withoutJoja">Community Center Only</option>
