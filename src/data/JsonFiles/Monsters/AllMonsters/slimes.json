@@ -1,11 +1,5 @@
 [
     {
-      "id": "slime_1",
-      "name": "Slimes",
-      "done": false,
-      "found": false
-    },
-    {
       "id": "slime_2",
       "name": "200 Slimes",
       "done": false,
@@ -26,6 +20,12 @@
     {
       "id": "slime_5",
       "name": "800 Slimes",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "slime_1",
+      "name": "Slimes",
       "done": false,
       "found": false
     }

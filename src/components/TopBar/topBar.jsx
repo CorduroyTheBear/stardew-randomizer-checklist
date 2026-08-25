@@ -35,6 +35,7 @@ export default function TopBar({settings, setSettings})
                     <option value = "forestWaterfall">Forest Waterfall</option>
                     <option value = "gingerIslandRiver">Ginger Island River</option>
                     <option value = "gingerIslandOcean">Ginger Island Ocean</option>
+                    <option value = "lake">Lake</option>
                     <option value = "legend">Legend</option>
                     <option value = "mines">Mines</option>
                     <option value = "nightMarket">Night Market</option>

@@ -264,6 +264,13 @@
       "shipType": ["everySingleItem"]
     },
     {
+      "id": "jackOLantern",
+      "name": "Jack-O-Lantern",
+      "done": false,
+      "found": false,
+      "shipType": ["everySingleItem"]
+    },
+    {
       "id": "(O)773",
       "name": "Life Elixir",
       "done": false,

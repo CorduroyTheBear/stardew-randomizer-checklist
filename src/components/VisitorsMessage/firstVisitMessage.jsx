@@ -23,7 +23,7 @@ export function FirstVisitPopup()
                 <div className="popup-box" onClick={(e) => e.stopPropagation()}>
                     
                     <div className = "heading">
-                        <div className = "welcome-h1">Welcome to the Stardew Valley Checklist Website!</div>
+                        <div className = "welcome-h1">Welcome to the Stardew Valley Checklist Website Version 1.01!</div>
                         <div className = "welcome-h2">Created by Corduroy</div>
                     </div>
 

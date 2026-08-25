@@ -15,7 +15,7 @@ export function filterGroupedTables(filterState, settings)
     if (settings.bundles !== "none") visible.push("bundles");
     if (settings.buildingProgression !== "vanilla") visible.push("buildingProgression");
     if (settings.bookSanity !== "none") visible.push("bookSanity");
-    if (settings.craftsanity !== "none") visible.push("craftsMake", "craftsLearnShop", "craftsLearnSkills", "craftsLearnOther");
+    if (settings.craftsanity !== "none") visible.push("craftsMake", "craftsLearnShop", "craftsLearnOther");
     if (settings.cooksanity !== "none") visible.push("cooksanity");
     if (settings.cropsanity !== "disabled") visible.push("cropsanity");
     if (settings.elevatorProgression !== "vanilla") visible.push("elevatorProgression");
@@ -74,8 +74,8 @@ export function filterGroups(tableKey, settings)
         {
             const visible = [];
 
-            if (settings.bundles === "withJoja") visible.push("boilerBundles", "bulletinBunddles", "craftsBundles", "pantryBundles", "vaultBunddles", "jojaBundle");
-            if (settings.bundles === "withoutJoja") visible.push("boilerBundles", "bulletinBunddles", "craftsBundles", "pantryBundles", "vaultBunddles");
+            if (settings.bundles === "withJoja") visible.push("boilerBundles", "bulletinBunddles", "craftsBundles", "fishBundles", "pantryBundles", "vaultBunddles", "jojaBundle");
+            if (settings.bundles === "withoutJoja") visible.push("boilerBundles", "bulletinBunddles", "craftsBundles", "fishBundles", "pantryBundles", "vaultBunddles");
 
             return visible;
         }
@@ -132,15 +132,6 @@ export function filterGroups(tableKey, settings)
             if (settings.craftsanity === "all") visible.push("desertTraderCraft", "dwarfShopCraft", "flowerDanceCraft", "islandTraderCraft", "krobusShopCraft", "pierreShopCraft",
                                                               "Qi", "robinShopCraft", "spiritsEveCraft", "travelingCartCraft", "volcanoShopCraft", "willyShopCraft") 
 
-            return visible
-        }
-
-        case "craftsLearnSkills":
-        {
-            const visible = [];
-
-            if (settings.craftsanity === "all") visible.push("combatCraft", "farmingCraft", "fishingCraft", "foragingCraft", "mineCraft")  
-                
             return visible
         }
 

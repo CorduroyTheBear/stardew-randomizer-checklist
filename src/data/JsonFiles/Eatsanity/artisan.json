@@ -190,6 +190,14 @@
         "found": false
     },
     {
+        "id": "mysticSyrup",
+        "name": "Mystic Syrup",
+        "eatType": "artisan",
+        "isGI": true,
+        "done": false,
+        "found": false
+    },
+    {
         "id": "247",
         "name": "Oil",
         "eatType": "artisan",

@@ -49,11 +49,11 @@ import house from "./JsonFiles/Buildings/house.json";
 // Bundles
 import jojaBundle from "./JsonFiles/Bundles/abandonedJoja.json";
 import boilerBundles from "./JsonFiles/Bundles/boiler.json";
-import bulletinBunddles from "./JsonFiles/Bundles/bulletinBoard.json";
+import bulletinBundles from "./JsonFiles/Bundles/bulletinBoard.json";
 import craftsBundles from "./JsonFiles/Bundles/crafts.json";
 import fishBundles from "./JsonFiles/Bundles/fishTank.json";
 import pantryBundles from "./JsonFiles/Bundles/pantry.json";
-import vaultBunddles from "./JsonFiles/Bundles/vault.json";
+import vaultBundles from "./JsonFiles/Bundles/vault.json";
 
 // Chefsanity
 import friendshipChef from "./JsonFiles/ChefSanity/friendship.json";
@@ -102,13 +102,6 @@ import specialOrders from "./JsonFiles/CraftsLearn/specialOrders.json";
      import travelingCartCraft from "./JsonFiles/CraftsLearn/travelingCart.json";
      import volcanoShopCraft from "./JsonFiles/CraftsLearn/volcanoShop.json";
      import willyShopCraft from "./JsonFiles/CraftsLearn/willyShop.json";
-
-     // Skills
-     import combatCraft from "./JsonFiles/CraftsLearn/combatCraft.json";
-     import farmingCraft from "./JsonFiles/CraftsLearn/farmingCraft.json";
-     import fishingCraft from "./JsonFiles/CraftsLearn/fishingCraft.json";
-     import foragingCraft from "./JsonFiles/CraftsLearn/foragingCraft.json";
-     import mineCraft from "./JsonFiles/CraftsLearn/mineCraft.json";
 
 // Cropsanity
 import crops from "./JsonFiles/CropSanity/crops.json";
@@ -578,11 +571,11 @@ export const GROUPED_TABLES =
         [
             {id: "jojaBundle", heading: "Joja Mart", className: "tableLevel-2_Tables", data: jojaBundle},
             {id: "boilerBundles", heading: "Boiler", className: "tableLevel-2_Tables", data: boilerBundles},
-            {id: "bulletinBunddles", heading: "Bulletin Board", className: "tableLevel-2_Tables", data: bulletinBunddles},
+            {id: "bulletinBundles", heading: "Bulletin Board", className: "tableLevel-2_Tables", data: bulletinBundles},
             {id: "craftsBundles", heading: "Crafts", className: "tableLevel-2_Tables", data: craftsBundles},
             {id: "fishBundles", heading: "Fish Tank", className: "tableLevel-2_Tables", data: fishBundles},
             {id: "pantryBundles", heading: "Pantry", className: "tableLevel-2_Tables", data: pantryBundles},
-            {id: "vaultBunddles", heading: "Vault", className: "tableLevel-2_Tables", data: vaultBunddles},
+            {id: "vaultBundles", heading: "Vault", className: "tableLevel-2_Tables", data: vaultBundles},
         ]
    },
 
@@ -629,21 +622,6 @@ export const GROUPED_TABLES =
             {id: "travelingCartCraft", heading: "Traveling Cart", className: "tableLevel-2_Tables", data: travelingCartCraft},
             {id: "volcanoShopCraft", heading: "Volcano Shop", className: "tableLevel-2_Tables", data: volcanoShopCraft},
             {id: "willyShopCraft", heading: "Willy", className: "tableLevel-2_Tables", data: willyShopCraft},
-        ]
-   },
-
-   craftsLearnSkills:
-   {
-        heading: "Learn Crafts - Skills",
-        className: "tableLevel-2_Heading",
-        groups:
-        [
-            {id: "combatCraft", heading: "Combat", className: "tableLevel-2_Tables", data: combatCraft},
-            {id: "farmingCraft", heading: "Farming", className: "tableLevel-2_Tables", data: farmingCraft},
-            {id: "fishingCraft", heading: "Fishing", className: "tableLevel-2_Tables", data: fishingCraft},
-            {id: "foragingCraft", heading: "Foraging", className: "tableLevel-2_Tables", data: foragingCraft},
-            {id: "mineCraft", heading: "Mining", className: "tableLevel-2_Tables", data: mineCraft},
-
         ]
    },
 

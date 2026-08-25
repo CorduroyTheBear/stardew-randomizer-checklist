@@ -169,7 +169,7 @@
     },
     {
       "id": "(O)902",
-      "name": "Glacierfish Jr. [NL]",
+      "name": "Glacierfish Jr.",
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": ["legend", "forestRiver"],
       "isGI": true,
@@ -337,16 +337,6 @@
       "found": false
     },
     {
-      "id": "(O)149",
-      "name": "Octopus [NL]",
-      "fishingLocation": ["ocean", "gingerIslandOcean"],
-      "season": ["summer"],
-      "weather": ["rain", "sunny"],
-      "eatType": "fish",
-      "done": false,
-      "found": false
-    },
-    {
       "id": "(O)636",
       "name": "Perch",
       "season": ["winter"],
@@ -374,6 +364,17 @@
       "weather": "sunny",
       "eatType": "fish",
       "isPoison": true,
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "(O)901",
+      "name": "Radioactive Carp",
+      "season": ["summer"],
+      "fishingLocation": ["legend", "sewers"],
+      "isGI": true,
+      "weather": "sunny",
+      "eatType": "fish",
       "done": false,
       "found": false
     },
@@ -511,7 +512,7 @@
     },
     {
       "id": "(O)898",
-      "name": "Son of Crimsonfish [NL]",
+      "name": "Son of Crimsonfish",
       "season": ["spring", "summer", "fall", "winter"],
       "fishingLocation": ["legend", "ocean"],
       "isGI": true,
@@ -576,16 +577,6 @@
       "name": "Super Cucumber",
       "season": ["summer", "fall"],
       "fishingLocation": ["ocean", "gingerIslandOcean"],
-      "weather": ["rain", "sunny"],
-      "eatType": "fish",
-      "done": false,
-      "found": false
-    },
-    {
-      "id": "(O)158",
-      "name": "Stonefish [NL]",
-      "season": ["spring", "summer", "fall", "winter"],
-      "fishingLocation": "mines",
       "weather": ["rain", "sunny"],
       "eatType": "fish",
       "done": false,

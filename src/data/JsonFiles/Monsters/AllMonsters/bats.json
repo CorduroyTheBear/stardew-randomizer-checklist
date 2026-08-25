@@ -1,10 +1,4 @@
 [
-{
-      "id": "bat_1",
-      "name": "Bats",
-      "done": false,
-      "found": false
-    },
     {
       "id": "bat_2",
       "name": "40 Bats",
@@ -26,6 +20,12 @@
     {
       "id": "bat_5",
       "name": "160 Bats",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "bat_1",
+      "name": "Bats",
       "done": false,
       "found": false
     }

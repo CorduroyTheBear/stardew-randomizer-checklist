@@ -1,11 +1,5 @@
 [
     {
-      "id": "duggie_1",
-      "name": "Duggies",
-      "done": false,
-      "found": false
-    },
-    {
       "id": "duggie_2",
       "name": "6 Duggies",
       "done": false,
@@ -26,6 +20,12 @@
     {
       "id": "duggie_5",
       "name": "24 Duggies",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "duggie_1",
+      "name": "Duggies",
       "done": false,
       "found": false
     }

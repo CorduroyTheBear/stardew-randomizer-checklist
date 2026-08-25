@@ -353,7 +353,6 @@
     "name": "Morel",
     "season": ["fall"],
     "eatType": "crop",
-    "isGI": true,
     "image": "images.mango",
     "done": false,
     "found": false
@@ -437,6 +436,15 @@
     "name": "Purple Mushroom",
     "eatType": "crop",
     "image": "images.pomegranate",
+    "done": false,
+    "found": false
+  },
+  {
+    "id": "qiFruit",
+    "name": "Qi Fruit",
+    "eatType": "crop",
+    "image": "images.qiFruit",
+    "isGI": true,
     "done": false,
     "found": false
   },

@@ -18,6 +18,12 @@
     "found": false
   },
   {
+    "id": "petBowel",
+    "name": "Pet Bowel",
+    "done": false,
+    "found": false
+  },
+  {
     "id": "shed",
     "name": "Shed",
     "done": false,

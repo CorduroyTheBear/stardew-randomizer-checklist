@@ -1,11 +1,5 @@
 [
     {
-      "id": "serpent_1",
-      "name": "Serpents",
-      "done": false,
-      "found": false
-    },
-    {
       "id": "serpent_2",
       "name": "50 Serpents",
       "done": false,
@@ -26,6 +20,12 @@
     {
       "id": "serpent_5",
       "name": "200 Serpents",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "serpent_1",
+      "name": "Serpents",
       "done": false,
       "found": false
     }

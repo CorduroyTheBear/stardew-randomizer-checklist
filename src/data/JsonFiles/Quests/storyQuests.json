@@ -36,6 +36,12 @@
       "found": false
     },
     {
+      "id": "ratProblem",
+      "name": "Rat Problem",
+      "done": false,
+      "found": false
+    },
+    {
       "id": "meetTheWizard",
       "name": "Meet The Wizard",
       "done": false,

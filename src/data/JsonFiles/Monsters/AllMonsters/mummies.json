@@ -1,11 +1,5 @@
 [
     {
-      "id": "mummy_1",
-      "name": "Rock Crabs",
-      "done": false,
-      "found": false
-    },
-    {
       "id": "mummy_2",
       "name": "20 Mummies",
       "done": false,
@@ -26,6 +20,12 @@
     {
       "id": "mummy_5",
       "name": "80 Mummies",
+      "done": false,
+      "found": false
+    },
+    {
+      "id": "mummy_1",
+      "name": "Mummies",
       "done": false,
       "found": false
     }
