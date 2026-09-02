@@ -1,10 +1,5 @@
 [
   {
-    "id": "fixStump",
-    "done": false,
-    "name": "Fix Stump"
-  },
-  {
     "id": "raccoon_1",
     "done": false,
     "name": "Request 1"  

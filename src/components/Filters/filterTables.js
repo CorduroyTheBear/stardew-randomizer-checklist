@@ -74,8 +74,8 @@ export function filterGroups(tableKey, settings)
         {
             const visible = [];
 
-            if (settings.bundles === "withJoja") visible.push("boilerBundles", "bulletinBunddles", "craftsBundles", "fishBundles", "pantryBundles", "vaultBunddles", "jojaBundle");
-            if (settings.bundles === "withoutJoja") visible.push("boilerBundles", "bulletinBunddles", "craftsBundles", "fishBundles", "pantryBundles", "vaultBunddles");
+            if (settings.bundles === "withJoja") visible.push("boilerBundles", "bulletinBundles", "craftsBundles", "fishBundles", "pantryBundles", "vaultBundles", "jojaBundle");
+            if (settings.bundles === "withoutJoja") visible.push("boilerBundles", "bulletinBundles", "craftsBundles", "fishBundles", "pantryBundles", "vaultBundles");
 
             return visible;
         }
